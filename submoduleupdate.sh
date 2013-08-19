@@ -3,10 +3,10 @@
 
 git submodule update --init # just in case
 
-cd _includes/yeoman.wiki/
+cd _includes/webcomponents-strawman.wiki/
 git pull origin master
 cd ../..
-git add _includes/yeoman.wiki/
+git add _includes/webcomponents-strawman.wiki/
 git commit -m "submodule bump."
 
 echo "now please push this commit up! ..."

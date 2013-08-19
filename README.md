@@ -1,4 +1,4 @@
-# Yeoman.io
+# Web Components Strawman
 
 Home to the Web Components strawman site.
 
