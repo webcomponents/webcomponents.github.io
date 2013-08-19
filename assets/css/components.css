@@ -52,7 +52,7 @@ h2 {
 
 h1 {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   letter-spacing: 2px;
   line-height: 24px;
 }
@@ -87,10 +87,18 @@ h2 {
   text-align: center;
 }
 
+strong{
+  color: #3C80F6;
+}
+
 nav {
+  background: #333;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
   text-align: center;
   padding: 0 0 14px 0;
-  font-family: 'Lekton', sans-serif;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 nav header {
