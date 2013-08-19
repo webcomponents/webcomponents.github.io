@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body class="{{page.class}}">
+  {% include sidebar.html %}
+  <div id="content">
+    <article>
+      {% if page.markdown == 1 %}
+        {{ content | markdownify }}
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </article>
+  </div>
+<!--
+  {% include forkit.html %}
+-->
+  {% include foot.html %}
+</body>
+</html>
