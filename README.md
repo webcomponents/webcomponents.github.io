@@ -15,13 +15,13 @@ gem install jekyll redcarpet
 Once Jekyll is installed, you just need to clone the project:
 
 ```
-git clone --recursive git@github.com:addyosmani/webcomponents-strawman.io.git
+git clone --recursive git@github.com:WebComponentsOrg/webcomponents.org.git
 ```
 
 Then go to the project's folder:
 
 ```
-cd webcomponents-strawman.io
+cd webcomponents.org
 ```
 
 If you are using Git 1.6.4 or earlier, you will manually need to initialize the submodules:
