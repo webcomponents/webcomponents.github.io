@@ -15,14 +15,25 @@ body {
 a,
 a:visited,
 a:active {
-  color: white;
+  color: #666;
+  font-weight:bold;
   text-decoration: none;
 }
 
 a:hover {
-  color: #000;
+  color: gray;
 }
 
+nav a,
+nav a:visited,
+nav a:active {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #666;
+}
 
 p, pre {
   margin: 0;
@@ -152,12 +163,6 @@ nav ul li a {
 
 nav ul li img {
   float: right;
-}
-
-.hp a, 
-.hp a:visited,
-.hp a:active {
-  color:black;
 }
 
 

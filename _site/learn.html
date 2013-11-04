@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web Components - Strawman</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Lekton|Ubuntu+Mono:400,700" rel="stylesheet">
+  <link href="assets/css/normalize.css" rel="stylesheet">
+  <link href="assets/css/components.css" rel="stylesheet">
+  <link href="assets/css/prettify.css" rel="stylesheet">
+  <link href="assets/css/forkit.css" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="assets/js/libs/prettify.js"></script>
+  <script src="assets/js/libs/jquery.timeago.js"></script>
+  <script src="assets/js/libs/list.js"></script>
+  <script src="assets/js/libs/lodash.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+
+<body class="">
+    <nav class="sidebar">
+    <header><a href="index.html"><img class="logo" src="assets/img/webcomponents.png"/> 
+</a></header>
+    <ul>
+      <li class="nav-divider"><a href="index.html"><img src="assets/img/icon-home.png">Home</a></li>
+      <li class="nav-divider">
+        <a href="bestpractices.html"><img src="assets/img/icon-why-yeoman.png">Best Practices</a>
+        <a href="learn.html"><img src="assets/img/icon-why-yeoman.png">Community Resources</a>
+        <a href="http://sindresorhus.com/bower-components/#!/search/web-components"><img src="assets/img/icon-why-yeoman.png">Elements on Bower</a>
+        <a href="https://groups.google.com/forum/#!forum/polymer-dev"><img src="assets/img/icon-why-yeoman.png">Mailing List</a>
+         <a href="about.html"><img src="assets/img/icon-why-yeoman.png">About</a>
+      </li>
+      <li class="nav-divider">
+        <a href="http://www.polymer-project.org/platform/custom-elements.html"><img src="assets/img/icon-why-yeoman.png">Custom Elements</a>
+        <a href="http://www.polymer-project.org/platform/html-imports.html"><img src="assets/img/icon-why-yeoman.png">HTML Imports</a>
+        <a href="http://www.polymer-project.org/platform/template.html"><img src="assets/img/icon-why-yeoman.png">Templates</a>
+        <a href="http://www.polymer-project.org/platform/shadow-dom.html"><img src="assets/img/icon-why-yeoman.png">Shadow DOM</a>
+      </li>
+      </li>
+      <li class"nav-divider"><a href="https://plus.google.com/+WebComponents"><img src="assets/img/icon-google-plus.png">Google Plus</a></li>
+      <li class="nav-divider"><a href="http://twitter.com/WebComponents"><img src="assets/img/icon-twitter.png">Twitter</a></li>
+      <li><a href="http://github.com/WebComponentsOrg/webcomponents.org"><img src="assets/img/icon-github.png">GitHub</a></li>
+      <li><a href="https://github.com/WebComponentsOrg/webcomponents.org/blob/master/contributing.md"><img src="assets/img/icon-contributing.png">Contributing</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <article>
+      
+        <h1>Community Resources</h1>
+
+<h2>Specs / standardization</h2>
+
+<p>W3C <a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html">Introduction to Web Components</a> - explainer/overview of the technologies</p>
+
+<ul>
+<li><a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/custom/index.html">Custom Elements</a></li>
+<li><a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/imports/index.html">HTML Imports</a></li>
+<li><a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html">Shadow DOM</a></li>
+<li><a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/templates/index.html">Templates</a></li>
+</ul>
+
+<h2>Implementation / status</h2>
+
+<p><a href="http://jonrimmer.github.io/are-we-componentized-yet/">Are we componentized yet?</a></p>
+
+<p><strong>Chromium/Blink-specific</strong></p>
+
+<ul>
+<li><a href="chromestatus.com/features">chromestatus.com</a> (use the filter &quot;category: Web Components&quot;)</li>
+<li><a href="http://www.chromium.org/blink/web-components">chromium.org/blink/web-components</a> - implementation details, <a href="https://code.google.com/p/chromium/issues/list?q=label:Cr-Blink-WebComponents">bug hotlist</a>, etc.</li>
+</ul>
+
+<h2>Articles / content</h2>
+
+<h3>Articles</h3>
+
+<ul>
+<li>HTML5Rocks - &quot;<a href="http://www.html5rocks.com/en/tutorials/webcomponents/template/">HTML&#39;s New Template Tag: standardizing client-side templating</a>&quot; by <a href="http://twitter.com/ebidel">@ebidel</a></li>
+<li>HTML5Rocks - &quot;<a href="http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/">Shadow DOM 101</a>&quot;</li>
+<li>HTML5Rocks - &quot;<a href="http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/">Shadow DOM 201: CSS &amp; Styling</a>&quot; by <a href="http://twitter.com/ebidel">@ebidel</a></li>
+<li>HTML5Rocks - &quot;<a href="http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-301/">Shadow DOM 301: Advanced Concepts &amp; DOM APIs</a>&quot; by <a href="http://twitter.com/ebidel">@ebidel</a></li>
+<li>HTML5Rocks - &quot;<a href="http://www.html5rocks.com/en/tutorials/webcomponents/customelements/">Custom Elements: defining new elements in HTML</a>&quot; by <a href="http://twitter.com/ebidel">@ebidel</a></li>
+<li>&quot;<a href="http://robdodson.me/blog/2013/08/20/exploring-html-imports/">Exploring HTML Imports</a>&quot; - by <a href="http://twitter.com/rob_dodson">@rob_dodson</a></li>
+<li>&quot;<a href="http://robdodson.me/blog/2013/08/27/shadow-dom-the-basics/">Shadow DOM: The Basics</a>&quot; - by <a href="http://twitter.com/rob_dodson">@rob_dodson</a></li>
+</ul>
+
+<p>Also see everthing on <a href="https://www.google.com/#fp=501e3a7c68104311&amp;q=(site%3Ahtml5rocks.com+inurl%3Awebcomponents)+OR+(site%3Aupdates.html5rocks.com+webcomponents)">HTML5Rocks articles</a> tagged &quot;web components&quot;.</p>
+
+<h3>Presentations</h3>
+
+<ul>
+<li><a href="http://www.webcomponentsshift.com">webcomponentsshift.com</a> (<a href="http://www.youtube.com/watch?v=fqULJBBEVQE">video</a>) - Google I/O 2013 by <a href="http://twitter.com/ebidel">@ebidel</a></li>
+<li>&quot;<a href="http://html5-demos.appspot.com/static/webcomponents-bdconf/index.html">Web Components: a new way of building web apps</a>&quot; - bdconf San Diego, 2013 by <a href="http://twitter.com/ebidel">@ebidel</a></li>
+<li>&quot;<a href="https://speakerdeck.com/stopsatgreen/web-components-getting-started">Web Components: Getting Started</a>&quot; (<a href="http://vimeo.com/68212204">video</a>)- by <a href="http://twitter.com/stopsatgreen">@stopsatgreen</a></li>
+<li>&quot;<a href="https://www.youtube.com/watch?v=2txPYQOWBtg">The Web Platform&#39;s Cutting Edge</a>&quot; - Google I/O 2012</li>
+<li>&quot;<a href="http://ryanseddon.github.io/web-components/">The future with web components</a>&quot; - by <a href="http://twitter.com/ryanseddon">@ryanseddon</a></li>
+<li>&quot;<a href="https://speakerdeck.com/stopsatgreen/future-css-in-web-components">Future CSS in Web Components</a>&quot; (<a href="http://www.youtube.com/watch?v=U45e-zq4bTs">video</a>) - by <a href="http://twitter.com/stopsatgreen">@stopsatgreen</a></li>
+<li>&quot;<a href="http://afabbro.github.io/the-return-of-inspector-web/">The Return of Inspector Web</a>&quot; - <a href="http://twitter.com/angelinamagnum">@angelinamagnum</a></li>
+<li>&quot;<a href="http://robdodson.me/webcomponents-revolution/">Web components Revolution</a>&quot; - by <a href="http://twitter.com/rob_dodson">@rob_dodson</a></li>
+<li>&quot;<a href="http://markdalgleish.github.io/presentation-web-components/#1">Web components: Why you&#39;re already an expert</a>&quot; - by <a href="http://twitter.com/markdalgleish">@markdalgleish</a></li>
+</ul>
+
+<h2>Libraries &amp; polyfills</h2>
+
+<ul>
+<li><a href="http://www.polymer-project.org">Polymer</a> (polymer-project.org) by Google - contains platform explainers and polyfills</li>
+<li><a href="http://www.x-tags.org/">x-tags</a> by Mozilla</li>
+</ul>
+
+<h2>Element registries</h2>
+
+<ul>
+<li><a href="http://www.polymer-project.org/docs/elements/">Polymer elements</a></li>
+<li><a href="http://customelements.io">customelements.io</a></li>
+<li><a href="http://registry.x-tags.org/">x-tags</a></li>
+</ul>
+
+<h2>Social</h2>
+
+<ul>
+<li><a href="https://plus.google.com/103330502635338602217">Web Components+</a></li>
+<li><a href="https://plus.google.com/107187849809354688692/posts">Polymer+</a></li>
+<li><a href="http://twitter.com/polymerproject">@polymerproject</a></li>
+</ul>
+
+      
+    </article>
+  </div>
+<!--
+  Included file 'forkit.html' not found in _includes directory
+-->
+  <script>
+    // $script.js - github.com/ded/script.js
+    (function(a,b,c){typeof c["module"]!="undefined"&&c.module.exports?c.module.exports=b():typeof c["define"]!="undefined"&&c["define"]=="function"&&c.define.amd?define(a,b):c[a]=b()})("$script",function(){function p(a,b){for(var c=0,d=a.length;c<d;++c)if(!b(a[c]))return j;return 1}function q(a,b){p(a,function(a){return!b(a)})}function r(a,b,i){function o(a){return a.call?a():d[a]}function t(){if(!--n){d[m]=1,l&&l();for(var a in f)p(a.split("|"),o)&&!q(f[a],o)&&(f[a]=[])}}a=a[k]?a:[a];var j=b&&b.call,l=j?b:i,m=j?a.join(""):b,n=a.length;return setTimeout(function(){q(a,function(a){if(h[a])return m&&(e[m]=1),h[a]==2&&t();h[a]=1,m&&(e[m]=1),s(!c.test(a)&&g?g+a+".js":a,t)})},0),r}function s(c,d){var e=a.createElement("script"),f=j;e.onload=e.onerror=e[o]=function(){if(e[m]&&!/^c|loade/.test(e[m])||f)return;e.onload=e[o]=null,f=1,h[c]=2,d()},e.async=1,e.src=c,b.insertBefore(e,b.firstChild)}var a=document,b=a.getElementsByTagName("head")[0],c=/^https?:\/\//,d={},e={},f={},g,h={},i="string",j=!1,k="push",l="DOMContentLoaded",m="readyState",n="addEventListener",o="onreadystatechange";return!a[m]&&a[n]&&(a[n](l,function t(){a.removeEventListener(l,t,j),a[m]="complete"},j),a[m]="loading"),r.get=s,r.order=function(a,b,c){(function d(e){e=a.shift(),a.length?r(e,d):r(e,b,c)})()},r.path=function(a){g=a},r.ready=function(a,b,c){a=a[k]?a:[a];var e=[];return!q(a,function(a){d[a]||e[k](a)})&&p(a,function(a){return d[a]})?b():!function(a){f[a]=f[a]||[],f[a][k](b),c&&c(e)}(a.join("|")),r},r},this)
+    var _gaq=[
+      ['_setAccount','UA-32956520-1'],
+      ['_setDomainName', '.yeoman.io'],
+      ['_trackPageview'],['_trackPageLoadTime']
+    ];
+    $script('http://www.google-analytics.com/ga.js');
+    $script('https://apis.google.com/js/plusone.js');
+    $script("//platform.twitter.com/widgets.js");
+  </script>
+  <script src="assets/js/libs/forkit.js"></script>
+</body>
+</html>
