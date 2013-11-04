@@ -19,12 +19,14 @@
 
 <body class="">
     <nav>
-    <header><a href="index.html"></a></header>
+    <header><a href="index.html"><img class="logo" src="assets/img/webcomponents.png"/> 
+</a></header>
     <ul>
       <li class="nav-divider"><a href="index.html"><img src="assets/img/icon-home.png">Home</a></li>
       <li class="nav-divider">
         <a href="bestpractices.html"><img src="assets/img/icon-why-yeoman.png">Best Practices</a>
         <a href="articles.html"><img src="assets/img/icon-why-yeoman.png">Community Articles</a>
+        <a href="https://groups.google.com/forum/#!forum/polymer-dev"><img src="assets/img/icon-why-yeoman.png">Mailing List</a>
       </li>
       <li>
         <a href="customelements.html"><img src="assets/img/icon-why-yeoman.png">Custom Elements</a>
@@ -44,7 +46,97 @@
   <div id="content">
     <article>
       
-        <p>Future home of web component best practices.</p>
+        <h2>Web Components Best Practices</h2>
+
+<p>Web Components (WC) fall under a new platform feature that we&#39;d like developers to start embracing. The following is an initial list of best practices we advocate component authors consider to ensure their elements are good citizens in the WC ecosystem.</p>
+
+<ol>
+<li><strong>Namespacing</strong> Custom elements must have a dash in their name. The text 
+before the dash is effectively a namespace. You want to keep it short but 
+also unique. Try not to overlap on someone else&#39;s prefix if possible. Only 
+use a prefix shorter than three characters if you already have lots of 
+developer interest in your set of components.</li>
+<li><strong>Mimic built-in elements as closely as possible</strong> Your component should feel 
+just like any other natively implemented element to developers (other than 
+the import, of course). If in the future you&#39;re formally speccing your 
+element&#39;s API, will you feel embarrassed by how different it feels?</li>
+<li><strong>Failing silently is **golden</strong> Components should act like native DOM 
+elements, so avoid creating elements that throw JS errors from ordinary DOM 
+interactions, for example: you can place a <code>&lt;div&gt;</code> inside a <code>&lt;ul&gt;</code>, and while it 
+may not behave or render normally, it shouldn&#39;t throw errors either.</li>
+<li>*<em>Attributes for data in *</em>Use attributes to pass configuration in. Use 
+boolean attributes for boolean values instead of something like 
+<code>selected=&quot;true&quot;</code>.</li>
+<li><strong>Events for data out</strong> Use custom events to pass information out of 
+components unless the information to pass is large or changes extremely 
+often.</li>
+<li><strong>Include Dependencies</strong>. Include all dependencies your component needs. 
+Don&#39;t worry if that means including redundant <code>&lt;link rel=&quot;import&quot; ...&gt;</code>; as 
+long as you set appropriate cache headers, these will only be fetched and 
+loaded once. Using SPDY can reduce the cost of having multiple files, or you 
+can concatenate and minify them into a single file when you deploy your app.</li>
+<li><strong>Document your component</strong> Document your component so that others know how 
+to use it. Components have many aspects that count as part of their API, 
+including things that you might not think of as part of the API.
+
+<ul>
+<li>Attributes can be described concisely with example markup. </li>
+<li>If one component is designed to be nested inside another one, show it 
+being used in that context. </li>
+<li>List its JavaScript methods and properties. </li>
+<li>List its events. </li>
+<li>When using Shadow DOM, the &quot;content&quot; attribute allows you to select which 
+nodes to put where. If your component treats different elements specially 
+in these selectors, document it!</li>
+<li>If your component relates to a microdata format, document how to apply 
+that microdata to your component.</li>
+</ul></li>
+<li><strong>Don&#39;t put too much in Shadow DOM</strong>. Shadow DOM allows you to stuff a bunch 
+of complex junk out of sight. However, that&#39;s not an excuse to have as many 
+DOM elements as you want in your shadow, as more elements will still lead to 
+worse performance. In addition, try to keep your configuration and state 
+visible by keeping anything semantic exposed in the logical DOM. Cruft goes 
+in the Shadow; semantic stuff doesn&#39;t.</li>
+<li><strong>Don&#39;t create more custom elements than you need</strong> If you have two similar 
+custom elements and the only difference between them is a different visual 
+structure/display of the same data, consider consolidating them into one 
+element and create two different templates to switch between.</li>
+<li><strong>Harmonize your declarative and imperative APIs</strong> Attributes form (part of) 
+your declarative API; your prototype defines your imperative API. Try to 
+keep the analogous parts linked whenever possible so a user can modify 
+either with the same effect.</li>
+<li><strong>Don&#39;t presume the context you&#39;ll operate in</strong> If your component is 
+successful, it will be used in contexts you never expected, and mixed in 
+with components you&#39;ve never heard of. Strive to be as encapsulated and 
+flexible--don&#39;t rely on any external frameworks or structure wherever 
+possible.</li>
+</ol>
+
+<h2>As always, don&#39;t forget...</h2>
+
+<p>A successful web component will be used by many people in many different 
+contexts--meaning that following general web development best practices becomes 
+even more important.</p>
+
+<ol>
+<li><strong>Accessibility</strong> Make your component accessible by using appropriate ARIA 
+roles—something that is much more important when we&#39;re creating new types of 
+elements! In cases where inheritance from a semantic base element is for any 
+reason impossible or infeasible, be sure to add a <code>role=&quot;&quot;</code> attribute, if any 
+apply.</li>
+<li><strong>Performance</strong> If you use a callback-based API for long-running operations, 
+don&#39;t block the main thread excessively. Debounce methods and logic loops 
+that affect rendering performance using requestAnimationFrame as a queue. 
+Respond to being removed from the tree by suspending expensive operations 
+like animation—and don&#39;t start expensive operations until you&#39;re actually 
+inserted into the DOM.</li>
+<li><strong>Script isn&#39;t always the answer</strong> Many structure and style techniques that 
+once required JavaScript can now be accomplished with pure CSS in the world 
+of web components.</li>
+<li><strong>Be Responsive</strong> Where possible, and applicable, design your components so 
+that they responsively adapt to their environment. Your users may use your 
+component for things you never dreamed of.</li>
+</ol>
 
       
     </article>

@@ -11,6 +11,7 @@ body {
   overflow-x:hidden; 
 }
 
+
 a,
 a:visited,
 a:active {
@@ -21,6 +22,7 @@ a:active {
 a:hover {
   color: #000;
 }
+
 
 p, pre {
   margin: 0;
@@ -44,7 +46,7 @@ hr {
 
 h1,
 h2 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
   font-weight: 300;  
   margin: 10px 0 20px 0;
   text-transform: uppercase;
@@ -129,8 +131,7 @@ article header hr {
 }
 
 nav header img {
-  width: 129px;
-  height: 116px;
+  width: 100px;
 }
 
 nav ul {
@@ -153,6 +154,13 @@ nav ul li img {
   float: right;
 }
 
+.hp a, 
+.hp a:visited,
+.hp a:active {
+  color:black;
+}
+
+
 .nav-divider {
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
@@ -164,6 +172,16 @@ nav ul li img {
   background-image: url( '../img/subnav-dot.png' );
   background-repeat: no-repeat;
   background-position: 0px 10px;
+}
+
+.credits{
+  width:100%;
+  text-align:center;
+}
+
+.credits p{
+  margin:0 auto;
+  text-align: center;
 }
 
 #content {
@@ -558,8 +576,7 @@ pre{
   }
 
   nav header img {
-    width: 164px;
-    height: 146px;
+    width: 100px;
   }
 
   .yt{
@@ -601,4 +618,6 @@ pre{
 }
 
 }
+
+
 
