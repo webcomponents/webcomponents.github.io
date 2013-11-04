@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web Components - Strawman</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Lekton|Ubuntu+Mono:400,700" rel="stylesheet">
+  <link href="assets/css/normalize.css" rel="stylesheet">
+  <link href="assets/css/components.css" rel="stylesheet">
+  <link href="assets/css/prettify.css" rel="stylesheet">
+  <link href="assets/css/forkit.css" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="assets/js/libs/prettify.js"></script>
+  <script src="assets/js/libs/jquery.timeago.js"></script>
+  <script src="assets/js/libs/list.js"></script>
+  <script src="assets/js/libs/lodash.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+
+<body class="">
+    <nav>
+    <header><a href="index.html"></a></header>
+    <ul>
+      <li class="nav-divider"><a href="index.html"><img src="assets/img/icon-home.png">Home</a></li>
+      <li class="nav-divider">
+        <a href="bestpractices.html"><img src="assets/img/icon-why-yeoman.png">Best Practices</a>
+        <a href="articles.html"><img src="assets/img/icon-why-yeoman.png">Community Articles</a>
+      </li>
+      <li>
+        <a href="customelements.html"><img src="assets/img/icon-why-yeoman.png">Custom Elements</a>
+        <a href="imports.html"><img src="assets/img/icon-why-yeoman.png">HTML Imports</a>
+        <a href="templates.html"><img src="assets/img/icon-why-yeoman.png">Templates</a>
+        <a href="shadowdom.html"><img src="assets/img/icon-why-yeoman.png">Shadow DOM</a>
+        <a href="whywebcomponents.html"><img src="assets/img/icon-why-yeoman.png">Why Components?</a>
+      </li>
+      <li>
+      <li class"nav-divider"><a href="https://plus.google.com/+WebComponents"><img src="assets/img/icon-google-plus.png">Google Plus</a></li>
+      <li class="nav-divider"><a href="http://twitter.com/WebComponents"><img src="assets/img/icon-twitter.png">Twitter</a></li>
+      <li><a href="http://github.com/WebComponentsOrg/webcomponents.org"><img src="assets/img/icon-github.png">GitHub</a></li>
+      <li><a href="https://github.com/WebComponentsOrg/webcomponents.org/blob/master/contributing.md"><img src="assets/img/icon-contributing.png">Contributing</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <article>
+      
+        <article>
+  <header>
+    <div>
+      <h1>Web Components strawman</h1>
+    </div>
+  </header>
+  <section>
+
+
+<p>A place to discuss and move forward Web Components. </p>
+
+<h2>Web Components?</h2>
+
+<p>Web Components is a set of specs which let web developers leverage their HTML, CSS and JavaScript knowledge to build widgets that can be reused easily and reliably. The component model for the Web (&quot;Web Components&quot;) consists of five pieces:</p>
+
+<ul>
+<li><strong>Custom Elements</strong> - allow authors define their own elements, with new tag names and new script interfaces.</li>
+<li><strong>HTML Imports</strong> - define how templates, decorators and custom elements are packaged and loaded as a resource.</li>
+<li><strong>Shadow DOM</strong> - encapsulates a DOM subtree for more reliable composition of user interface elements.</li>
+<li><strong>Templates</strong> - chunks of markup that are inert but can be activated for use later.</li>
+<li><strong>Decorators</strong> - templates based on CSS selectors to affect rich visual and behavioral changes to documents.</li>
+</ul>
+
+<p>Each of these pieces is useful individually. </p>
+
+<p>When used in combination, Web Components enable Web application authors to define widgets with a level of visual richness and interactivity not possible with CSS alone, and ease of composition and reuse not possible with script libraries today.</p>
+
+
+  </section>
+
+  <section>
+    <ul class="quick-links">
+      <li class="google-follow">
+        Follow +Web Components on
+        <a href="https://plus.google.com/+WebComponents" rel="publisher" style="text-decoration:none;"><img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="" style="border:0;width:20px;height:20px;"/></a>
+      </li>
+      <li style="width: 120px; height: 25px;">
+        <g:plusone size="medium" annotation="inline" width="120" href="http://site.com"></g:plusone>
+      </li>
+      <li style="width: 220px; height: 25px;">
+        <a href="https://twitter.com/WebComponents" class="twitter-follow-button" data-show-count="true">Follow @WebComponents</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h2>About</h2>
+    <p class="credits">Web Components.</p>
+  </section>
+</article>
+
+      
+    </article>
+  </div>
+<!--
+  Included file 'forkit.html' not found in _includes directory
+-->
+  <script>
+    // $script.js - github.com/ded/script.js
+    (function(a,b,c){typeof c["module"]!="undefined"&&c.module.exports?c.module.exports=b():typeof c["define"]!="undefined"&&c["define"]=="function"&&c.define.amd?define(a,b):c[a]=b()})("$script",function(){function p(a,b){for(var c=0,d=a.length;c<d;++c)if(!b(a[c]))return j;return 1}function q(a,b){p(a,function(a){return!b(a)})}function r(a,b,i){function o(a){return a.call?a():d[a]}function t(){if(!--n){d[m]=1,l&&l();for(var a in f)p(a.split("|"),o)&&!q(f[a],o)&&(f[a]=[])}}a=a[k]?a:[a];var j=b&&b.call,l=j?b:i,m=j?a.join(""):b,n=a.length;return setTimeout(function(){q(a,function(a){if(h[a])return m&&(e[m]=1),h[a]==2&&t();h[a]=1,m&&(e[m]=1),s(!c.test(a)&&g?g+a+".js":a,t)})},0),r}function s(c,d){var e=a.createElement("script"),f=j;e.onload=e.onerror=e[o]=function(){if(e[m]&&!/^c|loade/.test(e[m])||f)return;e.onload=e[o]=null,f=1,h[c]=2,d()},e.async=1,e.src=c,b.insertBefore(e,b.firstChild)}var a=document,b=a.getElementsByTagName("head")[0],c=/^https?:\/\//,d={},e={},f={},g,h={},i="string",j=!1,k="push",l="DOMContentLoaded",m="readyState",n="addEventListener",o="onreadystatechange";return!a[m]&&a[n]&&(a[n](l,function t(){a.removeEventListener(l,t,j),a[m]="complete"},j),a[m]="loading"),r.get=s,r.order=function(a,b,c){(function d(e){e=a.shift(),a.length?r(e,d):r(e,b,c)})()},r.path=function(a){g=a},r.ready=function(a,b,c){a=a[k]?a:[a];var e=[];return!q(a,function(a){d[a]||e[k](a)})&&p(a,function(a){return d[a]})?b():!function(a){f[a]=f[a]||[],f[a][k](b),c&&c(e)}(a.join("|")),r},r},this)
+    var _gaq=[
+      ['_setAccount','UA-32956520-1'],
+      ['_setDomainName', '.yeoman.io'],
+      ['_trackPageview'],['_trackPageLoadTime']
+    ];
+    $script('http://www.google-analytics.com/ga.js');
+    $script('https://apis.google.com/js/plusone.js');
+    $script("//platform.twitter.com/widgets.js");
+  </script>
+  <script src="assets/js/libs/forkit.js"></script>
+</body>
+</html>
