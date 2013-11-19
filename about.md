@@ -4,7 +4,7 @@ layout: default
 
 # About
 
-Today, many widgets on the web platform are specific to their frameworks and do not interoperate with other frameworks. Web Components have the potential to create a new, compatible ecosystem of components that will make it easier for developers to build capable, well-designed web applications. 
+Today, many widgets on the web platform are specific to their frameworks and do not interoperate with other frameworks. Web Components have the potential to create a new, compatible ecosystem of components that will make it easier for developers to build capable, well-designed web applications.
 
 However, this compatibility is not a foregone conclusion. The community needs to develop the best practices organically--documenting the cowpaths so that others can follow, making it more likely that someday those cowpaths can become highways.
 
