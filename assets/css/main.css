@@ -1,0 +1,269 @@
+body {
+  background: #3a99d7;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+header, section {
+  display: block;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header-container {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-container .logo {
+  left: 50%;
+  margin: 0 0 0 -407px;
+  position: absolute;
+}
+
+.header-container .title,
+.header-container .subtitle {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.header-container .title {
+  font-size: 4em;
+  font-weight: 700;
+  padding: 230px 0 0 0;
+}
+
+.header-container .subtitle {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+/* --- Two columns --- */
+@media screen and (max-width: 980px) {
+  .header-container .title {
+    font-size: 2.5em;
+  }
+
+  .header-container .subtitle {
+    font-size: 1.5em;
+  }
+}
+
+/* --- One column --- */
+@media screen and (max-width: 660px) {
+  .header-container .title,
+  .header-container .subtitle {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .header-container .title {
+    font-size: 2em;
+  }
+
+  .header-container .subtitle {
+    font-size: 1em;
+  }
+}
+
+/* ==========================================================================
+   Grid
+   ========================================================================== */
+
+.card-container {
+  margin: 0 auto;
+  max-width: 940px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* --- Two columns --- */
+@media screen and (max-width: 980px) {
+  .card-container {
+    max-width: 620px;
+  }
+}
+
+/* --- One column --- */
+@media screen and (max-width: 660px) {
+  .card-container {
+    max-width: 300px;
+    padding: 0;
+  }
+}
+
+/* ==========================================================================
+   Cards
+   ========================================================================== */
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  float: left;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.card a {
+  display: block;
+  text-decoration: none;
+}
+
+.card h3 {
+  border-bottom: 1px solid #f2f4f6;
+  color: #434a54;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 2em;
+  margin: 0;
+  padding: .4em 0 .2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card .title {
+  color: #434a54;
+  font-size: .9em;
+  font-weight: 600;
+  margin-bottom: .3em;
+  padding: 0 .7em;
+  text-transform: uppercase;
+}
+
+.card .description {
+  color: #434a54;
+  font-size: .8em;
+  margin-top: 0;
+  padding: 0 .8em;
+}
+
+/* Card ~ Articles, Presentations
+   ========================================================================== */
+
+.see-all {
+  background: rgb(22, 100, 151);
+  background: rgba(22, 100, 151, 1);
+  color: #fff;
+  display: block;
+  font-size: .9em;
+  padding: .4em 0;
+  text-align: center;
+  text-transform: lowercase;
+  -webkit-transition: background .3s;
+  -moz-transition: background .3s;
+  -ms-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}
+
+.see-all:hover {
+  background: rgba(22, 100, 151, .9);
+}
+
+/* Card ~ Specs, Polyfills, Examples
+   ========================================================================== */
+
+.link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-list li {
+  border-bottom: 1px solid #f2f4f6;
+}
+
+.link-list .icon {
+  float: left;
+  margin: 0 .8em 0 1.3em;
+}
+
+.link-list a {
+  display: block;
+  padding: 1em 0;
+  -webkit-transition: background .3s;
+  -moz-transition: background .3s;
+  -ms-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}
+
+.link-list a:hover {
+  background: #f2f2f2;
+}
+
+.link-list p {
+  margin: 0;
+}
+
+/* Card ~ Community
+   ========================================================================== */
+
+.profile-list {
+  list-style: none;
+  margin: 20px auto 5px;
+  padding: 0;
+  width: 207px;
+}
+
+.profile-list li {
+  display: inline-block;
+  padding: 0 .5em;
+  width: 50px;
+}
+
+.profile-list .picture {
+  border-radius: 50%;
+  height: 50px;
+  left: 0;
+  overflow: hidden;
+  top: 0;
+  width: 50px;
+}
+
+.profile-list .name {
+  color: #434a54;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* Card ~ Status
+   ========================================================================== */
+
+.status-table {
+  margin: .5em auto;
+}
+
+.status-table td {
+  font-size: .7em;
+  height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 55px;
+}
+
+.status-table .icon-status {
+  height: 25px;
+  margin: 0 auto;
+  width: 30px;
+}
+
+.status-table .icon-status-green  { background: #5bee00; }
+.status-table .icon-status-red    { background: #ff5c03; }
+.status-table .icon-status-yellow { background: #ffea03; }
+
+/* Card ~ Samples
+   ========================================================================== */
+
+.card-social {
+  background: url(../img/sample-card-social.png);
+  height: 170px;
+}
