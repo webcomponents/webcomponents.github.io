@@ -1,234 +1,211 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+---
+layout: default
+---
 
-    <title>Web Components</title>
+<!-- What? -->
+<section class="card card-what">
+    <h3>What?</h3>
+    <p class="description">WebComponents.org is where pioneers and community-members of the Web Components ecosystem (like <em>Polymer</em>, <em>X-tags</em>, and other interested parties) document web components best practices so that others can follow the same path instead of needlessly striking out on their own.</p>
+</section>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <header class="header-container">
-        <img class="logo" src="assets/img/logo-shadow.png" alt="" width="794" height="397">
-        <h1 class="title">Web Components</h1>
-        <h2 class="subtitle">The open web technology that will change the way you build apps</h2>
-    </header>
-
-    <main class="card-container">
-
-        <!-- What? -->
-        <section class="card card-what">
-            <h3>What?</h3>
-            <p class="description">WebComponents.org is where pioneers and community-members of the Web Components ecosystem (like Polymer, X-tags, and other interested parties) document web components best practices so that others can follow the same path instead of needlessly striking out on their own.</p>
-        </section>
-
-        <!-- Specs -->
-        <section class="card card-specs">
-            <h3>Specs</h3>
-            <ul class="link-list">
-                <li>
-                    <a href="http://w3c.github.io/webcomponents/explainer/">
-                        <img class="icon" src="assets/img/icon-webcomponents.png" alt="">
-                        <p class="title">Web Components</p>
-                        <p class="description">An overview of Web Components...</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/scripting-1.html#the-template-element">
-                        <img class="icon" src="assets/img/icon-templates.png" alt="">
-                        <p class="title">Templates</p>
-                        <p class="description">Fragments of HTML that can be cloned and inserted in the DOM...</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://w3c.github.io/webcomponents/spec/imports/">
-                        <img class="icon" src="assets/img/icon-htmlimports.png" alt="">
-                        <p class="title">HTML Imports</p>
-                        <p class="description">HTML Imports are a way to include and reuse HTML...</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://w3c.github.io/webcomponents/spec/custom/">
-                        <img class="icon" src="assets/img/icon-customelements.png" alt="">
-                        <p class="title">Custom Elements</p>
-                        <p class="description">The method for enabling the author to define and use new...</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://w3c.github.io/webcomponents/spec/shadow/">
-                        <img class="icon" src="assets/img/icon-shadowdom.png" alt="">
-                        <p class="title">Shadow DOM</p>
-                        <p class="description">A method of establishing and maintaining functional boundar...</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Articles -->
-        <section class="card card-articles">
-            <h3>Articles</h3>
-            <a class="latest-item" href="#">
-                <img src="assets/img/sample-articles.jpg" alt="">
-                <p class="title">Best practices</p>
-                <p class="description">Lorem ipsum ipsum ipsum ipsum ipsum Lorem Lorem ipsum ipsum ipsumipsum...</p>
+<!-- Specs -->
+<section class="card card-specs">
+    <h3>Specs</h3>
+    <ul class="link-list">
+        <li>
+            <a href="http://w3c.github.io/webcomponents/explainer/">
+                <img class="icon" src="assets/img/icon-webcomponents.png" alt="">
+                <p class="title">Web Components</p>
+                <p class="description">An overview of Web Components...</p>
             </a>
-            <a class="see-all" href="#">See all articles</a>
-        </section>
-
-        <!-- Status -->
-        <section class="card card-status">
-            <h3>Status</h3>
-            <table class="status-table">
-                <tr>
-                    <td></td>
-                    <td>Chrome<br>Opera</td>
-                    <td>Firefox</td>
-                    <td>Safari</td>
-                    <td>IE</td>
-                </tr>
-                <tr>
-                    <td><img title="Templates" src="assets/img/icon-status-templates.png" alt=""></td>
-                    <td><a title="Stable" href="http://www.chromestatus.com/features/5207287069147136" class="icon-status icon-status-green"></a></td>
-                    <td><a title="Stable" href="http://caniuse.com/#feat=template" class="icon-status icon-status-green"></a></td>
-                    <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
-                    <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
-                </tr>
-                <tr>
-                    <td><img title="HTML Imports" src="assets/img/icon-status-htmlimports.png" alt=""></td>
-                    <td><a title="Flag" href="http://www.chromestatus.com/features/5144752345317376" class="icon-status icon-status-yellow"></a></td>
-                    <td><a title="Bug" href="https://bugzilla.mozilla.org/show_bug.cgi?id=877072" class="icon-status icon-status-yellow"></a></td>
-                    <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
-                    <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
-                </tr>
-                <tr>
-                    <td><img title="Custom Elements" src="assets/img/icon-status-customelements.png" alt=""></td>
-                    <td><a title="Flag" href="http://www.chromestatus.com/features/4642138092470272" class="icon-status icon-status-yellow"></a></td>
-                    <td><a title="Bug" href="https://bugzilla.mozilla.org/show_bug.cgi?id=811542" class="icon-status icon-status-yellow"></a></td>
-                    <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
-                    <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
-                </tr>
-                <tr>
-                    <td><img title="Shadow DOM" src="assets/img/icon-status-shadowdom.png" alt=""></td>
-                    <td><a title="Stable" href="http://www.chromestatus.com/features/5479141319114752" class="icon-status icon-status-green"></a></td>
-                    <td><a title="Bug" href="https://bugzilla.mozilla.org/show_bug.cgi?id=806506" class="icon-status icon-status-yellow"></a></td>
-                    <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
-                    <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
-                </tr>
-            </table>
-            <p class="status-credits">Data fetched from <a href="http://jonrimmer.github.io/are-we-componentized-yet/">Are We Componentized Yet?</a></p>
-        </section>
-
-        <!-- Presentations -->
-        <section class="card card-presentations">
-            <h3>Presentations</h3>
-            <a class="latest-item" href="#">
-                <img src="assets/img/sample-presentations.jpg" alt="">
-                <p class="title">Lorem ipsum ipsum</p>
-                <p class="description">Lorem ipsum ipsum ipsum ipsum ipsum Lorem Lorem ipsum ipsum ipsum ipsum...</p>
+        </li>
+        <li>
+            <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/scripting-1.html#the-template-element">
+                <img class="icon" src="assets/img/icon-templates.png" alt="">
+                <p class="title">Templates</p>
+                <p class="description">Fragments of HTML that can be cloned and inserted in the DOM...</p>
             </a>
-            <a class="see-all" href="#">See all presentations</a>
-        </section>
+        </li>
+        <li>
+            <a href="http://w3c.github.io/webcomponents/spec/imports/">
+                <img class="icon" src="assets/img/icon-htmlimports.png" alt="">
+                <p class="title">HTML Imports</p>
+                <p class="description">HTML Imports are a way to include and reuse HTML...</p>
+            </a>
+        </li>
+        <li>
+            <a href="http://w3c.github.io/webcomponents/spec/custom/">
+                <img class="icon" src="assets/img/icon-customelements.png" alt="">
+                <p class="title">Custom Elements</p>
+                <p class="description">The method for enabling the author to define and use new...</p>
+            </a>
+        </li>
+        <li>
+            <a href="http://w3c.github.io/webcomponents/spec/shadow/">
+                <img class="icon" src="assets/img/icon-shadowdom.png" alt="">
+                <p class="title">Shadow DOM</p>
+                <p class="description">A method of establishing and maintaining functional boundar...</p>
+            </a>
+        </li>
+    </ul>
+</section>
 
-        <!-- Examples -->
-        <section class="card card-examples">
-            <h3>Examples</h3>
-            <ul class="link-list">
-                <li>
-                    <a href="http://sindresorhus.com/bower-components/#!/search/web-components">
-                        <img class="icon" src="assets/img/icon-bower.png" alt="">
-                        <p class="title">Bower</p>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://customelements.io/">
-                        <img class="icon" src="assets/img/icon-customelementsio.png" alt="">
-                        <p class="title">customelements.io</p>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
+<!-- Articles -->
+<section class="card card-articles">
+    <h3>Articles</h3>
+    <a class="latest-item" href="#">
+        <img src="assets/img/sample-articles.jpg" alt="">
+        <p class="title">Best practices</p>
+        <p class="description">Lorem ipsum ipsum ipsum ipsum ipsum Lorem Lorem ipsum ipsum ipsumipsum...</p>
+    </a>
+    <a class="see-all" href="#">See all articles</a>
+</section>
 
-        <!-- Community -->
-        <section class="card card-community">
-            <h3>Community</h3>
-            <ul class="profile-list">
-                <li>
-                    <a href="https://github.com/addyosmani">
-                        <img class="picture" src="https://2.gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275" alt="">
-                        <p class="name">Addy</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/brizabueno">
-                        <img class="picture" src="https://2.gravatar.com/avatar/c272a0a8972473fdf231f2b2d897c242" alt="">
-                        <p class="name">Briza</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/ebidel">
-                        <img class="picture" src="https://2.gravatar.com/avatar/e7948aac7c52b26470be80311873a398" alt="">
-                        <p class="name">Eric</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/passy">
-                        <img class="picture" src="https://2.gravatar.com/avatar/be451fcdbf0e5ff07f23ed16cb5c90a3" alt="">
-                        <p class="name">Pascal</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/robdodson">
-                        <img class="picture" src="https://2.gravatar.com/avatar/95c3a3b33ea51545229c625bef42e343" alt="">
-                        <p class="name">Rob</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/zenorocha">
-                        <img class="picture" src="https://2.gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93" alt="">
-                        <p class="name">Zeno</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
+<!-- Status -->
+<section class="card card-status">
+    <h3>Status</h3>
+    <table class="status-table">
+        <tr>
+            <td></td>
+            <td>Chrome<br>Opera</td>
+            <td>Firefox</td>
+            <td>Safari</td>
+            <td>IE</td>
+        </tr>
+        <tr>
+            <td><img title="Templates" src="assets/img/icon-status-templates.png" alt=""></td>
+            <td><a title="Stable" href="http://www.chromestatus.com/features/5207287069147136" class="icon-status icon-status-green"></a></td>
+            <td><a title="Stable" href="http://caniuse.com/#feat=template" class="icon-status icon-status-green"></a></td>
+            <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
+            <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
+        </tr>
+        <tr>
+            <td><img title="HTML Imports" src="assets/img/icon-status-htmlimports.png" alt=""></td>
+            <td><a title="Flag" href="http://www.chromestatus.com/features/5144752345317376" class="icon-status icon-status-yellow"></a></td>
+            <td><a title="Bug" href="https://bugzilla.mozilla.org/show_bug.cgi?id=877072" class="icon-status icon-status-yellow"></a></td>
+            <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
+            <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
+        </tr>
+        <tr>
+            <td><img title="Custom Elements" src="assets/img/icon-status-customelements.png" alt=""></td>
+            <td><a title="Flag" href="http://www.chromestatus.com/features/4642138092470272" class="icon-status icon-status-yellow"></a></td>
+            <td><a title="Bug" href="https://bugzilla.mozilla.org/show_bug.cgi?id=811542" class="icon-status icon-status-yellow"></a></td>
+            <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
+            <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
+        </tr>
+        <tr>
+            <td><img title="Shadow DOM" src="assets/img/icon-status-shadowdom.png" alt=""></td>
+            <td><a title="Stable" href="http://www.chromestatus.com/features/5479141319114752" class="icon-status icon-status-green"></a></td>
+            <td><a title="Bug" href="https://bugzilla.mozilla.org/show_bug.cgi?id=806506" class="icon-status icon-status-yellow"></a></td>
+            <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
+            <td><a title="Not implemented yet" class="icon-status icon-status-red"></a></td>
+        </tr>
+    </table>
+    <p class="status-credits">Data fetched from <a href="http://jonrimmer.github.io/are-we-componentized-yet/">Are We Componentized Yet?</a></p>
+</section>
 
-        <!-- Polyfills -->
-        <section class="card card-polyfills">
-            <h3>Polyfills</h3>
-            <ul class="link-list">
-                <li>
-                    <a href="http://www.polymer-project.org/">
-                        <img class="icon" src="assets/img/icon-polymer.png" alt="">
-                        <p class="title">Polymer</p>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://x-tags.org/">
-                        <img class="icon" src="assets/img/icon-xtags.png" alt="">
-                        <p class="title">x-tags</p>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
-    </main>
+<!-- Presentations -->
+<section class="card card-presentations">
+    <h3>Presentations</h3>
+    <a class="latest-item" href="#">
+        <img src="assets/img/sample-presentations.jpg" alt="">
+        <p class="title">Lorem ipsum ipsum</p>
+        <p class="description">Lorem ipsum ipsum ipsum ipsum ipsum Lorem Lorem ipsum ipsum ipsum ipsum...</p>
+    </a>
+    <a class="see-all" href="#">See all presentations</a>
+</section>
 
-    <script src="assets/js/masonry.pkgd.min.js"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        new Masonry(document.querySelector('.card-container'), {
-            columnWidth: 300,
-            gutter: 20
-        });
-    }, false);
-    </script>
-</body>
-</html>
+<!-- Examples -->
+<section class="card card-examples">
+    <h3>Examples</h3>
+    <ul class="link-list">
+        <li>
+            <a href="http://sindresorhus.com/bower-components/#!/search/web-components">
+                <img class="icon" src="assets/img/icon-bower.png" alt="">
+                <p class="title">Bower</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            </a>
+        </li>
+        <li>
+            <a href="http://customelements.io/">
+                <img class="icon" src="assets/img/icon-customelementsio.png" alt="">
+                <p class="title">customelements.io</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<!-- Community -->
+<section class="card card-community">
+    <h3>Community</h3>
+    <ul class="profile-list">
+        <li>
+            <a href="https://github.com/addyosmani">
+                <img class="picture" src="https://2.gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275" alt="">
+                <p class="name">Addy</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/brizabueno">
+                <img class="picture" src="https://2.gravatar.com/avatar/c272a0a8972473fdf231f2b2d897c242" alt="">
+                <p class="name">Briza</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/ebidel">
+                <img class="picture" src="https://2.gravatar.com/avatar/e7948aac7c52b26470be80311873a398" alt="">
+                <p class="name">Eric</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/passy">
+                <img class="picture" src="https://2.gravatar.com/avatar/be451fcdbf0e5ff07f23ed16cb5c90a3" alt="">
+                <p class="name">Pascal</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/robdodson">
+                <img class="picture" src="https://2.gravatar.com/avatar/95c3a3b33ea51545229c625bef42e343" alt="">
+                <p class="name">Rob</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/zenorocha">
+                <img class="picture" src="https://2.gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93" alt="">
+                <p class="name">Zeno</p>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<!-- Polyfills -->
+<section class="card card-polyfills">
+    <h3>Polyfills</h3>
+    <ul class="link-list">
+        <li>
+            <a href="http://www.polymer-project.org/">
+                <img class="icon" src="assets/img/icon-polymer.png" alt="">
+                <p class="title">Polymer</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            </a>
+        </li>
+        <li>
+            <a href="http://x-tags.org/">
+                <img class="icon" src="assets/img/icon-xtags.png" alt="">
+                <p class="title">x-tags</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            </a>
+        </li>
+    </ul>
+</section>
+
+<script src="assets/js/masonry.pkgd.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    new Masonry(document.querySelector('.card-container'), {
+        columnWidth: 300,
+        gutter: 20
+    });
+}, false);
+</script>

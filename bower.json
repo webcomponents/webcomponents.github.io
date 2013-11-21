@@ -10,6 +10,7 @@
   "private": true,
   "ignore": [
     ".*",
+    "_site",
     "bower_components"
   ],
   "dependencies": {
