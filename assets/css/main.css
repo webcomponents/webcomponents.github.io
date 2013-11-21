@@ -112,11 +112,6 @@ header, section {
   width: 300px;
 }
 
-.card a {
-  display: block;
-  text-decoration: none;
-}
-
 .card h3 {
   border-bottom: 1px solid #f2f4f6;
   color: #434a54;
@@ -148,6 +143,12 @@ header, section {
 /* Card ~ Articles, Presentations
    ========================================================================== */
 
+.card-articles a,
+.card-presentations a {
+  display: block;
+  text-decoration: none;
+}
+
 .see-all {
   background: rgb(22, 100, 151);
   background: rgba(22, 100, 151, 1);
@@ -177,6 +178,11 @@ header, section {
   padding: 0;
 }
 
+.link-list a {
+  display: block;
+  text-decoration: none;
+}
+
 .link-list li {
   border-bottom: 1px solid #f2f4f6;
 }
@@ -189,6 +195,7 @@ header, section {
 .link-list a {
   display: block;
   padding: 1em 0;
+  text-decoration: none;
   -webkit-transition: background .3s;
   -moz-transition: background .3s;
   -ms-transition: background .3s;
@@ -212,6 +219,10 @@ header, section {
   margin: 20px auto 5px;
   padding: 0;
   width: 207px;
+}
+
+.profile-list a {
+  text-decoration: none;
 }
 
 .profile-list li {
@@ -250,6 +261,10 @@ header, section {
   margin: .5em auto;
 }
 
+.status-table a {
+  display: block;
+}
+
 .status-table td {
   font-size: .7em;
   height: 40px;
@@ -268,10 +283,13 @@ header, section {
 .status-table .icon-status-red    { background: #ff5c03; }
 .status-table .icon-status-yellow { background: #ffea03; }
 
-/* Card ~ Samples
-   ========================================================================== */
+.status-credits {
+  font-size: .7em;
+  font-style: italic;
+  padding: 0 1em;
+  text-align: center;
+}
 
-.card-social {
-  background: url(../img/sample-card-social.png);
-  height: 170px;
+.status-credits a {
+  color: #434a54;
 }
