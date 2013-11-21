@@ -266,17 +266,17 @@ header, section {
 }
 
 .status-table td {
-  font-size: .7em;
+  font-size: .6em;
   height: 40px;
   text-align: center;
   text-transform: uppercase;
-  width: 55px;
+  width: 45px;
 }
 
 .status-table .icon-status {
-  height: 25px;
+  height: 23px;
   margin: 0 auto;
-  width: 30px;
+  width: 27px;
 }
 
 .status-table .icon-status-green  { background: #5bee00; }
