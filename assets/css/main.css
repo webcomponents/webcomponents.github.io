@@ -235,6 +235,14 @@ header, section {
   text-align: center;
 }
 
+/* Card ~ What
+   ========================================================================== */
+
+.card-what .description {
+  line-height: 2em;
+  padding-top: 1em;
+}
+
 /* Card ~ Status
    ========================================================================== */
 
