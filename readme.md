@@ -67,3 +67,7 @@ WebComponents.org is maintained by these people and a bunch of awesome [contribu
 ## Contributing
 
 See the [Contributing guide](https://github.com/WebComponentsOrg/webcomponents.org/blob/master/contributing.md).
+
+## License
+
+Source code is available under [MIT](http://opensource.org/licenses/MIT) license and content is under [Creative Commons BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
