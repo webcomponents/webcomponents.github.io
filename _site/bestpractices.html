@@ -61,9 +61,8 @@ element&#39;s API, will you feel embarrassed by how different it feels?</li>
 elements, so avoid creating elements that throw JS errors from ordinary DOM 
 interactions, for example: you can place a <code>&lt;div&gt;</code> inside a <code>&lt;ul&gt;</code>, and while it 
 may not behave or render normally, it shouldn&#39;t throw errors either.</li>
-<li>*<em>Attributes for data in *</em>Use attributes to pass configuration in. Use 
-boolean attributes for boolean values instead of something like 
-<code>selected=&quot;true&quot;</code>.</li>
+<li><strong>Attributes for data in</strong> Use attributes to pass configuration in. Use 
+boolean attributes for boolean values. Ex: <code>&lt;my-element selected&gt;</code> instead of <code>&lt;my-element selected=&quot;true&quot;&gt;</code>.</li>
 <li><strong>Events for data out</strong> Use custom events to pass information out of 
 components unless the information to pass is large or changes extremely 
 often.</li>
@@ -82,7 +81,7 @@ including things that you might not think of as part of the API.
 being used in that context. </li>
 <li>List its JavaScript methods and properties. </li>
 <li>List its events. </li>
-<li>When using Shadow DOM, the &quot;content&quot; attribute allows you to select which 
+<li>When using Shadow DOM, the <code>&lt;content&gt;</code> element and &quot;select&quot; attribute allow you to select which 
 nodes to put where. If your component treats different elements specially 
 in these selectors, document it!</li>
 <li>If your component relates to a microdata format, document how to apply 
