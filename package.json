@@ -1,0 +1,20 @@
+{
+    "name": "webcomponents.org",
+    "version": "1.0.0-alpha",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:webcomponentsorg/webcomponents.org.git"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-cli": "~0.1.11",
+        "grunt-pagespeed": "~0.0.8"
+    },
+    "engines": {
+        "node": ">=0.8"
+    },
+    "scripts": {
+        "test": "grunt pagespeed"
+    }
+}
