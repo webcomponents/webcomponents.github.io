@@ -80,22 +80,30 @@ header, section {
 .card-container {
   margin: 0 auto;
   max-width: 940px;
-  overflow: hidden;
   padding: 0 20px;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
 }
 
 /* --- Two columns --- */
 @media (max-width: 980px) {
   .card-container {
-    max-width: 620px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
   }
 }
 
 /* --- One column --- */
 @media (max-width: 660px) {
   .card-container {
-    max-width: 300px;
-    padding: 0;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
   }
 }
 
@@ -106,10 +114,11 @@ header, section {
 .card {
   background: #fff;
   border-radius: 5px;
-  float: left;
   margin-bottom: 20px;
   overflow: hidden;
-  width: 300px;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
 }
 
 .card h3 {
