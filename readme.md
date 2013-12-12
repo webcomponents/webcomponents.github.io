@@ -56,6 +56,15 @@ $ grunt pagespeed
 
 > P.S.: You'll need to [generate a PageSpeed API key](https://developers.google.com/speed/docs/insights/v1/getting_started#auth) and defined it as an environment variable.
 
+## Browser Support
+
+We do care about it.
+
+![IE](https://raw.github.com/paulirish/browser-logos/master/ie/ie_48x48.png) | ![Chrome](https://raw.github.com/paulirish/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/paulirish/browser-logos/master/firefox/firefox_48x48.png) | ![Opera](https://raw.github.com/paulirish/browser-logos/master/opera/opera_48x48.png) | ![Safari](https://raw.github.com/paulirish/browser-logos/master/safari/safari_48x48.png)
+--- | --- | --- | --- | --- |
+IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
+
+
 ## Team
 
 WebComponents.org is maintained by these people and a bunch of awesome [contributors](https://github.com/WebComponentsOrg/webcomponents.org/graphs/contributors).
