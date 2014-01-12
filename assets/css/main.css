@@ -167,6 +167,17 @@ header, section {
   text-decoration: none;
 }
 
+.container-image {
+    width: 300px;
+    height: 115px;
+    overflow: hidden;
+}
+
+.container-image img {
+    margin-top: -50px;
+    margin-left: -150px;
+}
+
 .see-all {
   background: rgb(22, 100, 151);
   background: rgba(22, 100, 151, 1);
@@ -344,6 +355,10 @@ header, section {
   font-weight: 400;
   margin-bottom: .3em;
   padding: 0 .7em;
+}
+
+.post-image-container {
+    margin-left: -120px;
 }
 
 .post-author {

@@ -149,11 +149,15 @@ layout: default
         <!-- Articles -->
         <section class="card card-articles">
             <h3>Articles</h3>
-            <a class="latest-item" href="#">
-                <img src="/assets/img/sample-articles.jpg" alt="">
-                <p class="title">Best practices</p>
-                <p class="description">Lorem ipsum ipsum ipsum ipsum ipsum Lorem Lorem ipsum ipsum ipsumipsum...</p>
+            {% for article in site.categories.articles limit:1 %}
+            <a class="latest-item" href="{{ article.url }}">
+                <div class="container-image">
+                    <img src="/assets/img/posts/{{ article.image }}" alt="{{ article.title }}">
+                </div>
+                <p class="title">{{ article.title }}</p>
+                <div class="description">{{ article.excerpt | markdownify }}</div>
             </a>
+            {% endfor %}
             <a class="see-all" href="/articles/">See all articles</a>
         </section>
 
