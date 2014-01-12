@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<main class="card-container layout-archive">
+    <div id="articles">
+    {% for post in site.categories.articles %}
+
+        {% assign author = site.authors[post.author] %}
+
+        <section class="card">
+            <a href="{{ post.url }}">
+                <img class="post-image" src="/assets/img/posts/{{ post.image }}" alt="{{ post.title }}">
+                <p class="post-title">{{ post.title }}</p>
+            </a>
+
+            <p class="post-info">
+                By <a class="post-author" href="{{ author.web }}">{{ author.name }}</a>
+                <span class="post-date">
+                    <img src="/assets/img/icon-date.png" alt="Clock">
+                    {{ post.date | date: "%B %e, %Y" }}
+                </span>
+            </p>
+
+            <div class="post-content">
+                {{ post.excerpt | markdownify }}
+            </div>
+        </section>
+    {% endfor %}
+    </div>
+</main>

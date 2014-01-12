@@ -84,9 +84,18 @@ header, section {
   -webkit-column-gap: 20px;
   -moz-column-gap: 20px;
   column-gap: 20px;
+}
+
+.layout-home {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
+}
+
+.layout-archive {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
 }
 
 /* --- Two columns --- */
@@ -301,4 +310,52 @@ header, section {
 
 .status-credits a {
   color: #434a54;
+}
+
+/* ==========================================================================
+   Archive ~ Articles
+   ========================================================================== */
+
+#articles a {
+  text-decoration: none;
+}
+
+.post-title {
+  color: #434a54;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: .3em;
+  padding: 0 .6em;
+}
+
+.post-info {
+  color: #434a54;
+  font-size: .8em;
+  font-weight: 400;
+  margin-bottom: .3em;
+  margin-top: .6em;
+  padding: 0 .9em;
+  text-transform: uppercase;
+}
+
+.post-content {
+  color: #434a54;
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: .3em;
+  padding: 0 .7em;
+}
+
+.post-author {
+    color: #ff5c03;
+}
+
+.post-date {
+    color: #9c9c9c;
+    text-transform: none;
+    padding-left: 10px;
+}
+
+.post-date img {
+    vertical-align: top;
 }
