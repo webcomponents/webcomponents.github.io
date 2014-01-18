@@ -1,31 +1,85 @@
-body {
-  background: #3a99d7;
-  font-family: 'Raleway', sans-serif;
+/* =============================================================================
+   RESET
+   ========================================================================== */
+* {
   margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  text-decoration: none;
+  line-height: 1em;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header:after,
+footer:after,
+section:after,
+main:after,
+aside:after,
+figure:after,
+div:after,
+ol:after,
+li:after,
+form:after,
+ul:after,
+dl:after, 
+a:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+hr {display: none;}
+.clear {clear: both;}
+
+/* =============================================================================
+   STRUCTURE
+   ========================================================================== */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #3a99d7;
+  background-image: -webkit-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+  background-image: -moz-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+  background-image: radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+  background-size: 800px 450px;
+  background-position: center -100px;
+  background-repeat: no-repeat;
+}
+header, section {display: block;}
+.wrapper {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
 }
 
-header, section {
-  display: block;
+/* --- fit on screen --- */
+@media (max-width: 660px) {
+  .wrapper {padding: 0;}
 }
 
 /* ==========================================================================
    Header
    ========================================================================== */
 
-.header-container {
+.header {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
 
-.header-container .logo {
+.header .logo {
   left: 50%;
-  margin: 0 0 0 -407px;
+  margin: 50px 0 0 -123px;
   position: absolute;
 }
 
-.header-container .title,
-.header-container .subtitle {
+.header .title,
+.header .subtitle {
   color: #fff;
   margin: 0;
   position: relative;
@@ -33,13 +87,13 @@ header, section {
   text-transform: lowercase;
 }
 
-.header-container .title {
+.header .title {
   font-size: 4em;
   font-weight: 700;
   padding: 230px 0 0 0;
 }
 
-.header-container .subtitle {
+.header .subtitle {
   font-size: 1.5em;
   font-weight: 400;
   margin-bottom: 1em;
@@ -47,28 +101,28 @@ header, section {
 
 /* --- Two columns --- */
 @media (max-width: 980px) {
-  .header-container .title {
+  .header .title {
     font-size: 2.5em;
   }
 
-  .header-container .subtitle {
+  .header .subtitle {
     font-size: 1.5em;
   }
 }
 
 /* --- One column --- */
 @media (max-width: 660px) {
-  .header-container .title,
-  .header-container .subtitle {
+  .header .title,
+  .header .subtitle {
     padding-left: 5px;
     padding-right: 5px;
   }
 
-  .header-container .title {
+  .header .title {
     font-size: 2em;
   }
 
-  .header-container .subtitle {
+  .header .subtitle {
     font-size: 1em;
   }
 }
@@ -79,11 +133,11 @@ header, section {
 
 .card-container {
   margin: 0 auto;
-  max-width: 940px;
+  max-width: 100%;
   padding: 0 20px;
-  -webkit-column-gap: 20px;
-  -moz-column-gap: 20px;
-  column-gap: 20px;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
 }
 
 .layout-home {
@@ -96,6 +150,15 @@ header, section {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2;
+}
+
+/* --- Small gaps --- */
+@media (max-width: 1024px) {
+  .card-container {
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
 }
 
 /* --- Two columns --- */
@@ -123,8 +186,9 @@ header, section {
 .card {
   background: #fff;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   overflow: hidden;
+  box-shadow: 0 3px 1px 0 rgba(0, 0, 0, .1);
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
   column-break-inside: avoid;
@@ -135,19 +199,24 @@ header, section {
   color: #434a54;
   font-size: 1.1em;
   font-weight: 600;
-  line-height: 2em;
+  line-height: 1.5em;
   margin: 0;
-  padding: .4em 0 .2em;
+  padding: 5px 20px;
   text-align: center;
   text-transform: uppercase;
+}
+.card p {
+  color: #434a54;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-top: 0;
 }
 
 .card .title {
   color: #434a54;
   font-size: .9em;
   font-weight: 600;
-  margin-bottom: .3em;
-  padding: 0 .7em;
+  margin-bottom: .1em;
   text-transform: uppercase;
 }
 
@@ -155,7 +224,13 @@ header, section {
   color: #434a54;
   font-size: .8em;
   margin-top: 0;
-  padding: 0 .8em;
+}
+
+/* --- Two columns --- */
+@media (max-width: 1024px) {
+  .card {
+    margin-bottom: 20px;
+  }
 }
 
 /* Card ~ Articles, Presentations
@@ -168,23 +243,21 @@ header, section {
 }
 
 .container-image {
-    width: 300px;
     height: 115px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
-
-.container-image img {
-    margin-top: -50px;
-    margin-left: -150px;
-}
+.container-image img {width: 100%;}
+.latest-item {padding: 20px 20px 10px;}
+.latest-item .container-image {margin: -20px -20px 10px;}
 
 .see-all {
   background: rgb(22, 100, 151);
-  background: rgba(22, 100, 151, 1);
   color: #fff;
   display: block;
   font-size: .9em;
-  padding: .4em 0;
+  line-height: 1em;
+  padding: 10px 0;
   text-align: center;
   text-transform: lowercase;
   -webkit-transition: background .3s;
@@ -245,28 +318,21 @@ header, section {
 
 .profile-list {
   list-style: none;
-  margin: 20px auto 5px;
-  padding: 0;
-  width: 207px;
+  margin: 0 auto;
+  text-align: center;
 }
-
-.profile-list a {
-  text-decoration: none;
-}
-
 .profile-list li {
   display: inline-block;
-  padding: 0 .5em;
-  width: 50px;
+  padding: 10px;
+  width: 20%;
 }
 
 .profile-list .picture {
   border-radius: 50%;
-  height: 50px;
   left: 0;
-  overflow: hidden;
   top: 0;
-  width: 50px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .profile-list .name {
@@ -279,8 +345,9 @@ header, section {
    ========================================================================== */
 
 .card-what .description {
-  line-height: 2em;
-  padding-top: 1em;
+  padding: 20px;
+  line-height: 1.6em;
+  font-size: 1em;
 }
 
 /* Card ~ Support
@@ -288,6 +355,7 @@ header, section {
 
 .status-table {
   margin: .5em auto;
+  width: 100%;
 }
 
 .status-table a {
@@ -296,7 +364,7 @@ header, section {
 
 .status-table td {
   font-size: .6em;
-  height: 40px;
+  height: 32px;
   text-align: center;
   text-transform: uppercase;
   width: 45px;
@@ -312,10 +380,10 @@ header, section {
 .status-table .icon-status-red    { background: #ff5c03; }
 .status-table .icon-status-yellow { background: #ffea03; }
 
-.status-credits {
-  font-size: .7em;
+.card .status-credits {
+  font-size: .8em;
   font-style: italic;
-  padding: 0 1em;
+  padding: 10px 20px;
   text-align: center;
 }
 
