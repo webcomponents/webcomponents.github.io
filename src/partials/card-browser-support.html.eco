@@ -1,0 +1,37 @@
+<!-- <%= @name %> -->
+<section class="card card-<%= @slug %>">
+    <h3><%= @name %></h3>
+    <table class="status-table">
+        <tr>
+            <td></td>
+            <% for browser in @docs: %>
+                <td><%= browser.title %></td>
+            <% end %>
+        </tr>
+        <tr>
+            <td><img title="Templates" src="<%= @site.url %>/img/icon-status-templates.png" alt=""></td>
+            <% for browser in @docs: %>
+                <td><a title="<%= browser.templates %>" href="<%= browser.templates_link %>" class="icon-status icon-status-<%= browser.templates_status %>"></a></td>
+            <% end %>
+        </tr>
+        <tr>
+            <td><img title="HTML Imports" src="<%= @site.url %>/img/icon-status-htmlimports.png" alt=""></td>
+            <% for browser in @docs: %>
+                <td><a title="<%= browser.html_imports %>" href="<%= browser.html_imports_link %>" class="icon-status icon-status-<%= browser.html_imports_status %>"></a></td>
+            <% end %>
+        </tr>
+        <tr>
+            <td><img title="Custom Elements" src="<%= @site.url %>/img/icon-status-customelements.png" alt=""></td>
+            <% for browser in @docs: %>
+                <td><a title="<%= browser.custom_elements %>" href="<%= browser.custom_elements_link %>" class="icon-status icon-status-<%= browser.custom_elements_status %>"></a></td>
+            <% end %>
+        </tr>
+        <tr>
+            <td><img title="Shadow DOM" src="<%= @site.url %>/img/icon-status-shadowdom.png" alt=""></td>
+            <% for browser in @docs: %>
+                <td><a title="<%= browser.shadow_dom %>" href="<%= browser.shadow_dom_link %>" class="icon-status icon-status-<%= browser.shadow_dom_status %>"></a></td>
+            <% end %>
+        </tr>
+    </table>
+    <p class="status-credits">Data fetched from <a href="http://jonrimmer.github.io/are-we-componentized-yet/">Are We Componentized Yet?</a></p>
+</section>

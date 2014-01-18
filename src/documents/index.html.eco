@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<main class="card-container layout-home">
+    <div class="column-first">
+        <%- @partial('card-what', { name: 'What?', slug: 'what' }) %>
+        <%- @partial('card-browser-support', { name: 'Browser Support', slug: 'support', docs: @getCollection("browserSupport").toJSON() }) %>
+        <%- @partial('card-links', { name: 'Polyfills', slug: 'polyfills', docs: @getCollection("polyfills").toJSON() }) %>
+    </div>
+    <div class="column-middle">
+        <%- @partial('card-links', { name: 'Specs', slug: 'specs', docs: @getCollection("specs").toJSON() }) %>
+        <%- @partial('card-links', { name: 'Discover', slug: 'discover', docs: @getCollection("discover").toJSON() }) %>
+    </div>
+    <div class="column-last">
+        <%- @partial('card-story', { name: 'Articles', slug: 'articles', docs: @getCollection("articles").toJSON().slice(0, 1) }) %>
+        <%- @partial('card-story', { name: 'Presentations', slug: 'presentations', docs: @getCollection("presentations").toJSON().slice(0, 1) }) %>
+        <%- @partial('card-community', { name: 'Community', slug: 'community' }) %>
+    </div>
+</main>

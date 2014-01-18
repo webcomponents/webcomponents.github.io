@@ -1,0 +1,15 @@
+<!-- <%= @name %> -->
+<section class="card card-<%= @slug %>">
+    <h3><%= @name %></h3>
+    <ul class="link-list">
+        <% for item in @docs: %>
+            <li>
+                <a href="<%= item.link %>">
+                    <img class="icon" src="<%= @site.url %>/img/<%= item.icon %>" alt="<%= item.title %>">
+                    <p class="title"><%= item.title %></p>
+                    <p class="description"><%= item.content %></p>
+                </a>
+            </li>
+        <% end %>
+    </ul>
+</section>

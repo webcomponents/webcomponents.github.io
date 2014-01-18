@@ -1,3 +1,13 @@
-_site
-bower_components
+#Bower
+src/files/vendor
+
+# DocPad
+out
+.docpad.db
+
+# Node
 node_modules
+
+# OS X
+.DS_Store
+

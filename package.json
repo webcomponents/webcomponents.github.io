@@ -7,7 +7,8 @@
         "url": "git@github.com:webcomponentsorg/webcomponents.org.git"
     },
     "devDependencies": {
-        "grunt": "~0.4.1",
+        "grunt": "~0.4.2",
+        "grunt-bower-task": "~0.3.4",
         "grunt-cli": "~0.1.11",
         "grunt-pagespeed": "~0.0.8"
     },
@@ -16,5 +17,12 @@
     },
     "scripts": {
         "test": "grunt pagespeed"
+    },
+    "dependencies": {
+        "docpad": "~6.60.2",
+        "docpad-plugin-cleanurls": "~2.6.2",
+        "docpad-plugin-eco": "~2.0.3",
+        "docpad-plugin-marked": "~2.2.0",
+        "docpad-plugin-partials": "~2.8.1"
     }
 }

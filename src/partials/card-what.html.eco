@@ -1,0 +1,11 @@
+<!-- <%= @name %> -->
+<section class="card card-<%= @slug %>">
+    <h3><%= @name %></h3>
+    <p class="description">
+        WebComponents.org is where pioneers and community-members of the Web
+        Components ecosystem (like <em>Polymer</em>, <em>X-tags</em>, and other
+        interested parties) document web components best practices so that
+        others can follow the same path instead of needlessly striking out on
+        their own.
+    </p>
+</section>

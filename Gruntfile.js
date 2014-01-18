@@ -1,5 +1,14 @@
 module.exports = function(grunt) {
     grunt.initConfig({
+
+        bower: {
+            install: {
+                options: {
+                    targetDir: 'src/files/vendor'
+                }
+            }
+        },
+
         pagespeed: {
             desktop: {
                 options: {
@@ -25,4 +34,5 @@ module.exports = function(grunt) {
     });
 
     grunt.loadNpmTasks('grunt-pagespeed');
+    grunt.loadNpmTasks('grunt-bower-task');
 };

@@ -10,11 +10,9 @@
   "private": true,
   "ignore": [
     ".*",
-    "_site",
-    "bower_components"
+    "out"
   ],
   "dependencies": {
-    "normalize-css": "~2.1.3",
     "respond": "~1.3.0"
   }
 }
