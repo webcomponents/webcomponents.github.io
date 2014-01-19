@@ -8,7 +8,11 @@ module.exports = {
 
     templateData: {
         site: {
-            url: 'http://zenorocha.github.io/webcomponents.org',
+            title: 'WebComponents.org',
+            description: 'The open web technology that will change the way you build apps',
+            url: 'http://zenorocha.github.io/webcomponents.org'
+        },
+
         }
     },
 

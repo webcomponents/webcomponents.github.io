@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
 
-    <title>WebComponents.org</title>
+    <title><%= @site.title %></title>
+    <meta name="description" content="<%= @site.description %>">
+    <meta name="viewport" content="width=device-width">
 
     <!-- CSS -->
     <link rel="stylesheet" href="<%= @site.url %>/css/main.css">
@@ -17,14 +18,18 @@
     <link href="http://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header class="header-container">
-        <img class="logo" src="<%= @site.url %>/img/logo-shadow.png" alt="" width="794" height="397">
-        <h1 class="title">WebComponents.org</h1>
-        <h2 class="subtitle">The open web technology that will change the way you build apps</h2>
-    </header>
+    <div class="wrapper">
+        <header class="header">
+            <a class="logo" href="<%= @site.url %>">
+                <img src="<%= @site.url %>/img/logo.png" alt="<%= @site.title %>" width="246" height="158">
+            </a>
+            <h1 class="title"><%= @site.title %></h1>
+            <h2 class="subtitle"><%= @site.description %></h2>
+        </header>
 
+        <%- @content %>
+    </div>
 
-    <%- @content %>
     <footer class="credits">
         <p>Made with <span class="love">♥</span> by the <a href="https://github.com/WebComponentsOrg/webcomponents.org/graphs/contributors">WebComponents.org contributors.</a></p>
     </footer>
