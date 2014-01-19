@@ -13,6 +13,37 @@ module.exports = {
             url: 'http://zenorocha.github.io/webcomponents.org'
         },
 
+        authors: {
+            addy_osmani: {
+                name: 'Addy Osmani',
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem cum sapiente odio voluptates commodi. Pariatur, saepe, non id consequuntur voluptatum sequi illo esse dolor voluptatibus voluptates minus reiciendis veritatis aliquid quas.',
+                gravatar: '96270e4c3e5e9806cf7245475c00b275',
+                twitter: 'addyosmani'
+            },
+            dominic_cooney: {
+                name: 'Dominic Cooney',
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem cum sapiente odio voluptates commodi. Pariatur, saepe, non id consequuntur voluptatum sequi illo esse dolor voluptatibus voluptates minus reiciendis veritatis aliquid quas.',
+                gravatar: '73b7633609b8f2bda1e73d35dabacb08',
+                twitter: 'coonsta'
+            },
+            eric_bidelman: {
+                name: 'Eric Bidelman',
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem cum sapiente odio voluptates commodi. Pariatur, saepe, non id consequuntur voluptatum sequi illo esse dolor voluptatibus voluptates minus reiciendis veritatis aliquid quas.',
+                gravatar: 'bc648a000e8edf29f3b7310b68bac247',
+                twitter: 'ebidel'
+            },
+            rob_dodson: {
+                name: 'Rob Dodson',
+                bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dolorem cum sapiente odio voluptates commodi. Pariatur, saepe, non id consequuntur voluptatum sequi illo esse dolor voluptatibus voluptates minus reiciendis veritatis aliquid quas.',
+                gravatar: '95c3a3b33ea51545229c625bef42e343',
+                twitter: 'rob_dodson'
+            }
+        },
+
+        getAuthor: function(author) {
+            return this.authors[author];
+        },
+
         }
     },
 
