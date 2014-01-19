@@ -4,48 +4,55 @@
 
 ## Install
 
-This site is made with [Jekyll](https://github.com/mojombo/jekyll/), a static generator in [Ruby](https://www.ruby-lang.org/en/downloads/), and the best way to install it is via [RubyGems](http://rubygems.org/):
+This site is made with [DocPad](https://github.com/bevry/docpad), a static generator in [Node](http://nodejs.org/), and the best way to install it is via [NPM](npmjs.org/):
 
 ```sh
-$ gem install jekyll
+$ npm install -g docpad
 ```
 
-Once Jekyll is installed, you just need to clone the project:
+Once DocPad is installed, you just need to clone the project:
 
 ```sh
 $ git clone git@github.com:WebComponentsOrg/webcomponents.org.git
 ```
 
+Then go to the folder and install all dependencies:
+
+```sh
+$ cd webcomponents.org
+$ npm install
+```
+
 ## Usage
 
-Jekyll has three basic options used in this project:
+DocPad has two basic options used in this project:
 
-To generate the site and run it in a server, which can be viewed at `http://localhost:4000`, run:
+To regenerate the site as you edit and save files, which can be viewed at `http://localhost:9778`, run:
 
 ```sh
-$ jekyll serve
+$ docpad run
 ```
 
-To regenerate the site as you edit and save files, run:
+To generate a static version of the site, that is ready to upload to a server (it will create a folder called `out`), run:
 
 ```sh
-$ jekyll serve --watch
-```
-
-To generate a static version of the site that is ready to upload to a server (it will create a folder called `_site`), run:
-
-```sh
-$ jekyll build
+$ docpad generate --env static
 ```
 
 ## Tasks
 
-We use [Grunt](http://gruntjs.com/), a task-runner in [NodeJS](http://nodejs.org/download/), to automate things. 
+We use [Grunt](http://gruntjs.com/), a task-runner in [Node](http://nodejs.org/), to automate things.
 
 To install it and all the other dependencies, run:
 
 ```sh
-$ npm install
+$ npm install -g grunt-cli
+```
+
+To install [Bower](http://bower.io/) dependencies, run:
+
+```sh
+$ grunt bower
 ```
 
 To check performance regressions, run:
