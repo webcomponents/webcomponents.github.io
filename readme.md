@@ -1,6 +1,6 @@
 # WebComponents.org [![Build Status](https://secure.travis-ci.org/WebComponentsOrg/webcomponents.org.png?branch=master)](https://travis-ci.org/WebComponentsOrg/webcomponents.org) [![Dependency Status](https://david-dm.org/WebComponentsOrg/webcomponents.org.png)](https://david-dm.org/WebComponentsOrg/webcomponents.org)
 
-![Web Components Logo](http://f.cl.ly/items/253L1A2x1F3c3Y1b3R2P/logo.png)
+![WebComponents.org Logo](http://f.cl.ly/items/253L1A2x1F3c3Y1b3R2P/logo.png)
 
 ## Install
 
@@ -60,7 +60,7 @@ $ grunt pagespeed
 
 We do care about it.
 
-![IE](https://raw.github.com/paulirish/browser-logos/master/ie/ie_48x48.png) | ![Chrome](https://raw.github.com/paulirish/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/paulirish/browser-logos/master/firefox/firefox_48x48.png) | ![Opera](https://raw.github.com/paulirish/browser-logos/master/opera/opera_48x48.png) | ![Safari](https://raw.github.com/paulirish/browser-logos/master/safari/safari_48x48.png)
+![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png) | ![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png)
 --- | --- | --- | --- | --- |
 IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
