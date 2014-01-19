@@ -398,52 +398,85 @@ header, section {
    Archive ~ Articles
    ========================================================================== */
 
-#articles a {
-  text-decoration: none;
+.layout-archive .title {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #434a54;
+    text-transform: none;
 }
 
-.post-title {
-  color: #434a54;
-  font-size: 1.2em;
-  font-weight: 600;
-  margin-bottom: .3em;
-  padding: 0 .6em;
+.layout-archive .story-image {
+    height: 210px;
 }
 
-.post-info {
-  color: #434a54;
-  font-size: .8em;
-  font-weight: 400;
-  margin-bottom: .3em;
-  margin-top: .6em;
-  text-transform: uppercase;
+.layout-archive .post-info {
+    margin-bottom: 10px;
 }
 
-.post-content {
-  color: #434a54;
-  font-size: 1em;
-  font-weight: 400;
-  margin-bottom: .3em;
-  padding: 0 .7em;
+.layout-archive .post-author,
+.layout-archive .post-date {
+    float: left;
+    font-size: .9em;
+    font-weight: 400;
+    /*margin: 0 0 5px;*/
+    text-transform: uppercase;
+    padding: 0 20px;
 }
 
-.post-image-container {
-    margin-left: -120px;
+.layout-archive .description {
+    padding: 0 20px 20px;
+    font-size: .9em;
 }
 
-.post-author {
+.layout-archive .post-author {
+    color: #434a54;
+}
+
+.layout-archive .post-author a {
+    color: #ff5c03;
+    display: inline;
+}
+
+.layout-archive .post-date {
+    color: #9c9c9c;
+    text-transform: none;
+    padding-left: 0;
+}
+
+.read-more {
+    padding-top: 10px;
     color: #ff5c03;
 }
 
-.post-date {
-    color: #9c9c9c;
-    text-transform: none;
-    padding-left: 10px;
+/* Pagination
+   ========================================================================== */
+
+.pagination ul {
+    text-align: center;
+    margin: 20px 0 40px;
+    font-size: 1.1em;
 }
 
-.post-date img {
-    vertical-align: top;
+.pagination li {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: lowercase;
 }
+
+.pagination li.active {
+    background: #166497;
+}
+
+.pagination li.disabled {
+    color: #166497;
+}
+
+.pagination a {
+    color: #fff;
+}
+
 /* ==========================================================================
    Credits
    ========================================================================== */

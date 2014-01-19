@@ -39,6 +39,10 @@ module.exports = {
             return this.getCollection("documents").findAllLive({
                 url: {
                     $startsWith: '/articles'
+                },
+                layout: 'single',
+                isPagedAuto: {
+                    $ne: true
                 }
             }, [{ date: -1 }]);
         },
@@ -71,6 +75,10 @@ module.exports = {
             return this.getCollection("documents").findAllLive({
                 url: {
                     $startsWith: '/presentations'
+                },
+                layout: 'single',
+                isPagedAuto: {
+                    $ne: true
                 }
             }, [{ date: -1 }]);
         },
