@@ -25,6 +25,9 @@
 
 
     <%- @content %>
+    <footer class="credits">
+        <p>Made with <span class="love">♥</span> by the <a href="https://github.com/WebComponentsOrg/webcomponents.org/graphs/contributors">WebComponents.org contributors.</a></p>
+    </footer>
 
     <!--[if lt IE 9]>
     <script src="<%= @site.url %>/vendor/respond/respond.src.js"></script>

@@ -374,3 +374,46 @@ header, section {
 .post-date img {
     vertical-align: top;
 }
+/* ==========================================================================
+   Credits
+   ========================================================================== */
+
+.credits {
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.credits p {
+    margin: 0;
+}
+
+.credits a {
+    color: #3a99d7;
+}
+
+.credits .love {
+  display: inline-block;
+  position: relative;
+  top: .2em;
+  font-size: 1.4em;
+  color: #e74c3c;
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  transform: scale(.9);
+  -webkit-animation: love .5s infinite linear alternate-reverse;
+  -moz-animation: love .5s infinite linear alternate-reverse;
+  animation: love .5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes love {
+  to {-webkit-transform: scale(1.2);}
+}
+
+@-moz-keyframes love {
+  to {-moz-transform: scale(1.2);}
+}
+
+@keyframes love {
+  to {transform: scale(1.2);}
+}
