@@ -44,6 +44,18 @@ module.exports = {
             return this.authors[author];
         },
 
+        getExcerpt: function(content) {
+            var i = content.search('<!-- Read more -->');
+
+            if (i >= 0) {
+                return content.slice(0, (i - 1));
+            } else {
+                return content;
+            }
+        },
+
+        hasReadMore: function(content) {
+            return content.search('<!-- Read more -->') >= 0;
         }
     },
 
