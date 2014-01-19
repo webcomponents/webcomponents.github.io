@@ -1,16 +1,20 @@
 <!-- <%= @name %> -->
-<section class="card card-<%= @slug %>">
+<section class="card card-story card-<%= @slug %>">
     <h3><%= @name %></h3>
     <% for item in @docs: %>
-        <a class="latest-item" href="<% if item.link: %><%= item.link %><% else: %><%= item.url %><% end %>">
-            <% if item.image: %>
-                <div class="container-image">
-                    <img src="<%= @site.url %>/img/posts/<%= item.image %>" alt="<%= item.title %>">
+        <% if item.date: %>
+            <a class="story-content" href="<% if item.link: %><%= item.link %><% else: %><%= item.url %><% end %>">
+                <% if item.image: %>
+                    <div class="story-image">
+                        <img src="<%= @site.url %>/img/posts/<%= item.image %>" alt="<%= item.title %>">
+                    </div>
+                <% end %>
+                <p class="title"><%= item.title %></p>
+                <div class="description">
+                    <%- @getExcerpt(String(item.contentRenderedWithoutLayouts)) %>
                 </div>
-            <% end %>
-            <p class="title"><%= item.title %></p>
-            <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ratione officia dignissimos ad vero amet eos consequatur optio illum esse! Porro, asperiores accusamus non odio ipsa consequuntur perferendis similique enim.</p></div>
-        </a>
+            </a>
+        <% end %>
     <% end %>
     <a class="see-all" href="/<%= @slug %>/">See all <%= @slug %></a>
 </section>

@@ -1,5 +1,5 @@
 <!-- <%= @name %> -->
-<section class="card card-<%= @slug %>">
+<section class="card card-links card-<%= @slug %>">
     <h3><%= @name %></h3>
     <ul class="link-list">
         <% for item in @docs: %>
