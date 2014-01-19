@@ -18,17 +18,8 @@
     <link href="http://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <a class="logo" href="<%= @site.url %>">
-                <img src="<%= @site.url %>/img/logo.png" alt="<%= @site.title %>" width="246" height="158">
-            </a>
-            <h1 class="title"><%= @site.title %></h1>
-            <h2 class="subtitle"><%= @site.description %></h2>
-        </header>
 
-        <%- @content %>
-    </div>
+    <%- @content %>
 
     <footer class="credits">
         <p>Made with <span class="love">♥</span> by the <a href="https://github.com/WebComponentsOrg/webcomponents.org/graphs/contributors">WebComponents.org contributors.</a></p>

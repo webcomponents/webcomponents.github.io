@@ -2,19 +2,29 @@
 layout: default
 ---
 
-<main class="card-container layout-home">
-    <div class="column-first">
-        <%- @partial('card-what', { name: 'What?', slug: 'what' }) %>
-        <%- @partial('card-browser-support', { name: 'Browser Support', slug: 'support', docs: @getCollection("browserSupport").toJSON() }) %>
-        <%- @partial('card-links', { name: 'Polyfills', slug: 'polyfills', docs: @getCollection("polyfills").toJSON() }) %>
-    </div>
-    <div class="column-middle">
-        <%- @partial('card-links', { name: 'Specs', slug: 'specs', docs: @getCollection("specs").toJSON() }) %>
-        <%- @partial('card-links', { name: 'Discover', slug: 'discover', docs: @getCollection("discover").toJSON() }) %>
-    </div>
-    <div class="column-last">
-        <%- @partial('card-story', { name: 'Articles', slug: 'articles', docs: @getCollection("articles").toJSON().slice(0, 1) }) %>
-        <%- @partial('card-story', { name: 'Presentations', slug: 'presentations', docs: @getCollection("presentations").toJSON().slice(0, 1) }) %>
-        <%- @partial('card-community', { name: 'Community', slug: 'community' }) %>
-    </div>
-</main>
+<div class="wrapper">
+    <header class="header">
+        <a class="logo" href="<%= @site.url %>">
+            <img src="<%= @site.url %>/img/logo.png" alt="<%= @site.title %>" width="246" height="158">
+        </a>
+        <h1 class="title"><%= @site.title %></h1>
+        <h2 class="subtitle"><%= @site.description %></h2>
+    </header>
+
+    <main class="card-container layout-home">
+        <div class="column-first">
+            <%- @partial('card-what', { name: 'What?', slug: 'what' }) %>
+            <%- @partial('card-browser-support', { name: 'Browser Support', slug: 'support', docs: @getCollection("browserSupport").toJSON() }) %>
+            <%- @partial('card-links', { name: 'Polyfills', slug: 'polyfills', docs: @getCollection("polyfills").toJSON() }) %>
+        </div>
+        <div class="column-middle">
+            <%- @partial('card-links', { name: 'Specs', slug: 'specs', docs: @getCollection("specs").toJSON() }) %>
+            <%- @partial('card-links', { name: 'Discover', slug: 'discover', docs: @getCollection("discover").toJSON() }) %>
+        </div>
+        <div class="column-last">
+            <%- @partial('card-story', { name: 'Articles', slug: 'articles', docs: @getCollection("articles").toJSON().slice(0, 1) }) %>
+            <%- @partial('card-story', { name: 'Presentations', slug: 'presentations', docs: @getCollection("presentations").toJSON().slice(0, 1) }) %>
+            <%- @partial('card-community', { name: 'Community', slug: 'community' }) %>
+        </div>
+    </main>
+</div>
