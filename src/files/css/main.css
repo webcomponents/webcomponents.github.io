@@ -4,7 +4,6 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
   border: 0;
   text-decoration: none;
   line-height: 1em;
@@ -37,6 +36,16 @@ a:after {
 
 hr {
     display: none;
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 80%;
+    color: #c7254e;
+    white-space: nowrap;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .clear {
@@ -395,10 +404,11 @@ header, section {
 }
 
 /* ==========================================================================
-   Archive ~ Articles
+   Archive
    ========================================================================== */
 
-.layout-archive .title {
+.layout-archive .title,
+.layout-single .title {
     font-size: 1.2em;
     font-weight: 600;
     color: #434a54;
@@ -409,12 +419,12 @@ header, section {
     height: 210px;
 }
 
-.layout-archive .post-info {
+.card-story .post-info {
     margin-bottom: 10px;
 }
 
-.layout-archive .post-author,
-.layout-archive .post-date {
+.card-story .post-author,
+.card-story .post-date {
     float: left;
     font-size: .9em;
     font-weight: 400;
@@ -423,24 +433,29 @@ header, section {
     padding: 0 20px;
 }
 
-.layout-archive .description {
+.layout-archive .description,
+.layout-single .description {
     padding: 0 20px 20px;
     font-size: .9em;
 }
 
-.layout-archive .post-author {
+.card-story .post-author {
     color: #434a54;
 }
 
-.layout-archive .post-author a {
+.card-story .post-author a {
     color: #ff5c03;
     display: inline;
 }
 
-.layout-archive .post-date {
+.card-story .post-date {
     color: #9c9c9c;
     text-transform: none;
     padding-left: 0;
+}
+
+.card-story .post-date img {
+    vertical-align: center;
 }
 
 .read-more {
@@ -475,6 +490,131 @@ header, section {
 
 .pagination a {
     color: #fff;
+}
+
+/* ==========================================================================
+   Single
+   ========================================================================== */
+
+.layout-single {
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.layout-single .single-content,
+.layout-single .single-sidebar {
+    float: left;
+}
+
+.layout-single .single-content {
+    width: 65%;
+    margin-right: 5%;
+}
+
+.layout-single .single-sidebar {
+    width: 30%;
+}
+
+.layout-single .title {
+    margin: 0 20px 5px;
+    font-size: 1.5em;
+}
+
+.layout-single .description p,
+.layout-single .description li {
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+
+.layout-single .description ol,
+.layout-single .description ul {
+    margin: 10px 0 0 20px;
+}
+
+.layout-single .description h1,
+.layout-single .description h2,
+.layout-single .description h3,
+.layout-single .description h4,
+.layout-single .description h5,
+.layout-single .description h6 {
+    margin: 20px 0 10px;
+}
+
+.layout-single .story-image {
+    height: 310px;
+}
+
+/* --- One column --- */
+@media (max-width: 980px) {
+    .layout-single .single-content,
+    .layout-single .single-sidebar {
+        width: 100%;
+        float: none;
+    }
+
+    .layout-single .single-content {
+        margin-right: 0;
+    }
+}
+
+/* Author
+   ========================================================================== */
+
+.card-author {
+    padding: 20px;
+}
+
+.card-author .author-avatar {
+    border-radius: 50%;
+    float: left;
+}
+
+.card-author .author-name {
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.card-author .author-bio {
+    font-size: .9em;
+    margin-top: 10px;
+}
+
+.card-author .author-twitter {
+    font-size: .9em;
+    margin-left: 100px;
+}
+
+.card-author .author-twitter a {
+    color: #ff5c03;
+}
+
+/* Tags
+   ========================================================================== */
+
+.tag-list li {
+    border-bottom: 1px solid #f2f4f6;
+}
+
+.tag-list li a {
+    padding: 15px 0 15px 20px;
+    display: block;
+    color: #434a54;
+    font-size: .9em;
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -ms-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
+}
+
+.tag-list li a:hover {
+    background: #f2f2f2;
+}
+
+.tag-list img {
+    vertical-align: bottom;
+    margin-right: 3px;
 }
 
 /* ==========================================================================
