@@ -5,6 +5,7 @@ date: 2013-11-15
 image: sample.jpg
 category: articles
 layout: single
+tags: ['Best Practices']
 ---
 
 Web Components (WC) fall under a new platform feature that we'd like developers

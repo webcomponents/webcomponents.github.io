@@ -5,6 +5,7 @@ date: 2013-11-11
 link: http://css-tricks.com/modular-future-web-components/
 category: articles
 layout: single
+tags: ['Web Components']
 ---
 
 Recently I was working with a client to train their internal teams on how to

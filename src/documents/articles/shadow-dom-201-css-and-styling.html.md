@@ -5,6 +5,7 @@ date: 2013-03-15
 link: http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/
 category: articles
 layout: single
+tags: ['Shadow DOM']
 ---
 
 Let's face it. There's nothing sexy about unstyled markup. Lucky for us, the

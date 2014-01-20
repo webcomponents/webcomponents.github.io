@@ -5,6 +5,7 @@ date: 2013-08-28
 link: http://www.html5rocks.com/en/tutorials/webcomponents/customelements/
 category: articles
 layout: single
+tags: ['Custom Elements']
 ---
 
 The web severely lacks expression. To see what I mean, take a peek at a "modern"

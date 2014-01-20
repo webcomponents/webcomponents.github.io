@@ -248,12 +248,21 @@ header, section {
    ========================================================================== */
 
 .card-story a {
-  display: block;
-  text-decoration: none;
+    display: block;
+    text-decoration: none;
 }
 
 .story-content {
     padding: 20px 20px 10px;
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -ms-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
+}
+
+.layout-home .story-content:hover {
+    background: #f2f2f2;
 }
 
 .story-image {
@@ -267,23 +276,23 @@ header, section {
 }
 
 .see-all {
-  background: rgb(22, 100, 151);
-  color: #fff;
-  display: block;
-  font-size: .9em;
-  line-height: 1em;
-  padding: 10px 0;
-  text-align: center;
-  text-transform: lowercase;
-  -webkit-transition: background .3s;
-  -moz-transition: background .3s;
-  -ms-transition: background .3s;
-  -o-transition: background .3s;
-  transition: background .3s;
+    background: rgb(22, 100, 151);
+    color: #fff;
+    display: block;
+    font-size: .9em;
+    line-height: 1em;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: lowercase;
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -ms-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
 }
 
 .see-all:hover {
-  background: rgba(22, 100, 151, .9);
+    background: rgba(22, 100, 151, .9);
 }
 
 /* Card ~ Links (Specs, Polyfills, Discover)
@@ -615,6 +624,13 @@ header, section {
 .tag-list img {
     vertical-align: bottom;
     margin-right: 3px;
+}
+
+/* Comments
+   ========================================================================== */
+
+.card-comments {
+    padding: 20px;
 }
 
 /* ==========================================================================

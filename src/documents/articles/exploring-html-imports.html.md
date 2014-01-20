@@ -5,6 +5,7 @@ date: 2013-08-20
 link: http://robdodson.me/blog/2013/08/20/exploring-html-imports/
 category: articles
 layout: single
+tags: ['HTML Imports']
 ---
 
 Web Components have come a long way in the past few months and one of the

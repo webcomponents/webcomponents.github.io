@@ -5,6 +5,7 @@ date: 2013-03-21
 link: http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-301/
 category: articles
 layout: single
+tags: ['Shadow DOM']
 ---
 
 If you're hosting a party, it gets stuffy if everyone is crammed into the same

@@ -5,6 +5,7 @@ date: 2013-11-11
 link: http://www.html5rocks.com/en/tutorials/webcomponents/imports/
 category: articles
 layout: single
+tags: ['HTML Imports']
 ---
 
 Think about how you load different types of resources on the web. For JS, we
