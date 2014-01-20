@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<%- @partial('header-bar', { name: 'header-bar' }) %>
 
 <div class="wrapper">
     <main class="layout-single">
