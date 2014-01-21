@@ -6,9 +6,9 @@
     </a>
     <nav class="nav">
       <ul>
-        <li class="nav-item"><a href="#" class="nav-link" title="home">home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" title="articles">articles</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" title="presentations">presentations</a></li>
+        <li class="nav-item"><a href="<%= @site.url %>/" class="nav-link" title="home">home</a></li>
+        <li class="nav-item"><a href="<%= @site.url %>/articles/" class="nav-link" title="articles">articles</a></li>
+        <li class="nav-item"><a href="<%= @site.url %>/presentations/" class="nav-link" title="presentations">presentations</a></li>
       </ul>
     </nav>
     <!-- social -->

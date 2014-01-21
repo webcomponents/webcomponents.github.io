@@ -3,7 +3,7 @@
     <h3><%= @name %></h3>
     <% for item in @docs: %>
         <% if item.date: %>
-            <a class="story-content" href="<% if item.link: %><%= item.link %><% else: %><%= item.url %><% end %>">
+            <a class="story-content" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>">
                 <% if item.image: %>
                     <div class="story-image">
                         <img src="<%= @site.url %>/img/posts/<%= item.image %>" alt="<%= item.title %>">
@@ -16,5 +16,5 @@
             </a>
         <% end %>
     <% end %>
-    <a class="see-all" href="/<%= @slug %>/">See all <%= @slug %></a>
+    <a class="see-all" href="<%= @site.url %>/<%= @slug %>/">See all <%= @slug %></a>
 </section>
