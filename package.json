@@ -22,6 +22,7 @@
     "docpad": "~6.60.3",
     "docpad-plugin-cleanurls": "~2.6.2",
     "docpad-plugin-eco": "~2.0.3",
+    "docpad-plugin-ghpages": "~2.4.2",
     "docpad-plugin-marked": "~2.2.0",
     "docpad-plugin-moment": "~2.0.2",
     "docpad-plugin-paged": "~2.2.4",

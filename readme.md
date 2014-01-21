@@ -39,6 +39,12 @@ To generate a static version of the site, that is ready to upload to a server (i
 $ docpad generate --env static
 ```
 
+To generate and send the output to `gh-pages` branch, run:
+
+```sh
+$ docpad deploy-ghpages --env static
+```
+
 ## Tasks
 
 We use [Grunt](http://gruntjs.com/), a task-runner in [Node](http://nodejs.org/), to automate things.
