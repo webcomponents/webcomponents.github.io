@@ -1,9 +1,13 @@
 <!-- <%= @name %> -->
 <header class="header-bar">
   <div class="wrapper">
+
+    <!-- Logo -->
     <a class="logo" href="<%= @site.url %>">
         <img src="<%= @site.url %>/img/logo.png" alt="<%= @site.title %>" width="60px">
     </a>
+
+    <!-- Menu -->
     <nav class="nav">
       <ul>
         <li class="nav-item"><a href="<%= @site.url %>/" class="nav-link" title="home">home</a></li>
@@ -11,15 +15,12 @@
         <li class="nav-item"><a href="<%= @site.url %>/presentations/" class="nav-link" title="presentations">presentations</a></li>
       </ul>
     </nav>
-    <!-- social -->
+
+    <!-- Social Button -->
     <ul class="social-buttons">
       <li class="github-btn">
           <iframe src="http://ghbtns.com/github-btn.html?user=WebComponentsOrg&repo=webcomponents.org&type=watch&count=true&size=small"
   allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
-      </li>
-      <li class="github-btn">
-          <iframe src="http://ghbtns.com/github-btn.html?user=WebComponentsOrg&repo=webcomponents.org&type=fork&count=true&size=small"
-  allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
       </li>
       <li class="tweet-btn">
         <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.1359159993.html#_=1360010161235&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=en&amp;size=m&amp;text=http%3A%2F%2Fcustomelements.io ~ A Web Components Gallery for Modern Web Apps&amp;url" class="twitter-share-button twitter-count-horizontal" style="width: 87px; height: 20px;" title="Twitter Tweet Button" data-twttr-rendered="true"></iframe>
@@ -38,7 +39,7 @@
         </script>
       </li>
     </ul>
-    <!-- / social -->
+
   </div>
 </header>
 

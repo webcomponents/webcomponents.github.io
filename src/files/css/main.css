@@ -59,12 +59,6 @@ code {
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #3a99d7;
-    background-image: -webkit-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
-    background-image: -moz-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
-    background-image: radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
-    background-size: 800px 450px;
-    background-position: center -100px;
-    background-repeat: no-repeat;
 }
 
 header, section {
@@ -82,9 +76,16 @@ header, section {
    ========================================================================== */
 
 .header {
-    margin: 50px auto 0;
+    margin: 0 auto;
     overflow: hidden;
+    padding-top: 50px;
     position: relative;
+    background-image: -webkit-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+    background-image: -moz-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+    background-image: radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+    background-size: 800px 450px;
+    background-position: center -100px;
+    background-repeat: no-repeat;
 }
 
 .header .logo {
@@ -152,14 +153,18 @@ header, section {
     background-color: rgba(22, 100, 151, .8);
     margin-bottom: 40px;
     text-align: left;
+    box-shadow: 0 3px 1px 0 rgba(0, 0, 0, .1);
 }
 
 .header-bar .logo {
-    width: 120px;
+    width: 125px;
     padding: 10px 40px;
-    border-right: 1px solid rgba(0, 0, 0, .2);
-    margin-right: 20px;
     float: left;
+    background-image: -webkit-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+    background-image: -moz-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+    background-image: radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+    background-size: 100% 200%;
+    background-position: 0 -30px;
 }
 
 .nav {
@@ -219,6 +224,10 @@ header, section {
 .social-buttons li {
     display: inline-block;
     margin-left: 5px;
+}
+
+.github-btn {
+    width: 88px;
 }
 
 /* --- Centralized header bar --- */

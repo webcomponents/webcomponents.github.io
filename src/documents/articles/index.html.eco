@@ -4,7 +4,7 @@ isPaged: true
 pagedCollection: 'articles'
 pageSize: 6
 ---
-<%- @partial('header-bar', { name: 'header-bar' }) %>
+<%- @partial('header-bar', { name: 'Header Bar' }) %>
 
 <div class="wrapper">
     <main class="card-container layout-archive">
