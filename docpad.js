@@ -9,7 +9,7 @@ module.exports = {
     templateData: {
         site: {
             title: 'WebComponents.org',
-            description: 'The open web technology that will change the way you build apps',
+            description: 'The web platform specs that will change the way you build apps',
             url: 'http://webcomponentsorg.github.io/webcomponents.org'
         },
 
