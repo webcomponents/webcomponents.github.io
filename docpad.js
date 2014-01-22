@@ -10,7 +10,7 @@ module.exports = {
         site: {
             title: 'WebComponents.org',
             description: 'The open web technology that will change the way you build apps',
-            url: 'http://zenorocha.github.io/webcomponents.org'
+            url: 'http://webcomponentsorg.github.io/webcomponents.org'
         },
 
         authors: {
