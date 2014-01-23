@@ -16,6 +16,9 @@
     "node": ">=0.8"
   },
   "scripts": {
+    "deploy": "node_modules/docpad/bin/docpad deploy-ghpages --env static",
+    "generate": "node_modules/docpad/bin/docpad generate --env static",
+    "watch": "node_modules/docpad/bin/docpad run",
     "test": "grunt pagespeed"
   },
   "dependencies": {
