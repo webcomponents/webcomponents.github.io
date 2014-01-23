@@ -18,7 +18,7 @@
 
                 <div class="post-info">
                     <p class="post-author">
-                        By <a href="<%= @getAuthorTwitter(@document.author).twitter %>"><%= @getAuthor(@document.author).name %></a>
+                        By <a href="<%= @getAuthorTwitter(@document.author) %>"><%= @getAuthor(@document.author).name %></a>
                     </p>
 
                     <% if @document.event: %>

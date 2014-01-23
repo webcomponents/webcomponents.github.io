@@ -37,5 +37,10 @@
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet" type="text/css">
+
+    <% if @document.author: %>
+        <!-- Author -->
+        <link rel="author" href="<%= @getAuthorGooglePlus(@document.author) %>">
+    <% end %>
 </head>
 <body>
