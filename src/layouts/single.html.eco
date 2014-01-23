@@ -42,7 +42,7 @@
             <div class="card card-comments">
                 <div id="disqus_thread"></div>
                 <script type="text/javascript">
-                  var disqus_shortname = 'zenorocha';
+                  var disqus_shortname = 'webcomponentsorg';
 
                   (function() {
                       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
