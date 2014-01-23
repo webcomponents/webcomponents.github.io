@@ -10,9 +10,9 @@
     <!-- Menu -->
     <nav class="nav">
       <ul>
-        <li class="nav-item"><a href="<%= @site.url %>/" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="<%= @site.url %>/articles/" class="nav-link">Articles</a></li>
-        <li class="nav-item"><a href="<%= @site.url %>/presentations/" class="nav-link">Presentations</a></li>
+        <li class="nav-item"><a href="<%= @site.url %>/" class="nav-link" title="Home">Home</a></li>
+        <li class="nav-item"><a href="<%= @site.url %>/articles/" class="nav-link" title="Articles">Articles</a></li>
+        <li class="nav-item"><a href="<%= @site.url %>/presentations/" class="nav-link" title="Presentations">Presentations</a></li>
       </ul>
     </nav>
 
