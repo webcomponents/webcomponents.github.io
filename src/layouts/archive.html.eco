@@ -1,0 +1,40 @@
+<%- @partial('header') %>
+
+<%- @partial('menu') %>
+
+<div class="wrapper">
+    <main class="card-container layout-archive">
+        <!-- Post Listing -->
+        <%- @content %>
+    </main>
+
+    <!-- Page Listing -->
+    <div class="pagination">
+        <ul>
+            <!-- Previous Page Button -->
+            <% unless @hasPrevPage(): %>
+                <li class="disabled"><span>Previous</span></li>
+            <% else: %>
+                <li><a href="<%= @site.url %><%= @getPrevPage() %>">Previous</a></li>
+            <% end %>
+
+            <!-- Page Number Buttons -->
+            <% for pageNumber in [0..@document.page.count-1]: %>
+                <% if @document.page.number is pageNumber: %>
+                    <li class="active"><span><%= pageNumber + 1 %></span></li>
+                <% else: %>
+                    <li><a href="<%= @site.url %><%= @getPageUrl(pageNumber) %>"><%= pageNumber + 1 %></a></li>
+                <% end %>
+            <% end %>
+
+            <!-- Next Page Button -->
+            <% unless @hasNextPage(): %>
+                <li class="disabled"><span>Next</span></li>
+            <% else: %>
+                <li><a href="<%= @site.url %><%= @getNextPage() %>">Next</a></li>
+            <% end %>
+        </ul>
+    </div>
+</div>
+
+<%- @partial('footer') %>

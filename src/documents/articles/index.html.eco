@@ -1,76 +1,39 @@
 ---
-layout: default
+layout: archive
+
 isPaged: true
 pagedCollection: 'articles'
 pageSize: 6
 ---
-<%- @partial('header-bar', { name: 'Header Bar' }) %>
 
-<div class="wrapper">
-    <main class="card-container layout-archive">
-        <div id="articles">
-
-            <!-- Post Listing -->
-            <% for item in @getPageCollection("articles").toJSON(): %>
-                <section class="card card-story card-articles">
-                    <a class="story-content" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>">
-                        <% if item.image: %>
-                            <div class="story-image">
-                                <img src="<%= @site.url %>/img/posts/<%= item.image %>" alt="<%= item.title %>">
-                            </div>
-                        <% end %>
-                        <p class="title"><%= item.title %></p>
-                    </a>
-
-                    <div class="post-info">
-                        <p class="post-author">
-                            By <a href="http://twitter.com/<%= @getAuthor(item.author).twitter %>"><%= @getAuthor(item.author).name %></a>
-                        </p>
-
-                        <p class="post-date">
-                            <img src="<%= @site.url %>/img/icon-date.png" alt="Clock">
-                            <%= @moment(item.date).format('MMMM Do, YYYY') %>
-                        </p>
-                    </div>
-
-                    <div class="description">
-                        <%- @getExcerpt(String(item.contentRenderedWithoutLayouts)) %>
-
-                        <% if @hasReadMore(String(item.contentRenderedWithoutLayouts)): %>
-                            <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
-                        <% end %>
-                    </div>
-                </section>
+<% for item in @getPageCollection("articles").toJSON(): %>
+    <section class="card card-story card-articles">
+        <a class="story-content" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>">
+            <% if item.image: %>
+                <div class="story-image">
+                    <img src="<%= @site.url %>/img/stories/<%= item.image %>" alt="<%= item.title %>">
+                </div>
             <% end %>
+            <p class="title"><%= item.title %></p>
+        </a>
 
+        <div class="post-info">
+            <p class="post-author">
+                By <a href="http://twitter.com/<%= @getAuthor(item.author).twitter %>"><%= @getAuthor(item.author).name %></a>
+            </p>
+
+            <p class="post-date">
+                <img src="<%= @site.url %>/img/icon-date.png" alt="Clock">
+                <%= @moment(item.date).format('MMMM Do, YYYY') %>
+            </p>
         </div>
-    </main>
 
-    <!-- Page Listing -->
-    <div class="pagination">
-        <ul>
-            <!-- Previous Page Button -->
-            <% unless @hasPrevPage(): %>
-                <li class="disabled"><span>Previous</span></li>
-            <% else: %>
-                <li><a href="<%= @site.url %><%= @getPrevPage() %>">Previous</a></li>
-            <% end %>
+        <div class="description">
+            <%- @getExcerpt(String(item.contentRenderedWithoutLayouts)) %>
 
-            <!-- Page Number Buttons -->
-            <% for pageNumber in [0..@document.page.count-1]: %>
-                <% if @document.page.number is pageNumber: %>
-                    <li class="active"><span><%= pageNumber + 1 %></span></li>
-                <% else: %>
-                    <li><a href="<%= @site.url %><%= @getPageUrl(pageNumber) %>"><%= pageNumber + 1 %></a></li>
-                <% end %>
+            <% if @hasReadMore(String(item.contentRenderedWithoutLayouts)): %>
+                <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
             <% end %>
-
-            <!-- Next Page Button -->
-            <% unless @hasNextPage(): %>
-                <li class="disabled"><span>Next</span></li>
-            <% else: %>
-                <li><a href="<%= @site.url %><%= @getNextPage() %>">Next</a></li>
-            <% end %>
-        </ul>
-    </div>
-</div>
+        </div>
+    </section>
+<% end %>
