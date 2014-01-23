@@ -8,9 +8,9 @@ module.exports = {
 
     templateData: {
         site: {
-            title: 'WebComponents.org',
-            description: 'The web platform specs that will change the way you build apps',
-            url: 'http://webcomponentsorg.github.io/webcomponents.org'
+            title: "WebComponents.org",
+            description: "The web platform specs that will change the way you build apps",
+            url: "http://webcomponentsorg.github.io/webcomponents.org"
         },
 
         /* Authors
@@ -68,8 +68,16 @@ module.exports = {
             return this.authors[author];
         },
 
+        getAuthorGravatar: function(author) {
+            return "https://2.gravatar.com/avatar/" + this.authors[author].gravatar;
+        },
+
+        getAuthorTwitter: function(author) {
+            return "https://twitter.com/" + this.authors[author].twitter;
+        },
+
         getExcerpt: function(content) {
-            var i = content.search('<!-- Read more -->');
+            var i = content.search("<!-- Read more -->");
 
             if (i >= 0) {
                 return content.slice(0, (i - 1));
@@ -79,7 +87,7 @@ module.exports = {
         },
 
         hasReadMore: function(content) {
-            return content.search('<!-- Read more -->') >= 0;
+            return content.search("<!-- Read more -->") >= 0;
         }
     },
 
@@ -91,7 +99,7 @@ module.exports = {
         development: {
             templateData: {
                 site: {
-                    url: 'http://localhost:9778'
+                    url: "http://localhost:9778"
                 }
             }
         }
@@ -105,9 +113,9 @@ module.exports = {
         articles: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
-                    $startsWith: '/articles'
+                    $startsWith: "/articles"
                 },
-                layout: 'single',
+                layout: "single",
                 isPagedAuto: {
                     $ne: true
                 }
@@ -117,7 +125,7 @@ module.exports = {
         browserSupport: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
-                    $startsWith: '/browser-support'
+                    $startsWith: "/browser-support"
                 }
             }, [{ order: 1 }]);
         },
@@ -125,7 +133,7 @@ module.exports = {
         discover: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
-                    $startsWith: '/discover'
+                    $startsWith: "/discover"
                 }
             }, [{ title: 1 }]);
         },
@@ -133,7 +141,7 @@ module.exports = {
         polyfills: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
-                    $startsWith: '/polyfills'
+                    $startsWith: "/polyfills"
                 }
             }, [{ title: 1 }]);
         },
@@ -141,9 +149,9 @@ module.exports = {
         presentations: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
-                    $startsWith: '/presentations'
+                    $startsWith: "/presentations"
                 },
-                layout: 'single',
+                layout: "single",
                 isPagedAuto: {
                     $ne: true
                 }
@@ -153,10 +161,21 @@ module.exports = {
         specs: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
-                    $startsWith: '/specs'
+                    $startsWith: "/specs"
                 }
             }, [{ order: 1 }]);
         }
-    }
+    },
 
+    /* =========================================================================
+       Plugins Configuration
+    ========================================================================= */
+
+    plugins: {
+        moment: {
+            formats: [
+                { raw: 'date', format: 'MMMM Do, YYYY', formatted: 'humanDate' }
+            ]
+        }
+    }
 };

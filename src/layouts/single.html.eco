@@ -18,7 +18,7 @@
 
                 <div class="post-info">
                     <p class="post-author">
-                        By <a href="http://twitter.com/<%= @getAuthor(@document.author).twitter %>"><%= @getAuthor(@document.author).name %></a>
+                        By <a href="<%= @getAuthorTwitter(@document.author).twitter %>"><%= @getAuthor(@document.author).name %></a>
                     </p>
 
                     <% if @document.event: %>
@@ -30,7 +30,7 @@
 
                     <p class="post-date">
                         <span class="icon-clock"></span>
-                        <%= @moment(@document.date).format('MMMM Do, YYYY') %>
+                        <%- @document.humanDate %>
                     </p>
                 </div>
 
@@ -54,10 +54,10 @@
         </div>
         <div class="single-sidebar">
             <section class="card card-author">
-                <img class="author-avatar" src="https://2.gravatar.com/avatar/<%= @getAuthor(@document.author).gravatar %>" alt="<%= @getAuthor(@document.author).name %>">
+                <img class="author-avatar" src="<%= @getAuthorGravatar(@document.author) %>" alt="<%= @getAuthor(@document.author).name %>">
                 <p class="author-name"><%= @getAuthor(@document.author).name %></p>
                 <p class="author-twitter">
-                    <a href="http://twitter.com/<%= @getAuthor(@document.author).twitter %>">@<%= @getAuthor(@document.author).twitter %></a>
+                    <a href="<%= @getAuthorTwitter(@document.author) %>">@<%= @getAuthor(@document.author).twitter %></a>
                 </p>
                 <p class="author-bio"><%= @getAuthor(@document.author).bio %></p>
             </section>
