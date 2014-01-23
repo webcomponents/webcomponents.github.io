@@ -62,7 +62,7 @@
                 <p class="author-bio"><%= @getAuthor(@document.author).bio %></p>
             </section>
 
-            <section class="card card-tags">
+            <!-- <section class="card card-tags">
                 <h3>Tags</h3>
                 <ul class="tag-list">
                     <li>
@@ -85,7 +85,7 @@
                     </li>
                 </ul>
                 <a class="see-all" href="/tags/">See all tags</a>
-            </section>
+            </section> -->
 
         </div>
     </main>
