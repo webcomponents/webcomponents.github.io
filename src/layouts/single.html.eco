@@ -1,7 +1,6 @@
----
-layout: default
----
-<%- @partial('header-bar', { name: 'Header Bar' }) %>
+<%- @partial('header') %>
+
+<%- @partial('menu') %>
 
 <div class="wrapper">
     <main class="layout-single">
@@ -82,3 +81,5 @@ layout: default
         </div>
     </main>
 </div>
+
+<%- @partial('footer') %>

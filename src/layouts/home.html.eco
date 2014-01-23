@@ -1,0 +1,5 @@
+<%- @partial('header') %>
+
+<%- @content %>
+
+<%- @partial('footer') %>

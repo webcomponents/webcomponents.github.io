@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title><%= @site.title %></title>
+    <meta name="description" content="<%= @site.description %>">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="<%= @site.url %>/css/main.css">
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" media="all" href="<%= @site.url %>/css/ielt10.css">
+    <![endif]-->
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet" type="text/css">
+</head>
+<body>
