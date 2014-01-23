@@ -591,10 +591,6 @@ header, section {
     padding-left: 0;
 }
 
-.card-story .post-date img {
-    vertical-align: center;
-}
-
 .read-more {
     padding-top: 10px;
     color: #ff5c03;
@@ -745,8 +741,8 @@ header, section {
     background: #f2f2f2;
 }
 
-.tag-list img {
-    vertical-align: bottom;
+.tag-list li span {
+    color: #9c9c9c;
     margin-right: 3px;
 }
 
@@ -800,3 +796,36 @@ header, section {
 @keyframes love {
     to { transform: scale(1.2); }
 }
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face {
+    font-family: 'WebComponentsOrg';
+    src:url('../font/WebComponentsOrg.eot');
+    src:url('../font/WebComponentsOrg.eot?#iefix') format('embedded-opentype'),
+        url('../font/WebComponentsOrg.woff') format('woff'),
+        url('../font/WebComponentsOrg.ttf') format('truetype'),
+        url('../font/WebComponentsOrg.svg#WebComponentsOrg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'WebComponentsOrg';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tag:before { content: "\e600"; }
+.icon-clock:before { content: "\e60c"; }
+.icon-location:before { content: "\e601"; }

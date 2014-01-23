@@ -23,7 +23,7 @@ pageSize: 6
             </p>
 
             <p class="post-date">
-                <img src="<%= @site.url %>/img/icon-date.png" alt="Clock">
+                <span class="icon-clock"></span>
                 <%= @moment(item.date).format('MMMM Do, YYYY') %>
             </p>
         </div>

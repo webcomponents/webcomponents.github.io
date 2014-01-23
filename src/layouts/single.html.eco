@@ -20,7 +20,7 @@
                     </p>
 
                     <p class="post-date">
-                        <img src="<%= @site.url %>/img/icon-date.png" alt="Clock">
+                        <span class="icon-clock"></span>
                         <%= @moment(@document.date).format('MMMM Do, YYYY') %>
                     </p>
                 </div>
@@ -58,19 +58,19 @@
                 <ul class="tag-list">
                     <li>
                         <a href="#">
-                            <img class="icon" src="<%= @site.url %>/img/icon-tag.png" alt="Tag">
+                            <span class="icon-tag"></span>
                             Lorem ipsum dolor
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img class="icon" src="<%= @site.url %>/img/icon-tag.png" alt="Tag">
+                            <span class="icon-tag"></span>
                             Lorem ipsum dolor
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img class="icon" src="<%= @site.url %>/img/icon-tag.png" alt="Tag">
+                            <span class="icon-tag"></span>
                             Lorem ipsum dolor
                         </a>
                     </li>
