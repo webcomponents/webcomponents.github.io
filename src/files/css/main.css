@@ -2,12 +2,12 @@
    Reset
    ========================================================================== */
 * {
-    margin: 0;
-    padding: 0;
     border: 0;
-    text-decoration: none;
     line-height: 1em;
+    margin: 0;
     outline: 0;
+    padding: 0;
+    text-decoration: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -26,12 +26,12 @@ form:after,
 ul:after,
 dl:after,
 a:after {
+    clear: both;
     content: ".";
     display: block;
-    clear: both;
-    visibility: hidden;
     height: 0;
     overflow: hidden;
+    visibility: hidden;
 }
 
 hr {
@@ -39,13 +39,13 @@ hr {
 }
 
 code {
-    padding: 2px 4px;
-    font-size: 80%;
-    color: #c7254e;
-    white-space: nowrap;
     background-color: #f9f2f4;
     border-radius: 4px;
+    color: #c7254e;
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 80%;
+    padding: 2px 4px;
+    white-space: nowrap;
 }
 
 .clear {
@@ -57,8 +57,8 @@ code {
    ========================================================================== */
 
 body {
-    font-family: 'Raleway', sans-serif;
     background-color: #3a99d7;
+    font-family: 'Raleway', sans-serif;
 }
 
 header, section {
@@ -66,8 +66,8 @@ header, section {
 }
 
 .wrapper {
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
     position: relative;
 }
 
@@ -76,16 +76,16 @@ header, section {
    ========================================================================== */
 
 .header {
+    background-image: -moz-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+    background-image: -webkit-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+    background-image: radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    background-size: 800px 450px;
     margin: 0 auto;
     overflow: hidden;
     padding-top: 50px;
     position: relative;
-    background-image: -webkit-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
-    background-image: -moz-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
-    background-image: radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
-    background-size: 800px 450px;
-    background-position: center -100px;
-    background-repeat: no-repeat;
 }
 
 .header .logo {
@@ -151,20 +151,16 @@ header, section {
 
 .header-bar {
     background-color: rgba(22, 100, 151, .8);
+    box-shadow: 0 3px 1px 0 rgba(0, 0, 0, .1);
     margin-bottom: 40px;
     text-align: left;
-    box-shadow: 0 3px 1px 0 rgba(0, 0, 0, .1);
 }
 
 .header-bar .logo {
-    width: 125px;
-    padding: 10px 40px;
     float: left;
-    background-image: -webkit-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
-    background-image: -moz-radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
-    background-image: radial-gradient(center, contain ellipse, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 70%, rgba(255,255,255,0));
-    background-size: 100% 200%;
-    background-position: 0 -30px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    width: 95px;
 }
 
 .nav {
@@ -178,16 +174,16 @@ header, section {
 
 .nav-item {
     height: 1em;
-    padding: 0 20px;
     overflow: hidden;
+    padding: 0 20px;
 }
 
 .nav-link {
-    position: relative;
-    display: block;
     color: #fff;
+    display: block;
     font-size: 1em;
     line-height: 1em;
+    position: relative;
     text-transform: uppercase;
     -webkit-transition: -webkit-transform .3s linear;
     -moz-transition: -moz-transform .3s linear;
@@ -195,11 +191,11 @@ header, section {
 }
 
 .nav-link::before {
-    position: absolute;
-    top: 105%;
+    color: #fff;
     content: attr(title);
     font-weight: 700;
-    color: #fff;
+    position: absolute;
+    top: 105%;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -216,9 +212,9 @@ header, section {
 
 .social-buttons {
     float: right;
-    text-align: right;
     list-style: none;
     padding-top: 18px;
+    text-align: right;
 }
 
 .social-buttons li {
@@ -233,11 +229,11 @@ header, section {
 /* --- Centralized header bar --- */
 @media (max-width: 980px) {
     .header-bar .logo {
-        float: none;
-        padding: 20px 0;
-        margin: 0 auto;
         border: none;
         display: block;
+        float: none;
+        margin: 0 auto;
+        padding: 20px 0;
         text-align: center;
     }
 
@@ -253,17 +249,17 @@ header, section {
 
     .nav-item {
         height: 1em;
-        padding: 0 20px;
-        overflow: hidden;
         margin-bottom: 10px;
+        overflow: hidden;
+        padding: 0 20px;
     }
 
     .social-buttons {
         display: none;
         float: none;
         list-style: none;
-        text-align: center;
         padding-top: 20px;
+        text-align: center;
     }
 
     .social-buttons li {
@@ -326,9 +322,9 @@ header, section {
 .card {
     background: #fff;
     border-radius: 5px;
+    box-shadow: 0 3px 1px 0 rgba(0, 0, 0, .1);
     margin-bottom: 40px;
     overflow: hidden;
-    box-shadow: 0 3px 1px 0 rgba(0, 0, 0, .1);
     -webkit-column-break-inside: avoid;
     -moz-column-break-inside: avoid;
     column-break-inside: avoid;
@@ -395,8 +391,8 @@ header, section {
 }
 
 .story-image {
-    overflow: hidden;
     margin: -20px -20px 10px;
+    overflow: hidden;
 }
 
 .story-image img {
@@ -478,9 +474,9 @@ header, section {
 .profile-list .picture {
     border-radius: 50%;
     left: 0;
+    overflow: hidden;
     top: 0;
     width: 100%;
-    overflow: hidden;
 }
 
 .profile-list .name {
@@ -493,9 +489,9 @@ header, section {
    ========================================================================== */
 
 .card-what .description {
-    padding: 20px;
-    line-height: 1.6em;
     font-size: .9em;
+    line-height: 1.6em;
+    padding: 20px;
 }
 
 /* Card ~ Browser Support
@@ -546,9 +542,9 @@ header, section {
 
 .layout-archive .title,
 .layout-single .title {
+    color: #434a54;
     font-size: 1.2em;
     font-weight: 600;
-    color: #434a54;
     text-transform: none;
 }
 
@@ -565,15 +561,14 @@ header, section {
     float: left;
     font-size: .9em;
     font-weight: 400;
-    /*margin: 0 0 5px;*/
-    text-transform: uppercase;
     padding: 0 20px;
+    text-transform: uppercase;
 }
 
 .layout-archive .description,
 .layout-single .description {
-    padding: 0 20px 20px;
     font-size: .9em;
+    padding: 0 20px 20px;
 }
 
 .card-story .post-author {
@@ -587,29 +582,29 @@ header, section {
 
 .card-story .post-date {
     color: #9c9c9c;
-    text-transform: none;
     padding-left: 0;
+    text-transform: none;
 }
 
 .read-more {
-    padding-top: 10px;
     color: #ff5c03;
+    padding-top: 10px;
 }
 
 /* Pagination
    ========================================================================== */
 
 .pagination ul {
-    text-align: center;
-    margin: 20px 0 40px;
     font-size: 1.1em;
+    margin: 20px 0 40px;
+    text-align: center;
 }
 
 .pagination li {
-    display: inline-block;
-    padding: 5px;
     border-radius: 5px;
     color: #fff;
+    display: inline-block;
+    padding: 5px;
     text-transform: lowercase;
 }
 
@@ -640,8 +635,8 @@ header, section {
 }
 
 .layout-single .single-content {
-    width: 65%;
     margin-right: 5%;
+    width: 65%;
 }
 
 .layout-single .single-sidebar {
@@ -649,14 +644,14 @@ header, section {
 }
 
 .layout-single .title {
-    margin: 0 20px 5px;
     font-size: 1.5em;
+    margin: 0 20px 5px;
 }
 
 .layout-single .description p,
 .layout-single .description li {
-    margin-bottom: 10px;
     line-height: 1.5em;
+    margin-bottom: 10px;
 }
 
 .layout-single .description ol,
@@ -677,8 +672,8 @@ header, section {
 @media (max-width: 980px) {
     .layout-single .single-content,
     .layout-single .single-sidebar {
-        width: 100%;
         float: none;
+        width: 100%;
     }
 
     .layout-single .single-content {
@@ -699,9 +694,9 @@ header, section {
 }
 
 .card-author .author-name {
+    font-size: 1.2em;
     margin-left: 100px;
     margin-top: 15px;
-    font-size: 1.2em;
 }
 
 .card-author .author-bio {
@@ -726,10 +721,10 @@ header, section {
 }
 
 .tag-list li a {
-    padding: 15px 0 15px 20px;
-    display: block;
     color: #434a54;
+    display: block;
     font-size: .9em;
+    padding: 15px 0 15px 20px;
     -webkit-transition: background .3s;
     -moz-transition: background .3s;
     -ms-transition: background .3s;
@@ -758,8 +753,8 @@ header, section {
    ========================================================================== */
 
 .credits {
-    padding: 20px 0;
     background-color: #fff;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -772,11 +767,11 @@ header, section {
 }
 
 .credits .love {
+    color: #e74c3c;
     display: inline-block;
+    font-size: 1.4em;
     position: relative;
     top: .2em;
-    font-size: 1.4em;
-    color: #e74c3c;
     -webkit-transform: scale(.9);
     -moz-transform: scale(.9);
     transform: scale(.9);
@@ -814,12 +809,12 @@ header, section {
 
 [class^="icon-"], [class*=" icon-"] {
     font-family: 'WebComponentsOrg';
-    speak: none;
     font-style: normal;
-    font-weight: normal;
     font-variant: normal;
-    text-transform: none;
+    font-weight: normal;
     line-height: 1;
+    speak: none;
+    text-transform: none;
 
     /* Better Font Rendering */
     -webkit-font-smoothing: antialiased;
