@@ -6,6 +6,7 @@
     <title><%= @site.title %></title>
     <meta name="description" content="<%= @site.description %>">
     <meta name="viewport" content="width=device-width">
+    <meta name="google-site-verification" content="vE_TSC7WOaWmPWAQryKIW3zmibsq7sVDF6I1Tcfex7U">
 
     <!-- CSS -->
     <link rel="stylesheet" href="<%= @site.url %>/css/main.css">
