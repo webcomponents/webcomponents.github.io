@@ -6,10 +6,12 @@
     <main class="layout-single">
         <div class="single-content">
             <section class="card card-story">
-                <% if @document.image: %>
-                    <div class="story-image">
-                        <img src="<%= @site.url %>/img/stories/<%= @document.image %>" alt="<%= @document.title %>">
-                    </div>
+                <% if @document.category != 'presentations': %>
+                    <% if @document.image: %>
+                        <div class="story-image">
+                            <img src="<%= @site.url %>/img/stories/<%= @document.image %>" alt="<%= @document.title %>">
+                        </div>
+                    <% end %>
                 <% end %>
 
                 <p class="title"><%= @document.title %></p>
@@ -18,6 +20,13 @@
                     <p class="post-author">
                         By <a href="http://twitter.com/<%= @getAuthor(@document.author).twitter %>"><%= @getAuthor(@document.author).name %></a>
                     </p>
+
+                    <% if @document.event: %>
+                        <p class="post-location">
+                            <span class="icon-location"></span>
+                            <%= @document.event %>
+                        </p>
+                    <% end %>
 
                     <p class="post-date">
                         <span class="icon-clock"></span>

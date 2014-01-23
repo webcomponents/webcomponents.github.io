@@ -557,11 +557,12 @@ header, section {
 }
 
 .card-story .post-author,
+.card-story .post-location,
 .card-story .post-date {
     float: left;
     font-size: .9em;
     font-weight: 400;
-    padding: 0 20px;
+    margin: 0 0 0 20px;
     text-transform: uppercase;
 }
 
@@ -580,6 +581,7 @@ header, section {
     display: inline;
 }
 
+.card-story .post-location,
 .card-story .post-date {
     color: #9c9c9c;
     padding-left: 0;
@@ -645,7 +647,7 @@ header, section {
 
 .layout-single .title {
     font-size: 1.5em;
-    margin: 0 20px 5px;
+    margin: 20px 20px 5px;
 }
 
 .layout-single .description p,
