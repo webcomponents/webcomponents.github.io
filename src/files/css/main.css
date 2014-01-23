@@ -668,6 +668,10 @@ header, section {
 
 /* --- One column --- */
 @media (max-width: 980px) {
+    .layout-single {
+        padding: 0 20px;
+    }
+
     .layout-single .single-content,
     .layout-single .single-sidebar {
         float: none;
@@ -808,6 +812,13 @@ header, section {
 
 @keyframes love {
     to { transform: scale(1.2); }
+}
+
+/* --- Tiny screens --- */
+@media (max-width: 360px) {
+    .credits p {
+        font-size: .9em;
+    }
 }
 
 /* ==========================================================================
