@@ -3,28 +3,28 @@
 <head>
     <meta charset="utf-8">
 
-    <title><%= @site.title %></title>
+    <title><%= @getTitle() %></title>
     <meta name="viewport" content="width=device-width">
     <meta name="google-site-verification" content="vE_TSC7WOaWmPWAQryKIW3zmibsq7sVDF6I1Tcfex7U">
-    
+
     <!-- for Google -->
-    <meta name="description" content="<%= @site.description %>">
-    <meta name="author" content="The Community" />
-    <meta name="application-name" content="" />
+    <meta name="description" content="<%= @getDescription() %>">
+    <meta name="author" content="The Community">
+    <meta name="application-name" content="">
 
-    <!-- for Facebook -->          
-    <meta property="og:title" content="<%= @site.title %>" />
-    <meta property="og:type" content="article" />
-    <meta property="og:image" content="<%= @site.url %>/img/logo.png" />
-    <meta property="og:url" content="<%= @site.url %>" />
-    <meta property="og:description" content="<%= @site.description %>" />
+    <!-- for Facebook -->
+    <meta property="og:title" content="<%= @getTitle() %>">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="<%= @site.url %>/img/logo.png">
+    <meta property="og:url" content="<%= @site.url %>">
+    <meta property="og:description" content="<%= @getDescription() %>">
 
-    <!-- for Twitter -->          
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="<%= @site.title %>" />
-    <meta name="twitter:description" content="<%= @site.description %>" />
-    <meta name="twitter:image" content="<%= @site.url %>/img/logo.png" />
-    
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="<%= @getTitle() %>">
+    <meta name="twitter:description" content="<%= @getDescription() %>">
+    <meta name="twitter:image" content="<%= @site.url %>/img/logo.png">
+
     <!-- CSS -->
     <link rel="stylesheet" href="<%= @site.url %>/css/main.css">
 

@@ -61,7 +61,7 @@ module.exports = {
             }
         },
 
-        /* Utilities
+        /* Helpers
         ===================================================================== */
 
         getAuthor: function(author) {
@@ -74,6 +74,24 @@ module.exports = {
 
         getAuthorTwitter: function(author) {
             return "https://twitter.com/" + this.authors[author].twitter;
+        },
+
+        getTitle: function() {
+            if (this.document.title) {
+                return "" + this.site.title + " — " + this.document.title;
+            }
+            else {
+                return "" + this.site.title;
+            }
+        },
+
+        getDescription: function() {
+            if (this.hasReadMore(this.document.content)) {
+                return "" + this.getExcerpt(this.document.content);
+            }
+            else {
+                return "" + this.site.description;
+            }
         },
 
         getExcerpt: function(content) {
