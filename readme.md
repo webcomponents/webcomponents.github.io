@@ -80,9 +80,13 @@ IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
 WebComponents.org is maintained by these people and a bunch of awesome [contributors](https://github.com/WebComponentsOrg/webcomponents.org/graphs/contributors).
 
-[![John Doe](https://2.gravatar.com/avatar/b72a336d704fa47a87910fa4a08705ef)](https://github.com/lolcat) | [![John Doe](https://2.gravatar.com/avatar/b72a336d704fa47a87910fa4a08705ef)](https://github.com/lolcat) | [![John Doe](https://2.gravatar.com/avatar/b72a336d704fa47a87910fa4a08705ef)](https://github.com/lolcat) | [![John Doe](https://2.gravatar.com/avatar/b72a336d704fa47a87910fa4a08705ef)](https://github.com/lolcat) | [![John Doe](https://2.gravatar.com/avatar/b72a336d704fa47a87910fa4a08705ef)](https://github.com/lolcat) | [![John Doe](https://2.gravatar.com/avatar/b72a336d704fa47a87910fa4a08705ef)](https://github.com/lolcat)
---- | --- | --- | --- | --- | --- | ---
-[John Doe](https://github.com/lolcat) | [John Doe](https://github.com/lolcat) | [John Doe](https://github.com/lolcat) | [John Doe](https://github.com/lolcat) | [John Doe](https://github.com/lolcat) | [John Doe](https://github.com/lolcat)
+[![Zeno](https://2.gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93)](https://github.com/zenorocha) | [![Addy](https://2.gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275)](https://github.com/addyosmani) | [![Eric](https://2.gravatar.com/avatar/e7948aac7c52b26470be80311873a398)](https://github.com/ebidel) | [![Briza](https://2.gravatar.com/avatar/c272a0a8972473fdf231f2b2d897c242)](https://github.com/brizabueno) | [![Alex](https://2.gravatar.com/avatar/6b6e18cfbf7f90a6848d85db7348b0e9)](https://github.com/jkomoros)
+--- | --- | --- | --- | ---
+[Zeno Rocha](https://github.com/zenorocha) | [Addy Osmani](https://github.com/addyosmani) | [Eric Bidelman](https://github.com/ebidel) | [Briza Bueno](https://github.com/brizabueno) | [Alex Komoroske](https://github.com/jkomoros)
+
+[![Eduardo](https://2.gravatar.com/avatar/42327de520e674a6d1686845b30778d0)](https://github.com/eduardolundgren) | [![Pascal](https://2.gravatar.com/avatar/b32bdb1fc9fdadeb45d7a1267fdd2fc4)](https://github.com/PascalPrecht) | [![Bernard](https://2.gravatar.com/avatar/bc16c9be1e05e65395487b78b1cc72c0)](https://github.com/bernarddeluna) | [![Sindre](https://2.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9)](https://github.com/sindresorhus) | [![Rob](https://2.gravatar.com/avatar/95c3a3b33ea51545229c625bef42e343)](https://github.com/rob_dodson)
+--- | --- | --- | --- | ---
+[Eduardo L.](https://github.com/eduardolundgren) | [Pascal Precht](https://github.com/PascalPrecht) | [Bernard De L.](https://github.com/bernarddeluna) | [Sindre Sorhus](https://github.com/sindresorhus) | [Rob Dodson](https://github.com/rob_dodson)
 
 ## Contributing
 
