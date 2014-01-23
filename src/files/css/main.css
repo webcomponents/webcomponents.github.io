@@ -681,6 +681,25 @@ header, section {
     }
 }
 
+/* Responsive <iframe> */
+
+.video-wrap {
+    height: 0;
+    margin-bottom: 18px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+}
+
+.video-wrap iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 /* Author
    ========================================================================== */
 
