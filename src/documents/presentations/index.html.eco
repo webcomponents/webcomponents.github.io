@@ -1,0 +1,46 @@
+---
+layout: archive
+
+isPaged: true
+pagedCollection: 'presentations'
+pageSize: 6
+---
+
+<% for item in @getPageCollection("presentations").toJSON(): %>
+    <section class="card card-story card-presentations">
+        <a class="story-content" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>">
+            <% if item.image: %>
+                <div class="story-image">
+                    <img src="<%= @site.url %>/img/stories/<%= item.image %>" alt="<%= item.title %>">
+                </div>
+            <% end %>
+            <p class="title"><%= item.title %></p>
+        </a>
+
+        <div class="post-info">
+            <p class="post-author">
+                By <a href="http://twitter.com/<%= @getAuthor(item.author).twitter %>"><%= @getAuthor(item.author).name %></a>
+            </p>
+
+            <% if item.event: %>
+                <p class="post-location">
+                    <span class="icon-location"></span>
+                    <%= item.event %>
+                </p>
+            <% end %>
+
+            <p class="post-date">
+                <span class="icon-clock"></span>
+                <%= @moment(item.date).format('MMMM Do, YYYY') %>
+            </p>
+        </div>
+
+        <div class="description">
+            <%- @getExcerpt(String(item.contentRenderedWithoutLayouts)) %>
+
+            <% if @hasReadMore(String(item.contentRenderedWithoutLayouts)): %>
+                <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
+            <% end %>
+        </div>
+    </section>
+<% end %>
