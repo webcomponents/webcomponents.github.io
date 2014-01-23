@@ -2,7 +2,7 @@
 title: Web Components Best Practices
 author: addy_osmani
 date: 2013-11-15
-image: sample.jpg
+image: web-components-best-practices.jpg
 category: articles
 layout: single
 tags: ['Best Practices']

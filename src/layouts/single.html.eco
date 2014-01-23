@@ -8,7 +8,7 @@
             <section class="card card-story">
                 <% if @document.image: %>
                     <div class="story-image">
-                        <img src="<%= @site.url %>/img/posts/<%= @document.image %>" alt="<%= @document.title %>">
+                        <img src="<%= @site.url %>/img/stories/<%= @document.image %>" alt="<%= @document.title %>">
                     </div>
                 <% end %>
 

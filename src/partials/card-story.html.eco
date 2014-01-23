@@ -6,7 +6,7 @@
             <a class="story-content" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>">
                 <% if item.image: %>
                     <div class="story-image">
-                        <img src="<%= @site.url %>/img/posts/<%= item.image %>" alt="<%= item.title %>">
+                        <img src="<%= @site.url %>/img/stories/<%= item.image %>" alt="<%= item.title %>">
                     </div>
                 <% end %>
                 <p class="title"><%= item.title %></p>
