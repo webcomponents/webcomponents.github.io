@@ -1,0 +1,8 @@
+<h2>Pages with tag <%= @document.tag %>:</h2>
+<ul>
+        <% for file in @getFiles(tags: $has: @document.tag).toJSON(): %>
+                <li>
+                        <a href="<%= file.url %>"><%= file.title %></a>
+                </li>
+        <% end %>
+</ul>

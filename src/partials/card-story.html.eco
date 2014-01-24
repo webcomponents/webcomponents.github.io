@@ -1,4 +1,3 @@
-<!-- <%= @name %> -->
 <section class="card card-story card-<%= @slug %>" role="region" itemscope itemtype="http://schema.org/Article">
     <h3><%= @name %></h3>
     <% for item in @docs: %>

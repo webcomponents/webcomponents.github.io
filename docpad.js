@@ -246,6 +246,15 @@ module.exports = {
         },
         ghpages: {
             deployBranch: 'master'
+        },
+        tags: {
+            extension: '.html.eco',
+            injectDocumentHelper: function (document) {
+                return document.setMeta({
+                    layout: 'single',
+                    data: "<%- @partial('content/tag', @) %>"
+                });
+            }
         }
     }
 };

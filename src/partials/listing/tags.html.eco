@@ -1,0 +1,17 @@
+<!-- List the tags -->
+<% if @document.tags?.length: %>
+            <section class="card card-tags">
+                <h3>Tags</h3>
+                <ul class="tag-list">
+                    <% for tag in @document.tags: %>
+                        <li>
+                            <a href="/tags/<%= tag %>">
+                                <span class="icon-tag"></span>
+                                <%= tag %>
+                            </a>
+                        </li>
+                    <% end %>
+                </ul>
+                <a class="see-all" href="/tags/">See all tags</a>
+            </section>
+<% end %>
