@@ -4,7 +4,7 @@
 
     <!-- Logo -->
     <a class="logo" href="<%= @site.url %>">
-        <img src="<%= @site.url %>/img/logo-menu.png" alt="<%= @site.title %>">
+        <img src="<%= @site.url %>/img/logo.svg" alt="<%= @site.title %>" width="60" height="39">
     </a>
 
     <!-- Menu -->

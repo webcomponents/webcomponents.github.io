@@ -5,7 +5,7 @@ layout: home
 <div class="wrapper">
     <header class="header" role="banner">
         <a class="logo" href="<%= @site.url %>">
-            <img src="<%= @site.url %>/img/logo.png" alt="<%= @site.title %>" width="246" height="158">
+            <img src="<%= @site.url %>/img/logo.svg" alt="<%= @site.title %>" width="246" height="158">
         </a>
         <h1 class="title"><%= @site.title %></h1>
         <h2 class="subtitle"><%= @site.description %></h2>
