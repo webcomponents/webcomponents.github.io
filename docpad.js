@@ -89,7 +89,7 @@ module.exports = {
 
         getTitle: function() {
             if (this.document.title) {
-                return "" + this.site.title + " — " + this.document.title;
+                return "" + this.document.title + " — " + this.site.title;
             }
             else {
                 return "" + this.site.title;

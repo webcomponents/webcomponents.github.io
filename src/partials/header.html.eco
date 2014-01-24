@@ -28,6 +28,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="<%= @site.url %>/css/main.css">
 
+    <% if @document.layout == "single": %>
+        <link rel="stylesheet" href="<%= @site.url %>/css/syntax-highlight.css">
+    <% end %>
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<%= @site.url %>/img/favicon.ico">
 

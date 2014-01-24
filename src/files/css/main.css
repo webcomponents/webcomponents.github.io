@@ -38,16 +38,6 @@ hr {
     display: none;
 }
 
-code {
-    background-color: #f9f2f4;
-    border-radius: 4px;
-    color: #c7254e;
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    font-size: 80%;
-    padding: 2px 4px;
-    white-space: nowrap;
-}
-
 .clear {
     clear: both;
 }
@@ -664,6 +654,8 @@ header, section {
 .layout-single .description h5,
 .layout-single .description h6 {
     margin: 20px 0 10px;
+    text-align: left;
+    padding-left: 0;
 }
 
 /* --- One column --- */
