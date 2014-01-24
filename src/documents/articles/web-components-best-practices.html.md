@@ -8,18 +8,19 @@ layout: single
 tags: ['Best Practices']
 ---
 
-[Web Components](http://www.w3.org/TR/components-intro/) (WC) fall under a new platform feature that we'd like developers to start embracing. The following is an initial list of best practices we advocate component authors consider to ensure their elements are good citizens in the WC ecosystem.
+[Web Components](http://www.w3.org/TR/components-intro/) (WC) are a new set of web platform features that we'd like developers to start embracing. The following is an initial list of best practices we advocate component authors consider to ensure their elements are good citizens in the WC ecosystem.
 
 <!-- Read more -->
 
-1. **Namespacing** Custom elements must have a dash in their name (e.g `<x-tabs>`, `<my-tabs>`). The text
+Keep in mind that we fully expect best practices to evolve over time and so this initial list should be considered a starting point for a living document that hopes to capture practices with a degreee of consensus.
+
+1. **Namespacing** [Custom elements](http://www.w3.org/TR/custom-elements/) should have a dash in their name (e.g `<x-tabs>`, `<my-tabs>`). The text
    before the dash is effectively a namespace. You want to keep it short but
    also unique. Try not to overlap on someone else's prefix if possible. Only
    use a prefix shorter than three characters if you already have lots of
    developer interest in your set of components.
 2. **Mimic built-in elements as closely as possible** Your component should feel
-   just like any other natively implemented element to developers (other than
-   the import, of course). If in the future you're formally speccing your
+   just like any other natively implemented element to developers. If in the future you're formally speccing your
    element's API, will you feel embarrassed by how different it feels?
 3. **Failing silently is **golden** Components should act like native DOM
    elements, so avoid creating elements that throw JS errors from ordinary DOM
@@ -44,7 +45,7 @@ tags: ['Best Practices']
       being used in that context.
     * List its JavaScript methods and properties.
     * List its events.
-    * When using Shadow DOM, the `<content>` element and "select" attribute
+    * When using [Shadow DOM](http://www.w3.org/TR/shadow-dom/), the `<content>` element and `select` attribute
       allow you to select which nodes to put where. If your component treats
       different elements specially in these selectors, document it!
     * If your component relates to a microdata format, document how to apply
