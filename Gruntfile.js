@@ -35,6 +35,22 @@ module.exports = function(grunt) {
             }
         },
 
+        imageoptim: {
+            dist: {
+                options: {
+                    jpegMini: false,
+                    imageAlpha: true,
+                    quitAfter: true
+                },
+                files: [{
+                    expand: true,
+                    cwd: 'src/files/img',
+                    src: '**/*.{png,jpg,jpeg}',
+                    dest: 'src/files/img'
+                }]
+            }
+        },
+
         pagespeed: {
             desktop: {
                 options: {
@@ -62,6 +78,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-bower-task');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-imageoptim');
     grunt.loadNpmTasks('grunt-pagespeed');
 
 };
