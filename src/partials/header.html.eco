@@ -47,4 +47,4 @@
         <link rel="author" href="<%= @getAuthorGooglePlus(@document.author) %>">
     <% end %>
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/CreativeWork">

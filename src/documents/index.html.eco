@@ -3,7 +3,7 @@ layout: home
 ---
 
 <div class="wrapper">
-    <header class="header">
+    <header class="header" role="banner">
         <a class="logo" href="<%= @site.url %>">
             <img src="<%= @site.url %>/img/logo.png" alt="<%= @site.title %>" width="246" height="158">
         </a>
@@ -11,7 +11,7 @@ layout: home
         <h2 class="subtitle"><%= @site.description %></h2>
     </header>
 
-    <main class="card-container layout-home">
+    <main class="card-container layout-home" role="main">
         <div class="column-first">
             <%- @partial('card-what', { name: 'What?', slug: 'what' }) %>
             <%- @partial('card-browser-support', { name: 'Browser Support', slug: 'support', docs: @getCollection("browserSupport").toJSON() }) %>

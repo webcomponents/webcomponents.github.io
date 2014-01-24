@@ -1,5 +1,5 @@
 <!-- <%= @name %> -->
-<section class="card card-<%= @slug %>">
+<section class="card card-<%= @slug %>" role="region">
     <h3><%= @name %></h3>
     <table class="status-table">
         <tr>

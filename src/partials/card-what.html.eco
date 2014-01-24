@@ -1,7 +1,7 @@
 <!-- <%= @name %> -->
-<section class="card card-<%= @slug %>">
-    <h3><%= @name %></h3>
-    <p class="description">
+<section class="card card-<%= @slug %>" role="region" itemscope itemtype="http://schema.org/WebPage">
+    <h3 itemprop="name"><%= @name %></h3>
+    <p class="description" itemprop="description">
         WebComponents.org is where pioneers and community-members of the Web
         Components ecosystem (like <em>Polymer</em>, <em>X-tags</em>, and other
         interested parties) document web components best practices so that

@@ -3,7 +3,7 @@
 <%- @partial('menu') %>
 
 <div class="wrapper">
-    <main class="card-container layout-archive">
+    <main class="card-container layout-archive" role="main">
         <!-- Post Listing -->
         <%- @content %>
     </main>

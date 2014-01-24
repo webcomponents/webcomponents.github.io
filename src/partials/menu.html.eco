@@ -1,5 +1,5 @@
 <!-- Menu -->
-<header class="header-bar">
+<header class="header-bar" role="banner">
   <div class="wrapper">
 
     <!-- Logo -->
@@ -8,7 +8,7 @@
     </a>
 
     <!-- Menu -->
-    <nav class="nav">
+    <nav class="nav" role="navigation">
       <ul>
         <li class="nav-item"><a href="<%= @site.url %>/" class="nav-link" title="Home">Home</a></li>
         <li class="nav-item"><a href="<%= @site.url %>/articles/" class="nav-link" title="Articles">Articles</a></li>
