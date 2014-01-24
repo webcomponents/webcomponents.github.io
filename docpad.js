@@ -65,6 +65,13 @@ module.exports = {
                 gravatar: "e190023b66e2b8aa73a842b106920c93",
                 gplus: "+ZenoRochaBN",
                 twitter: "zenorocha"
+            },
+            mark_dalgleish: {
+                name: "Mark Dalgleish",
+                bio: "MelbJS organiser, UI developer, JavaScript addict. Father, husband, coffee drinker",
+                gravatar: "eec502b7f6f17f63f1e36d1cd566a254",
+                gplus: "104420396861285844168",
+                twitter: "markdalgleish"
             }
         },
 
