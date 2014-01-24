@@ -11,7 +11,7 @@
         <li itemscope itemtype="http://schema.org/Person">
             <a href="https://twitter.com/addyosmani" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275" alt="Addy Osmani">
-                < class="name">> itemprop="name"Addy</p>
+                <p class="name" itemprop="name">Addy</p>
             </a>
         </li>
         <li itemscope itemtype="http://schema.org/Person">
