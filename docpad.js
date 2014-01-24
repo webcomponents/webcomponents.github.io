@@ -208,7 +208,7 @@ module.exports = {
         },
         grunt: {
             writeAfter: false,
-            generateAfter: ["cssmin"]
+            generateAfter: ["cssmin", "htmlmin"]
         }
     }
 };

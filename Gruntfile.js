@@ -10,6 +10,31 @@ module.exports = function(grunt) {
             }
         },
 
+        cssmin: {
+            minify: {
+                expand: true,
+                cwd: 'src/files/css/',
+                src: ['*.css', '!*.min.css'],
+                dest: 'out/css/',
+                ext: '.min.css'
+            }
+        },
+
+        htmlmin: {
+            dist: {
+                options: {
+                    removeComments: true,
+                    collapseWhitespace: true
+                },
+                files: [{
+                    expand: true,
+                    cwd: 'out',
+                    src: '**/*.html',
+                    dest: 'out/'
+                }]
+            }
+        },
+
         pagespeed: {
             desktop: {
                 options: {
@@ -32,20 +57,11 @@ module.exports = function(grunt) {
                 url: "http://webcomponentsorg.github.io"
             }
         },
-
-        cssmin: {
-            minify: {
-                expand: true,
-                cwd: 'src/files/css/',
-                src: ['*.css', '!*.min.css'],
-                dest: 'out/css/',
-                ext: '.min.css'
-            }
-        }
     });
 
-    grunt.loadNpmTasks('grunt-pagespeed');
     grunt.loadNpmTasks('grunt-bower-task');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-pagespeed');
 
 };
