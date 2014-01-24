@@ -20,9 +20,9 @@ There are three main ways to contribute to this project.
 
 If you would like to submit an article or link to an article to the site, please follow these steps:
 
-1. Create a new markdown (.html.md) file in `src/documents/articles` with the name of your article. Your filename should be lowercase and use dashes (-) to separate words. 
+* Create a new markdown (.html.md) file in `src/documents/articles` with the name of your article. Your filename should be lowercase and use dashes (-) to separate words. 
 
-2. At the top of the file, add a template block containing information about the article or post:
+* At the top of the file, add a template block containing information about the article or post:
 
 ```
 ---
@@ -40,9 +40,9 @@ Please make sure to fill in the block with the `title`, `author`, `date` and so 
 
 If you are submitting a complete article for consideration, you don't need to include `link`. Instead, fill out the rest of the metadata and then below the closing `---` you can add in the content for your article.
 
-3. Add your details (name, avatar, twitter handle etc) to docpad.js in the section labelled `authors`. This will be used by our templates to show your name and links to your profiles.
+* Add your details (name, avatar, twitter handle etc) to docpad.js in the section labelled `authors`. This will be used by our templates to show your name and links to your profiles.
 
-4. Use `npm run-script watch` and `npm run-script generate` to preview the output of your article. Please double-check that all formatting is as expected. 
+* Use `npm run-script watch` and `npm run-script generate` to preview the output of your article. Please double-check that all formatting is as expected. 
 
-5. You can now follow the development steps outlined earlier to submit a pull request for review :)
+* You can now follow the development steps outlined earlier to submit a pull request for review :)
 
