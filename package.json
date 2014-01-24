@@ -10,6 +10,7 @@
     "grunt": "~0.4.2",
     "grunt-bower-task": "~0.3.4",
     "grunt-cli": "~0.1.11",
+    "grunt-contrib-cssmin": "~0.7.0",
     "grunt-pagespeed": "~0.0.8"
   },
   "engines": {
@@ -26,6 +27,7 @@
     "docpad-plugin-cleanurls": "~2.6.2",
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-ghpages": "~2.4.2",
+    "docpad-plugin-grunt": "~2.1.1",
     "docpad-plugin-highlightjs": "~2.2.0",
     "docpad-plugin-marked": "~2.2.0",
     "docpad-plugin-moment": "~2.0.2",

@@ -203,8 +203,12 @@ module.exports = {
     plugins: {
         moment: {
             formats: [
-                { raw: 'date', format: 'MMMM Do, YYYY', formatted: 'humanDate' }
+                { raw: "date", format: "MMMM Do, YYYY", formatted: "humanDate" }
             ]
+        },
+        grunt: {
+            writeAfter: false,
+            generateAfter: ["cssmin"]
         }
     }
 };

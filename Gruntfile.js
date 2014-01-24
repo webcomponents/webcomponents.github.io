@@ -31,9 +31,21 @@ module.exports = function(grunt) {
                 key: process.env.PAGESPEED_API_KEY,
                 url: "http://webcomponentsorg.github.io"
             }
+        },
+
+        cssmin: {
+            minify: {
+                expand: true,
+                cwd: 'src/files/css/',
+                src: ['*.css', '!*.min.css'],
+                dest: 'out/css/',
+                ext: '.min.css'
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-pagespeed');
     grunt.loadNpmTasks('grunt-bower-task');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+
 };

@@ -26,10 +26,10 @@
     <meta name="twitter:image" content="<%= @site.url %>/img/logo.png">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="<%= @site.url %>/css/main.css">
+    <link rel="stylesheet" href="<%= @site.url %>/css/main.min.css">
 
     <% if @document.layout == "single": %>
-        <link rel="stylesheet" href="<%= @site.url %>/css/syntax-highlight.css">
+        <link rel="stylesheet" href="<%= @site.url %>/css/syntax-highlight.min.css">
     <% end %>
 
     <!-- Favicon -->
