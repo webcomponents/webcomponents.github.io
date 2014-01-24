@@ -1,16 +1,16 @@
 <!-- <%= @name %> -->
-<section class="card card-story card-<%= @slug %>">
+<section class="card card-story card-<%= @slug %>" role="region" itemscope itemtype="http://schema.org/Article">
     <h3><%= @name %></h3>
     <% for item in @docs: %>
         <% if item.date: %>
-            <a class="story-content" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>">
+            <a class="story-content" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>" itemprop="url">
                 <% if item.image: %>
                     <div class="story-image">
-                        <img src="<%= @site.url %>/img/stories/<%= item.image %>" alt="<%= item.title %>">
+                        <img src="<%= @site.url %>/img/stories/<%= item.image %>" alt="<%= item.title %>"itemprop="image">
                     </div>
                 <% end %>
-                <p class="title"><%= item.title %></p>
-                <div class="description">
+                <p class="title" itemprop="name"><%= item.title %></p>
+                <div class="description" itemprop="description">
                     <%- @getExcerpt(String(item.contentRenderedWithoutLayouts)) %>
                 </div>
             </a>
