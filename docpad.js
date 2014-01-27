@@ -54,7 +54,7 @@ module.exports = {
             },
             rob_dodson: {
                 name: "Rob Dodson",
-                bio: "Rob is specialize in Front-End development (HTML/CSS/JavaScript) with a touch of Node sprinkled in. Though He’m originally from the South, these days he lives and work in beautiful San Francisco, California.",
+                bio: "Rob is specialize in Front-End development (HTML/CSS/JavaScript) with a touch of Node sprinkled in. Though he's originally from the South, these days he lives and work in beautiful San Francisco, California.",
                 gravatar: "95c3a3b33ea51545229c625bef42e343",
                 gplus: "+RobDodson",
                 twitter: "rob_dodson"
@@ -75,7 +75,7 @@ module.exports = {
             },
             mark_dalgleish: {
                 name: "Mark Dalgleish",
-                bio: "MelbJS organiser, UI developer, JavaScript addict. Father, husband, coffee drinker",
+                bio: "Mark is a senior UI developer at SEEK and the lead organiser of MelbJS. He’s obsessed with everything web and loves using JavaScript, CSS and HTML to create rich experiences that resonate with end users. In his spare time, he loves experimenting with the latest web technologies, sharing projects online and helping others learn progressive web development techniques.",
                 gravatar: "eec502b7f6f17f63f1e36d1cd566a254",
                 gplus: "104420396861285844168",
                 twitter: "markdalgleish"
