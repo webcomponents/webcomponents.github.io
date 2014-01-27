@@ -66,6 +66,13 @@ module.exports = {
                 gplus: "+ZenoRochaBN",
                 twitter: "zenorocha"
             },
+            varunkumar_nagarajan: {
+                name: "Varunkumar Nagarajan",
+                bio: "A software engineer by profession and a blogger by passion. A web developer. Technology enthusiast. Have four years of industry experience.",
+                gravatar: "a7c860a23fc707909d7b78fcbb374367",
+                gplus: "+varunkumarnagarajan",
+                twitter: "varunkumar"
+            },
             mark_dalgleish: {
                 name: "Mark Dalgleish",
                 bio: "MelbJS organiser, UI developer, JavaScript addict. Father, husband, coffee drinker",
