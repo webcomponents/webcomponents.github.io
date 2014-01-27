@@ -1,6 +1,5 @@
 module.exports = function(grunt) {
     grunt.initConfig({
-
         bower: {
             install: {
                 options: {
@@ -8,6 +7,15 @@ module.exports = function(grunt) {
                     cleanBowerDir: true
                 }
             }
+        },
+
+        clean: {
+            dist: [
+                'out/browser-support',
+                'out/discover',
+                'out/polyfills',
+                'out/specs'
+            ]
         },
 
         cssmin: {
@@ -72,13 +80,8 @@ module.exports = function(grunt) {
                 key: process.env.PAGESPEED_API_KEY,
                 url: "http://webcomponentsorg.github.io"
             }
-        },
+        }
     });
 
-    grunt.loadNpmTasks('grunt-bower-task');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-htmlmin');
-    grunt.loadNpmTasks('grunt-imageoptim');
-    grunt.loadNpmTasks('grunt-pagespeed');
-
+    require('load-grunt-tasks')(grunt);
 };

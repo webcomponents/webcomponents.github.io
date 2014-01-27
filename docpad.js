@@ -45,6 +45,13 @@ module.exports = {
                 gplus: "+EricBidelman",
                 twitter: "ebidel"
             },
+            mark_dalgleish: {
+                name: "Mark Dalgleish",
+                bio: "Mark is a senior UI developer at SEEK and the lead organiser of MelbJS. He’s obsessed with everything web and loves using JavaScript, CSS and HTML to create rich experiences that resonate with end users. In his spare time, he loves experimenting with the latest web technologies, sharing projects online and helping others learn progressive web development techniques.",
+                gravatar: "eec502b7f6f17f63f1e36d1cd566a254",
+                gplus: "104420396861285844168",
+                twitter: "markdalgleish"
+            },
             peter_gasston: {
                 name: "Peter Gasston",
                 bio: "Peter Gasston has been a web developer for over 10 years in both agency and corporate settings. He was one of the original contributors to CSS3.info, the leading online destination for CSS3. Peter has been published in the UK's .net magazine, gives talks about CSS and web technologies at developer conferences, and runs the web development blog Broken Links. He lives in London, England.",
@@ -54,17 +61,10 @@ module.exports = {
             },
             rob_dodson: {
                 name: "Rob Dodson",
-                bio: "Rob is specialize in Front-End development (HTML/CSS/JavaScript) with a touch of Node sprinkled in. Though he's originally from the South, these days he lives and work in beautiful San Francisco, California.",
+                bio: "Rob is a Developer Advocate on the Google Chrome team. He is currently helping to educate developers about web components and Polymer. Though he's originally from the South, these days he divides his time between Mountain View and San Francisco.",
                 gravatar: "95c3a3b33ea51545229c625bef42e343",
                 gplus: "+RobDodson",
                 twitter: "rob_dodson"
-            },
-            zeno_rocha: {
-                name: "Zeno Rocha",
-                bio: "Zeno is front-end engineer at Liferay, Inc. Besides that, he's a writer at Smashing Magazine, member at the Google Developer Experts program, host at Zone Of Front-Enders podcast and co-founder of BrazilJS Foundation.",
-                gravatar: "e190023b66e2b8aa73a842b106920c93",
-                gplus: "+ZenoRochaBN",
-                twitter: "zenorocha"
             },
             varunkumar_nagarajan: {
                 name: "Varunkumar Nagarajan",
@@ -73,12 +73,12 @@ module.exports = {
                 gplus: "+varunkumarnagarajan",
                 twitter: "varunkumar"
             },
-            mark_dalgleish: {
-                name: "Mark Dalgleish",
-                bio: "Mark is a senior UI developer at SEEK and the lead organiser of MelbJS. He’s obsessed with everything web and loves using JavaScript, CSS and HTML to create rich experiences that resonate with end users. In his spare time, he loves experimenting with the latest web technologies, sharing projects online and helping others learn progressive web development techniques.",
-                gravatar: "eec502b7f6f17f63f1e36d1cd566a254",
-                gplus: "104420396861285844168",
-                twitter: "markdalgleish"
+            zeno_rocha: {
+                name: "Zeno Rocha",
+                bio: "Zeno is front-end engineer at Liferay, Inc. Besides that, he's a writer at Smashing Magazine, member at the Google Developer Experts program, host at Zone Of Front-Enders podcast and co-founder of BrazilJS Foundation.",
+                gravatar: "e190023b66e2b8aa73a842b106920c93",
+                gplus: "+ZenoRochaBN",
+                twitter: "zenorocha"
             }
         },
 
@@ -222,7 +222,7 @@ module.exports = {
         },
         grunt: {
             writeAfter: false,
-            generateAfter: ["cssmin", "htmlmin"]
+            generateAfter: ["clean", "cssmin", "htmlmin"]
         }
     }
 };
