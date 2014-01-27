@@ -73,12 +73,16 @@ module.exports = function(grunt) {
                 url: "http://webcomponentsorg.github.io"
             }
         },
+
+        clean: {
+            dist: [
+                'out/browser-support',
+                'out/discover',
+                'out/polyfills',
+                'out/specs'
+            ]
+        }
     });
 
-    grunt.loadNpmTasks('grunt-bower-task');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-htmlmin');
-    grunt.loadNpmTasks('grunt-imageoptim');
-    grunt.loadNpmTasks('grunt-pagespeed');
-
+    require('load-grunt-tasks')(grunt);
 };

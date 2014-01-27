@@ -54,7 +54,7 @@ module.exports = {
             },
             rob_dodson: {
                 name: "Rob Dodson",
-                bio: "Rob is specialize in Front-End development (HTML/CSS/JavaScript) with a touch of Node sprinkled in. Though He’m originally from the South, these days he lives and work in beautiful San Francisco, California.",
+                bio: "Rob is a Developer Advocate on the Google Chrome team. He is currently helping to educate developers about web components and Polymer. Though he's originally from the South, these days he divides his time between Mountain View and San Francisco.",
                 gravatar: "95c3a3b33ea51545229c625bef42e343",
                 gplus: "+RobDodson",
                 twitter: "rob_dodson"
@@ -215,7 +215,7 @@ module.exports = {
         },
         grunt: {
             writeAfter: false,
-            generateAfter: ["cssmin", "htmlmin"]
+            generateAfter: ["clean", "cssmin", "htmlmin"]
         }
     }
 };
