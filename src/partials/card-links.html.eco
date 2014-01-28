@@ -4,7 +4,7 @@
     <ul class="link-list" itemscope itemtype="http://schema.org/ItemList">
         <% for item in @docs: %>
             <li>
-                <a href="<%= item.link %>" itemprop="url">
+                <a target="_blank" href="<%= item.link %>" itemprop="url">
                     <img class="icon" src="<%= @site.url %>/img/<%= item.icon %>" alt="<%= item.title %>" itemprop="image">
                     <p class="title" itemprop="name"><%= item.title %></p>
                     <p class="description" itemprop="description"><%= item.content %></p>
