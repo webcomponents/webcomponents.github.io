@@ -24,8 +24,7 @@ ol:after,
 li:after,
 form:after,
 ul:after,
-dl:after,
-a:after {
+dl:after {
     clear: both;
     content: ".";
     display: block;
@@ -362,26 +361,25 @@ header, section {
 /* Card ~ Story (Articles, Presentations)
    ========================================================================== */
 
-.card-story a {
-    display: block;
-    text-decoration: none;
+.card-story p {
+    padding: 10px 20px;
 }
 
-.story-content {
-    padding: 20px 20px 10px;
-    -webkit-transition: background .3s;
-    -moz-transition: background .3s;
-    -ms-transition: background .3s;
-    -o-transition: background .3s;
-    transition: background .3s;
+.card-story .description p {
+    padding: 5px 20px;
 }
 
-.layout-home .story-content:hover {
-    background: #f2f2f2;
+.card-story .title {
+    margin: 10px 20px 0;
+    display: inline-block;
+}
+
+.card-story .title:hover {
+    text-decoration: underline;
 }
 
 .story-image {
-    margin: -20px -20px 10px;
+    display: block;
     overflow: hidden;
 }
 
@@ -536,10 +534,7 @@ header, section {
     font-size: 1.2em;
     font-weight: 600;
     text-transform: none;
-}
-
-.card-story .post-info {
-    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 .card-story .post-author,
@@ -550,12 +545,15 @@ header, section {
     font-weight: 400;
     margin: 0 0 0 20px;
     text-transform: uppercase;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
 }
 
 .layout-archive .description,
 .layout-single .description {
     font-size: .9em;
-    padding: 0 20px 20px;
+    padding: 0 0 10px 0;
 }
 
 .card-story .post-author {
@@ -567,6 +565,10 @@ header, section {
     display: inline;
 }
 
+.card-story .post-author a:hover {
+    text-decoration: underline;
+}
+
 .card-story .post-location,
 .card-story .post-date {
     color: #9c9c9c;
@@ -576,7 +578,12 @@ header, section {
 
 .read-more {
     color: #ff5c03;
-    padding-top: 10px;
+    margin: 0 20px 10px;
+    display: inline-block;
+}
+
+.read-more:hover {
+    text-decoration: underline;
 }
 
 /* Pagination

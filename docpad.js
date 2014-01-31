@@ -119,7 +119,8 @@ module.exports = {
             }
         },
 
-        getExcerpt: function(content) {
+        getExcerpt: function(item) {
+            var content = String(item.contentRenderedWithoutLayouts);
             var i = content.search("<!-- Read more -->");
 
             if (i >= 0) {
@@ -129,8 +130,11 @@ module.exports = {
             }
         },
 
-        hasReadMore: function(content) {
-            return content.search("<!-- Read more -->") >= 0;
+        hasReadMore: function(item) {
+            var content = String(item.contentRenderedWithoutLayouts);
+            var i = content.search("<!-- Read more -->");
+
+            return i >= 0;
         }
     },
 
