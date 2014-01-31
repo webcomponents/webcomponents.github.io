@@ -3,11 +3,11 @@
     <h3><%= @name %></h3>
     <% for item in @docs: %>
         <% if item.image: %>
-            <a class="story-image" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>" itemprop="url">
+            <a class="story-image" <% if item.link: %>target="_blank"<% end %> href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>" itemprop="url">
                 <img src="<%= @site.url %>/img/stories/<%= item.image %>" alt="<%= item.title %>" itemprop="image">
             </a>
         <% end %>
-        <a class="title" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>" itemprop="url">
+        <a class="title" <% if item.link: %>target="_blank"<% end %> href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>" itemprop="url">
             <%= item.title %>
         </a>
         <div class="description" itemprop="description">
@@ -15,6 +15,10 @@
 
             <% if @hasReadMore(item): %>
                 <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
+            <% end %>
+
+            <% if item.link: %>
+                <a class="read-more" href="<%= item.link %>" target="_blank">Read More ></a>
             <% end %>
         </div>
     <% end %>

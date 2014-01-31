@@ -21,7 +21,7 @@ pageSize: 6
 
         <div class="post-info">
             <p class="post-author">
-                By <a href="<%= @getAuthorTwitter(item.author) %>"><%= @getAuthor(item.author).name %></a>
+                By <a href="<%= @getAuthorTwitter(item.author) %>" target="_blank"><%= @getAuthor(item.author).name %></a>
             </p>
 
             <% if item.event: %>
@@ -42,6 +42,10 @@ pageSize: 6
 
             <% if @hasReadMore(item): %>
                 <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
+            <% end %>
+
+            <% if item.link: %>
+                <a class="read-more" href="<%= item.link %>" target="_blank">Read More ></a>
             <% end %>
         </div>
     </section>
