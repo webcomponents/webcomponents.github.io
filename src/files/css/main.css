@@ -640,7 +640,11 @@ header, section {
 
 .layout-single .title {
     font-size: 1.5em;
-    margin: 20px 20px 5px;
+    margin: 20px 0 5px;
+}
+
+.layout-single .title:hover {
+    text-decoration: none;
 }
 
 .layout-single .description p,
@@ -651,7 +655,7 @@ header, section {
 
 .layout-single .description ol,
 .layout-single .description ul {
-    margin: 10px 0 0 20px;
+    margin: 10px 20px 0 40px;
 }
 
 .layout-single .description h1,
@@ -660,7 +664,7 @@ header, section {
 .layout-single .description h4,
 .layout-single .description h5,
 .layout-single .description h6 {
-    margin: 20px 0 10px;
+    margin: 20px 20px 10px;
     text-align: left;
     padding-left: 0;
 }
