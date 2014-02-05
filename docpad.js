@@ -66,6 +66,13 @@ module.exports = {
                 gplus: "+RobDodson",
                 twitter: "rob_dodson"
             },
+            marcy_sutton: {
+                name: "Marcy Sutton",
+                bio: "Developer @Substantial. @GDISeattle co-leader. Bike racer, music junkie, #a11y advocate, dog lover, big ole nerd. Also twittering @marcybikes.",
+                gravatar: "1cd529dea0aa4dda3b1242a350163a6e",
+                gplus: "118012571057666061540",
+                twitter: "marcysutton"
+            },
             varunkumar_nagarajan: {
                 name: "Varunkumar Nagarajan",
                 bio: "A software engineer by profession and a blogger by passion. A web developer. Technology enthusiast. Have four years of industry experience.",
