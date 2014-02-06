@@ -1,7 +1,7 @@
 {
   "name": "webcomponents.org",
   "version": "1.0.0-alpha",
-  "homepage": "https://github.com/WebComponentsOrg/webcomponents.org",
+  "homepage": "https://github.com/webcomponents/webcomponents.github.io",
   "main": "index.html",
   "keywords": [
     "web-component"
