@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <title><%= @getTitle() %></title>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="google-site-verification" content="vE_TSC7WOaWmPWAQryKIW3zmibsq7sVDF6I1Tcfex7U">
 
     <!-- for Google -->
