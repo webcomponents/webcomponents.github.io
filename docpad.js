@@ -234,6 +234,9 @@ module.exports = {
         grunt: {
             writeAfter: false,
             generateAfter: ["clean", "cssmin", "htmlmin"]
+        },
+        ghpages: {
+            deployBranch: 'master'
         }
     }
 };
