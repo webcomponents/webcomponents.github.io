@@ -19,7 +19,7 @@
     <!-- Social Button -->
     <ul class="social-buttons">
       <li class="github-btn">
-          <iframe src="http://ghbtns.com/github-btn.html?user=WebComponentsOrg&repo=webcomponents.org&type=watch&count=true&size=small"
+          <iframe src="http://ghbtns.com/github-btn.html?user=<%= @github.user %>&repo=<%= @github.repo %>&type=watch&count=true&size=small"
   allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
       </li>
       <li class="tweet-btn">

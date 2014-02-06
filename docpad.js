@@ -13,6 +13,11 @@ module.exports = {
             url: "http://webcomponents.github.io"
         },
 
+        github: {
+            user: "webcomponents",
+            repo: "webcomponents.github.io"
+        },
+
         /* Authors
         ===================================================================== */
 
@@ -106,6 +111,10 @@ module.exports = {
 
         getAuthorTwitter: function(author) {
             return "https://twitter.com/" + this.authors[author].twitter;
+        },
+
+        getGithubURL: function() {
+            return "https://github.com/" + this.github.user + "/" + this.github.repo;
         },
 
         getTitle: function() {

@@ -1,5 +1,5 @@
     <footer class="credits" role="contentinfo">
-        <p>Made with <span class="love">♥</span> by the <a href="https://github.com/WebComponentsOrg/webcomponents.org/graphs/contributors" itemprop="author">WebComponents.org contributors.</a></p>
+        <p>Made with <span class="love">♥</span> by the <a target="_blank" href="<%= @getGithubURL() %>/graphs/contributors" itemprop="author">WebComponents.org contributors.</a></p>
     </footer>
 
     <!--[if lt IE 9]>
