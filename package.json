@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:webcomponentsorg/webcomponents.org.git"
+    "url": "git@github.com:webcomponents/webcomponents.github.io.git"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
