@@ -62,14 +62,14 @@ module.exports = function(grunt) {
         pagespeed: {
             desktop: {
                 options: {
-                    url: "http://webcomponentsorg.github.io/webcomponents.org",
+                    url: "http://webcomponents.github.io/",
                     strategy: "desktop",
                     threshold: 80
                 }
             },
             mobile: {
                 options: {
-                    url: "http://webcomponentsorg.github.io/webcomponents.org",
+                    url: "http://webcomponents.github.io/",
                     strategy: "mobile",
                     threshold: 70
                 }
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
                 // PageSpeed API key defined as an environment variable
                 // Generate your own: http://goo.gl/FQplpu
                 key: process.env.PAGESPEED_API_KEY,
-                url: "http://webcomponentsorg.github.io"
+                url: "http://webcomponents.github.io"
             }
         }
     });
