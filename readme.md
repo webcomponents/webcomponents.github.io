@@ -1,4 +1,4 @@
-# WebComponents.org [![Build Status](https://secure.travis-ci.org/WebComponentsOrg/webcomponents.org.png?branch=master)](https://travis-ci.org/WebComponentsOrg/webcomponents.org) [![Dependency Status](https://david-dm.org/WebComponentsOrg/webcomponents.org.png)](https://david-dm.org/WebComponentsOrg/webcomponents.org)
+# WebComponents.org [![Build Status](https://secure.travis-ci.org/webcomponents/webcomponents.github.io.png?branch=master)](https://travis-ci.org/webcomponents/webcomponents.github.io) [![Dependency Status](https://david-dm.org/webcomponents/webcomponents.github.io.png)](https://david-dm.org/webcomponents/webcomponents.github.io)
 
 ![WebComponents.org Logo](http://f.cl.ly/items/253L1A2x1F3c3Y1b3R2P/logo.png)
 
@@ -9,7 +9,7 @@ This site is made with [DocPad](https://github.com/bevry/docpad), a static gener
 First, you need to clone the project:
 
 ```sh
-$ git clone git@github.com:WebComponentsOrg/webcomponents.org.git
+$ git clone git@github.com:webcomponents/webcomponents.github.io.git
 ```
 
 Then go to the folder and install all dependencies:
@@ -78,7 +78,7 @@ IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
 ## Team
 
-WebComponents.org is maintained by these people and a bunch of awesome [contributors](https://github.com/WebComponentsOrg/webcomponents.org/graphs/contributors).
+WebComponents.org is maintained by these people and a bunch of awesome [contributors](https://github.com/webcomponents/webcomponents.github.io/graphs/contributors).
 
 [![Zeno](https://2.gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93)](https://github.com/zenorocha) | [![Addy](https://2.gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275)](https://github.com/addyosmani) | [![Eric](https://2.gravatar.com/avatar/e7948aac7c52b26470be80311873a398)](https://github.com/ebidel) | [![Briza](https://2.gravatar.com/avatar/c272a0a8972473fdf231f2b2d897c242)](https://github.com/brizabueno) | [![Alex](https://2.gravatar.com/avatar/6b6e18cfbf7f90a6848d85db7348b0e9)](https://github.com/jkomoros)
 --- | --- | --- | --- | ---
@@ -90,7 +90,7 @@ WebComponents.org is maintained by these people and a bunch of awesome [contribu
 
 ## Contributing
 
-See the [Contributing guide](https://github.com/WebComponentsOrg/webcomponents.org/blob/master/contributing.md).
+See the [Contributing guide](https://github.com/webcomponents/webcomponents.github.io/blob/master/contributing.md).
 
 ## License
 
