@@ -12,7 +12,7 @@
     "grunt-cli": "~0.1.11",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-cssmin": "~0.7.0",
-    "grunt-contrib-htmlmin": "~0.1.3",
+    "grunt-contrib-htmlmin": "~0.2.0",
     "grunt-imageoptim": "~1.4.1",
     "grunt-pagespeed": "~0.0.8",
     "load-grunt-tasks": "~0.3.0"
@@ -27,7 +27,7 @@
     "test": "grunt pagespeed"
   },
   "dependencies": {
-    "docpad": "~6.60.3",
+    "docpad": "~6.63.3",
     "docpad-plugin-cleanurls": "~2.6.2",
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-ghpages": "~2.4.2",
