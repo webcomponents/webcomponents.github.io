@@ -90,7 +90,7 @@ WebComponents.org is maintained by these people and a bunch of awesome [contribu
 
 ## Contributing
 
-See the [Contributing guide](https://github.com/webcomponents/webcomponents.github.io/blob/master/contributing.md).
+See the [Contributing guide](https://github.com/webcomponents/webcomponents.github.io/blob/site/contributing.md).
 
 ## License
 
