@@ -14,7 +14,7 @@ There are three main ways to contribute to this project.
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+5. Submit a pull request to `site` branch :D
 
 ## Contributing articles
 
@@ -45,4 +45,3 @@ If you are submitting a complete article for consideration, you don't need to in
 * Use `npm run-script watch` and `npm run-script generate` to preview the output of your article. Please double-check that all formatting is as expected. 
 
 * You can now follow the development steps outlined earlier to submit a pull request for review :)
-
