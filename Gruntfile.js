@@ -43,6 +43,18 @@ module.exports = function(grunt) {
             }
         },
 
+        lintspaces: {
+            all: {
+                src: [
+                    'src/documents/**/*', 'src/files/css/*', 'src/layouts/**/*',
+                    'src/partials/**/*', '*.js', '*.json'
+                ],
+                options: {
+                    editorconfig: '.editorconfig'
+                }
+            }
+        },
+
         imageoptim: {
             dist: {
                 options: {

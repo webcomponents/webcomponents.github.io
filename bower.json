@@ -1,18 +1,18 @@
 {
-  "name": "webcomponents.org",
-  "version": "1.0.0-alpha",
-  "homepage": "https://github.com/webcomponents/webcomponents.github.io",
-  "main": "index.html",
-  "keywords": [
-    "web-component"
-  ],
-  "license": "MIT",
-  "private": true,
-  "ignore": [
-    ".*",
-    "out"
-  ],
-  "dependencies": {
-    "respond": "~1.3.0"
-  }
+    "name": "webcomponents.org",
+    "version": "1.0.0-alpha",
+    "homepage": "https://github.com/webcomponents/webcomponents.github.io",
+    "main": "index.html",
+    "keywords": [
+        "web-component"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        ".*",
+        "out"
+    ],
+    "dependencies": {
+        "respond": "~1.3.0"
+    }
 }

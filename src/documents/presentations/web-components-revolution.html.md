@@ -15,4 +15,3 @@ Web Components are about to change everything you think you know about building 
 <a href="http://robdodson.me/webcomponents-cascade">
     <img src="../../img/stories/web-components-revolution-cover.jpg" alt="Presentation Cover">
 </a>
-

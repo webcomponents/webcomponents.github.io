@@ -1,41 +1,42 @@
 {
-  "name": "webcomponents.org",
-  "version": "1.0.0-alpha",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:webcomponents/webcomponents.github.io.git"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-bower-task": "~0.3.4",
-    "grunt-cli": "~0.1.11",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-cssmin": "~0.7.0",
-    "grunt-contrib-htmlmin": "~0.2.0",
-    "grunt-imageoptim": "~1.4.1",
-    "grunt-pagespeed": "~0.0.8",
-    "load-grunt-tasks": "~0.3.0"
-  },
-  "engines": {
-    "node": ">=0.8"
-  },
-  "scripts": {
-    "deploy": "node_modules/docpad/bin/docpad deploy-ghpages --env static",
-    "generate": "node_modules/docpad/bin/docpad generate --env static",
-    "watch": "node_modules/docpad/bin/docpad run",
-    "test": "grunt pagespeed"
-  },
-  "dependencies": {
-    "docpad": "~6.63.3",
-    "docpad-plugin-cleanurls": "~2.6.2",
-    "docpad-plugin-eco": "~2.0.3",
-    "docpad-plugin-ghpages": "~2.4.2",
-    "docpad-plugin-grunt": "~2.1.1",
-    "docpad-plugin-highlightjs": "~2.2.0",
-    "docpad-plugin-marked": "~2.2.0",
-    "docpad-plugin-moment": "~2.0.2",
-    "docpad-plugin-paged": "~2.2.4",
-    "docpad-plugin-partials": "~2.8.1"
-  }
+    "name": "webcomponents.org",
+    "version": "1.0.0-alpha",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:webcomponents/webcomponents.github.io.git"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-bower-task": "~0.3.4",
+        "grunt-cli": "~0.1.11",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-cssmin": "~0.7.0",
+        "grunt-contrib-htmlmin": "~0.2.0",
+        "grunt-imageoptim": "~1.4.1",
+        "grunt-lintspaces": "~0.4.1",
+        "grunt-pagespeed": "~0.0.8",
+        "load-grunt-tasks": "~0.3.0"
+    },
+    "engines": {
+        "node": ">=0.8"
+    },
+    "scripts": {
+        "deploy": "node_modules/docpad/bin/docpad deploy-ghpages --env static",
+        "generate": "node_modules/docpad/bin/docpad generate --env static",
+        "watch": "node_modules/docpad/bin/docpad run",
+        "test": "grunt pagespeed"
+    },
+    "dependencies": {
+        "docpad": "~6.63.3",
+        "docpad-plugin-cleanurls": "~2.6.2",
+        "docpad-plugin-eco": "~2.0.3",
+        "docpad-plugin-ghpages": "~2.4.2",
+        "docpad-plugin-grunt": "~2.1.1",
+        "docpad-plugin-highlightjs": "~2.2.0",
+        "docpad-plugin-marked": "~2.2.0",
+        "docpad-plugin-moment": "~2.0.2",
+        "docpad-plugin-paged": "~2.2.4",
+        "docpad-plugin-partials": "~2.8.1"
+    }
 }
