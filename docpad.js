@@ -258,14 +258,13 @@ module.exports = {
             generateAfter: ["clean", "cssmin", "htmlmin"]
         },
         ghpages: {
-            deployBranch: 'master'
+            deployBranch: "master"
         },
         tags: {
-            extension: '.html.eco',
+            extension: ".html",
             injectDocumentHelper: function (document) {
                 return document.setMeta({
-                    layout: 'single',
-                    data: "<%- @partial('content/tag', @) %>"
+                    layout: "tags"
                 });
             }
         }
