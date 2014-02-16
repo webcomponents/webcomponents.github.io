@@ -14,7 +14,8 @@ module.exports = function(grunt) {
                 'out/browser-support',
                 'out/discover',
                 'out/polyfills',
-                'out/specs'
+                'out/specs',
+                'out/tags/index.html'
             ]
         },
 
