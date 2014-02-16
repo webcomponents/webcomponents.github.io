@@ -117,6 +117,19 @@ module.exports = {
             return "https://github.com/" + this.github.user + "/" + this.github.repo;
         },
 
+        getTagURL: function(tag) {
+            var page = this.getFile({
+                tag: tag
+            });
+
+            if (page != null) {
+                return page.get("url");
+            }
+            else {
+                return "";
+            }
+        },
+
         getTitle: function() {
             if (this.document.title) {
                 return "" + this.document.title + " — " + this.site.title;

@@ -5,6 +5,7 @@
 <div class="wrapper">
     <main class="layout-single" role="main">
         <div class="single-content" role="article">
+            <!-- Post -->
             <section class="card card-story" role="region">
                 <% if @document.category != 'presentations': %>
                     <% if @document.image: %>
@@ -39,6 +40,7 @@
                 </div>
             </section>
 
+            <!-- Comments -->
             <div class="card card-comments">
                 <div id="disqus_thread"></div>
                 <script>
@@ -53,6 +55,7 @@
             </div>
         </div>
         <div class="single-sidebar">
+            <!-- Author -->
             <section class="card card-author" role="region" itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <img class="author-avatar" src="<%= @getAuthorGravatar(@document.author) %>" alt="<%= @getAuthor(@document.author).name %>" itemprop="image">
                 <p class="author-name" itemprop="name"><%= @getAuthor(@document.author).name %></p>
@@ -61,7 +64,23 @@
                 </p>
                 <p class="author-bio" itemprop="description"><%= @getAuthor(@document.author).bio %></p>
             </section>
-            <%- @partial('listing/tags', false, {document: @document}) %>
+
+            <!-- Tags -->
+            <% if @document.tags?.length: %>
+                <section class="card card-tags">
+                    <h3>Tags</h3>
+                    <ul class="tag-list">
+                        <% for tag in @document.tags: %>
+                            <li>
+                                <a href="<%- @getTagURL(tag) %>">
+                                    <span class="icon-tag"></span>
+                                    <%= tag %>
+                                </a>
+                            </li>
+                        <% end %>
+                    </ul>
+                </section>
+            <% end %>
         </div>
     </main>
 </div>
