@@ -117,8 +117,8 @@ module.exports = {
             return "https://github.com/" + this.github.user + "/" + this.github.repo;
         },
 
-        getGithubFileURL: function(path) {
-            return this.getGithubURL() + "/blob/site/src/documents/" + path;
+        getGithubEditURL: function(path) {
+            return this.getGithubURL() + "/edit/site/src/documents/" + path;
         },
 
         getTagURL: function(tag) {

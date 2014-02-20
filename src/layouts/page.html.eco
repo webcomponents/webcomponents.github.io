@@ -12,7 +12,7 @@
                 <div class="post-info" role="complementary">
                     <p class="post-edit">
                         <span class="icon-pencil"></span>
-                        <a href="<%= @getGithubFileURL(@document.relativePath) %>">Edit this page</a>
+                        <a href="<%= @getGithubEditURL(@document.relativePath) %>">Edit this page</a>
                     </p>
                 </div>
 
