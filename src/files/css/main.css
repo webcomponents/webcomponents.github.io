@@ -868,3 +868,5 @@ header, section {
 .icon-tag:before { content: "\e600"; }
 .icon-clock:before { content: "\e60c"; }
 .icon-location:before { content: "\e601"; }
+.icon-pencil:before { content: "\e602"; }
+.icon-arrow-right:before { content: "\e603"; }
