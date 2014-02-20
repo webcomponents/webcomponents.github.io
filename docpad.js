@@ -117,6 +117,10 @@ module.exports = {
             return "https://github.com/" + this.github.user + "/" + this.github.repo;
         },
 
+        getGithubFileURL: function(path) {
+            return this.getGithubURL() + "/blob/site/src/documents/" + path;
+        },
+
         getTagURL: function(tag) {
             var page = this.getFile({
                 tag: tag
@@ -232,6 +236,15 @@ module.exports = {
                     $ne: true
                 }
             }, [{ date: -1 }]);
+        },
+
+        sandbox: function() {
+            return this.getCollection("documents").findAllLive({
+                url: {
+                    $startsWith: "/sandbox"
+                },
+                layout: "page"
+            }, [{ title: 1 }]);
         },
 
         specs: function() {

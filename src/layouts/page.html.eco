@@ -1,0 +1,44 @@
+<%- @partial('header') %>
+
+<%- @partial('menu') %>
+
+<div class="wrapper">
+    <main class="layout-single" role="main">
+        <div class="single-content" role="article">
+            <!-- Post -->
+            <section class="card card-story" role="region">
+                <p class="title" itemprop="name"><%= @document.title %></p>
+
+                <div class="post-info" role="complementary">
+                    <p class="post-edit">
+                        <span class="icon-pencil"></span>
+                        <a href="<%= @getGithubFileURL(@document.relativePath) %>">Edit this page</a>
+                    </p>
+                </div>
+
+                <div class="description" itemprop="text">
+                    <%- @content %>
+                </div>
+            </section>
+        </div>
+        <div class="single-sidebar">
+            <section class="card card-tags">
+                <h3>Types of elements</h3>
+                <ul class="tag-list">
+                    <% for item in @getPageCollection("sandbox").toJSON(): %>
+                        <% if item.title != 'Sandbox': %>
+                            <li>
+                                <a href="<%= item.url %>">
+                                    <span class="icon-arrow-right"></span>
+                                    <%= item.title %>
+                                </a>
+                            </li>
+                        <% end %>
+                    <% end %>
+                </ul>
+            </section>
+        </div>
+    </main>
+</div>
+
+<%- @partial('footer') %>

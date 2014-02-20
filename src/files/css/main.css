@@ -577,6 +577,19 @@ header, section {
     text-transform: none;
 }
 
+.card-story .post-edit {
+    color: #ff5c03;
+    font-size: .9em;
+}
+
+.card-story .post-edit a {
+    color: #ff5c03;
+}
+
+.card-story .post-edit a:hover {
+    text-decoration: underline;
+}
+
 .read-more {
     color: #ff5c03;
     margin: 0 20px 10px;
@@ -687,7 +700,7 @@ header, section {
     }
 }
 
-/* Responsive <iframe> */
+/* --- Responsive <iframe> --- */
 
 .video-wrap {
     height: 0;
