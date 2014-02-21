@@ -2,6 +2,8 @@
 
 ![WebComponents.org Logo](http://f.cl.ly/items/253L1A2x1F3c3Y1b3R2P/logo.png)
 
+> WebComponents.org is a place for web component authors to discuss and share best practices, patterns and learning resources.
+
 ## Setup
 
 This site is made with [DocPad](https://github.com/bevry/docpad), a static generator in [Node](http://nodejs.org/), and the best way to install it is via [NPM](npmjs.org/).
