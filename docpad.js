@@ -36,6 +36,13 @@ module.exports = {
                 gplus: "+AlexKomoroske",
                 twitter: "jkomoros"
             },
+            community: {
+                name: "Community",
+                bio: "Posts marked as authored by the community represent best practices which have reached a level of concensus. They may evolve over time but their core fundamentals are considered generally good ideas.",
+                gravatar: "cedf2a3fe1ccf53aa00f50dda79cedf3",
+                gplus: "+WebComponents",
+                twitter: "webcomponents"
+            },
             dominic_cooney: {
                 name: "Dominic Cooney",
                 bio: "Dominic is Staff Software Engineer at Google on web frontends and server and client web platforms.",
