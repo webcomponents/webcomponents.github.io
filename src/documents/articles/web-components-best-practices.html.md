@@ -1,6 +1,6 @@
 ---
 title: Web Components Best Practices
-author: addy_osmani
+author: community
 date: 2014-01-24
 image: web-components-best-practices.jpg
 category: articles
