@@ -15,7 +15,7 @@ layout: home
         <div class="column-first">
             <%- @partial('card-what', { name: 'What?', slug: 'what' }) %>
             <%- @partial('card-browser-support', { name: 'Browser Support', slug: 'support', docs: @getCollection("browserSupport").toJSON() }) %>
-            <%- @partial('card-links', { name: 'Libraries', slug: 'polyfills', docs: @getCollection("polyfills").toJSON() }) %>
+            <%- @partial('card-links', { name: 'Libraries', slug: 'libraries', docs: @getCollection("libraries").toJSON() }) %>
         </div>
         <div class="column-middle">
             <%- @partial('card-links', { name: 'Specs', slug: 'specs', docs: @getCollection("specs").toJSON() }) %>

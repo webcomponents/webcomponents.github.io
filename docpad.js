@@ -225,10 +225,10 @@ module.exports = {
             }, [{ title: 1 }]);
         },
 
-        polyfills: function() {
+        libraries: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
-                    $startsWith: "/polyfills"
+                    $startsWith: "/libraries"
                 }
             }, [{ title: 1 }]);
         },
