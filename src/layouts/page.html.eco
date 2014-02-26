@@ -22,6 +22,16 @@
             </section>
         </div>
         <div class="single-sidebar">
+            <section class="card">
+                <h3>Suggest a type of element</h3>
+                <ul class="tag-list">
+                    <form id="suggest-form" action="">
+                        <input id="suggest-input" placeholder="e.g., Autocomplete" type="text" required>
+                        <button class="suggest-btn">Submit</button>
+                    </form>
+                </ul>
+            </section>
+
             <section class="card card-tags">
                 <h3>Types of elements</h3>
                 <ul class="tag-list">
@@ -40,5 +50,7 @@
         </div>
     </main>
 </div>
+
+<script src="<%= @site.url %>/js/suggest-form.js"></script>
 
 <%- @partial('footer') %>
