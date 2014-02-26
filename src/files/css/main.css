@@ -142,7 +142,6 @@ header, section {
 .header-bar {
     background-color: rgba(22, 100, 151, .8);
     box-shadow: 0 3px 1px 0 rgba(0, 0, 0, .1);
-    margin-bottom: 40px;
     text-align: left;
 }
 
