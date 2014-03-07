@@ -1,5 +1,5 @@
 <%- @partial('header') %>
-
+<%- @partial('menu') %>
 <%- @content %>
 
 <%- @partial('footer') %>
