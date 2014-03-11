@@ -19,7 +19,7 @@
         "load-grunt-tasks": "~0.4.0"
     },
     "engines": {
-        "node": ">=0.8"
+        "node": ">=0.10.0"
     },
     "scripts": {
         "deploy": "node_modules/docpad/bin/docpad deploy-ghpages --env static",
