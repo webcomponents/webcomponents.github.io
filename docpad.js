@@ -36,6 +36,13 @@ module.exports = {
                 gplus: "+AlexKomoroske",
                 twitter: "jkomoros"
             },
+            angelina_fabbro: {
+                name: "Angelina Fabbro",
+                bio: "Angelina is a developer from Vancouver, BC Canada working at Mozilla as a Technical Evangelist and developer advocate for Firefox OS. She loves JavaScript, web components, Node.js, mobile app development, and this cool place she hang out a lot called the world wide web. Oh, and let's not forget Firefox OS. In her spare time she takes singing lessons, play Magic: The Gathering, teach people to program, and collaborate with scientists for better programmer-scientist engagement.",
+                gravatar: "25bb0913435212f30f2fec0eb6e60dde",
+                gplus: "117339576748577555094",
+                twitter: "angelinamagnum"
+            },
             community: {
                 name: "Community",
                 bio: "Posts marked as authored by the community represent best practices which have reached a level of concensus. They may evolve over time but their core fundamentals are considered generally good ideas.",
