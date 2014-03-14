@@ -27,10 +27,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="<%= @site.url %>/css/main.min.css">
-
-    <% if @document.layout == "single": %>
-        <link rel="stylesheet" href="<%= @site.url %>/css/syntax-highlight.min.css">
-    <% end %>
+    <link rel="stylesheet" href="<%= @site.url %>/css/syntax-highlight.min.css">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<%= @site.url %>/img/favicon.ico">

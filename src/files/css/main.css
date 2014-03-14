@@ -362,16 +362,20 @@ header, section {
 /* Card ~ Story (Articles, Presentations)
 ============================================================================= */
 
+.card-story {
+    padding: 0 20px;
+}
+
 .card-story p {
-    padding: 10px 20px;
+    padding: 10px 0;
 }
 
 .card-story .description p {
-    padding: 5px 20px;
+    padding: 5px 0;
 }
 
 .card-story .title {
-    margin: 10px 20px 0;
+    margin: 10px 0 0;
     display: inline-block;
 }
 
@@ -382,6 +386,8 @@ header, section {
 .story-image {
     display: block;
     overflow: hidden;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 .story-image img {
@@ -397,6 +403,8 @@ header, section {
     padding: 10px 0;
     text-align: center;
     text-transform: lowercase;
+    margin-left: -20px;
+    margin-right: -20px;
     -webkit-transition: background .3s;
     -moz-transition: background .3s;
     -ms-transition: background .3s;
@@ -544,11 +552,15 @@ header, section {
     float: left;
     font-size: .9em;
     font-weight: 400;
-    margin: 0 0 0 20px;
     text-transform: uppercase;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
+}
+
+.card-story .post-location,
+.card-story .post-date {
+    margin: 0 0 0 20px;
 }
 
 .layout-archive .description,
@@ -592,7 +604,7 @@ header, section {
 
 .read-more {
     color: #ff5c03;
-    margin: 0 20px 10px;
+    margin: 5px 0 10px;
     display: inline-block;
 }
 
@@ -654,7 +666,9 @@ header, section {
 
 .layout-single .title {
     font-size: 1.5em;
-    margin: 20px 0 5px;
+    margin: 20px 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .layout-single .title:hover {
@@ -678,7 +692,7 @@ header, section {
 .layout-single .description h4,
 .layout-single .description h5,
 .layout-single .description h6 {
-    margin: 20px 20px 10px;
+    margin: 20px 0 10px;
     text-align: left;
     padding-left: 0;
 }
