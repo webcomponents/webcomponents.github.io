@@ -1,5 +1,5 @@
 <%- @partial('header') %>
-
+<div class="page-wrap">
 <%- @partial('menu') %>
 
 <div class="wrapper">
@@ -52,5 +52,6 @@
 </div>
 
 <script src="<%= @site.url %>/js/suggest-form.js"></script>
+</div>
 
 <%- @partial('footer') %>

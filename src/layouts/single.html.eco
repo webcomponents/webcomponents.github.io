@@ -1,5 +1,5 @@
 <%- @partial('header') %>
-
+<div class="page-wrap">
 <%- @partial('menu') %>
 
 <div class="wrapper">
@@ -83,6 +83,7 @@
             <% end %>
         </div>
     </main>
+</div>
 </div>
 
 <%- @partial('footer') %>
