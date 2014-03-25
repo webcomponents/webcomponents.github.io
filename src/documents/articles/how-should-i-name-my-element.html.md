@@ -42,6 +42,24 @@ The text before the dash is effectively a namespace and you should want to keep
 it short but also unique. Try not to overlap on someone else's prefix if
 possible.
 
+## &lt;reserved-names&gt;
+
+There are also some reserved names that you need to avoid:
+
+* annotation-xml
+* color-profile
+* font-face
+* font-face-src
+* font-face-uri
+* font-face-format
+* font-face-name
+* missing-glyph
+
+The list of names above is the summary of all hyphen-containing element names
+from the applicable specifications, namely
+[SVG](http://www.w3.org/TR/SVG/eltindex.html) and
+[MathML](http://www.w3.org/TR/MathML/).
+
 ## What about you?
 
 Tell us below how do you usually name your elements and share your thoughts
