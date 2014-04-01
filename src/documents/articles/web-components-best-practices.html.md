@@ -8,7 +8,7 @@ layout: single
 tags: ['Best Practices', 'Custom Elements', 'Documentation', 'Accessibility']
 ---
 
-[Web Components](http://www.w3.org/TR/components-intro/) (WC) are a new set of web platform features that enable developers to build applications more declaratively. The following is an initial list of best practices we advocate component authors consider to ensure their elements are good citizens in the WC ecosystem.
+[Web Components](http://www.w3.org/TR/components-intro/) (WC) are a new set of web platform features that enable developers to build applications in a declarative, composable way. The following is an initial list of best practices we advocate component authors consider to ensure their elements are good citizens in the Web Component ecosystem.
 
 <!-- Read more -->
 
@@ -38,7 +38,12 @@ A successful web component will be used by many people in many different
 contexts--meaning that following general web development best practices becomes
 even more important.
 
-1. **Accessibility** Make your component accessible by using appropriate ARIA roles—something that is much more important when we're creating new types of elements! In cases where inheritance from a semantic base element is for any reason impossible or infeasible, be sure to add a `role=""` attribute, if any apply.
-2. **Performance** If you use a callback-based API for long-running operations, don't block the main thread excessively. Debounce methods and logic loops that affect rendering performance using requestAnimationFrame as a queue. Respond to being removed from the tree by suspending expensive operations like animation—and don't start expensive operations until you're actually inserted into the DOM.
-3. **Script isn't always the answer** Many structure and style techniques that once required JavaScript can now be accomplished with pure CSS in the world of web components.
-4. **Be Responsive** Where possible, and applicable, design your components so that they responsively adapt to their environment. Your users may use your component for things you never dreamed of.
+1. **Accessibility**: Make your component accessible by using appropriate ARIA roles—something that is much more important when we're creating new types of elements! In cases where inheritance from a semantic base element is for any reason impossible or infeasible, be sure to add a `role=""` attribute, if any apply.
+2. **Performance**: If you use a callback-based API for long-running operations, don't block the main thread excessively. Debounce methods and logic loops that affect rendering performance using requestAnimationFrame as a queue. Respond to being removed from the tree by suspending expensive operations like animation—and don't start expensive operations until you're actually inserted into the DOM.
+3. **Script isn't always the answer**: Many structure and style techniques that once required JavaScript can now be accomplished with pure CSS in the world of web components.
+4. **Be Responsive**: Where possible, and applicable, design your components so that they responsively adapt to their environment. Your users may use your component for things you never dreamed of.
+5. **Testing**: Custom elements, like components you author today, should ideally have unit tests that serve as a sanity check for your API. 
+
+## Contributions
+
+This list of best practices will evolve over time and we welcome the community to discuss and suggest changes to them via the comments below. 
