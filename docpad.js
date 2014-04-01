@@ -78,6 +78,13 @@ module.exports = {
                 gplus: "101356325339382110529",
                 twitter: "stopsatgreen"
             },
+            rey_bango: {
+                name: "Rey Bango",
+                bio: "Rey is the Editor of Nettuts+ and works hard to serve up excellent technical articles and resources to help make web developers successful. He's also a developer evangelist at Telerik focused on helping developers building awesome experiences, an advocate for cross-browser, standards-based development and a former member of the jQuery Project Team.",
+                gravatar: "cf09578bc47ef46a1989b160374bc11d",
+                gplus: "+ReyBango",
+                twitter: "reybango"
+            },
             rob_dodson: {
                 name: "Rob Dodson",
                 bio: "Rob is a Developer Advocate on the Google Chrome team. He is currently helping to educate developers about web components and Polymer. Though he's originally from the South, these days he divides his time between Mountain View and San Francisco.",
