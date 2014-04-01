@@ -8,7 +8,7 @@ layout: single
 tags: ['Best Practices', 'Custom Elements', 'Documentation', 'Accessibility']
 ---
 
-[Web Components](http://www.w3.org/TR/components-intro/) (WC) are a new set of web platform features that we'd like developers to start embracing. The following is an initial list of best practices we advocate component authors consider to ensure their elements are good citizens in the WC ecosystem.
+[Web Components](http://www.w3.org/TR/components-intro/) (WC) are a new set of web platform features that enable developers to build applications more declaratively. The following is an initial list of best practices we advocate component authors consider to ensure their elements are good citizens in the WC ecosystem.
 
 <!-- Read more -->
 
@@ -16,7 +16,7 @@ Keep in mind that we fully expect best practices to evolve over time and so this
 
 1. **Namespacing** [Custom elements](http://www.w3.org/TR/custom-elements/) should have a dash in their name (e.g `<x-tabs>`, `<my-tabs>`). The text before the dash is effectively a namespace. You want to keep it short but also unique. Try not to overlap on someone else's prefix if possible. Only use a prefix shorter than three characters if you already have lots of developer interest in your set of components.
 2. **Mimic built-in elements as closely as possible** Your component should feel just like any other natively implemented element to developers. If in the future you're formally speccing your element's API, will you feel embarrassed by how different it feels?
-3. **Failing silently is **golden** Components should act like native DOM elements, so avoid creating elements that throw JS errors from ordinary DOM interactions, for example: you can place a `<div>` inside a `<ul>`, and while it may not behave or render normally, it shouldn't throw errors either.
+3. **Failing silently is golden** Components should act like native DOM elements, so avoid creating elements that throw JS errors from ordinary DOM interactions, for example: you can place a `<div>` inside a `<ul>`, and while it may not behave or render normally, it shouldn't throw errors either.
 4. **Attributes for data in** Use attributes to pass configuration in. Use boolean attributes for boolean values. Ex: `<my-element selected>` instead of `<my-element selected="true">`.
 5. **Events for data out** Use custom events to pass information out of components unless the information to pass is large or changes extremely often.
 6. **Include Dependencies**. Include all dependencies your component needs. Don't worry if that means including redundant `<link rel="import" ...>`; as long as you set appropriate cache headers, these will only be fetched and loaded once. Using [SPDY](http://en.wikipedia.org/wiki/SPDY) can reduce the cost of having multiple files, or you can concatenate and minify them into a single file when you deploy your app.
