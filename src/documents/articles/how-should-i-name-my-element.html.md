@@ -15,7 +15,7 @@ help with you that.
 
 <!-- Read more -->
 
-## &lt;oneword&gt; vs &lt;two-words&gt;
+## `<oneword>` vs. `<two-words>`
 
 Although using just one word for your element seems pretty handy (e.g
 `<tabs>`), according to the [spec](http://www.w3.org/TR/custom-elements/)
@@ -23,16 +23,17 @@ your element need to have a dash in its name (e.g `<johns-tabs>`). That
 way you're forced to add a namespace which avoids conflits with existing
 elements.
 
-Some people use the x-* prefix when they have a single word element that doesn't
-make sense to break apart like `<x-instagram>` instead of `<insta-gram>`.
+Some people use the `x-*` prefix when they have a single word element that
+doesn't make sense to break apart like `<x-instagram>` instead of
+`<insta-gram>`.
 
-## &lt;polymer-something&gt; & &lt;x-something&gt;
+## `<polymer-something>` & `<x-something>`
 
 Nowadays we've been using libraries like [Polymer](http://www.polymer-project.org/)
 and [X-Tag](http://x-tags.org/) to help us write custom elements.
 Those libraries usually include a prefix to identify their elements (e.g
 `<polymer-something>`, `<x-something>`), so when people create an element using
-Polymer for example they also include this polymer-* prefix.
+Polymer for example they also include this `polymer-*` prefix.
 
 This is considered a bad practice, because we don't want to build a world where
 elements are seen as being "owned" by Polymer or X-Tag or whatever framework may
@@ -42,18 +43,18 @@ The text before the dash is effectively a namespace and you should want to keep
 it short but also unique. Try not to overlap on someone else's prefix if
 possible.
 
-## &lt;reserved-names&gt;
+## `<reserved-names>`
 
 There are also some reserved names that you need to avoid:
 
-* annotation-xml
-* color-profile
-* font-face
-* font-face-src
-* font-face-uri
-* font-face-format
-* font-face-name
-* missing-glyph
+* `annotation-xml`
+* `color-profile`
+* `font-face`
+* `font-face-src`
+* `font-face-uri`
+* `font-face-format`
+* `font-face-name`
+* `missing-glyph`
 
 The list of names above is the summary of all hyphen-containing element names
 from the applicable specifications, namely
