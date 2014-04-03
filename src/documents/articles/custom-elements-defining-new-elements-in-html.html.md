@@ -10,5 +10,5 @@ tags: ['Custom Elements']
 
 The web severely lacks expression. To see what I mean, take a peek at a "modern"
 web app like GMail. Modern web apps: built with `<div>` soup. There's nothing
-modern about `<div>` soup. And yet,…this is how we build web apps. It's sad.
+modern about `<div>` soup. And yet, this is how we build web apps. It's sad.
 Shouldn't we demand more from our platform?
