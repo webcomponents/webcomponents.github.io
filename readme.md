@@ -1,4 +1,4 @@
-# WebComponents.org [![Build Status](https://secure.travis-ci.org/webcomponents/webcomponents.github.io.svg?branch=site)](https://travis-ci.org/webcomponents/webcomponents.github.io) [![Dependency Status](https://david-dm.org/webcomponents/webcomponents.github.io.png)](https://david-dm.org/webcomponents/webcomponents.github.io)
+# WebComponents.org [![Build Status](https://secure.travis-ci.org/webcomponents/webcomponents.github.io.svg?branch=site)](https://travis-ci.org/webcomponents/webcomponents.github.io) [![Dependency Status](https://david-dm.org/webcomponents/webcomponents.github.io.svg?theme=shields.io)](https://david-dm.org/webcomponents/webcomponents.github.io)
 
 ![WebComponents.org Logo](http://f.cl.ly/items/253L1A2x1F3c3Y1b3R2P/logo.png)
 
