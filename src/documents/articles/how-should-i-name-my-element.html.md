@@ -11,7 +11,7 @@ tags: ['Best Practices', 'Custom Elements']
 Naming is always a challenging task when developing a component. We can create
 truly complex pieces of code but we still have a hard time to name a simple
 variable. The same is true for naming custom elements and we're here today to
-help with you that.
+help you with that.
 
 <!-- Read more -->
 
