@@ -7,7 +7,7 @@ pagedCollection: 'presentations'
 pageSize: 6
 ---
 
-<% for item in @getPageCollection("presentations").toJSON(): %>
+<% for item in @fixOrder(@getPageCollection("presentations").toJSON()): %>
     <section class="card card-story card-presentations">
         <% if item.image: %>
             <a <% if item.link: %>target="_blank"<% end %> class="story-image" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>">

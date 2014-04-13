@@ -189,6 +189,26 @@ module.exports = {
             var i = content.search("<!-- Read more -->");
 
             return i >= 0;
+        },
+
+        fixOrder: function(documentsList){
+            var documentsEven = [],
+                documentsOdd = [],
+                i = 0;
+
+            if (!Array.isArray(documentsList)) {
+                return documentsList;
+            }
+
+            for (; i < documentsList.length; i++) {
+                if (i%2 === 0) {
+                    documentsEven.push(documentsList[i]);
+                } else {
+                    documentsOdd.push(documentsList[i]);
+                }
+            }
+
+            return documentsEven.concat(documentsOdd);
         }
     },
 
