@@ -338,6 +338,10 @@ header, section {
     column-break-inside: avoid;
 }
 
+.card:after {
+    content: "";
+}
+
 .card h3 {
     border-bottom: 1px solid #f2f4f6;
     color: #434a54;
