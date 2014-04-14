@@ -12,10 +12,10 @@ An example of the type of discussion that might happen on an category page is ab
 
 ```
 <polymer-ui-tabs selected="0">
-  <span>One</span>
-  <span>Two</span>
-  <span>Three</span>
-  <span>Four</span>
+    <span>One</span>
+    <span>Two</span>
+    <span>Three</span>
+    <span>Four</span>
 </polymer-ui-tabs>
 ```
 
