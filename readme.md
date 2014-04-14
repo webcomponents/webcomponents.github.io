@@ -86,9 +86,9 @@ WebComponents.org is maintained by these people and a bunch of awesome [contribu
 --- | --- | --- | --- | ---
 [Zeno Rocha](https://github.com/zenorocha) | [Addy Osmani](https://github.com/addyosmani) | [Eric Bidelman](https://github.com/ebidel) | [Briza Bueno](https://github.com/brizabueno) | [Alex Komoroske](https://github.com/jkomoros)
 
-[![Eduardo](https://2.gravatar.com/avatar/42327de520e674a6d1686845b30778d0)](https://github.com/eduardolundgren) | [![Pascal](https://2.gravatar.com/avatar/b32bdb1fc9fdadeb45d7a1267fdd2fc4)](https://github.com/PascalPrecht) | [![Bernard](https://2.gravatar.com/avatar/bc16c9be1e05e65395487b78b1cc72c0)](https://github.com/bernarddeluna) | [![Sindre](https://2.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9)](https://github.com/sindresorhus) | [![Rob](https://2.gravatar.com/avatar/95c3a3b33ea51545229c625bef42e343)](https://github.com/rob_dodson)
+[![Eduardo](https://2.gravatar.com/avatar/42327de520e674a6d1686845b30778d0)](https://github.com/eduardolundgren) | [![Pascal](https://2.gravatar.com/avatar/b32bdb1fc9fdadeb45d7a1267fdd2fc4)](https://github.com/PascalPrecht) | [![Bernard](https://2.gravatar.com/avatar/bc16c9be1e05e65395487b78b1cc72c0)](https://github.com/bernarddeluna) | [![Sindre](https://2.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9)](https://github.com/sindresorhus) | [![Rob](https://2.gravatar.com/avatar/95c3a3b33ea51545229c625bef42e343)](https://github.com/robdodson)
 --- | --- | --- | --- | ---
-[Eduardo L.](https://github.com/eduardolundgren) | [Pascal Precht](https://github.com/PascalPrecht) | [Bernard De L.](https://github.com/bernarddeluna) | [Sindre Sorhus](https://github.com/sindresorhus) | [Rob Dodson](https://github.com/rob_dodson)
+[Eduardo L.](https://github.com/eduardolundgren) | [Pascal Precht](https://github.com/PascalPrecht) | [Bernard De L.](https://github.com/bernarddeluna) | [Sindre Sorhus](https://github.com/sindresorhus) | [Rob Dodson](https://github.com/robdodson)
 
 ## Contributing
 
