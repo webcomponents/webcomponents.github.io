@@ -25,7 +25,8 @@
             <section class="card">
                 <h3>Suggest a type of element</h3>
                 <ul class="tag-list">
-                    <form id="suggest-form" action="">
+                    <form id="suggest-form" action="" role="form">
+                        <label for="suggest-input" class="visuallyhidden">Suggestion</label>
                         <input id="suggest-input" placeholder="e.g., Autocomplete" type="text" required>
                         <button class="suggest-btn">Submit</button>
                     </form>
