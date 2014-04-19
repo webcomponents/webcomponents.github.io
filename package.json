@@ -1,10 +1,17 @@
 {
-    "name": "webcomponents.org",
-    "version": "1.0.0-alpha",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:webcomponents/webcomponents.github.io.git"
+    "private": true,
+    "dependencies": {
+        "docpad": "~6.64.0",
+        "docpad-plugin-cleanurls": "~2.7.0",
+        "docpad-plugin-eco": "~2.0.3",
+        "docpad-plugin-ghpages": "~2.4.2",
+        "docpad-plugin-grunt": "~2.1.1",
+        "docpad-plugin-highlightjs": "~2.2.0",
+        "docpad-plugin-marked": "~2.2.0",
+        "docpad-plugin-moment": "~2.0.2",
+        "docpad-plugin-paged": "~2.2.4",
+        "docpad-plugin-partials": "~2.9.0",
+        "docpad-plugin-tags": "~2.0.7"
     },
     "devDependencies": {
         "grunt": "~0.4.2",
@@ -18,26 +25,10 @@
         "grunt-pagespeed": "~0.1.2",
         "load-grunt-tasks": "~0.4.0"
     },
-    "engines": {
-        "node": ">=0.10.0"
-    },
     "scripts": {
         "deploy": "node_modules/docpad/bin/docpad deploy-ghpages --env static",
         "generate": "node_modules/docpad/bin/docpad generate --env static",
         "watch": "node_modules/docpad/bin/docpad run",
         "test": "grunt pagespeed"
-    },
-    "dependencies": {
-        "docpad": "~6.64.0",
-        "docpad-plugin-cleanurls": "~2.7.0",
-        "docpad-plugin-eco": "~2.0.3",
-        "docpad-plugin-ghpages": "~2.4.2",
-        "docpad-plugin-grunt": "~2.1.1",
-        "docpad-plugin-highlightjs": "~2.2.0",
-        "docpad-plugin-marked": "~2.2.0",
-        "docpad-plugin-moment": "~2.0.2",
-        "docpad-plugin-paged": "~2.2.4",
-        "docpad-plugin-partials": "~2.9.0",
-        "docpad-plugin-tags": "~2.0.7"
     }
 }
