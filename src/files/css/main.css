@@ -34,12 +34,32 @@ dl:after {
     visibility: hidden;
 }
 
+a:focus {
+  outline: #333 solid 1px;
+}
+
 hr {
     display: none;
 }
 
 .clear {
     clear: both;
+}
+
+/* Util
+============================================================================= */
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 /* Text selection
@@ -111,6 +131,7 @@ header, section {
 }
 
 .header .logo {
+    display: inline-block;
     left: 50%;
     margin: 0 0 0 -123px;
     position: relative;
@@ -503,6 +524,10 @@ header, section {
     display: inline-block;
     padding: 10px;
     width: 21%;
+}
+
+.profile-list li a {
+  display: inline-block;
 }
 
 .profile-list .picture {
