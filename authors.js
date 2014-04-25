@@ -28,6 +28,13 @@ module.exports = {
         gplus: "+WebComponents",
         twitter: "webcomponents"
     },
+    christian_heilmann: {
+        name: "Christian Heilmann",
+        bio: "Chris is Principal Evangelist at Mozilla. He has dedicated a lot of his time making the web better. He spent a few years in Yahoo building products and explaining and training people and is now at Mozilla. Chris wrote and contributed to four books on web development and wrote many articles and hundreds of blog posts for Ajaxian, Smashing Magazine, Yahoo, Mozilla, ScriptJunkie and many more.",
+        gravatar: "07fcd228af02d476b1b8367d85a903b2",
+        gplus: "+ChristianHeilmann",
+        twitter: "codepo8"
+    },
     dominic_cooney: {
         name: "Dominic Cooney",
         bio: "Dominic is Staff Software Engineer at Google on web frontends and server and client web platforms.",
