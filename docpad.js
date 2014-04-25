@@ -10,9 +10,9 @@ module.exports = {
         authors: require('./authors'),
 
         site: {
-            title: "webcomponents.org",
+            title: "WebComponents.org",
             description: "The web platform specs that will change the way you build apps",
-            url: "http://webcomponents.github.io"
+            url: "http://webcomponents.org"
         },
 
         github: {
