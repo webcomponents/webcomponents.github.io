@@ -1,0 +1,60 @@
+<%- @partial('header') %>
+<div class="page-wrap">
+<%- @partial('menu') %>
+
+<div id="resources" class="wrapper">
+    <main class="layout-single" role="main">
+        <div class="single-content" role="article">
+            <!-- Post -->
+            <section class="card card-story" role="region">
+                <p class="title" itemprop="name"><%= @document.title %></p>
+
+                <div class="post-info" role="complementary">
+                    <p class="post-edit">
+                        <span class="icon-pencil"></span>
+                        <a href="<%= @getGithubEditURL(@document.relativePath) %>">Edit this page</a>
+                    </p>
+                </div>
+
+                <div class="description" itemprop="text">
+                    <%- @content %>
+                </div>
+            </section>
+        </div>
+        <div class="single-sidebar">
+            <section class="card card-tags">
+                <h3>Boilerplates</h3>
+                <ul class="tag-list">
+                    <li>
+                        <a target="_blank" href="https://github.com/webcomponents/polymer-boilerplate">
+                            <span class="icon-github-alt"></span>
+                            Polymer Boilerplate
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/webcomponents/x-tag-boilerplate">
+                            <span class="icon-github-alt"></span>
+                            X-Tag Boilerplate
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/webcomponents/element-boilerplate">
+                            <span class="icon-github-alt"></span>
+                            VanillaJS Boilerplate
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/webcomponents/generator-element">
+                            <span class="icon-github-alt"></span>
+                            Element Generator
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</div>
+
+</div>
+
+<%- @partial('footer') %>
