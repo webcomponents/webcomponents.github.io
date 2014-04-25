@@ -8,7 +8,6 @@
     margin: 0;
     outline: 0;
     padding: 0;
-    text-decoration: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -34,8 +33,16 @@ dl:after {
     visibility: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 a:focus {
-  outline: #333 solid 1px;
+    outline: #333 solid 1px;
 }
 
 hr {
@@ -66,13 +73,13 @@ hr {
 ============================================================================= */
 
 ::-moz-selection {
-    background: #ff5c03;
+    background: #f16529;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #ff5c03;
+    background: #f16529;
     color: #fff;
     text-shadow: none;
 }
@@ -248,6 +255,7 @@ header, section {
     -webkit-transform: translateY(-110%);
     -moz-transform: translateY(-110%);
     transform: translateY(-110%);
+    text-decoration: none;
 }
 
 /* Social buttons
@@ -432,13 +440,13 @@ header, section {
     padding: 5px 0;
 }
 
+.card-story .description a {
+    color: #3a99d7;
+}
+
 .card-story .title {
     margin: 10px 0 0;
     display: inline-block;
-}
-
-.card-story .title:hover {
-    text-decoration: underline;
 }
 
 .story-image {
@@ -472,6 +480,7 @@ header, section {
 
 .see-all:hover {
     background: rgba(22, 100, 151, .9);
+    text-decoration: none;
 }
 
 /* Card ~ Links (Specs, Polyfills, Discover)
@@ -530,6 +539,10 @@ header, section {
   display: inline-block;
 }
 
+.profile-list li a:hover {
+    text-decoration: none;
+}
+
 .profile-list .picture {
     border-radius: 50%;
     left: 0;
@@ -542,6 +555,14 @@ header, section {
     color: #434a54;
     margin-top: 0;
     text-align: center;
+}
+
+.profile-list li:last-child .name {
+    color: #3a99d7;
+}
+
+.profile-list li:last-child .name:hover {
+    text-decoration: underline;
 }
 
 /* Card ~ What
@@ -590,11 +611,6 @@ header, section {
     text-align: center;
 }
 
-.status-credits a {
-    color: #434a54;
-    text-decoration: underline;
-}
-
 /** =========================================================================
     Archive
     ========================================================================= */
@@ -640,10 +656,6 @@ header, section {
     display: inline;
 }
 
-.card-story .post-author a:hover {
-    text-decoration: underline;
-}
-
 .card-story .post-location,
 .card-story .post-date {
     color: #9c9c9c;
@@ -660,18 +672,10 @@ header, section {
     color: #ff5c03;
 }
 
-.card-story .post-edit a:hover {
-    text-decoration: underline;
-}
-
-.read-more {
+.card-story .description .read-more {
     color: #ff5c03;
     margin: 5px 0 10px;
     display: inline-block;
-}
-
-.read-more:hover {
-    text-decoration: underline;
 }
 
 /* Pagination
@@ -859,6 +863,7 @@ header, section {
 
 .tag-list li a:hover {
     background: #f2f2f2;
+    text-decoration: none;
 }
 
 .tag-list li span {
@@ -888,9 +893,12 @@ header, section {
     margin: 0;
 }
 
-.credits a,
-#credits-link {
+.credits-link {
     color: #3a99d7;
+}
+
+.credits-link:hover {
+    text-decoration: underline;
 }
 
 .credits .love {

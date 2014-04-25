@@ -62,8 +62,8 @@
             </a>
         </li>
         <li>
-            <a target="_blank" href="<%= @getGithubURL() %>/graphs/contributors" itemprop="url">
-                <p class="name" id="credits-link">and more!</p>
+            <a target="_blank" class="credits-link" href="<%= @getGithubURL() %>/graphs/contributors" itemprop="url">
+                <p class="name">and more!</p>
             </a>
         </li>
     </ul>
