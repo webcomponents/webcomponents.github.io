@@ -5,6 +5,7 @@ date: 2014-01-24
 image: web-components-best-practices.jpg
 category: articles
 layout: single
+sticky: true
 tags: ['Best Practices', 'Custom Elements', 'Documentation', 'Accessibility']
 ---
 

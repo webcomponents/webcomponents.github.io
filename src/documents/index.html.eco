@@ -22,8 +22,8 @@ layout: home
             <%- @partial('card-links', { name: 'Discover', slug: 'discover', docs: @getCollection("discover").toJSON() }) %>
         </div>
         <div class="column-last">
-            <%- @partial('card-story', { name: 'Articles', slug: 'articles', docs: @getCollection("articles").toJSON().slice(0, 1) }) %>
-            <%- @partial('card-story', { name: 'Presentations', slug: 'presentations', docs: @getCollection("presentations").toJSON().slice(0, 1) }) %>
+            <%- @partial('card-story', { name: 'Articles', slug: 'articles', docs: @getSticky(@getCollection("articles").toJSON()) }) %>
+            <%- @partial('card-story', { name: 'Presentations', slug: 'presentations', docs: @getSticky(@getCollection("presentations").toJSON()) }) %>
             <%- @partial('card-community', { name: 'Community', slug: 'community' }) %>
         </div>
     </main>

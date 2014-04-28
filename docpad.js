@@ -96,6 +96,18 @@ module.exports = {
             return i >= 0;
         },
 
+        getSticky: function(collection){
+            var arraySticky = collection.filter(function(item){
+                return item.sticky === true;
+            });
+
+            if(arraySticky.length > 0){
+                return arraySticky.slice(0, 1);
+            }
+
+            return collection.slice(0, 1);
+        },
+
         // Since we're using CSS columns, all cards get ordered in the UI
         // from top to bottom, instead of from left to right.
         // This function reorders the document list to address that.
