@@ -430,6 +430,7 @@ header, section {
 
 .card-story {
     padding: 0 20px;
+    position: relative;
 }
 
 .card-story p {
@@ -481,6 +482,12 @@ header, section {
 .see-all:hover {
     background: rgba(22, 100, 151, .9);
     text-decoration: none;
+}
+
+.ribbon-internal-link {
+    display: block;
+    position: absolute;
+    right: 30px;
 }
 
 /* Card ~ Links (Specs, Polyfills, Discover)

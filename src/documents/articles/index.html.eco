@@ -9,6 +9,8 @@ pageSize: 6
 
 <% for item in @fixOrder(@getPageCollection("articles").toJSON()): %>
     <section class="card card-story card-articles">
+        <img class="ribbon-internal-link" src="<%= @site.url %>/img/ribbon.png" alt="Internal link indicator">
+
         <% if item.image: %>
             <a <% if item.link: %>target="_blank"<% end %> class="story-image" href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>">
                 <img src="<%= @site.url %>/img/stories/<%= item.image %>" alt="<%= item.title %>">
