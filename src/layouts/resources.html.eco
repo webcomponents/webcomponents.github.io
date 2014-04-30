@@ -51,6 +51,29 @@
                     </li>
                 </ul>
             </section>
+            <section class="card card-tags">
+                <h3>Examples</h3>
+                <ul class="tag-list">
+                    <li>
+                        <a target="_blank" href="https://github.com/webcomponents/hello-world-polymer">
+                            <span class="icon-github-alt"></span>
+                            Hello World Polymer
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/webcomponents/hello-world-xtag">
+                            <span class="icon-github-alt"></span>
+                            Hello World X-Tag
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/webcomponents/hello-world-element">
+                            <span class="icon-github-alt"></span>
+                            Hello World VanillaJS
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </div>
     </main>
 </div>
