@@ -85,7 +85,7 @@ module.exports = function(grunt) {
                 options: {
                     url: "http://webcomponents.github.io/",
                     strategy: "mobile",
-                    threshold: 69,
+                    threshold: 68,
                     locale: "en_US"
                 }
             },
