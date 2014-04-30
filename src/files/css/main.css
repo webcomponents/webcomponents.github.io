@@ -55,9 +55,8 @@ hr {
 
 /* Util
 ============================================================================= */
-/*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -536,7 +535,7 @@ header, section {
 }
 
 .profile-list li a {
-  display: inline-block;
+    display: inline-block;
 }
 
 .profile-list li a:hover {
