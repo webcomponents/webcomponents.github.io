@@ -108,6 +108,14 @@ module.exports = {
             return collection.slice(0, 1);
         },
 
+        isActiveMenu: function(path) {
+            if (path === this.document.relativeDirPath) {
+                return true;
+            }
+
+            return;
+        },
+
         // Since we're using CSS columns, all cards get ordered in the UI
         // from top to bottom, instead of from left to right.
         // This function reorders the document list to address that.
