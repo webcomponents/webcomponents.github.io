@@ -744,6 +744,7 @@ header, section {
 .layout-single .description li {
     line-height: 1.5em;
     margin-bottom: 10px;
+    font-size: 1.1em;
 }
 
 .layout-single .description ol,
