@@ -11,7 +11,7 @@ module.exports = {
 
         site: {
             title: "WebComponents.org",
-            description: "The web platform specs that will change the way you build apps",
+            description: "A place to discuss and evolve Web Component best-practices",
             url: "http://webcomponents.org"
         },
 
