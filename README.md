@@ -17,7 +17,7 @@ $ git clone git@github.com:webcomponents/webcomponents.github.io.git
 Then go to the folder and install all dependencies:
 
 ```sh
-$ cd webcomponents.org
+$ cd webcomponents.github.io
 $ npm install
 ```
 
