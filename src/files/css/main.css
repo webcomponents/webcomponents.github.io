@@ -276,6 +276,14 @@ header, section {
     width: 88px;
 }
 
+/* --- Temporary fix for menu --- */
+@media (max-width: 1140px) {
+    .social-buttons {
+        display: none;
+    }
+}
+
+
 /* --- Centralized header bar --- */
 @media (max-width: 980px) {
     .header-bar .logo {
