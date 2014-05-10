@@ -26,5 +26,23 @@
                 </li>
             </ul>
         </nav>
+
+        <!-- Search -->
+        <script>
+        (function() {
+            var cx = '006706517617519397807:s_k6dwkdtby';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+        </script>
+
+        <div class="search-box">
+            <gcse:search></gcse:search>
+        </div>
     </div>
 </header>
