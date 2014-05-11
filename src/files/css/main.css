@@ -994,6 +994,10 @@ header, section {
         margin-bottom: 5px;
     }
 
+    .gplus-btn {
+        width: 60px;
+    }
+
     .credits p {
         float: none;
         text-align: center;
