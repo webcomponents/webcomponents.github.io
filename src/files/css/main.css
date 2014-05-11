@@ -969,15 +969,13 @@ header, section {
 .social-buttons li {
     display: inline-block;
     margin-left: 5px;
+    overflow: hidden;
 }
 
-.github-btn {
-    width: 88px;
-}
-
-.gplus-btn {
-    width: 60px;
-}
+.tweet-btn  { width: 100px; }
+.fb-btn     { width: 80px;  }
+.gplus-btn  { width: 70px;  }
+.github-btn { width: 85px;  }
 
 /* -- centralized footer -- */
 @media (max-width: 980px) {
@@ -992,10 +990,6 @@ header, section {
 
     .social-buttons li {
         margin-bottom: 5px;
-    }
-
-    .gplus-btn {
-        width: 60px;
     }
 
     .credits p {
