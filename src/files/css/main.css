@@ -161,6 +161,7 @@ header, section {
 .header .subtitle {
     font-size: 1.5em;
     font-weight: 400;
+    line-height: 1.2em;
     margin-bottom: 40px;
     text-transform: lowercase;
 }
@@ -179,18 +180,23 @@ header, section {
 /* --- One column --- */
 @media (max-width: 660px) {
     .header .title {
+        margin-top: 20px;
         font-size: 2em;
     }
 
     .header .subtitle {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 }
 
 /* --- Tiny screens --- */
-@media (max-width: 360px) {
+@media (max-width: 320px) {
     .header .title {
         font-size: 1.6em;
+    }
+
+    .header .subtitle {
+        font-size: 1em;
     }
 }
 
@@ -991,7 +997,7 @@ header, section {
 }
 
 /* --- Tiny screens --- */
-@media (max-width: 360px) {
+@media (max-width: 320px) {
     .credits p {
         font-size: .9em;
     }
