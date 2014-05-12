@@ -797,6 +797,10 @@ header, section {
     padding-left: 0;
 }
 
+#disqus_thread a {
+    color: #3a99d7;
+}
+
 /* --- One column --- */
 @media (max-width: 980px) {
     .layout-single {
