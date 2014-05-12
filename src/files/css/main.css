@@ -977,25 +977,16 @@ header, section {
 .gplus-btn  { width: 70px;  }
 .github-btn { width: 85px;  }
 
-/* -- centralized footer -- */
+/* -- Centralized footer -- */
 @media (max-width: 980px) {
     .social-buttons {
-        float: none;
-        list-style: none;
-        margin-top: 10px;
-        padding-top: 20px;
-        margin-right: 0;
-        text-align: center;
+        display: none;
     }
-
-    .social-buttons li {
-        margin-bottom: 5px;
-    }
-
     .credits p {
         float: none;
         text-align: center;
         margin: 0;
+        line-height: 1.5em;
     }
 }
 
