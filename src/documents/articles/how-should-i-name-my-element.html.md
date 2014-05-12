@@ -61,6 +61,13 @@ from the applicable specifications, namely
 [SVG](http://www.w3.org/TR/SVG/eltindex.html) and
 [MathML](http://www.w3.org/TR/MathML/).
 
+## Tools
+
+If you want to check if a given string is a valid custom element name, check
+[Mathias Bynens's app](http://mothereff.in/custom-element-name). This little
+nice tool was built using [Sindre Sorhus's node module](https://github.com/sindresorhus/validate-element-name/)
+that allows you to programmatically validate a custom element name.
+
 ## What about you?
 
 Tell us below how do you usually name your elements and share your thoughts
