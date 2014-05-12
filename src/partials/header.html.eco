@@ -24,6 +24,7 @@
     <meta name="twitter:title" content="<%= @getTitle() %>">
     <meta name="twitter:description" content="<%= @getDescription() %>">
     <meta name="twitter:image" content="<%= @site.url %>/img/logo.png">
+    <meta name="twitter:site" content="@Web_Components">
 
     <!-- CSS -->
     <link rel="stylesheet" href="<%= @site.url %>/css/main.min.css">
