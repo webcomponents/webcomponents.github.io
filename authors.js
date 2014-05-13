@@ -2,7 +2,7 @@ module.exports = {
 
     addy_osmani: {
         name: "Addy Osmani",
-        bio: "Addy works on the Chrome Developer Relations team at Google, building and advocating for tools to help improve developer productivity and satisfaction. His personal projects include TodoMVC, which helps developers compare JavaScript MVC frameworks and AuraJS. He've also written 'Developing Backbone.js Applications' and 'Learning JavaScript Design Patterns'.",
+        bio: "Addy works on the Chrome Developer Relations team at Google, building and advocating for tools to help improve developer productivity and satisfaction. His personal projects include TodoMVC, which helps developers compare JavaScript MVC frameworks and AuraJS. He's also written 'Developing Backbone.js Applications' and 'Learning JavaScript Design Patterns'.",
         gravatar: "96270e4c3e5e9806cf7245475c00b275",
         gplus: "+AddyOsmani",
         twitter: "addyosmani"
