@@ -14,6 +14,13 @@ module.exports = {
         gplus: "+AlexKomoroske",
         twitter: "jkomoros"
     },
+    alice_boxhall: {
+        name: "Alice Boxhall",
+        bio: "Alice Boxhall is a software engineer at Google, where she works on improving accessibility support in Google Chrome.",
+        gravatar: "28ddf038eb5c6020431cb7d1b3fb03af",
+        gplus: "111975973972817482025",
+        twitter: "sundress"
+    },
     angelina_fabbro: {
         name: "Angelina Fabbro",
         bio: "Angelina is a developer from Vancouver, BC Canada working at Mozilla as a Technical Evangelist and developer advocate for Firefox OS. She loves JavaScript, web components, Node.js, mobile app development, and this cool place she hang out a lot called the world wide web. Oh, and let's not forget Firefox OS. In her spare time she takes singing lessons, play Magic: The Gathering, teach people to program, and collaborate with scientists for better programmer-scientist engagement.",
