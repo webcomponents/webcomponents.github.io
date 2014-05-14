@@ -1,6 +1,6 @@
 ---
 title: "Building Mobile Web Applications With Brick"
-author: angelina_fabbro
+authors: [angelina_fabbro]
 event: Full Frontal
 date: 2013-11-08
 image: building-mobile-web-applications-with-brick-at-full-frontal.jpg

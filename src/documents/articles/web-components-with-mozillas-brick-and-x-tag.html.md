@@ -1,6 +1,6 @@
 ---
 title: Custom Elements for Custom Applications – Web Components with Mozilla’s Brick and X-Tag
-author: angelina_fabbro
+authors: [angelina_fabbro]
 date: 2013-03-04
 link: https://hacks.mozilla.org/2014/03/custom-elements-for-custom-applications-web-components-with-mozillas-brick-and-x-tag/
 category: articles

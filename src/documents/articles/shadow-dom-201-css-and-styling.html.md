@@ -1,6 +1,6 @@
 ---
 title: Shadow DOM 201: CSS and Styling
-author: eric_bidelman
+authors: [eric_bidelman]
 date: 2013-03-15
 link: http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/
 category: articles

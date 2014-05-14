@@ -1,6 +1,6 @@
 ---
 title: Custom Elements: defining new elements in HTML
-author: eric_bidelman
+authors: [eric_bidelman]
 date: 2013-08-28
 link: http://www.html5rocks.com/en/tutorials/webcomponents/customelements/
 category: articles

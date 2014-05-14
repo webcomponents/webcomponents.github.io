@@ -1,6 +1,6 @@
 ---
 title: "Web Components Revolution"
-author: rob_dodson
+authors: [rob_dodson]
 event: Cascade SF
 date: 2013-11-14
 image: web-components-revolution.jpg

@@ -1,6 +1,6 @@
 ---
 title: Shadow DOM 101
-author: dominic_cooney
+authors: [dominic_cooney]
 date: 2013-01-04
 link: http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/
 category: articles

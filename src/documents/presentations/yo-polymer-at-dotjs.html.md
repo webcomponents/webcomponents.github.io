@@ -1,6 +1,6 @@
 ---
 title: "Yo Polymer: a new way of building web apps"
-author: addy_osmani
+authors: [addy_osmani]
 event: DotJS
 date: 2013-12-02
 image: yo-polymer-at-dotjs.jpg

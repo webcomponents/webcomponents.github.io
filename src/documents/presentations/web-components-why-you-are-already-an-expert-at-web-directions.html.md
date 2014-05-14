@@ -1,6 +1,6 @@
 ---
 title: "Web Components: Why you're already an expert"
-author: mark_dalgleish
+authors: [mark_dalgleish]
 event: Web Directions
 date: 2013-10-22
 image: web-components-why-you-are-already-an-expert-at-web-directions.jpg

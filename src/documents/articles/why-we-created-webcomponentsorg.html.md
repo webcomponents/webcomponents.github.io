@@ -1,6 +1,6 @@
 ---
 title: Why we created WebComponents.org?
-author: zeno_rocha
+authors: [zeno_rocha]
 date: 2014-05-05
 link: http://zenorocha.com/why-we-created-webcomponentsorg/
 category: articles

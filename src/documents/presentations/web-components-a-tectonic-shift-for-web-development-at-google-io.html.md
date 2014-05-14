@@ -1,6 +1,6 @@
 ---
 title: "Web Components: A Tectonic Shift for Web Development"
-author: eric_bidelman
+authors: [eric_bidelman]
 event: Google I/O
 date: 2013-05-18
 image: web-components-a-tectonic-shift-for-web-development-at-google-io.jpg

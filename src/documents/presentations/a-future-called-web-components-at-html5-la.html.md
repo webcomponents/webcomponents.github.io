@@ -1,6 +1,6 @@
 ---
 title: "A future called Web Components"
-author: zeno_rocha
+authors: [zeno_rocha]
 event: HTML5 Los Angeles
 date: 2013-12-17
 image: a-future-called-web-components-at-html5-la.jpg

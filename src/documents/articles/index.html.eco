@@ -21,7 +21,10 @@ pageSize: 6
 
         <div class="post-info">
             <p class="post-author">
-                By <a href="<%= @getAuthorTwitter(item.author) %>" target="_blank"><%= @getAuthor(item.author).name %></a>
+                <% for author, i in item.authors: %>
+                    <% if i == 0: %>By<% else: %>&<% end %>
+                    <a href="<%= @getAuthorTwitter(author) %>" target="_blank"><%= @getAuthor(author).name %></a>
+                <% end %>
             </p>
 
             <p class="post-date">

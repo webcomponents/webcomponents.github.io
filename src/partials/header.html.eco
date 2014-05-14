@@ -41,8 +41,8 @@
     <link href="http://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet" type="text/css">
 
     <!-- Author -->
-    <% if @document.author: %>
-        <link rel="author" href="<%= @getAuthorGooglePlus(@document.author) %>">
+    <% if @document.authors: %>
+        <link rel="author" href="<%= @getAuthorGooglePlus(@document.authors[0]) %>">
     <% else: %>
         <link rel="publisher" href="https://plus.google.com/103330502635338602217">
     <% end %>

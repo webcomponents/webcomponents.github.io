@@ -1,6 +1,6 @@
 ---
 title: 'HTML Imports: #include for the web'
-author: eric_bidelman
+authors: [eric_bidelman]
 date: 2013-11-11
 link: http://www.html5rocks.com/en/tutorials/webcomponents/imports/
 category: articles

@@ -1,6 +1,6 @@
 ---
 title: Web Components: Why You're Already an Expert
-author: mark_dalgleish
+authors: [mark_dalgleish]
 date: 2013-11-19
 link: http://markdalgleish.com/2013/11/web-components-why-youre-already-an-expert/
 category: articles

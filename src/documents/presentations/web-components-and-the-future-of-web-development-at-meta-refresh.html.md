@@ -1,6 +1,6 @@
 ---
 title: "Web components and the future of web development"
-author: varunkumar_nagarajan
+authors: [varunkumar_nagarajan]
 event: Meta Refresh
 date: 2013-01-18
 image: web-components-and-the-future-of-web-development-at-meta-refresh.jpg

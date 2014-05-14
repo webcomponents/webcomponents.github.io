@@ -1,6 +1,6 @@
 ---
 title: Shadow DOM 301: Advanced Concepts & DOM APIs
-author: eric_bidelman
+authors: [eric_bidelman]
 date: 2013-03-21
 link: http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-301/
 category: articles

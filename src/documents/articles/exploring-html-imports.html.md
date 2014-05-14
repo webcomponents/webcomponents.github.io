@@ -1,6 +1,6 @@
 ---
 title: Exploring HTML Imports
-author: rob_dodson
+authors: [rob_dodson]
 date: 2013-08-20
 link: http://robdodson.me/blog/2013/08/20/exploring-html-imports/
 category: articles
