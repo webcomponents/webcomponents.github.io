@@ -40,6 +40,10 @@
 
                 <div class="description" itemprop="text">
                     <%- @content %>
+
+                    <% if @document.link: %>
+                        <a class="read-more" href="<%= @document.link %>" target="_blank">Read More ></a>
+                    <% end %>
                 </div>
             </section>
 
