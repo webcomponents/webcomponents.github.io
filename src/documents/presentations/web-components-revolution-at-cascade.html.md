@@ -3,7 +3,7 @@ title: "Web Components Revolution"
 authors: [rob_dodson]
 event: Cascade SF
 date: 2013-11-14
-image: web-components-revolution.jpg
+image: web-components-revolution-at-cascade.jpg
 category: presentations
 layout: single
 ---
@@ -16,5 +16,5 @@ the future that Web Components will bring.
 <!-- Read more -->
 
 <a href="http://robdodson.me/webcomponents-cascade">
-    <img src="../../img/stories/web-components-revolution-cover.jpg" alt="Presentation Cover">
+    <img src="../../img/stories/web-components-revolution-at-cascade-cover.jpg" alt="Presentation Cover">
 </a>

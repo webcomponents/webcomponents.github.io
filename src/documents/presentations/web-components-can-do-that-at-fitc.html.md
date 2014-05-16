@@ -3,7 +3,7 @@ title: "Web Components Can Do That?!"
 authors: [addy_osmani]
 event: Fitc Toronto
 date: 2014-04-28
-image: web-components-can-do-that.jpg
+image: web-components-can-do-that-at-fitc.jpg
 category: presentations
 layout: single
 ---
@@ -21,5 +21,5 @@ apps. Write less boilerplate, target every platform, and be more productive by
 using the next generation of the web platform.
 
 <a href="http://addyosmani.github.io/fitc-wccdt/">
-    <img src="../../img/stories/web-components-can-do-that-cover.jpg" alt="Presentation Cover">
+    <img src="../../img/stories/web-components-can-do-that-at-fitc-cover.jpg" alt="Presentation Cover">
 </a>
