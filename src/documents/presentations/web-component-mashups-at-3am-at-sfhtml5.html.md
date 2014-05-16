@@ -21,4 +21,3 @@ friends from CustomElements.io.
 <a href="http://robdodson.me/sfhtml5-talk/">
     <img src="../../img/stories/web-component-mashups-at-3am-at-sfhtml5-cover.jpg" alt="Presentation Cover">
 </a>
-
