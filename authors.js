@@ -42,6 +42,13 @@ module.exports = {
         gplus: "+ChristianHeilmann",
         twitter: "codepo8"
     },
+    daniel_buchner: {
+        name: "Daniel Buchner",
+        bio: "Daniel — formerly at Mozilla — is a creative, technical, Product Manager who is helping to push the web app ecosystem forward. As the creator of the X-Tag library and contributor to Brick (Mozilla's supported set of custom elements), Daniel has worked on the Web Components family of W3 specifications and helps drive the platform implementation process at Mozilla.",
+        gravatar: "35e22073952684192bb93702a947308c",
+        gplus: "+DanielBuchner",
+        twitter: "csuwildcat"
+    },
     dominic_cooney: {
         name: "Dominic Cooney",
         bio: "Dominic is Staff Software Engineer at Google on web frontends and server and client web platforms.",
