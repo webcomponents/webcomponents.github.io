@@ -443,6 +443,7 @@ header, section {
     font-size: .9em;
     font-weight: 600;
     text-transform: uppercase;
+    line-height: 1.3em;
 }
 
 .card .description {
