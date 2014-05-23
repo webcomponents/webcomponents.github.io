@@ -91,6 +91,13 @@ module.exports = {
         gplus: "+RobDodson",
         twitter: "rob_dodson"
     },
+    tom_dale: {
+        name: "Tom Dale",
+        bio: "Tom helped create Ember.js, a JavaScript framework that brings sanity to the web. He also co-founded Tilde with Yehuda Katz, Leah Silber and Carl Lerche.",
+        gravatar: "9bf3a766e037b9d5a4da0a6f9d0f4f68",
+        gplus: "+TomDale",
+        twitter: "tomdale"
+    },
     marcy_sutton: {
         name: "Marcy Sutton",
         bio: "Developer @Substantial. @GDISeattle co-leader. Bike racer, music junkie, #a11y advocate, dog lover, big ole nerd. Also twittering @marcybikes.",
