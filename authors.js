@@ -63,6 +63,13 @@ module.exports = {
         gplus: "+EricBidelman",
         twitter: "ebidel"
     },
+    jan_miksovsky: {
+        name: "Jan Miksovsky",
+        bio: "Jan is a user experience designer/developer. He's the founder of Component Kitchen, a startup focusing on promoting web components.",
+        gravatar: "eab84bbf714f065bbfece0c58d9fc6c3",
+        gplus: "+JanMiksovsky",
+        twitter: "JanMiksovsky"
+    },
     mark_dalgleish: {
         name: "Mark Dalgleish",
         bio: "Mark is a senior UI developer at SEEK and the lead organiser of MelbJS. He’s obsessed with everything web and loves using JavaScript, CSS and HTML to create rich experiences that resonate with end users. In his spare time, he loves experimenting with the latest web technologies, sharing projects online and helping others learn progressive web development techniques.",
