@@ -5,6 +5,7 @@ date: 2014-06-13
 link: https://github.com/basic-web-components/components-dev/wiki/Ten-Principles-for-Great-General-Purpose-Web-Components
 category: articles
 layout: single
+tags: ['Best Practices']
 ---
 
 Creating really good general-purpose components entails more work than creating
