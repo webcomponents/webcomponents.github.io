@@ -6,12 +6,12 @@
 
 ## Setup
 
-This site is made with [DocPad](https://github.com/bevry/docpad), a static generator in [Node](http://nodejs.org/), and the best way to install it is via [NPM](npmjs.org/).
+This site is made with [DocPad](https://github.com/bevry/docpad), a static generator in [Node](http://nodejs.org/), and the best way to install it is via [npm](http://npmjs.org/).
 
 First, you need to clone the project:
 
 ```sh
-$ git clone git@github.com:webcomponents/webcomponents.github.io.git
+$ git clone https://github.com/webcomponents/webcomponents.github.io
 ```
 
 Then go to the folder and install all dependencies:
@@ -30,19 +30,19 @@ DocPad has three basic options used in this project:
 To regenerate the site as you edit and save files, which can be viewed at `http://localhost:9778`, run:
 
 ```sh
-$ npm run-script watch
+$ npm run watch
 ```
 
 To generate a static version of the site, that is ready to upload to a server (it will create a folder called `out`), run:
 
 ```sh
-$ npm run-script generate
+$ npm run generate
 ```
 
 To generate and send the output to `gh-pages` branch, run:
 
 ```sh
-$ npm run-script deploy
+$ npm run deploy
 ```
 
 ## Tasks
