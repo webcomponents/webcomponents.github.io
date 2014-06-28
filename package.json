@@ -28,7 +28,7 @@
     "scripts": {
         "deploy": "docpad deploy-ghpages --env static",
         "generate": "docpad generate --env static",
-        "watch": "docpad run",
-        "test": "grunt pagespeed"
+        "test": "docpad generate --silent",
+        "watch": "docpad run"
     }
 }

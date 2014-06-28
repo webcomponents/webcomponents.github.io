@@ -1,11 +1,4 @@
 language: node_js
 
 node_js:
-- '0.11'
 - '0.10'
-
-# Encrypted PageSpeed API key
-# More info: http://goo.gl/hHE4C8
-env:
-  global:
-    secure: uUhiH63ekoiS1nVsoN8ODV9EflgLXnfnHyCGYMYJgAo3qgKQaWow8fdZPwm1xLZrcok97hQvE+MpM7yUJO84E3n7XRFHtSNQXDCnRxDJzZi7t392zWuXXzuv39IlhX/oESIsnrGArMRJ/Ze2FB3FQzanCHpE16amBURQYC8a+zE=
