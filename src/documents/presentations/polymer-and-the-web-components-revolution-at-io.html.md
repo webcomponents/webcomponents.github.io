@@ -10,13 +10,14 @@ layout: single
 
 A huge opportunity is brewing. One where web development becomes a powerfully
 rich ecosystem of discoverable, sharable, and reusable components. Polymer is
-the first library of its kind to fully embrace this brave new web platform. In
-this session we’ll reveal the latest with Polymer, what Polymer is doing to
+the first library of its kind to fully embrace this brave new web platform.
+
+<!-- Read more -->
+
+In this session we’ll reveal the latest with Polymer, what Polymer is doing to
 create an end-to-end workflow for developers and their users, unveil the
 burgeoning ecosystem of web components, and demonstrate the next generation of
 web apps. The web components revolution is here. Join us in building the future!
-
-<!-- Read more -->
 
 <div class="video-wrap">
     <iframe src="//www.youtube.com/embed/yRbOSdAe_JU"></iframe>

@@ -6,7 +6,6 @@ date: 2014-04-30
 image: web-components-a-chance-to-create-the-future.jpg
 category: presentations
 layout: single
-sticky: true
 ---
 
 In this lightning talk Zeno will demonstrate some tools that can help you

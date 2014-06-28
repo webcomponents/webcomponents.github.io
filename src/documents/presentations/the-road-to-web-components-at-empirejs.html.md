@@ -6,7 +6,6 @@ date: 2014-05-05
 image: the-road-to-web-components-at-empirejs.jpg
 category: presentations
 layout: single
-sticky: true
 ---
 
 The web is abuzz with excitement for Web Components. Is it just hype?
@@ -20,8 +19,6 @@ examples of how components have made Ember developers more productive.
 Lastly, he'll talk about how Web Components can bridge the worlds of Ember,
 Angular and Polymer to create an ecosystem of reusable components that can work
 across libraries and frameworks.
-
-<!-- Read more -->
 
 <div class="video-wrap">
     <iframe src="//www.youtube.com/embed/yLyyXHhSl8w"></iframe>
