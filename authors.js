@@ -112,6 +112,13 @@ module.exports = {
         gplus: "118012571057666061540",
         twitter: "marcysutton"
     },
+    matt_mcnulty: {
+        name: "Matt McNulty",
+        bio: "Matthew leads the Polymer team, which is part of the Chrome team at Google. Prior to joining Google, he was responsible for the Enyo framework, Ares development environment, and SDK at webOS.",
+        gravatar: "255122f396049d1c7fb264cfa6ec584c",
+        gplus: "104160914042867187276",
+        twitter: "mattsmcnulty"
+    },
     varunkumar_nagarajan: {
         name: "Varunkumar Nagarajan",
         bio: "A software engineer by profession and a blogger by passion. A web developer. Technology enthusiast. Have four years of industry experience.",
