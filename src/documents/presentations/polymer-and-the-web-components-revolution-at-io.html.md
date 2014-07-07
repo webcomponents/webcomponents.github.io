@@ -22,3 +22,7 @@ web apps. The web components revolution is here. Join us in building the future!
 <div class="video-wrap">
     <iframe src="//www.youtube.com/embed/yRbOSdAe_JU"></iframe>
 </div>
+
+<div class="video-wrap">
+    <iframe src="//www.slideshare.net/slideshow/embed_code/36712429"></iframe>
+</div>
