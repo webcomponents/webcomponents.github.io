@@ -5,9 +5,13 @@
         <a class="logo" href="<%= @site.url %>">
             <img src="<%= @site.url %>/img/logo.svg" alt="<%= @site.title %>" width="60" height="39">
         </a>
-
+        <div class="menubutton">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <!-- Menu -->
-        <nav class="nav" role="navigation">
+        <nav class="nav desktop-only" role="navigation">
             <ul>
                 <li class="nav-item <% if @isActiveMenu('.'): %>nav-active<% end %>">
                     <a href="<%= @site.url %>/" class="nav-link" title="Home">Home</a>
