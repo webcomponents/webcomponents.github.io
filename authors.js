@@ -14,6 +14,13 @@ module.exports = {
         gplus: "+AlexKomoroske",
         twitter: "jkomoros"
     },
+    alex_mingoia: {
+        name: "Alex Mingoia",
+        bio: "Alex is a web engineer and designer building beautiful products.",
+        gravatar: "264aa0ecd52d37fc67b22eae24e13f5b",
+        gplus: "110807849031646693217",
+        twitter: "alexmingoia"
+    },
     alice_boxhall: {
         name: "Alice Boxhall",
         bio: "Alice Boxhall is a software engineer at Google, where she works on improving accessibility support in Google Chrome.",
