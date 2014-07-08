@@ -5,11 +5,11 @@
         <a class="logo" href="<%= @site.url %>">
             <img src="<%= @site.url %>/img/logo.svg" alt="<%= @site.title %>" width="60" height="39">
         </a>
-        <div class="menubutton">
+        <a class="menu-button">
             <span></span>
             <span></span>
             <span></span>
-        </div>
+        </a>
         <!-- Menu -->
         <nav class="nav desktop-only" role="navigation">
             <ul>
