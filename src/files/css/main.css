@@ -68,6 +68,16 @@ hr {
     width: 1px;
 }
 
+.desktop-only {
+    display: block;
+}
+
+@media (max-width: 980px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
 /* Text selection
 ============================================================================= */
 
@@ -218,6 +228,10 @@ header, section {
     width: 95px;
 }
 
+.menu-button {
+    display: none;
+}
+
 .nav {
     padding-top: 23px;
 }
@@ -269,13 +283,30 @@ header, section {
         border: none;
         display: block;
         float: none;
-        margin: 0 auto;
-        padding: 20px 0;
+        margin-left: 0;
         text-align: center;
     }
 
+    .menu-button {
+        background-color: rgba(22, 100, 151, .8);
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 10px;
+        margin: -4px 0 0 0;
+    }
+
+    .menu-button span {
+        width: 25px;
+        background: rgb(255, 255, 255);
+        height: 6px;
+        display: block;
+        margin: 3px
+    }
+
     .nav {
-        padding: 0 0 10px;
+        padding-top: 0;
     }
 
     .nav, .nav-item {
@@ -285,10 +316,28 @@ header, section {
     }
 
     .nav-item {
-        height: 1em;
-        margin-bottom: 10px;
         overflow: hidden;
-        padding: 0 20px;
+        height: 50px;
+        background: rgba(22, 100, 151, .8);
+    }
+
+    .nav-item:not(:first-child){
+        border-top: 1px solid rgb(28, 110, 162);
+    }
+
+    .nav-link {
+        height: 50px;
+        line-height: 3.4em;
+    }
+
+    .nav-link::before {
+        content: '';
+    }
+
+    .nav-link:focus,.nav-link:hover {
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
 }
 
@@ -319,7 +368,7 @@ header, section {
 @media (max-width: 980px) {
     .search-box {
         float: none;
-        margin: 0 auto;
+        margin: 10px auto 0;
     }
 }
 
