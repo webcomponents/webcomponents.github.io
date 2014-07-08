@@ -288,9 +288,13 @@ header, section {
     }
 
     .menubutton{
-        display: block;
-        background: #000;
         background-color: rgba(22, 100, 151, .8);
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 10px;
+
     }
 
     .menubutton span{
@@ -314,15 +318,26 @@ header, section {
     .nav-item {
         margin-bottom: 10px;
         overflow: hidden;
-        padding: 20px 0;
+        height: 40px;
+        background: rgba(22,100,151,.8);
+
     }
 
-    .menubutton{
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        padding: 10px;
+    .nav-link {
+        height: 40px;
+        line-height: 2.6em;
     }
+
+    .nav-link::before {
+        content: '';
+    }
+
+    .nav-link:focus,.nav-link:hover {
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+
 }
 
 
