@@ -283,7 +283,7 @@ header, section {
         border: none;
         display: block;
         float: none;
-        margin: 0 auto;
+        margin-left: 0;
         text-align: center;
     }
 
@@ -294,19 +294,19 @@ header, section {
         top: 10px;
         right: 10px;
         padding: 10px;
-
+        margin: -4px 0 0 0;
     }
 
     .menu-button span {
         width: 25px;
-        background: #fff;
+        background: rgb(255, 255, 255);
         height: 6px;
         display: block;
-        margin: 3px;
+        margin: 3px
     }
 
     .nav {
-        margin: -20px;
+        padding-top: 0;
     }
 
     .nav, .nav-item {
@@ -316,15 +316,18 @@ header, section {
     }
 
     .nav-item {
-        margin-bottom: 10px;
         overflow: hidden;
-        height: 40px;
+        height: 50px;
         background: rgba(22, 100, 151, .8);
     }
 
+    .nav-item:not(:first-child){
+        border-top: 1px solid rgb(28, 110, 162);
+    }
+
     .nav-link {
-        height: 40px;
-        line-height: 2.6em;
+        height: 50px;
+        line-height: 3.4em;
     }
 
     .nav-link::before {
@@ -336,7 +339,6 @@ header, section {
         -moz-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
-
 }
 
 
