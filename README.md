@@ -1,6 +1,10 @@
-# WebComponents.org [![Build Status](https://secure.travis-ci.org/webcomponents/webcomponents.github.io.svg?branch=site)](https://travis-ci.org/webcomponents/webcomponents.github.io) [![Dependency Status](https://david-dm.org/webcomponents/webcomponents.github.io.svg?theme=shields.io)](https://david-dm.org/webcomponents/webcomponents.github.io)
+# [WebComponents.org](http://webcomponents.org)
 
-![WebComponents.org Logo](https://cloud.githubusercontent.com/assets/398893/3528601/e2ffcea8-0790-11e4-9c7f-65c897e17547.png)
+[![Build Status](http://img.shields.io/travis/webcomponents/webcomponents.github.io/site.svg?style=flat)](https://travis-ci.org/webcomponents/webcomponents.github.io)
+[![Dependency Status](http://img.shields.io/david/webcomponents/webcomponents.github.io.svg?style=flat)](https://david-dm.org/webcomponents/webcomponents.github.io)
+[![DevDependencies Status](http://img.shields.io/david/dev/webcomponents/webcomponents.github.io.svg?style=flat)](https://david-dm.org/webcomponents/webcomponents.github.io#info=devDependencies)
+
+![WebComponents.org Screenshot](https://cloud.githubusercontent.com/assets/398893/3612459/c78f93a8-0dab-11e4-905f-1747a01e09e6.png)
 
 > WebComponents.org is a place for web component authors to discuss and share best practices, patterns and learning resources.
 
@@ -77,7 +81,6 @@ We do care about it.
 --- | --- | --- | --- | --- |
 IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
-
 ## Team
 
 WebComponents.org is maintained by these people and a bunch of awesome [contributors](https://github.com/webcomponents/webcomponents.github.io/graphs/contributors).
@@ -96,4 +99,4 @@ See the [Contributing guide](https://github.com/webcomponents/webcomponents.gith
 
 ## License
 
-Source code is available under [MIT](http://opensource.org/licenses/MIT) license and content is under [Creative Commons BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
+Source code is available under [MIT](http://webcomponentsorg.mit-license.org) license and content is under [Creative Commons BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
