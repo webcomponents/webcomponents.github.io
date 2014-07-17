@@ -84,6 +84,13 @@ module.exports = {
         gplus: "104420396861285844168",
         twitter: "markdalgleish"
     },
+    pascal_precht: {
+        name: "Pascal Precht",
+        bio: "Pascal is a front-end engineer with a love for semantic markup and evolving technologies in the open web. He loves contributing to open source and is the creator of the popular angular-translate module. He also likes traveling the world and speaks at conferences and meetups. When he's not busy preparing the next workshops for thoughtram, you might find him outside with his skateboard.",
+        gravatar: "893fa34d2dc5cbfa327da6b0d96c93e1",
+        gplus: "+PascalPrecht",
+        twitter: "PascalPrecht"
+    },
     peter_gasston: {
         name: "Peter Gasston",
         bio: "Peter Gasston has been a web developer for over 10 years in both agency and corporate settings. He was one of the original contributors to CSS3.info, the leading online destination for CSS3. Peter has been published in the UK's .net magazine, gives talks about CSS and web technologies at developer conferences, and runs the web development blog Broken Links. He lives in London, England.",
