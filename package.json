@@ -29,6 +29,6 @@
         "deploy": "docpad deploy-ghpages --env static",
         "generate": "docpad generate --env static",
         "test": "docpad generate --silent",
-        "watch": "docpad run"
+        "watch": "docpad run --silent"
     }
 }
