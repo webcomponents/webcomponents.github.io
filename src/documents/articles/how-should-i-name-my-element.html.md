@@ -20,7 +20,7 @@ help you with that.
 Although using just one word for your element seems pretty handy (e.g
 `<tabs>`), according to the [spec](http://www.w3.org/TR/custom-elements/)
 your element need to have a dash in its name (e.g `<johns-tabs>`). That
-way you're forced to add a namespace which avoids conflits with existing
+way you're forced to add a namespace which avoids conflicts with existing
 elements.
 
 Some people use the `x-*` prefix when they have a single word element that
