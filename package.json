@@ -1,7 +1,7 @@
 {
     "private": true,
     "dependencies": {
-        "docpad": "~6.69.0",
+        "docpad": "~6.69.1",
         "docpad-plugin-cleanurls": "~2.7.0",
         "docpad-plugin-eco": "~2.0.3",
         "docpad-plugin-ghpages": "~2.4.2",
