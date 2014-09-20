@@ -56,6 +56,13 @@ module.exports = {
         gplus: "+DanielBuchner",
         twitter: "csuwildcat"
     },
+    dave_arel: {
+        name: "Dave Arel",
+        bio: "Dave is a freelancer in pursuit of entrepreneurship. Former Director of JavaScript Engineering at Belly.",
+        gravatar: "d2ce35e4e0518f19f771ade302e43a66",
+        gplus: "113347367246474469107",
+        twitter: "davearel"
+    },
     dominic_cooney: {
         name: "Dominic Cooney",
         bio: "Dominic is Staff Software Engineer at Google on web frontends and server and client web platforms.",
