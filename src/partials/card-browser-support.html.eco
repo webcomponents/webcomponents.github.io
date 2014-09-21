@@ -33,5 +33,4 @@
             <% end %>
         </tr>
     </table>
-    <p class="status-credits">Data fetched from <a target="_blank" class="credits-link" href="http://jonrimmer.github.io/are-we-componentized-yet/">Are We Componentized Yet?</a></p>
 </section>

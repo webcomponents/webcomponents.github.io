@@ -687,13 +687,6 @@ header, section {
 .status-table .icon-status-red    { background: #ff5c03; }
 .status-table .icon-status-yellow { background: #ffea03; }
 
-.card .status-credits {
-    font-size: .8em;
-    font-style: italic;
-    padding: 10px 20px;
-    text-align: center;
-}
-
 /** =========================================================================
     Archive
     ========================================================================= */
