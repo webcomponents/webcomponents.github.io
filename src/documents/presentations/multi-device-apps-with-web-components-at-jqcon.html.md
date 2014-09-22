@@ -20,7 +20,7 @@ these new tools we can greatly simplify the process of supporting multiple
 screen sizes, while also keeping our code sane and readable.
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/Lol9s-BsMPE"></iframe>
+    <iframe src="//www.youtube.com/embed/kn0y7uugO0Y"></iframe>
 </div>
 
 <script async class="speakerdeck-embed" data-id="182b5d001d95013278dd06e915146373" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
