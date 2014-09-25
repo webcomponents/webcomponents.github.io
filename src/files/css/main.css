@@ -103,7 +103,8 @@ html, body {
 
 body {
     background-color: #3a99d7;
-    font-family: 'Raleway', sans-serif;
+    font-family: "jaf-facitweb", serif;
+    font-weight: 300;
 }
 
 header, section {
@@ -170,7 +171,7 @@ header, section {
 
 .header .subtitle {
     font-size: 1.5em;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.2em;
     margin-bottom: 40px;
     text-transform: lowercase;
@@ -497,7 +498,7 @@ header, section {
 
 .card .description {
     color: #434a54;
-    font-size: .8em;
+    font-size: .9em;
     margin-top: 0;
 }
 
@@ -513,6 +514,10 @@ header, section {
 
 .card-story {
     padding: 0 20px;
+}
+
+.card-story h3 {
+    font-size: 1.2em;
 }
 
 .card-story p {
@@ -652,8 +657,6 @@ header, section {
 ============================================================================= */
 
 .card-what .description {
-    font-size: .9em;
-    line-height: 1.6em;
     padding: 20px;
 }
 
@@ -700,16 +703,20 @@ header, section {
     padding-top: 10px;
 }
 
+.card-articles .post-author,
+.card-articles .post-location,
+.card-articles .post-date {
+    font-size: .9em;
+}
+
 .card-story .post-author,
 .card-story .post-location,
 .card-story .post-date {
     float: left;
-    font-size: .9em;
-    font-weight: 400;
-    text-transform: uppercase;
+    padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 0;
+    text-transform: uppercase;
 }
 
 .card-story .post-location,
@@ -821,7 +828,7 @@ header, section {
 .layout-single .description li {
     line-height: 1.5em;
     margin-bottom: 10px;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .layout-single .description ol,

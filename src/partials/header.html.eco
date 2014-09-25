@@ -38,7 +38,8 @@
     <![endif]-->
 
     <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet" type="text/css">
+    <script src="//use.typekit.net/ksn6mlw.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
 
     <!-- Author -->
     <% if @document.authors: %>
