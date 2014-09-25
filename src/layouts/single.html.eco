@@ -65,7 +65,7 @@
             <!-- Author(s) -->
             <% for author in @document.authors: %>
                 <section class="card card-author" role="region" itemprop="author" itemscope itemtype="http://schema.org/Person">
-                    <img class="author-avatar" src="<%= @getAuthorGravatar(author) %>" alt="<%= @getAuthor(author).name %>" itemprop="image">
+                    <img class="author-avatar" src="<%= @getAuthorImage(author) %>" alt="<%= @getAuthor(author).name %>" itemprop="image">
                     <p class="author-name" itemprop="name"><%= @getAuthor(author).name %></p>
                     <p class="author-twitter">
                         <a href="<%= @getAuthorTwitter(author) %>" target="_blank" itemprop="url">@<%= @getAuthor(author).twitter %></a>

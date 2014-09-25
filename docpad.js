@@ -27,8 +27,13 @@ module.exports = {
             return this.authors[author];
         },
 
-        getAuthorGravatar: function(author) {
-            return "https://2.gravatar.com/avatar/" + this.authors[author].gravatar;
+        getAuthorImage: function(author) {
+            if (this.authors[author].gravatar) {
+                return "https://2.gravatar.com/avatar/" + this.authors[author].gravatar;
+            }
+            else {
+                return this.authors[author].image;
+            }
         },
 
         getAuthorGooglePlus: function(author) {
