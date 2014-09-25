@@ -492,8 +492,9 @@ header, section {
     color: #434a54;
     font-size: .9em;
     font-weight: 600;
-    text-transform: uppercase;
     line-height: 1.3em;
+    margin-bottom: 3px;
+    text-transform: uppercase;
 }
 
 .card .description {
@@ -724,6 +725,10 @@ header, section {
     margin: 0 0 0 20px;
 }
 
+.card-story .post-info {
+    margin-bottom: 5px;
+}
+
 .layout-archive .description,
 .layout-single .description {
     font-size: .9em;
@@ -814,7 +819,7 @@ header, section {
 }
 
 .layout-single .title {
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin: 20px 0 0;
     padding-top: 0;
     padding-bottom: 0;
@@ -825,10 +830,16 @@ header, section {
 }
 
 .layout-single .description p,
-.layout-single .description li {
-    line-height: 1.5em;
+.layout-single .description ol > li,
+.layout-single .description ul > li {
+    font-size: 1.3em;
+    line-height: 1.7em;
     margin-bottom: 10px;
-    font-size: 1.2em;
+}
+
+.layout-single .description li > ul,
+.layout-single .description li > ol {
+    font-size: 14px;
 }
 
 .layout-single .description ol,
