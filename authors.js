@@ -84,6 +84,13 @@ module.exports = {
         gplus: "+JanMiksovsky",
         twitter: "JanMiksovsky"
     },
+    joshua_peek: {
+        name: "Joshua Peek",
+        bio: "Josh is a Front-end developer at GitHub. Contributor to Bower, and maintainer of Sprockets, the Ruby on Rails Asset pipeline tool.",
+        image: "https://avatars2.githubusercontent.com/u/137?s=80",
+        gplus: "+joshuapeek",
+        twitter: "joshpeek"
+    },
     mark_dalgleish: {
         name: "Mark Dalgleish",
         bio: "Mark is a senior UI developer at SEEK and the lead organiser of MelbJS. He’s obsessed with everything web and loves using JavaScript, CSS and HTML to create rich experiences that resonate with end users. In his spare time, he loves experimenting with the latest web technologies, sharing projects online and helping others learn progressive web development techniques.",
