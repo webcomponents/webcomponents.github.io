@@ -46,7 +46,7 @@ a:focus {
 }
 
 hr {
-    display: none;
+    border: 2px solid #f2f4f6;
 }
 
 .clear {
@@ -819,7 +819,7 @@ header, section {
 }
 
 .layout-single .title {
-    font-size: 1.7em;
+    font-size: 1.6em;
     margin: 20px 0 0;
     padding-top: 0;
     padding-bottom: 0;
