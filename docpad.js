@@ -31,9 +31,8 @@ module.exports = {
             if (this.authors[author].gravatar) {
                 return "https://2.gravatar.com/avatar/" + this.authors[author].gravatar;
             }
-            else {
-                return this.authors[author].image;
-            }
+            
+            return this.authors[author].image;
         },
 
         getAuthorGooglePlus: function(author) {
