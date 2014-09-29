@@ -59,27 +59,24 @@ module.exports = {
             if (page != null) {
                 return page.get("url");
             }
-            else {
-                return "";
-            }
+            
+            return "";
         },
 
         getTitle: function() {
             if (this.document.title) {
                 return "" + this.document.title + " — " + this.site.title;
             }
-            else {
-                return "" + this.site.title;
-            }
+            
+            return "" + this.site.title;
         },
 
         getDescription: function() {
             if (this.hasReadMore(this.document.content)) {
                 return "" + this.getExcerpt(this.document.content);
             }
-            else {
-                return "" + this.site.description;
-            }
+            
+            return "" + this.site.description;
         },
 
         getExcerpt: function(item) {
@@ -88,9 +85,9 @@ module.exports = {
 
             if (i >= 0) {
                 return content.slice(0, (i - 1));
-            } else {
-                return content;
             }
+            
+            return content;
         },
 
         hasReadMore: function(item) {
