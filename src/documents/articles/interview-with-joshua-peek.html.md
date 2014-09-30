@@ -33,6 +33,8 @@ we wrote were a pretty minimal impact to start testing the Custom Element APIs.
 If for some reason it didn't work out, we could easily roll back to our original
 relative time rewriting script.
 
+![GitHub.com's Custom Element](/img/stories/github-custom-element.jpg)
+
 ### The `<time>` element extensions you created are using only Custom Elements. What do you think about other specs such as HTML Imports, Templates, and Shadow DOM?
 
 Template looks really wonderful and I'd love to use it today but the polyfills
