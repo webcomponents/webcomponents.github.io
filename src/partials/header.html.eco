@@ -16,7 +16,7 @@
     <meta property="og:title" content="<%= @getTitle() %>">
     <meta property="og:type" content="article">
     <meta property="og:image" content="<%= @site.url %>/img/logo.png">
-    <meta property="og:url" content="<%= @site.url %>">
+    <meta property="og:url" content="<%= @site.url %><%= @document.url %>">
     <meta property="og:description" content="<%= @getDescription() %>">
 
     <!-- for Twitter -->
