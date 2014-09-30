@@ -31,7 +31,7 @@ module.exports = {
             if (this.authors[author].gravatar) {
                 return "https://2.gravatar.com/avatar/" + this.authors[author].gravatar;
             }
-            
+
             return this.authors[author].image;
         },
 
@@ -59,7 +59,7 @@ module.exports = {
             if (page != null) {
                 return page.get("url");
             }
-            
+
             return "";
         },
 
@@ -67,7 +67,7 @@ module.exports = {
             if (this.document.title) {
                 return "" + this.document.title + " — " + this.site.title;
             }
-            
+
             return "" + this.site.title;
         },
 
@@ -75,7 +75,7 @@ module.exports = {
             if (this.hasReadMore(this.document.content)) {
                 return "" + this.getExcerpt(this.document.content);
             }
-            
+
             return "" + this.site.description;
         },
 
@@ -86,7 +86,7 @@ module.exports = {
             if (i >= 0) {
                 return content.slice(0, (i - 1));
             }
-            
+
             return content;
         },
 
