@@ -5,7 +5,6 @@ date: 2014-09-30
 image: interview-with-joshua-peek.jpg
 category: articles
 layout: single
-sticky: true
 tags: ['Interview', 'Use cases']
 ---
 
