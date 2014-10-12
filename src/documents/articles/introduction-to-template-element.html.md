@@ -69,7 +69,7 @@ vulnerability if an adequate sanity check is not performed.
       </div>
     </script>
   
-And this is where native &lt;template&gt; comes in. &lt;template&gt; addresses
+And this is where native `<template>` comes in. `<template>` addresses
 these problems by providing an ability to insert "inert HTML tags" into a
 document.
   
@@ -79,7 +79,7 @@ By using "inert HTML tags":
 * resources such as `img` or `video` won't be fetched without being stamped out
 
 ## How do I use templates?
-To define a template, simply wrap your content with a &lt;template&gt; tag.  
+To define a template, simply wrap your content with a `<template>` tag.  
   
     <template id="template">
       <style>
