@@ -33,17 +33,17 @@ This is primarily driven by the changing landscape of web architecture. Servers
 are becoming more dedicated to processing data, clients are becoming more
 dedicated to user interactions and views. MVC (Model, View, Controller) is no
 longer a server side only pattern, it's becoming a client side thing - look at
-AngularJS, BackboneJS, EmberJS, etc.
+AngularJS, Backbone.js, Ember.js, etc.
   
 Solutions for browser side templating in the past used JavaScript. For example,
 [Mustache.js](http://mustache.github.io/),
 [Handlebars.js](http://handlebarsjs.com/), [AngularJS](https://angularjs.org/),
-[BackboneJS](http://backbonejs.org/). But techniques used in those libraries
+[Backbone.js](http://backbonejs.org/). But techniques used in those libraries
 have a few pitfalls.
 
 ### using div tag:
 
-In following example, the template is actually a `div` tag which is hidden with
+In the following example, the template is actually a `div` tag which is hidden with
 a bit of CSS. The downside of this approach is that the browser will fetch
 resources from inside the template, even if those resources haven't been used
 yet. In this case, `logo.svg`.
@@ -57,7 +57,7 @@ yet. In this case, `logo.svg`.
 
 ### using script tag:
 
-In following example, the template content is stored inside of a `script` tag.
+In the following example, the template content is stored inside of a `script` tag.
 The down side of this approach is that the templates will be converted into DOM
 elements   using `.innerHTML`, which could introduce a cross site scripting
 vulnerability if an adequate sanity check is not performed.
@@ -108,14 +108,14 @@ The `template` node queried on first line will be cloned using
 creating a deep copy. Appending it to another node will bring the contents of
 the template to life, in other words
 
-* Included script tags will be executed
-* Included resources (img, video, etc) will be fetched
-* Included style tags will take effect
+* Included `script` tags will be executed
+* Included resources (`img`, `video`, etc) will be fetched
+* Included `style` tags will take effect
 
 ## The template element doesn't provide data binding
 
 If you have experience working with other template engines such as AngularJS,
-MustacheJS, etc, you may expect to be able to use
+Mustache.js, etc, you may expect to be able to use
   
 **placeholders**
 
