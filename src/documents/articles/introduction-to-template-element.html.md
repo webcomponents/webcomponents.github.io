@@ -147,5 +147,5 @@ polyfilling Internet Explorer and other legacy browsers, you can use
 ## Resources
 If you are interested in learning more about the template element, head over to:  
 
-* [HTML's New Template Tag - HTML5Rocks](http://www.html5rocks.com/tutorials/webcomponents/template/)
+* [HTML's New Template Tag - HTML5Rocks](http://goo.gl/JEIWir)
 * [WhatWG HTML Template specification](http://www.whatwg.org/specs/web-apps/current-work/multipage/scripting-1.html#the-template-element)
