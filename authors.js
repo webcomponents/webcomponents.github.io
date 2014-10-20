@@ -39,7 +39,7 @@ module.exports = {
         bio: "Angelina is a developer from Vancouver, BC Canada working at Mozilla as a Technical Evangelist and developer advocate for Firefox OS. She loves JavaScript, web components, Node.js, mobile app development, and this cool place she hang out a lot called the world wide web. Oh, and let's not forget Firefox OS. In her spare time she takes singing lessons, play Magic: The Gathering, teach people to program, and collaborate with scientists for better programmer-scientist engagement.",
         gravatar: "25bb0913435212f30f2fec0eb6e60dde",
         gplus: "117339576748577555094",
-        twitter: "angelinamagnum"
+        twitter: "hopefulcyborg"
     },
     community: {
         name: "Community",
