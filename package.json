@@ -26,8 +26,8 @@
         "load-grunt-tasks": "~0.6.0"
     },
     "scripts": {
+        "build": "docpad generate --env static",
         "deploy": "docpad deploy-ghpages --env static",
-        "generate": "docpad generate --env static",
         "test": "docpad generate --silent",
         "watch": "docpad run --silent"
     }

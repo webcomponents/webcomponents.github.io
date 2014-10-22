@@ -40,7 +40,7 @@ $ npm run watch
 To generate a static version of the site, that is ready to upload to a server (it will create a folder called `out`), run:
 
 ```sh
-$ npm run generate
+$ npm run build
 ```
 
 To generate and send the output to `gh-pages` branch, run:
