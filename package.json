@@ -23,7 +23,7 @@
         "grunt-imageoptim": "^1.4.1",
         "grunt-pagespeed": "~0.3.0",
         "grunt-lintspaces": "~0.6.0",
-        "load-grunt-tasks": "~0.6.0"
+        "load-grunt-tasks": "^1.0.0"
     },
     "scripts": {
         "build": "docpad generate --env static",
