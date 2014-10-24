@@ -1,33 +1,33 @@
 {
     "private": true,
     "dependencies": {
-        "docpad": "~6.69.1",
-        "docpad-plugin-cleanurls": "~2.7.0",
-        "docpad-plugin-eco": "~2.0.3",
-        "docpad-plugin-ghpages": "~2.4.2",
-        "docpad-plugin-grunt": "~2.1.1",
-        "docpad-plugin-highlightjs": "~2.2.0",
-        "docpad-plugin-marked": "~2.2.0",
-        "docpad-plugin-moment": "~2.0.2",
-        "docpad-plugin-paged": "~2.2.4",
-        "docpad-plugin-partials": "~2.9.0",
-        "docpad-plugin-tags": "~2.0.7"
+        "docpad": "^6.69.1",
+        "docpad-plugin-cleanurls": "^2.7.0",
+        "docpad-plugin-eco": "^2.1.0",
+        "docpad-plugin-ghpages": "^2.4.2",
+        "docpad-plugin-grunt": "^2.1.1",
+        "docpad-plugin-highlightjs": "^2.2.0",
+        "docpad-plugin-marked": "^2.2.0",
+        "docpad-plugin-moment": "^2.0.2",
+        "docpad-plugin-paged": "^2.2.4",
+        "docpad-plugin-partials": "^2.9.0",
+        "docpad-plugin-tags": "^2.0.7"
     },
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-bower-task": "~0.4.0",
         "grunt-cli": "~0.1.11",
-        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-clean": "~0.6.0",
         "grunt-contrib-cssmin": "~0.10.0",
         "grunt-contrib-htmlmin": "~0.3.0",
-        "grunt-imageoptim": "~1.4.1",
+        "grunt-imageoptim": "^1.4.1",
         "grunt-pagespeed": "~0.3.0",
         "grunt-lintspaces": "~0.6.0",
-        "load-grunt-tasks": "~0.6.0"
+        "load-grunt-tasks": "^1.0.0"
     },
     "scripts": {
+        "build": "docpad generate --env static",
         "deploy": "docpad deploy-ghpages --env static",
-        "generate": "docpad generate --env static",
         "test": "docpad generate --silent",
         "watch": "docpad run --silent"
     }
