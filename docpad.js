@@ -250,6 +250,16 @@ module.exports = {
                     layout: "tags"
                 });
             }
+        },
+        rss: {
+            articles: {
+                collection: 'articles',
+                url: '/articles.xml'
+            },
+            presentations: {
+                collection: 'presentations',
+                url: '/presentations.xml'
+            }
         }
     }
 };
