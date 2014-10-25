@@ -766,6 +766,26 @@ header, section {
     display: inline-block;
 }
 
+/* RSS
+============================================================================= */
+
+.card-rss {
+    margin: 0 40px 40px;
+}
+
+.card-rss img {
+    float: left;
+    margin-right: 15px;
+}
+
+.card-rss p {
+    line-height: 3.3em;
+}
+
+.card-rss a {
+    color: #ff5c03;
+}
+
 /* Pagination
 ============================================================================= */
 

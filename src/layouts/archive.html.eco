@@ -3,6 +3,15 @@
 <%- @partial('menu') %>
 
 <div class="wrapper">
+        <div class="card card-story card-rss">
+            <p>
+                <img src="<%= @site.url %>/img/icon-rss.png" alt="RSS Icon">
+                Subscribe to the
+                <a href="<%= @site.url %>/<%= @document.name %>.xml" target="_blank">
+                    <%= @document.title %> RSS feed &gt;
+                </a>
+            </p>
+        </div>
     <main class="card-container layout-archive" role="main">
         <!-- Post Listing -->
         <%- @content %>
