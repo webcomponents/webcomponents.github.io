@@ -3,6 +3,7 @@
 <%- @partial('menu') %>
 
 <div class="wrapper">
+    <% if @hasRssFeed(): %>
         <div class="card card-story card-rss">
             <p>
                 <img src="<%= @site.url %>/img/icon-rss.png" alt="RSS Icon">
@@ -12,6 +13,8 @@
                 </a>
             </p>
         </div>
+    <% end %>
+
     <main class="card-container layout-archive" role="main">
         <!-- Post Listing -->
         <%- @content %>

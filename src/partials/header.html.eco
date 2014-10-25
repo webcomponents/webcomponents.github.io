@@ -26,6 +26,11 @@
     <meta name="twitter:image" content="<%= @site.url %>/img/logo.png">
     <meta name="twitter:site" content="@Web_Components">
 
+    <!-- RSS -->
+    <% if @hasRssFeed(): %>
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="<%= @site.url %>/<%= @document.name %>.xml">
+    <% end %>
+
     <!-- CSS -->
     <link rel="stylesheet" href="<%= @site.url %>/css/main.min.css">
     <link rel="stylesheet" href="<%= @site.url %>/css/syntax-highlight.min.css">
