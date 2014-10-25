@@ -718,11 +718,27 @@ header, section {
     padding-left: 0;
     padding-right: 0;
     text-transform: uppercase;
+    font-size: .9em;
+}
+
+@media (max-width: 480px) {
+    .card-story .post-author,
+    .card-story .post-location,
+    .card-story .post-date {
+        float: none;
+    }
 }
 
 .card-story .post-location,
 .card-story .post-date {
     margin: 0 0 0 20px;
+}
+
+@media (max-width: 480px) {
+    .card-story .post-location,
+    .card-story .post-date {
+        margin: 0;
+    }
 }
 
 .card-story .post-info {
@@ -870,6 +886,14 @@ header, section {
     font-size: 1.3em;
     line-height: 1.7em;
     margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .layout-single .description p,
+    .layout-single .description ol > li,
+    .layout-single .description ul > li {
+        font-size: 1em;
+    }
 }
 
 .layout-single .description li > ul,
