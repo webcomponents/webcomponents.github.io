@@ -5,11 +5,11 @@
 <div class="wrapper">
     <% if @hasRssFeed(): %>
         <div class="card card-story card-rss">
+            <img src="<%= @site.url %>/img/icon-rss.png" alt="RSS Icon">
             <p>
-                <img src="<%= @site.url %>/img/icon-rss.png" alt="RSS Icon">
                 Subscribe to the
                 <a href="http://feeds.feedburner.com/webcomponentsorg/<%= @document.name %>" target="_blank">
-                    <%= @document.title %> RSS feed &gt;
+                    <%= @document.title %>' RSS feed &gt;
                 </a>
             </p>
         </div>

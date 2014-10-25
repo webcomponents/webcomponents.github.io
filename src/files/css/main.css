@@ -773,13 +773,28 @@ header, section {
     margin: 0 40px 40px;
 }
 
+@media (max-width: 980px) {
+    .card-rss {
+        margin: 0 20px 20px;
+        padding: 0 15px;
+    }
+}
+
 .card-rss img {
     float: left;
     margin-right: 15px;
+    padding: 10px 0;
 }
 
 .card-rss p {
-    line-height: 3.3em;
+    padding: 25px 0 0;
+}
+
+@media (max-width: 480px) {
+    .card-rss p {
+        padding: 17px 0 0;
+        font-size: .9em;
+    }
 }
 
 .card-rss a {
