@@ -5,7 +5,7 @@ date: 2014-10-26
 link: http://pascalprecht.github.io/2014/10/25/integrating-web-components-with-angularjs/
 category: articles
 layout: single
-tags: ['Web Components', 'AngularJS']
+tags: ['Interoperability', 'AngularJS']
 ---
 
 This article focuses on the integration of Web Components with the AngularJS of today,

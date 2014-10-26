@@ -5,7 +5,7 @@ date: 2013-11-19
 link: http://markdalgleish.com/2013/11/web-components-why-youre-already-an-expert/
 category: articles
 layout: single
-tags: ['Web Components']
+tags: ['Custom Elements', 'Shadow DOM']
 ---
 
 Web Components are going to fundamentally change the nature of HTML. At first

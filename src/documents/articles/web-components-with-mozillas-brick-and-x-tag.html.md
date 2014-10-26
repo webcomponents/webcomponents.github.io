@@ -5,7 +5,7 @@ date: 2013-03-04
 link: https://hacks.mozilla.org/2014/03/custom-elements-for-custom-applications-web-components-with-mozillas-brick-and-x-tag/
 category: articles
 layout: single
-tags: ['Web Components', 'Brick', 'X-Tag']
+tags: ['Brick', 'X-Tag']
 ---
 
 In this article, we will explore the use of Mozilla’s Brick and X-Tag libraries.
