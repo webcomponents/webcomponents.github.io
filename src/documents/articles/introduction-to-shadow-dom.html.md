@@ -1,14 +1,14 @@
 ---
 title: Introduction to Shadow DOM
 authors: [agektmr]
-date: 2014-10-07
+date: 2014-10-30
 image: devbytes-shadowdom.png
 category: articles
 layout: single
 tags: ['Shadow DOM', 'Template']
 ---
 Shadow DOM is an emerging web standard that gives developers access to style and
-DOM scoping. Learn how to use it on your own website.  
+DOM scoping. Learn how to use it on your own website.
 
 <!-- Read more -->
 
@@ -25,7 +25,7 @@ DOM scoping. Learn how to use it on your own website.
 Here's a video rendered in the browser using the HTML video tag. While the code
 is as simple as a single tag, the video has built-in controls.
 
-```
+```html
 <video src="http://craftymind.com/factory/html5video/BigBuckBunny_640x360.mp4" controls></video>
 ```
 
@@ -59,15 +59,16 @@ In order to create a Shadow DOM, invoke `.createShadowRoot()` on a  DOM node an
 obtain a Shadow Root. By adding elements to the Shadow Root, you can build
 Shadow DOM.
 
-```
+```html
 <div id="host"></div>
 ```
-```
+
+```js
 var host = document.querySelector('#host');
 var root = host.createShadowRoot(); // Create a Shadow Root
 var div = document.createElement('div');
 div.textContent = 'This is Shadow DOM';
-root.appendChild(div); // Append elements to the Shadow Root 
+root.appendChild(div); // Append elements to the Shadow Root
 ```
 
 Notice that elements added to the Shadow Root won't be queried. In this case
@@ -82,26 +83,27 @@ Imagine you want the similar functionality to the combination of `<select>` and
 `<option>`. They are separate tags but make sense as a select menu when used
 together.
 
-With Shadow DOM, you can do this for example:  
+With Shadow DOM, you can do this for example:
 A name tag that is styled in the Shadow DOM, but needs to pull in the user's
 name from an external input.
 
 ![Shadow DOM name tag example](/img/stories/shadowdom-content.png)
 
-```
+```html
 <div id="nameTag">Bob</div>
 ```
 
-In order to achieve this, you can use `<content>` element inside the Shadow DOM.  
+In order to achieve this, you can use `<content>` element inside the Shadow DOM.
 
-```
+```js
 var host = document.querySelector('#host');
 var root = host.createShadowRoot();
 var content = document.createElement('content');
 content.setAttribute('select', 'h1'); // <content select="h1"></content>
 root.appendChild(content);
 ```
-```
+
+```html
 <div id="host">
   <h1>This is Shadow DOM</h1>
 <div>
@@ -113,7 +115,7 @@ can distribute host's content to wherever you want.
 Note that `select` attribute can only take direct children of the host element.
 For example, you can NOT assign descendant elements to the `select` attribute:
 
-```
+```html
 <div id="host">
   <div class="child">
     <h1>This is Shadow DOM</h1>
@@ -134,8 +136,8 @@ can define contents of your Shadow DOM declaratively with HTML. To learn about
 the &lt;template&gt; element, check out [the previous
 post](http://webcomponents.org/articles/introduction-to-template-element/).
 
-```
-// Content of <template> will be appended to the Shadow Root
+```html
+<!-- Content of <template> will be appended to the Shadow Root -->
 <template id="template">
   <style>
     ...
@@ -150,7 +152,8 @@ post](http://webcomponents.org/articles/introduction-to-template-element/).
   <h1>This is Shadow DOM</h1>
 </div>
 ```
-```
+
+```js
 var host = document.querySelector('#host');
 // Create a Shadow Root
 var root = host.createShadowRoot();
@@ -161,7 +164,7 @@ var clone = document.importNode(template.content, true);
 root.appendChild(clone);
 ```
 
-[Here's a live example.](http://jsbin.com/bahera/4/edit?html,js,output)  
+[Here's a live example.](http://jsbin.com/bahera/4/edit?html,js,output)
 
 ## Supported browsers
 
