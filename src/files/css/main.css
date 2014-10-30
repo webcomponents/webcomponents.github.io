@@ -718,11 +718,27 @@ header, section {
     padding-left: 0;
     padding-right: 0;
     text-transform: uppercase;
+    font-size: .9em;
+}
+
+@media (max-width: 480px) {
+    .card-story .post-author,
+    .card-story .post-location,
+    .card-story .post-date {
+        float: none;
+    }
 }
 
 .card-story .post-location,
 .card-story .post-date {
     margin: 0 0 0 20px;
+}
+
+@media (max-width: 480px) {
+    .card-story .post-location,
+    .card-story .post-date {
+        margin: 0;
+    }
 }
 
 .card-story .post-info {
@@ -764,6 +780,41 @@ header, section {
     color: #ff5c03;
     margin: 5px 0 10px;
     display: inline-block;
+}
+
+/* RSS
+============================================================================= */
+
+.card-rss {
+    margin: 0 40px 40px;
+}
+
+@media (max-width: 980px) {
+    .card-rss {
+        margin: 0 20px 20px;
+        padding: 0 15px;
+    }
+}
+
+.card-rss img {
+    float: left;
+    margin-right: 15px;
+    padding: 10px 0;
+}
+
+.card-rss p {
+    padding: 25px 0 0;
+}
+
+@media (max-width: 480px) {
+    .card-rss p {
+        padding: 17px 0 0;
+        font-size: .9em;
+    }
+}
+
+.card-rss a {
+    color: #ff5c03;
 }
 
 /* Pagination
@@ -835,6 +886,14 @@ header, section {
     font-size: 1.3em;
     line-height: 1.7em;
     margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .layout-single .description p,
+    .layout-single .description ol > li,
+    .layout-single .description ul > li {
+        font-size: 1em;
+    }
 }
 
 .layout-single .description li > ul,

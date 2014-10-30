@@ -3,6 +3,18 @@
 <%- @partial('menu') %>
 
 <div class="wrapper">
+    <% if @hasRssFeed(): %>
+        <div class="card card-story card-rss">
+            <img src="<%= @site.url %>/img/icon-rss.png" alt="RSS Icon">
+            <p>
+                Subscribe to the
+                <a href="http://feeds.feedburner.com/webcomponentsorg/<%= @document.name %>" target="_blank">
+                    <%= @document.title %>' RSS feed &gt;
+                </a>
+            </p>
+        </div>
+    <% end %>
+
     <main class="card-container layout-archive" role="main">
         <!-- Post Listing -->
         <%- @content %>

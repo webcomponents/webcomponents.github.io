@@ -101,7 +101,7 @@ In order to stamp out the template, you'll need to write a bit of JavaScript.
     </script>
     <div id="host"></div>
   
-[Here's a live example](http://jsbin.com/qaxiw/6/edit).  
+[Here's a live example](http://jsbin.com/qaxiw/7/edit).  
   
 The `template` node queried on first line will be cloned using
 `document.importNode()`. By assigning `true` to the 2nd argument, we are

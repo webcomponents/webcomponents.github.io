@@ -97,6 +97,13 @@ module.exports = {
             return i >= 0;
         },
 
+        hasRssFeed: function(item) {
+            var articles = this.document.title === 'Articles';
+            var presentations = this.document.title === 'Presentations';
+
+            return articles || presentations;
+        },
+
         getSticky: function(collection){
             var arraySticky = collection.filter(function(item){
                 return item.sticky === true;
@@ -249,6 +256,16 @@ module.exports = {
                 return document.setMeta({
                     layout: "tags"
                 });
+            }
+        },
+        rss: {
+            articles: {
+                collection: 'articles',
+                url: '/articles.xml'
+            },
+            presentations: {
+                collection: 'presentations',
+                url: '/presentations.xml'
             }
         }
     }
