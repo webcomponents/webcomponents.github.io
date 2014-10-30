@@ -35,23 +35,19 @@
     <link rel="stylesheet" href="<%= @site.url %>/css/main.min.css">
     <link rel="stylesheet" href="<%= @site.url %>/css/syntax-highlight.min.css">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="<%= @site.url %>/img/favicon.ico">
-
     <!--[if lt IE 10]>
     <link rel="stylesheet" media="all" href="<%= @site.url %>/css/ielt10.min.css">
     <![endif]-->
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="<%= @site.url %>/img/favicon.ico">
+
+    <!-- Author -->
+    <link rel="publisher" href="https://plus.google.com/+WebcomponentsOrg">
+
     <!-- Fonts -->
     <script src="//use.typekit.net/ksn6mlw.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-
-    <!-- Author -->
-    <% if @document.authors: %>
-        <link rel="author" href="<%= @getAuthorGooglePlus(@document.authors[0]) %>">
-    <% else: %>
-        <link rel="publisher" href="https://plus.google.com/103330502635338602217">
-    <% end %>
 
 </head>
 <body itemscope itemtype="http://schema.org/CreativeWork">
