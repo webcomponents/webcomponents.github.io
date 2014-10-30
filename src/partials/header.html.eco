@@ -10,7 +10,6 @@
     <!-- for Google -->
     <meta name="description" content="<%= @getDescription() %>">
     <meta name="author" content="The Community">
-    <meta name="application-name" content="">
 
     <!-- for Facebook -->
     <meta property="og:title" content="<%= @getTitle() %>">

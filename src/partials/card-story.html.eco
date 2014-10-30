@@ -2,7 +2,7 @@
     <h3><%= @name %></h3>
     <% for item in @docs: %>
         <% if item.image: %>
-            <a class="story-image" <% if item.link: %>target="_blank"<% end %> href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>" itemprop="url">
+            <a class="story-image" <% if item.link: %>target="_blank"<% end %> href="<% if item.link: %><%= item.link %><% else: %><%= @site.url %><%= item.url %><% end %>">
                 <img src="<%= @site.url %>/img/stories/<%= item.image %>" alt="<%= item.title %>" itemprop="image">
             </a>
         <% end %>

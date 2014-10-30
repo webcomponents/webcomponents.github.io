@@ -4,11 +4,11 @@ layout: home
 
 <div class="wrapper">
     <header class="header" role="banner">
-        <a class="logo" href="<%= @site.url %>">
-            <img src="<%= @site.url %>/img/logo.svg" alt="<%= @site.title %>" width="246" height="158">
+        <a class="logo" href="<%= @site.url %>" itemprop="url">
+            <img src="<%= @site.url %>/img/logo.svg" alt="<%= @site.title %>" width="246" height="158" itemprop="image">
         </a>
-        <h1 class="title"><%= @site.title %></h1>
-        <h2 class="subtitle"><%= @site.description %></h2>
+        <h1 class="title" itemprop="name"><%= @site.title %></h1>
+        <h2 class="subtitle" itemprop="description"><%= @site.description %></h2>
     </header>
 
     <main class="card-container layout-home" role="main">

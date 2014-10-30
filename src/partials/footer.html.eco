@@ -1,6 +1,6 @@
 <footer class="credits" role="contentinfo">
     <div class="wrapper">
-        <p>Made with <span class="love">♥</span> by the <a target="_blank" class="credits-link" href="<%= @getGithubURL() %>/graphs/contributors" itemprop="author">WebComponents.org contributors.</a></p>
+        <p>Made with <span class="love">♥</span> by the <a target="_blank" class="credits-link" href="<%= @getGithubURL() %>/graphs/contributors" itemprop="publisher">WebComponents.org contributors.</a></p>
         <!-- Social Button -->
         <ul class="social-buttons">
             <li class="tweet-btn">

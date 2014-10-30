@@ -1,5 +1,5 @@
-<section class="card card-community" role="region">
-    <h3>Community</h3>
+<section class="card card-community" role="region" itemscope itemtype="http://schema.org/ItemList">
+    <h3 itemprop="name">Community</h3>
     <ul class="profile-list">
         <li itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/zenorocha" itemprop="url">
@@ -62,7 +62,7 @@
             </a>
         </li>
         <li>
-            <a target="_blank" class="credits-link" href="<%= @getGithubURL() %>/graphs/contributors" itemprop="url">
+            <a target="_blank" class="credits-link" href="<%= @getGithubURL() %>/graphs/contributors">
                 <p class="name">and more!</p>
             </a>
         </li>
