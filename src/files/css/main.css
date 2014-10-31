@@ -533,6 +533,10 @@ header, section {
     color: #3a99d7;
 }
 
+.card-story .description img {
+    max-width: 100%;
+}
+
 .card-story .title {
     margin: 10px 0 0;
     display: inline-block;
