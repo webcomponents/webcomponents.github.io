@@ -1,5 +1,5 @@
 <!-- Menu -->
-<header class="header-bar" role="banner">
+<header class="header-bar" role="banner" itemscope itemtype="http://schema.org/SiteNavigationElement">
     <div class="wrapper">
         <!-- Logo -->
         <a class="logo" href="<%= @site.url %>">
@@ -14,19 +14,29 @@
         <nav class="nav desktop-only" role="navigation">
             <ul>
                 <li class="nav-item <% if @isActiveMenu('.'): %>nav-active<% end %>">
-                    <a href="<%= @site.url %>/" class="nav-link" title="Home">Home</a>
+                    <a href="<%= @site.url %>/" class="nav-link" title="Home" itemprop="url">
+                        <span itemprop="name">Home</span>
+                    </a>
                 </li>
                 <li class="nav-item <% if @isActiveMenu('articles'): %>nav-active<% end %>">
-                    <a href="<%= @site.url %>/articles/" class="nav-link" title="Articles">Articles</a>
+                    <a href="<%= @site.url %>/articles/" class="nav-link" title="Articles" itemprop="url">
+                        <span itemprop="name">Articles</span>
+                    </a>
                 </li>
                 <li class="nav-item <% if @isActiveMenu('presentations'): %>nav-active<% end %>">
-                    <a href="<%= @site.url %>/presentations/" class="nav-link" title="Presentations">Presentations</a>
+                    <a href="<%= @site.url %>/presentations/" class="nav-link" title="Presentations" itemprop="url">
+                        <span itemprop="name">Presentations</span>
+                    </a>
                 </li>
                 <li class="nav-item <% if @isActiveMenu('resources'): %>nav-active<% end %>">
-                    <a href="<%= @site.url %>/resources/" class="nav-link" title="Resources">Resources</a>
+                    <a href="<%= @site.url %>/resources/" class="nav-link" title="Resources" itemprop="url">
+                        <span itemprop="name">Resources</span>
+                    </a>
                 </li>
                 <li class="nav-item <% if @isActiveMenu('sandbox'): %>nav-active<% end %>">
-                    <a href="<%= @site.url %>/sandbox/" class="nav-link" title="Sandbox">Sandbox</a>
+                    <a href="<%= @site.url %>/sandbox/" class="nav-link" title="Sandbox" itemprop="url">
+                        <span itemprop="name">Sandbox</span>
+                    </a>
                 </li>
             </ul>
         </nav>
