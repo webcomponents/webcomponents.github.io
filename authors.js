@@ -34,6 +34,13 @@ module.exports = {
         gplus: "111975973972817482025",
         twitter: "sundress"
     },
+    andrew_rota: {
+        name: "Andrew Rota",
+        bio: "Andrew Rota is a front-end software engineer who specializes in building interactive HTML5 JavaScript web applications. He is currently a JavaScript Engineer at Wayfair in Boston.",
+        gravatar: "03029c6d86fe192d2c82885b1d21eb2e",
+        gplus: "+andrewrota",
+        twitter: "andrewrota"
+    },
     angelina_fabbro: {
         name: "Angelina Fabbro",
         bio: "Angelina is a developer from Vancouver, BC Canada working at Mozilla as a Technical Evangelist and developer advocate for Firefox OS. She loves JavaScript, web components, Node.js, mobile app development, and this cool place she hang out a lot called the world wide web. Oh, and let's not forget Firefox OS. In her spare time she takes singing lessons, play Magic: The Gathering, teach people to program, and collaborate with scientists for better programmer-scientist engagement.",
