@@ -41,6 +41,13 @@ module.exports = {
         gplus: "117339576748577555094",
         twitter: "hopefulcyborg"
     },
+    carmen_popoviciu: {
+        name: "Carmen Popoviciu",
+        bio: "Carmen is a front-end engineer and the leading lady of the Dutch AngularJS User Group. She loves Angular and is passionate about its community. She hopes to one day make a difference for the web with the code she writes.",
+        gplus: "118143942632321563925",
+        image: "https://avatars2.githubusercontent.com/u/4638332?v=2&s=80",
+        twitter: "CarmenPopoviciu"
+    },
     community: {
         name: "Community",
         bio: "Posts marked as authored by the community represent best practices which have reached a level of concensus. They may evolve over time but their core fundamentals are considered generally good ideas.",
