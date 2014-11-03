@@ -14,3 +14,5 @@ based libraries using the DOM as a simple configuration API. Similar to
 libraries like [Polymer](http://polymer-project.org/), React cares about
 composition, lifecycle events and modularity so seeing how well it fits with Web
 Components is an interesting thought experiment.
+
+<!-- Excerpt -->

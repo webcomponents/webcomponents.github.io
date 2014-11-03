@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="wrapper">
+<div class="wrapper" itemscope itemtype="http://schema.org/CollectionPage">
     <header class="header" role="banner">
         <a class="logo" href="<%= @site.url %>" itemprop="url">
             <img src="<%= @site.url %>/img/logo.svg" alt="<%= @site.title %>" width="246" height="158" itemprop="image">

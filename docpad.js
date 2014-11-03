@@ -7,12 +7,13 @@ module.exports = {
     // These are variables will be accessible via our templates
 
     templateData: {
-        authors: require('./authors'),
+        authors: require("./authors"),
 
         site: {
             title: "WebComponents.org",
             description: "A place to discuss and evolve Web Component best-practices",
-            url: "http://webcomponents.org"
+            url: "http://webcomponents.org",
+            image: "http://webcomponents.org/img/logo.png"
         },
 
         github: {
@@ -24,7 +25,11 @@ module.exports = {
         ===================================================================== */
 
         getAuthor: function(author) {
-            return this.authors[author];
+            if (author) {
+                return this.authors[author];
+            }
+
+            return this.authors["community"];
         },
 
         getAuthorImage: function(author) {
@@ -72,16 +77,20 @@ module.exports = {
         },
 
         getDescription: function() {
-            if (this.hasReadMore(this.document.content)) {
-                return "" + this.getExcerpt(this.document.content);
+            if (this.document.layout === "single") {
+                return this.getExcerpt(this.document.content);
             }
 
-            return "" + this.site.description;
+            if (this.document.description) {
+                return this.document.description;
+            }
+
+            return this.site.description;
         },
 
         getExcerpt: function(item) {
-            var content = String(item.contentRenderedWithoutLayouts);
-            var i = content.search("<!-- Read more -->");
+            var content = String(item);
+            var i = content.search("<!-- Excerpt -->");
 
             if (i >= 0) {
                 return content.slice(0, (i - 1));
@@ -90,16 +99,23 @@ module.exports = {
             return content;
         },
 
-        hasReadMore: function(item) {
-            var content = String(item.contentRenderedWithoutLayouts);
-            var i = content.search("<!-- Read more -->");
+        getImage: function() {
+            if (this.document.image) {
+                return "" + this.site.url + "/img/stories/" + this.document.image;
+            }
 
-            return i >= 0;
+            return this.site.image;
+        },
+
+        hasReadMore: function(item) {
+            var content = String(item);
+
+            return content.search("<!-- Excerpt -->") >= 0;
         },
 
         hasRssFeed: function(item) {
-            var articles = this.document.title === 'Articles';
-            var presentations = this.document.title === 'Presentations';
+            var articles = this.document.title === "Articles";
+            var presentations = this.document.title === "Presentations";
 
             return articles || presentations;
         },
@@ -260,12 +276,12 @@ module.exports = {
         },
         rss: {
             articles: {
-                collection: 'articles',
-                url: '/articles.xml'
+                collection: "articles",
+                url: "/articles.xml"
             },
             presentations: {
-                collection: 'presentations',
-                url: '/presentations.xml'
+                collection: "presentations",
+                url: "/presentations.xml"
             }
         }
     }

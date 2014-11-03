@@ -14,7 +14,7 @@ There was an article recently popping up in the interwebs about Polymer vs. Angu
 and the differences between those two projects. While it's fairly easy to understand
 the differences between those two, it's a bit harder to grasp the different
 directions and approaches of Polymer in comparison to X-Tag, because both seem to
-provide a solution for building custom web components. This article explains the 
+provide a solution for building custom web components. This article explains the
 difference between Polymer and X-Tag.
 
-
+<!-- Excerpt -->

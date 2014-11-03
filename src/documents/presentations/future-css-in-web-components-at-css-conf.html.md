@@ -13,14 +13,14 @@ role in that revolution will be played by CSS. Scoped styles and variables are
 vital to the reusability of content modules which Web Components bring, while
 more advanced proposals even allow the application of markup through style...
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 This talk will introduce the core features of the future web - templates, custom
 elements and Shadow DOM - with a strong emphasis on new and repurposed CSS
 properties and capabilities
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/U45e-zq4bTs"></iframe>
+    <iframe src="//www.youtube.com/embed/U45e-zq4bTs" itemprop="video"></iframe>
 </div>
 
 <script async class="speakerdeck-embed" data-id="d002a6d0fe8b0130332246511f7d7b12" data-ratio="1.33507170795306" src="//speakerdeck.com/assets/embed.js"></script>

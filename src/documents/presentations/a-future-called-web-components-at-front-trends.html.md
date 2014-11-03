@@ -13,10 +13,10 @@ through the W3C. Discover how this new concept formed by Templates,
 Decorators, Shadow DOM, Custom Elements, and HTML Imports will revolutionize the
 way we develop and interact on the web.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//player.vimeo.com/video/97308701?byline=0&amp;portrait=0&amp;color=ff9933"></iframe>
+    <iframe src="//player.vimeo.com/video/97308701?byline=0&amp;portrait=0&amp;color=ff9933" itemprop="video"></iframe>
 </div>
 
 <script async class="speakerdeck-embed" data-id="ee6d05c0497301316db35a0ddfd7041e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

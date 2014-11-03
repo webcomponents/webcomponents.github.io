@@ -10,7 +10,7 @@ tags: ['Shadow DOM', 'Template']
 Shadow DOM is an emerging web standard that gives developers access to style and
 DOM scoping. Learn how to use it on your own website.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
   <iframe src="//www.youtube.com/embed/Is4FZxKGqqk"></iframe>

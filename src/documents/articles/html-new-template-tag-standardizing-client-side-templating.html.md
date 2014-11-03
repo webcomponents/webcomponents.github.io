@@ -14,3 +14,5 @@ templating languages/engines like Django (Python), ERB/Haml (Ruby), and Smarty
 we've seen an explosion of MVC frameworks spring up. All of them are slightly
 different, yet most share a common mechanic for rendering their presentational
 layer (aka da view): templates.
+
+<!-- Excerpt -->

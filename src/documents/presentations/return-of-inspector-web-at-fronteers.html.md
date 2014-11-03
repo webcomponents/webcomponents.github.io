@@ -12,7 +12,7 @@ A little over a year ago at JSConf EU, Angelina tried to inspire developers to
 take an interest in Web Components, which includes Shadow Dom, HTML Templates,
 HTML Imports, and Custom Elements.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 In this talk we'll take a look at how far we've come in a year: what has been
 implemented, what hasn't, the current state of the relevant specifications, and
@@ -22,7 +22,7 @@ look at these changes, and also dive into some code for a comprehensive overview
 of 'the state of things' - spoiler: it's still always changing.
 
 <div class="video-wrap">
-    <iframe src="//player.vimeo.com/video/78899868?byline=0&amp;portrait=0&amp;color=ff9933"></iframe>
+    <iframe src="//player.vimeo.com/video/78899868?byline=0&amp;portrait=0&amp;color=ff9933" itemprop="video"></iframe>
 </div>
 
 <a href="http://afabbro.github.io/the-return-of-inspector-web/">

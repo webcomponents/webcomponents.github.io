@@ -8,13 +8,12 @@
     <meta name="google-site-verification" content="px-LvGmZP4t9mI3QVcWkTYciiRbToixpY-F-NfIybaE">
 
     <!-- for Google -->
+    <meta name="author" content="<%= @getAuthor() %>">
     <meta name="description" content="<%= @getDescription() %>">
-    <meta name="author" content="The Community">
 
     <!-- for Facebook -->
     <meta property="og:title" content="<%= @getTitle() %>">
-    <meta property="og:type" content="article">
-    <meta property="og:image" content="<%= @site.url %>/img/logo.png">
+    <meta property="og:image" content="<%= @getImage() %>">
     <meta property="og:url" content="<%= @site.url %><%= @document.url %>">
     <meta property="og:description" content="<%= @getDescription() %>">
 
@@ -22,7 +21,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="<%= @getTitle() %>">
     <meta name="twitter:description" content="<%= @getDescription() %>">
-    <meta name="twitter:image" content="<%= @site.url %>/img/logo.png">
+    <meta name="twitter:image" content="<%= @getImage() %>">
     <meta name="twitter:site" content="@Web_Components">
 
     <!-- RSS -->
@@ -49,4 +48,4 @@
     <script>try{Typekit.load();}catch(e){}</script>
 
 </head>
-<body itemscope itemtype="http://schema.org/CreativeWork">
+<body>

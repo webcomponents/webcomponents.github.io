@@ -14,3 +14,5 @@ JavaScript can make interactive visual stuff. Widgets are interactive visual
 stuff. It makes sense to leverage your HTML and JavaScript skills when
 developing a widget. The Web Components standards are designed to help you do
 that.
+
+<!-- Excerpt -->

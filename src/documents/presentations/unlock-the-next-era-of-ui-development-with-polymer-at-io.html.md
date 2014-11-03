@@ -14,10 +14,10 @@ we design as components within larger systems. Join us to learn how to use
 Polymer to revolutionize your design process. With these new tools we can create
 the UIs of the future, and shorten the time between concept and reality.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/HKrYfrAzqFA"></iframe>
+    <iframe src="//www.youtube.com/embed/HKrYfrAzqFA" itemprop="video"></iframe>
 </div>
 
 <div class="video-wrap">

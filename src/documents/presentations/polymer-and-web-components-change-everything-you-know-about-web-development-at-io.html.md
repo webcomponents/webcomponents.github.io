@@ -14,10 +14,10 @@ shortcomings. Polymer and web components change how we think about, design, and
 compose web applications. Learn how the Web Components revolution makes you more
 productive and reduces the cognitive load of being a web developer.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/8OJ7ih8EE7s"></iframe>
+    <iframe src="//www.youtube.com/embed/8OJ7ih8EE7s" itemprop="video"></iframe>
 </div>
 
 <a href="http://polymer-change.appspot.com/">

@@ -13,10 +13,10 @@ technologies that includes Shadow DOM, HTML Templates, Custom Elements, and HTML
 Imports) can be used as building blocks to construct a functioning web
 application.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/dW2ib0bkxGQ"></iframe>
+    <iframe src="//www.youtube.com/embed/dW2ib0bkxGQ" itemprop="video"></iframe>
 </div>
 
 <a href="http://afabbro.github.io/jsconfcolombia-2013-mobile-apps-with-brick/">

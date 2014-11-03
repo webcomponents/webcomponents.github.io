@@ -10,7 +10,7 @@ tags: ['Best Practices', 'Custom Elements', 'Documentation', 'Accessibility']
 
 [Web Components](http://www.w3.org/TR/components-intro/) (WC) are a new set of web platform features that enable developers to build applications in a declarative, composable way. The following is an initial list of best practices we advocate component authors consider to ensure their elements are good citizens in the Web Component ecosystem.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 Keep in mind that we fully expect best practices to evolve over time and so this initial list should be considered a starting point for a living document that hopes to capture practices with a degree of consensus.
 

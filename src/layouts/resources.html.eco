@@ -11,7 +11,7 @@
 
                 <div class="post-info" role="complementary">
                     <p class="post-edit">
-                        <span class="icon-pencil"></span>
+                        <span class="icon icon-pencil"></span>
                         <a href="<%= @getGithubEditURL(@document.relativePath) %>">Edit this page</a>
                     </p>
                 </div>
@@ -22,54 +22,54 @@
             </section>
         </div>
         <div class="single-sidebar">
-            <section class="card card-tags">
-                <h3>Boilerplates</h3>
+            <section class="card card-tags" role="region" itemscope itemtype="http://schema.org/ItemList">
+                <h3 itemprop="name">Boilerplates</h3>
                 <ul class="tag-list">
-                    <li>
-                        <a target="_blank" href="https://github.com/webcomponents/polymer-boilerplate">
-                            <span class="icon-github-alt"></span>
-                            Polymer Boilerplate
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/polymer-boilerplate" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Polymer Boilerplate</span>
                         </a>
                     </li>
-                    <li>
-                        <a target="_blank" href="https://github.com/webcomponents/x-tag-boilerplate">
-                            <span class="icon-github-alt"></span>
-                            X-Tag Boilerplate
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/x-tag-boilerplate" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">X-Tag Boilerplate</span>
                         </a>
                     </li>
-                    <li>
-                        <a target="_blank" href="https://github.com/webcomponents/element-boilerplate">
-                            <span class="icon-github-alt"></span>
-                            VanillaJS Boilerplate
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/element-boilerplate" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">VanillaJS Boilerplate</span>
                         </a>
                     </li>
-                    <li>
-                        <a target="_blank" href="https://github.com/webcomponents/generator-element">
-                            <span class="icon-github-alt"></span>
-                            Element Generator
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/generator-element" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Element Generator</span>
                         </a>
                     </li>
                 </ul>
             </section>
-            <section class="card card-tags">
-                <h3>Examples</h3>
+            <section class="card card-tags" role="region" itemscope itemtype="http://schema.org/ItemList">
+                <h3 itemprop="name">Examples</h3>
                 <ul class="tag-list">
-                    <li>
-                        <a target="_blank" href="https://github.com/webcomponents/hello-world-polymer">
-                            <span class="icon-github-alt"></span>
-                            Hello World Polymer
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/hello-world-polymer" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Hello World Polymer</span>
                         </a>
                     </li>
-                    <li>
-                        <a target="_blank" href="https://github.com/webcomponents/hello-world-xtag">
-                            <span class="icon-github-alt"></span>
-                            Hello World X-Tag
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/hello-world-xtag" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Hello World X-Tag</span>
                         </a>
                     </li>
-                    <li>
-                        <a target="_blank" href="https://github.com/webcomponents/hello-world-element">
-                            <span class="icon-github-alt"></span>
-                            Hello World VanillaJS
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/hello-world-element" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Hello World VanillaJS</span>
                         </a>
                     </li>
                 </ul>

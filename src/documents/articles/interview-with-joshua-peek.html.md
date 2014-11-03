@@ -18,7 +18,7 @@ Today, we'll start by asking some questions to [Joshua Peek](https://twitter.com
 a programmer who has been working on [GitHub](https://github.com/) for the past
 three years.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 ### Even with your high-traffic volume of visitors worldwide, GitHub.com is using Web Components in production. How hard was it to convince them to adopt a brand new technology like that?
 

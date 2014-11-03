@@ -14,8 +14,8 @@ and [Yeoman](http://yeoman.io/) – modern tooling that can help you rapidly bui
 new apps using these technologies. Set aside a few minutes, grab some pop-corn
 and learn how to create your own custom elements.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/booRxAJblwM"></iframe>
+    <iframe src="//www.youtube.com/embed/booRxAJblwM" itemprop="video"></iframe>
 </div>

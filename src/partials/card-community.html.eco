@@ -1,61 +1,61 @@
 <section class="card card-community" role="region" itemscope itemtype="http://schema.org/ItemList">
     <h3 itemprop="name">Community</h3>
     <ul class="profile-list">
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/zenorocha" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93" alt="Zeno Rocha">
                 <p class="name" itemprop="name">Zeno</p>
             </a>
         </li>
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/addyosmani" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275" alt="Addy Osmani">
                 <p class="name" itemprop="name">Addy</p>
             </a>
         </li>
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/ebidel" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/e7948aac7c52b26470be80311873a398" alt="Eric Bidelman">
                 <p class="name" itemprop="name">Eric</p>
             </a>
         </li>
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/brizabueno" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/c272a0a8972473fdf231f2b2d897c242" alt="Briza Bueno">
                 <p class="name" itemprop="name">Briza</p>
             </a>
         </li>
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/jkomoros" itemprop="url">
                 <img class="picture" itemprop="image" src="https://lh5.googleusercontent.com/-WlbCSDZ9t5Y/AAAAAAAAAAI/AAAAAAAAC2M/A_HM2ovbT2o/s120-c/photo.jpg" alt="Alex Komoroske">
                 <p class="name" itemprop="name">Alex</p>
             </a>
         </li>
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/eduardolundgren" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/42327de520e674a6d1686845b30778d0" alt="Eduardo Lundgren">
                 <p class="name" itemprop="name" style="margin-left: -8px;">Eduardo</p>
             </a>
         </li>
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/PascalPrecht" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/b32bdb1fc9fdadeb45d7a1267fdd2fc4" alt="Pascal Precht">
                 <p class="name" itemprop="name">Pascal</p>
             </a>
         </li>
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/bernarddeluna" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/bc16c9be1e05e65395487b78b1cc72c0" alt="Bernard De Luna">
                 <p class="name" itemprop="name">Bernard</p>
             </a>
         </li>
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/sindresorhus" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9" alt="Sindre Sorhus">
                 <p class="name" itemprop="name">Sindre</p>
             </a>
         </li>
-        <li itemscope itemtype="http://schema.org/Person">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/Person">
             <a target="_blank" href="https://twitter.com/rob_dodson" itemprop="url">
                 <img class="picture" itemprop="image" src="https://2.gravatar.com/avatar/95c3a3b33ea51545229c625bef42e343" alt="Rob Dodson">
                 <p class="name" itemprop="name">Rob</p>

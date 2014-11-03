@@ -12,3 +12,5 @@ If you're hosting a party, it gets stuffy if everyone is crammed into the same
 room. You want the option of distributing groups of people across multiple
 rooms. Elements hosting Shadow DOM can do this too, that is to say, they can
 host more than one shadow root at a time.
+
+<!-- Excerpt -->

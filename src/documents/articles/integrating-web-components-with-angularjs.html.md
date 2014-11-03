@@ -11,3 +11,5 @@ tags: ['Interoperability', 'AngularJS']
 This article focuses on the integration of Web Components with the AngularJS of today,
 what issues can occur, how to work around them and how the AngularJS of tomorrow will solve
 these issues in order to embrace the Web Components technologies.
+
+<!-- Excerpt -->

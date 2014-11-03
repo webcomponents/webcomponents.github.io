@@ -13,7 +13,7 @@ adopters, this week we speak with [Rob Dodson](http://robdodson.me/), a
 developer advocate at Google focused on [Polymer](https://www.polymer-project.org/)
 and Web Components.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 ### Your first blog posts related to Web Components were published before joining Google, do you think it somehow influenced your current position?
 

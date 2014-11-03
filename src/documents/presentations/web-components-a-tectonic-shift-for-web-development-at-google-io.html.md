@@ -14,10 +14,10 @@ platform by discussing the lower level technologies that form the basis of Web
 Components (Shadow DOM, custom elements, MDV, new CSS primitives). Many of these
 tools have already landed in a modern browser near you!
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/fqULJBBEVQE"></iframe>
+    <iframe src="//www.youtube.com/embed/fqULJBBEVQE" itemprop="video"></iframe>
 </div>
 
 <a href="http://html5-demos.appspot.com/static/webcomponents-bdconf/index.html">

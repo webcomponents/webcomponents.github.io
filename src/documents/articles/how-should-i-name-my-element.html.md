@@ -13,7 +13,7 @@ truly complex pieces of code but we still have a hard time to name a simple
 variable. The same is true for naming custom elements and we're here today to
 help you with that.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 ## `<oneword>` vs. `<two-words>`
 

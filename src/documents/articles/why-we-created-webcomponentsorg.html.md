@@ -12,3 +12,5 @@ called WebComponentsOrg. Googlers from the Polymer/Chrome team, along with some
 great folks from Mozilla’s X-Tag/Brick, as well as other Web Components
 community members (like me) had been cooking up a vision for a simple, neutral
 site/community devoted to encouraging good best practices for Web Components.
+
+<!-- Excerpt -->

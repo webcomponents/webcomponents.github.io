@@ -9,3 +9,5 @@ tags: ['Polymer']
 ---
 
 Building modern web applications requires a lot of tooling. This includes preprocessors, JavaScript frameworks, testing tools and a whole lot more. And as the complexities of these apps increases, so does the breadth of tooling and services needed to manage them. Wouldn't it be great if some things were simplified?
+
+<!-- Excerpt -->

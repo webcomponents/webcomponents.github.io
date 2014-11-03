@@ -1,9 +1,10 @@
 ---
 title: 'Resources'
+description: The WebComponents.org Resources is a place to introduce useful tools and boilerplates to easily start hacking on your own custom elements.
 layout: resources
 ---
 
-The WebComponents.org Resources can be used as a place to introduce useful tools
+The WebComponents.org Resources is a place to introduce useful tools
 and boilerplates to easily start hacking on your own custom elements.
 
 ## 1. Learn

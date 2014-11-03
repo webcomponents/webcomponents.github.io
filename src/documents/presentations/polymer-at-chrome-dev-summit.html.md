@@ -12,10 +12,10 @@ Polymer is a new type of library for the evolving modern web platform that
 leverages the many technlogies behind web components. It provides an extra layer
 of opinionated API sugaring for building smarter apps, faster.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/DH1vTVkqCDQ"></iframe>
+    <iframe src="//www.youtube.com/embed/DH1vTVkqCDQ" itemprop="video"></iframe>
 </div>
 
 <a href="http://html5-demos.appspot.com/static/cds2013/index.html">

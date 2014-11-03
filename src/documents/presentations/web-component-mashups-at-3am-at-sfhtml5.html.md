@@ -12,10 +12,10 @@ In this talk Rob will cover the wild and wooly world of Web Component mashups.
 Grab a few X-Tag components, mixin some Polymer elements, and invite your
 friends from CustomElements.io.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/75EuHl6CSTo"></iframe>
+    <iframe src="//www.youtube.com/embed/75EuHl6CSTo" itemprop="video"></iframe>
 </div>
 
 <a href="http://robdodson.me/sfhtml5-talk/">

@@ -13,7 +13,7 @@ websites. You get how CSS works, right? wrong! HTML? nope. JavaScript? nawww. If
 you're curious about what your job will look like in the next few years come see
 the future that Web Components will bring.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <a href="http://robdodson.me/webcomponents-cascade">
     <img src="../../img/stories/web-components-revolution-at-cascade-cover.jpg" alt="Presentation Cover">

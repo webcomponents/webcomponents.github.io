@@ -12,3 +12,5 @@ Today, weâ€™ll get our hands dirty with some code! By the end of this post, youâ
 be able to create your own encapsulated widgets that pull in content from the
 outside world and rearrange their bits and pieces to produce something wholly
 different.
+
+<!-- Excerpt -->

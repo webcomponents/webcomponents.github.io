@@ -1,5 +1,5 @@
 <!-- Menu -->
-<header class="header-bar" role="banner" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<header class="header-bar" role="banner">
     <div class="wrapper">
         <!-- Logo -->
         <a class="logo" href="<%= @site.url %>">
@@ -11,7 +11,7 @@
             <span></span>
         </a>
         <!-- Menu -->
-        <nav class="nav desktop-only" role="navigation">
+        <nav class="nav desktop-only" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
             <ul>
                 <li class="nav-item <% if @isActiveMenu('.'): %>nav-active<% end %>">
                     <a href="<%= @site.url %>/" class="nav-link" title="Home" itemprop="url">

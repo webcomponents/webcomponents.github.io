@@ -14,3 +14,5 @@ existing ones. Don’t like how a SELECT looks or works? Get it and override wha
 you don’t like. With the web consumed on mobile devices performance is the main
 goal. Anything we can do to save on battery consumption and to keep interfaces
 responsive without being sluggish is a good thing to do.
+
+<!-- Excerpt -->

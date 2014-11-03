@@ -14,7 +14,7 @@ livin' in a gangsta's paradise. While the implementation of this paradigm is
 long overdue, at least it's been a sufficient amount of time for Microsoft to
 forget [Google stole their idea](http://www.w3.org/TR/components-intro/).
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 In this presentation, we'll look at each piece of the Web Components spec
 including Templates, Decorators, Custom Elements, The Shadow Dom, and HTML
@@ -28,7 +28,7 @@ only one of the most exciting specs in draft, it's also one of the most
 important paradigm shifts in web development since Al Gore created the internet.
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/nbsWP2cPhhU"></iframe>
+    <iframe src="//www.youtube.com/embed/nbsWP2cPhhU" itemprop="video"></iframe>
 </div>
 
 <script async class="speakerdeck-embed" data-id="93aa45201cdc013275c65e46c93fec54" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

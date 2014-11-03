@@ -12,7 +12,7 @@ From embeds to widgets to managing complex applications, you constantly face the
 need for better componentization as a web developer. Many-a-lines of JavaScript
 have been written to alleviate this problem -- poorly. But help is on the way.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 The web platform is gaining a powerful new set of capabilities designed to
 better help you build robust, reusable, and packageable components. We'll cover
@@ -21,5 +21,5 @@ emerging technologies today. Most importantly, we'll show you how to get
 involved and help influence their direction as they mature.
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/2txPYQOWBtg"></iframe>
+    <iframe src="//www.youtube.com/embed/2txPYQOWBtg" itemprop="video"></iframe>
 </div>

@@ -15,7 +15,7 @@
         </div>
     <% end %>
 
-    <main class="card-container layout-archive" role="main">
+    <main class="card-container layout-archive" role="main" itemscope itemtype="http://schema.org/CollectionPage">
         <!-- Post Listing -->
         <%- @content %>
     </main>

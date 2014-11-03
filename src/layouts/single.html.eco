@@ -3,7 +3,7 @@
 <%- @partial('menu') %>
 
 <div class="wrapper">
-    <main class="layout-single" role="main">
+    <main class="layout-single" role="main" itemscope itemtype="http://schema.org/TechArticle">
         <div class="single-content" role="article">
             <!-- Post -->
             <section class="card card-story" role="region">
@@ -26,7 +26,7 @@
                     </p>
 
                     <% if @document.event: %>
-                        <p class="post-location">
+                        <p class="post-location" itemprop="contentLocation">
                             <span class="icon-location"></span>
                             <%= @document.event %>
                         </p>
@@ -76,14 +76,14 @@
 
             <!-- Tags -->
             <% if @document.tags?.length: %>
-                <section class="card card-tags">
-                    <h3>Tags</h3>
+                <section class="card card-tags" role="region" itemscope itemtype="http://schema.org/ItemList">
+                    <h3 itemprop="name">Tags</h3>
                     <ul class="tag-list">
                         <% for tag in @document.tags: %>
-                            <li>
-                                <a href="<%- @getTagURL(tag) %>">
-                                    <span class="icon-tag"></span>
-                                    <%= tag %>
+                            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                                <a href="<%- @getTagURL(tag) %>" itemprop="url">
+                                    <span class="icon icon-tag"></span>
+                                    <span itemprop="name"><%= tag %></span>
                                 </a>
                             </li>
                         <% end %>

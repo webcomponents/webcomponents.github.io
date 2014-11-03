@@ -16,10 +16,10 @@ styles; and so on. Today we overcome most of these problems by following certain
 conventions and assumptions. "Web Components" is a set of cutting-edge standards
 to solve these problems.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/pb6DsPNdoXk"></iframe>
+    <iframe src="//www.youtube.com/embed/pb6DsPNdoXk" itemprop="video"></iframe>
 </div>
 
 <a href="http://slides.varunkumar.me/webcomponents/">

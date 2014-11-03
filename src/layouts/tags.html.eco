@@ -5,7 +5,7 @@
 <div class="wrapper">
     <h2 class="tag-title">Posts tagged with <span><%= @document.tag %></span></h2>
 
-    <main class="card-container layout-archive" role="main">
+    <main class="card-container layout-archive" role="main" itemscope itemtype="http://schema.org/CollectionPage">
         <% for item in @getFiles(tags: $has: @document.tag).toJSON(): %>
             <section class="card card-story card-articles">
                 <% if item.image: %>
@@ -33,9 +33,9 @@
                 </div>
 
                 <div class="description">
-                    <%- @getExcerpt(item) %>
+                    <%- @getExcerpt(item.contentRenderedWithoutLayouts) %>
 
-                    <% if @hasReadMore(item): %>
+                    <% if @hasReadMore(item.contentRenderedWithoutLayouts): %>
                         <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
                     <% end %>
 

@@ -14,7 +14,7 @@ Web Components are going to fundamentally change the way we think, build, and co
 
 This session will prepare you for the future of the web platform.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <a href="http://html5-demos.appspot.com/static/webcomponents-bdconf/index.html">
     <img src="../../img/stories/web-components-a-new-way-of-building-web-apps-at-bdconf-cover.jpg" alt="Presentation Cover">

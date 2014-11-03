@@ -10,9 +10,9 @@
             <%= item.title %>
         </a>
         <div class="description" itemprop="description">
-            <%- @getExcerpt(item) %>
+            <%- @getExcerpt(item.contentRenderedWithoutLayouts) %>
 
-            <% if @hasReadMore(item): %>
+            <% if @hasReadMore(item.contentRenderedWithoutLayouts): %>
                 <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
             <% end %>
 

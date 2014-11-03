@@ -16,3 +16,5 @@ pasting that into your app (Bootstrap, Foundation, etc.), or you’re sprinkling
 the page with jQuery plugins which have to be configured using JavaScript. It
 puts us in the rather unfortunate position of having to choose between bloated
 HTML or mysterious HTML, and often we choose both.
+
+<!-- Excerpt -->

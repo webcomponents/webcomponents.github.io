@@ -15,10 +15,10 @@ made up of a suite of technologies providing features we're already familiar
 with. In fact, once you understand what web components bring to the table,
 you'll wonder how we ever lived without them.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/s1PTPZwzQA4"></iframe>
+    <iframe src="//www.youtube.com/embed/s1PTPZwzQA4" itemprop="video"></iframe>
 </div>
 
 <a href="http://markdalgleish.github.io/presentation-web-components/">

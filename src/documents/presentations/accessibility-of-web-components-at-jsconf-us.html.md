@@ -14,14 +14,14 @@ templating, custom elements, polyfills: it's an exciting time to be a developer!
 `<div>` tags, we should consider the role of semantics in shiny, new
 technologies.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 In this talk, we'll discuss web accessibility in a bleeding-edge
 way to illustrate that accessibility conversations don't have to be boring or
 old-school.
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/BgvDZZ8Ms8c"></iframe>
+    <iframe src="//www.youtube.com/embed/BgvDZZ8Ms8c" itemprop="video"></iframe>
 </div>
 
 <a href="http://marcysutton.github.io/accessibility-of-web-components/slides.html">

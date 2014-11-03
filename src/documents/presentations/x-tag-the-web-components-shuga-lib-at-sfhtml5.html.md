@@ -11,10 +11,10 @@ layout: single
 In this lightning talk, Daniel will demo the latest tools and libraries that the
 Firefox team uses when they work with Web Components.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/iPmN4CvLGJc"></iframe>
+    <iframe src="//www.youtube.com/embed/iPmN4CvLGJc" itemprop="video"></iframe>
 </div>
 
 <a href="http://slides.com/danielbuchner/x-tag/">

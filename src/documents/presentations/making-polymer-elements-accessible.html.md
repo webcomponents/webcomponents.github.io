@@ -14,10 +14,10 @@ elements that are accessible to everyone? Can they be navigated with a keyboard?
 How well do they work with screenreaders and ARIA? Learn how to create
 accessible elements that all your users can benefit from.
 
-<!-- Read more -->
+<!-- Excerpt -->
 
 <div class="video-wrap">
-    <iframe src="//www.youtube.com/embed/_IBiXfxhF-A"></iframe>
+    <iframe src="//www.youtube.com/embed/_IBiXfxhF-A" itemprop="video"></iframe>
 </div>
 
 <div class="video-wrap">
