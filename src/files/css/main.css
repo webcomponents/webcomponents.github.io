@@ -1131,44 +1131,6 @@ header, section {
     }
 }
 
-
-/** =========================================================================
-    Sandbox
-    ========================================================================= */
-
-#suggest-form {
-    margin: 10px 20px 20px;
-}
-
-#suggest-input {
-    border-radius: 6px;
-    border: 2px solid #d1d7db;
-    color: #34495e;
-    font-size: 15px;
-    height: 42px;
-    padding: 8px 12px;
-    width: 100%;
-    transition: border .25s linear;
-    -webkit-transition: border .25s linear;
-}
-
-#suggest-input:focus {
-    border: 2px solid #bdc3c7;
-}
-
-.suggest-btn {
-    background-color: #166497;
-    border-radius: 6px;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 15px;
-    margin: 10px 0 0;
-    padding: 12px;
-    text-align: center;
-    width: 100%;
-}
-
 /** =========================================================================
     Resources
     ========================================================================= */

@@ -33,11 +33,6 @@
                         <span itemprop="name">Resources</span>
                     </a>
                 </li>
-                <li class="nav-item <% if @isActiveMenu('sandbox'): %>nav-active<% end %>">
-                    <a href="<%= @site.url %>/sandbox/" class="nav-link" title="Sandbox" itemprop="url">
-                        <span itemprop="name">Sandbox</span>
-                    </a>
-                </li>
             </ul>
         </nav>
 
