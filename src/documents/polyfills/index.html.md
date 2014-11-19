@@ -5,7 +5,7 @@ layout: polyfills
 
 ## Introduction
 
-[webcomponents.js](https://github.com/WebComponents/webcomponents.js) is a set of polyfills built on top of the **Web Components** specifications. It makes it possible for developers to use these standards today across all modern browsers.
+[webcomponents.js](https://github.com/WebComponents/webcomponentsjs) is a set of polyfills built on top of the **Web Components** specifications. It makes it possible for developers to use these standards today across all modern browsers.
 
 As these technologies are implemented in browsers, the polyfills will shrink and you'll gain the benefits of native implementations. `webcomponents.js` automatically detects native support and switches to the fast path when available. Your elements seamlessly start relying on the native stuff--and get faster in the process.
 

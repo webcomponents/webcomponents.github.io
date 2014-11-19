@@ -90,7 +90,7 @@ Use the `createdCallback` to do initialization work that might otherwise be in a
 
 ### Getting Started
 
-First download the `webcomponents.js` polyfills using [Bower](http://bower.io):
+First download the `webcomponents.js` [polyfills](https://github.com/WebComponents/webcomponentsjs) using [Bower](http://bower.io):
 
     bower install --save webcomponentsjs
 
