@@ -90,6 +90,10 @@ Use the `createdCallback` to do initialization work that might otherwise be in a
 
 ### Getting Started
 
+First download the `webcomponents.js` polyfills using [Bower](http://bower.io):
+
+    bower install --save webcomponentsjs
+
 Include the `CustomElements.js` or `CustomElements.min.js` (minified) file in your project.
 
     <script src="bower_components/webcomponentsjs/CustomElements.js"></script>

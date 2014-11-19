@@ -69,6 +69,11 @@ Shadow DOM renders them as if they are. In this way, the user can manipulate lig
 A polyfill to provide Shadow DOM functionality in browsers that don't
 support it natively. 
 
+First download the `webcomponents.js` polyfills using [Bower](http://bower.io):
+
+    bower install --save webcomponentsjs
+
+
 Include the `ShadowDOM.js` or `ShadowDOM.min.js` (minified) file in your project.
 
     <script src="bower_components/webcomponentsjs/ShadowDOM.js"></script>

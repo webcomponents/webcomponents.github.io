@@ -21,6 +21,10 @@ For HTML imports use the `import` relation on a standard `<link>` tag, for examp
 
 ### Getting Started
 
+First download the `webcomponents.js` polyfills using [Bower](http://bower.io):
+
+    bower install --save webcomponentsjs
+
 Include the `HTMLImports.js` or `HTMLImports.min.js` (minified) file in your project.
 
     <script src="bower_components/webcomponentsjs/HTMLImports.js"></script>
