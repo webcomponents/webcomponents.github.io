@@ -6,7 +6,7 @@
       in (evergreen) browsers that lack native support.</p>
       <p class="card-bower-install">
       <strong>Install with <a href="http://bower.io">Bower</a></strong>
-      <code>bower install webcomponents/webcomponentsjs</code>
+      <code>bower install webcomponentsjs</code>
       <img class="card-bower-icon" src="<%= @site.url %>/img/icon-bower.png">
       </p>
         <p>
