@@ -6,11 +6,11 @@
       in (evergreen) browsers that lack native support.</p>
       <p class="card-bower-install">
       <strong>Install with <a href="http://bower.io">Bower</a></strong>
-      <code>bower install webcomponents.js</code>
+      <code>bower install webcomponents/webcomponentsjs</code>
       <img class="card-bower-icon" src="<%= @site.url %>/img/icon-bower.png">
       </p>
         <p>
-          <a href="https://github.com/webcomponents/webcomponentsjs/releases/tag/0.5.1" class="card-download-button">
+          <a href="https://github.com/webcomponents/webcomponentsjs/archive/0.5.1.zip" class="card-download-button">
             Download webcomponents.js
           </a>
           <span class="filesize">0.5.1 (106KB minified, 30KB gzipped)</span>

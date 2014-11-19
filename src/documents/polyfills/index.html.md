@@ -32,7 +32,7 @@ The polyfills are a bundle that includes the following libraries:
 
 To start using these features today, first download `webcomponents.js` using Bower:
 
-    bower install --save webcomponents/webcomponents.js
+    bower install --save webcomponents/webcomponentsjs
 
 Then, include `webcomponents.js` as you would any other script:
 
