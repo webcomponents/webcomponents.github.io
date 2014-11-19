@@ -4,10 +4,13 @@
     <div class="description" itemprop="description">
       <p>The webcomponent.js <strong><a href="<%= @site.url %>/polyfills/">polyfills</a></strong> enable Web Components
       in (evergreen) browsers that lack native support.</p>
-      <p class="card-bower-install">
+      <p class="card-package-install">
       <strong>Install with <a href="http://bower.io">Bower</a></strong>
       <code>bower install webcomponentsjs</code>
-      <img class="card-bower-icon" src="<%= @site.url %>/img/icon-bower.png">
+      </p>
+      <p class="card-package-install">
+      <strong>Install with <a href="http://npmjs.org">npm</a></strong>
+      <code>npm install webcomponents.js</code>
       </p>
         <p>
           <a href="https://github.com/webcomponents/webcomponentsjs/archive/0.5.1.zip" class="card-download-button">
