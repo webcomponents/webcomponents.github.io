@@ -13,7 +13,6 @@ module.exports = function(grunt) {
             dist: [
                 'out/browser-support',
                 'out/discover',
-                'out/polyfills',
                 'out/specs',
                 'out/tags/index.html'
             ]

@@ -2,7 +2,7 @@
 <section class="card card-story card-<%= @slug %>" role="region" itemscope itemtype="http://schema.org/WebPage">
     <h3 itemprop="name"><%= @name %></h3>
     <div class="description" itemprop="description">
-      <p>The webcomponent.js <strong><a href="<%= @site.url %>/polyfills/index.html">polyfills</a></strong> enable Web Components
+      <p>The webcomponent.js <strong><a href="<%= @site.url %>/polyfills/">polyfills</a></strong> enable Web Components
       in (evergreen) browsers that lack native support.</p>
       <p class="card-bower-install">
       <strong>Install with <a href="http://bower.io">Bower</a></strong>
@@ -17,5 +17,5 @@
         </p>
       </p>
     </div>
-    <a class="see-all" href="/polyfills/index.html">Learn more about the <%= @slug %></a>
+    <a class="see-all" href="/polyfills/">Learn more about the <%= @slug %></a>
 </section>
