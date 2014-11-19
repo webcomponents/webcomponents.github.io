@@ -10,7 +10,7 @@
       <img class="card-bower-icon" src="<%= @site.url %>/img/icon-bower.png">
       </p>
         <p>
-          <a href="https://github.com/webcomponents/webcomponentsjs/archive/0.5.1.zip" class="card-download-button">
+          <a href="https://github.com/webcomponents/webcomponentsjs/archive/0.5.1.zip" class="card-download-button" onclick="_gaq.push(['_trackEvent', 'Downloads', 'Polyfills' 'webcomponents.js', 'v0.5.1']);">
             Download webcomponents.js
           </a>
           <span class="filesize">0.5.1 (106KB minified, 30KB gzipped)</span>
