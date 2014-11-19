@@ -19,7 +19,7 @@
                     </a>
                 </li>
                 <li class="nav-item <% if @isActiveMenu('polyfills'): %>nav-active<% end %>">
-                    <a href="<%= @site.url %>/polyfills/" class="nav-link" title="Polyfills" itemprop="url"><span itemprop="name">Polyfills</span>
+                    <a href="<%= @site.url %>/polyfills/index.html" class="nav-link" title="Polyfills" itemprop="url"><span itemprop="name">Polyfills</span>
                     </a>
                 </li>
                 <li class="nav-item <% if @isActiveMenu('articles'): %>nav-active<% end %>">
