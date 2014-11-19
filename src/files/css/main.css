@@ -1177,9 +1177,8 @@ header, section {
 
 /* --- Homepage installation --- */
 
-.card-bower-install code {
-  float: left;
-  display: inline-block;
+.card-package-install code {
+  display: flex;
   color: #949494;
   margin-bottom: 5px;
   padding: 7px;
@@ -1207,12 +1206,6 @@ header, section {
   background: #E44D26;
 }
 
-.card-bower-icon {
-  float: left;
-  display: inline-block;
-  width: 40px;
-  margin: -12px 0 0px 5px;
-}
 
 .filesize {
   display: block;
