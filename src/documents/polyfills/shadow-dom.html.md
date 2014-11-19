@@ -71,7 +71,7 @@ support it natively.
 
 Include the `ShadowDOM.js` or `ShadowDOM.min.js` (minified) file in your project.
 
-    <script src="webcomponentsjs/ShadowDOM.js"></script>
+    <script src="bower_components/webcomponentsjs/ShadowDOM.js"></script>
 
 Alternatively, you can directly use `webcomponents.js` (or the minified `webcomponents.min.js` file) in your project.
 

@@ -23,7 +23,7 @@ For HTML imports use the `import` relation on a standard `<link>` tag, for examp
 
 Include the `HTMLImports.js` or `HTMLImports.min.js` (minified) file in your project.
 
-    <script src="webcomponentsjs/HTMLImports.js"></script>
+    <script src="bower_components/webcomponentsjs/HTMLImports.js"></script>
 
 Alternatively, you can directly use `webcomponents.js` (or the minified `webcomponents.min.js` file) in your project.
 

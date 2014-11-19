@@ -92,7 +92,7 @@ Use the `createdCallback` to do initialization work that might otherwise be in a
 
 Include the `CustomElements.js` or `CustomElements.min.js` (minified) file in your project.
 
-    <script src="webcomponentsjs/CustomElements.js"></script>
+    <script src="bower_components/webcomponentsjs/CustomElements.js"></script>
 
 Alternatively, you can directly use `webcomponents.js` (or the minified `webcomponents.min.js` file) in your project.
 
