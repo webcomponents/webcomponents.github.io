@@ -32,19 +32,19 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/polyfills/custom-elements.html">
+                        <a href="/polyfills/custom-elements/">
                             <span class="icon-arrow-right"></span>
                             Custom Elements
                         </a>
                     </li>
                     <li>
-                        <a href="/polyfills/html-imports.html">
+                        <a href="/polyfills/html-imports/">
                             <span class="icon-arrow-right"></span>
                             HTML Imports
                         </a>
                     </li>
                     <li>
-                        <a href="/polyfills/shadow-dom.html">
+                        <a href="/polyfills/shadow-dom/">
                             <span class="icon-arrow-right"></span>
                             Shadow DOM
                         </a>

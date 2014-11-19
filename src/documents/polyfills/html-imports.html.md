@@ -9,7 +9,7 @@ layout: polyfills
 
 This webcomponents.js repository contains a JavaScript polyfill for the [HTML Imports](http://w3c.github.io/webcomponents/spec/imports/) specification.
 
-HTML Imports are a way to include and reuse HTML documents in other HTML documents. As `<script>` tags let authors include external JavaScript in their pages, imports let authors load full HTML resources.  In particular, imports let authors include [Custom Element](/polyfills/custom-elements.html) definitions from external URLs.
+HTML Imports are a way to include and reuse HTML documents in other HTML documents. As `<script>` tags let authors include external JavaScript in their pages, imports let authors load full HTML resources.  In particular, imports let authors include [Custom Element](/polyfills/custom-elements/) definitions from external URLs.
 
 ### Basic usage
 
@@ -41,7 +41,7 @@ Example:
     });
     </script>
 
-The polyfill loads linked stylesheets, external scripts, and nested HTML imports, but does not parse any data in the loaded resources. For parsing imports, combine HTML Imports with  [Custom Elements](/polyfills/custom-elements.html). As long as the HTML Imports is loaded first, the Custom Elements polyfill will detect it, and process all imports when `HTMLImportsLoaded` event fires.
+The polyfill loads linked stylesheets, external scripts, and nested HTML imports, but does not parse any data in the loaded resources. For parsing imports, combine HTML Imports with  [Custom Elements](/polyfills/custom-elements/). As long as the HTML Imports is loaded first, the Custom Elements polyfill will detect it, and process all imports when `HTMLImportsLoaded` event fires.
 
 #### The WebComponentsReady event
 

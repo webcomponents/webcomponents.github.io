@@ -18,9 +18,9 @@ Although most developers will want to use everything in `webcomponents.js`, the 
 The polyfills are a bundle that includes the following libraries:
 
 - Web Components
-  - [Custom Elements](/polyfills/custom-elements.html) . Define new elements in HTML.
-  - [HTML Imports](/polyfills/html-imports.html). Load element definitions and other resources declaratively.
-  - [Shadow DOM](/polyfills/shadow-dom.html). Encapsulate DOM subtrees and the associated CSS.
+  - [Custom Elements](/polyfills/custom-elements/) . Define new elements in HTML.
+  - [HTML Imports](/polyfills/html-imports/). Load element definitions and other resources declaratively.
+  - [Shadow DOM](/polyfills/shadow-dom/). Encapsulate DOM subtrees and the associated CSS.
 - DOM
   - [URL](https://github.com/Polymer/URL). Parse URLs in JavaScript.
   - [WeakMap](https://github.com/Polymer/WeakMap). Shim for ES6 WeakMap type.
@@ -59,4 +59,4 @@ For information on how to build each polyfill library independently, see [Manual
 
 ## Next steps
 
-`webcomponents.js` is a wonderful foundation for working with Web Components in a cross-browser fashion. If you're ready to start building your own elements, and would like to learn about the additional features `webcomponents.js`, read our guide on [Custom Elements](/polyfills/custom-elements.html).
+`webcomponents.js` is a wonderful foundation for working with Web Components in a cross-browser fashion. If you're ready to start building your own elements, and would like to learn about the additional features `webcomponents.js`, read our guide on [Custom Elements](/polyfills/custom-elements/).
