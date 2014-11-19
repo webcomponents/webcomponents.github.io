@@ -1183,7 +1183,6 @@ header, section {
   color: #949494;
   margin-bottom: 5px;
   padding: 7px;
-  font-size: 9px; /*TODO: Address this being very small*/
 }
 
 .card-story .description .card-download-button {
