@@ -1,0 +1,60 @@
+<%- @partial('header') %>
+<div class="page-wrap">
+<%- @partial('menu') %>
+
+<div id="resources" class="wrapper">
+    <main class="layout-single" role="main">
+        <div class="single-content" role="article">
+            <!-- Post -->
+            <section class="card card-story" role="region">
+                <p class="title" itemprop="name"><%= @document.title %></p>
+
+                <div class="post-info" role="complementary">
+                    <p class="post-edit">
+                        <span class="icon-pencil"></span>
+                        <a href="<%= @getGithubEditURL(@document.relativePath) %>">Edit this page</a>
+                    </p>
+                </div>
+
+                <div class="description" itemprop="text">
+                    <%- @content %>
+                </div>
+            </section>
+        </div>
+        <div class="single-sidebar">
+            <section class="card card-tags">
+                <h3>Polyfills</h3>
+                <ul class="tag-list">
+                    <li>
+                        <a href="/polyfills/">
+                            <span class="icon-arrow-right"></span>
+                            Introduction
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/polyfills/custom-elements.html">
+                            <span class="icon-arrow-right"></span>
+                            Custom Elements
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/polyfills/html-imports.html">
+                            <span class="icon-arrow-right"></span>
+                            HTML Imports
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/polyfills/shadow-dom.html">
+                            <span class="icon-arrow-right"></span>
+                            Shadow DOM
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</div>
+
+</div>
+
+<%- @partial('footer') %>
