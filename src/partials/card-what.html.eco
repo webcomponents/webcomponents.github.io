@@ -1,11 +1,21 @@
 <!-- <%= @name %> -->
-<section class="card card-<%= @slug %>" role="region">
-    <h3><%= @name %></h3>
-    <p class="description" itemprop="about">
-        WebComponents.org is where pioneers and community-members of the Web
-        Components ecosystem (like <em>Polymer</em>, <em>X-tags</em>, and other
-        interested parties) document web components best practices so that
-        others can follow the same path instead of needlessly striking out on
-        their own.
-    </p>
+<section class="card card-story card-<%= @slug %>" role="region" itemscope itemtype="http://schema.org/WebPage">
+    <h3 itemprop="name"><%= @name %></h3>
+    <div class="description" itemprop="description">
+      <p>The webcomponent.js <strong><a href="<%= @site.url %>/polyfills/">polyfills</a></strong> enable Web Components
+      in (evergreen) browsers that lack native support.</p>
+      <p class="card-bower-install">
+      <strong>Install with <a href="http://bower.io">Bower</a></strong>
+      <code>bower install webcomponents.js</code>
+      <img class="card-bower-icon" src="<%= @site.url %>/img/icon-bower.png">
+      </p>
+        <p>
+          <a href="https://github.com/webcomponents/webcomponentsjs/releases/tag/0.5.1" class="card-download-button">
+            Download webcomponents.js
+          </a>
+          <span class="filesize">0.5.1 (106KB minified, 30KB gzipped)</span>
+        </p>
+      </p>
+    </div>
+    <a class="see-all" href="<%= @site.url %>/<%= @slug %>/">Learn more about the <%= @slug %></a>
 </section>
