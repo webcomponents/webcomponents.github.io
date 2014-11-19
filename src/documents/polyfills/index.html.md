@@ -26,17 +26,17 @@ The polyfills are a bundle that includes the following libraries:
   - [WeakMap](https://github.com/Polymer/WeakMap). Shim for ES6 WeakMap type.
   - [Mutation Observers](https://github.com/Polymer/MutationObservers). Efficiently watch for changes in the DOM.
 
-**Note**: A lighter `webcomponents-lite.js` build is included with the default download package including support for just Custom Elements and HTML Imports if you don't require Shadow DOM. You can [generate](https://github.com/WebComponents/webcomponentsjs#manually-building) custom builds supporting any combination of Web Component features too.
+**Note**: A lighter `webcomponents-lite.js` build is included with the default download package including support for just Custom Elements and HTML Imports. This is useful if you don't require Shadow DOM in your application. You can [generate](https://github.com/WebComponents/webcomponentsjs#manually-building) custom builds supporting any combination of Web Component features too.
 
 ## Installation & usage
 
 To start using these features today, first download `webcomponents.js` using Bower:
 
-    bower install --save webcomponents/webcomponentsjs
+    bower install --save webcomponentsjs
 
 Then, include `webcomponents.js` as you would any other script:
 
-    <script src="bower_components/webcomponents/webcomponents.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
 
 Alternatively, you can install the Web Component polyfills using [npm](http://npmjs.org):
 
