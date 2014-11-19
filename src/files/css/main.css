@@ -1181,6 +1181,7 @@ header, section {
   display: flex;
   color: #949494;
   margin-bottom: 5px;
+  margin-top: 5px;
   padding: 7px;
 }
 
@@ -1198,7 +1199,7 @@ header, section {
   -ms-transition: background .3s;
   -o-transition: background .3s;
   transition: background .3s;
-  margin: 28px auto 7px;
+  margin: 5px auto 7px;
   text-decoration: none;
 }
 
