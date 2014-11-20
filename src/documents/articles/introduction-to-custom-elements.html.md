@@ -44,10 +44,7 @@ To detect the availability of Custom Elements, check if
 polyfill it.
 
 ```
-// Are Custom Elements available?
-if (!document.registerElement) {
-  // not available
-}
+<script src="libs/webcomponens.js"></script>
 ```
 
 Now you can use `<x-component>`  wherever you want in the document.  
