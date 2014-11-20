@@ -125,6 +125,13 @@ module.exports = {
         gplus: "101356325339382110529",
         twitter: "stopsatgreen"
     },
+    polymer: {
+        name: "Polymer",
+        bio: "Posts marked as authored by the Polymer library team.",
+        image: "https://avatars2.githubusercontent.com/u/2159051?v=3&s=80",
+        gplus: "+Polymer",
+        twitter: "polymer"
+    },
     rey_bango: {
         name: "Rey Bango",
         bio: "Rey is the Editor of Nettuts+ and works hard to serve up excellent technical articles and resources to help make web developers successful. He's also a developer evangelist at Telerik focused on helping developers building awesome experiences, an advocate for cross-browser, standards-based development and a former member of the jQuery Project Team.",
