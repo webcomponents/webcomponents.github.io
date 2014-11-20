@@ -13,7 +13,7 @@ layout: home
 
     <main class="card-container layout-home" role="main">
         <div class="column-first">
-            <%- @partial('card-what', { name: 'What?', slug: 'what' }) %>
+            <%- @partial('card-what', { name: 'Polyfills', slug: 'polyfills' }) %>
             <%- @partial('card-browser-support', { name: 'Browser Support', slug: 'support', docs: @getCollection("browserSupport").toJSON() }) %>
             <%- @partial('card-links', { name: 'Libraries', slug: 'libraries', docs: @getCollection("libraries").toJSON() }) %>
         </div>

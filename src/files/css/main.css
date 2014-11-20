@@ -1174,3 +1174,50 @@ header, section {
 .icon-pencil:before { content: "\e602"; }
 .icon-arrow-right:before { content: "\e603"; }
 .icon-github-alt:before { content: "\f113"; }
+
+/* --- Homepage installation --- */
+
+.card-package-install code {
+  display: flex;
+  color: #949494;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 7px;
+}
+
+.card-story .description .card-download-button {
+  background: #3A99D7;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  font-size: .9em;
+  line-height: 1em;
+  padding: 15px 55px;
+  text-align: center;
+  -webkit-transition: background .3s;
+  -moz-transition: background .3s;
+  -ms-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+  margin: 5px auto 7px;
+  text-decoration: none;
+}
+
+.card-story .description .card-download-button:hover {
+  background: #E44D26;
+}
+
+
+.filesize {
+  display: block;
+  text-align: center;
+  color: #b3b3b3;
+  margin: 2px;
+  font-size: 13px;
+}
+
+
+.tag-list li span {
+    color: #9c9c9c;
+    margin-right: 3px;
+}

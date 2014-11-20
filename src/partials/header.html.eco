@@ -10,6 +10,7 @@
     <!-- for Google -->
     <meta name="author" content="<%= @getAuthor() %>">
     <meta name="description" content="<%= @getDescription() %>">
+    <meta name="theme-color" content="#3a99d7">
 
     <!-- for Facebook -->
     <meta property="og:title" content="<%= @getTitle() %>">
