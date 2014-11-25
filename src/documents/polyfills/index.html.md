@@ -22,7 +22,6 @@ The polyfills are a bundle that includes the following libraries:
   - [HTML Imports](/polyfills/html-imports/). Load element definitions and other resources declaratively.
   - [Shadow DOM](/polyfills/shadow-dom/). Encapsulate DOM subtrees and the associated CSS.
 - DOM
-  - [URL](https://github.com/Polymer/URL). Parse URLs in JavaScript.
   - [WeakMap](https://github.com/Polymer/WeakMap). Shim for ES6 WeakMap type.
   - [Mutation Observers](https://github.com/Polymer/MutationObservers). Efficiently watch for changes in the DOM.
 
