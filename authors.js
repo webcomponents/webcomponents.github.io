@@ -173,6 +173,13 @@ module.exports = {
         gravatar: "e190023b66e2b8aa73a842b106920c93",
         gplus: "+ZenoRochaBN",
         twitter: "zenorocha"
+    },
+    richard_rijnberk: {
+        name: "Richard Rijnberk",
+        bio: "Richard is a front-end engineer, incidental blogger and avid reader and gadget enthusiast.",
+        gravatar: "71e29e772be8c9b713c0ca8a4907ae95",
+        gplus: "+RichardRijnberk",
+        twitter: "rrijnberk"
     }
 
 }
