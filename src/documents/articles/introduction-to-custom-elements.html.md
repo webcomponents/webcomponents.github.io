@@ -13,8 +13,7 @@ level features to structure sites and apps. But it also is easy to end up with
 div soup once you start implementing a complex component using native HTML tags.
 What if the web platform could allow you to create your original component?
 What if you can give it an arbitrary tag name? What if you can extend features
-of an existing HTML tag?
-Custom Elements allow you to do those things.
+of an existing HTML tag? Custom Elements allow you to do those things.
 
 <!-- Excerpt -->
 
@@ -40,7 +39,7 @@ var XComponent = document.registerElement('x-component');
 
 Now you can use `<x-component>`  wherever you want in the document.
 
-```
+```html
 <x-component></x-component>
 ```
 
@@ -54,7 +53,7 @@ To detect the availability of Custom Elements, check if
 [`webcomponents.js`](http://webcomponents.org/polyfills/) to
 polyfill it.
 
-```
+```html
 <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
 ```
 
@@ -79,7 +78,7 @@ Bad
 A defined custom tag can be used declaratively by inserting `<x-component>` tag
 inside HTML, but you can also take an imperative approach.
 
-```
+```js
 var XComponent = document.registerElement('x-component');
 var dom = new XComponent();
 document.body.appendChild(dom);
@@ -87,7 +86,7 @@ document.body.appendChild(dom);
 
 The above example is using `new` to instantiate a custom element.
 
-```
+```js
 document.registerElement('x-component');
 var dom = document.createElement('x-component');
 document.body.appendChild(dom);
@@ -107,7 +106,7 @@ feature set in its prototype chain. Add any functions and properties you want to
 the prototype object, then pass your prototype to document.registerElement as
 shown below:
 
-```
+```js
 var proto = Object.create(HTMLElement.prototype);
 proto.name = 'Custom Element';
 proto.alert = function() {
@@ -131,9 +130,9 @@ instance of the `HTMLElement` prototype.
 
 You can create a custom element that extends a native HTML element's features.
 This is called a Type Extension Custom Element. To use the element, use the
-original tag and specify the custom tag name using the '`is`' attribute.
+original tag and specify the custom tag name using the `is` attribute.
 
-```
+```html
 <div is="x-component"></div>
 ```
 
@@ -146,7 +145,7 @@ specifying the *tag name* of the extended element.
 
 Following is an example code when extending the `input` element:
 
-```
+```js
 var XComponent = document.registerElement('x-component', {
   extends: 'input',
   prototype: Object.create(HTMLInputElement.prototype)
@@ -229,7 +228,7 @@ In case of `relative-time`, `.createdCallback()` and
 To use lifecycle callbacks, just define the functions as properties of a
 prototype object when registering a custom element.
 
-```
+```js
 var proto = Object.create(HTMLElement.prototype);
 proto.createdCallback = function() {
   var div = document.createElement('div');
@@ -256,7 +255,8 @@ read the respective articles
 written previously.
 
 **HTML**
-```
+
+```html
 <!-- Template Definition -->
 <template id="template">
   <style>
@@ -269,7 +269,7 @@ written previously.
 </template>
 ```
 
-```
+```html
 <!-- Custom Element usage -->
 <x-component>
   <h1>This is Custom Element</h1>
@@ -277,7 +277,8 @@ written previously.
 ```
 
 **JavaScript**
-```
+
+```js
 var proto = Object.create(HTMLElement.prototype);
 proto.createdCallback = function() {
   // Adding a Shadow DOM
