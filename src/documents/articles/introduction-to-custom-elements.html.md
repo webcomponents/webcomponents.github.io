@@ -13,7 +13,7 @@ level features to structure sites and apps. But it also is easy to end up with
 div soup once you start implementing a complex component using native HTML tags.
 What if the web platform could allow you to create your original component?
 What if you can give it an arbitrary tag name? What if you can extend features
-of an existing HTML tag?  
+of an existing HTML tag?
 Custom Elements allow you to do those things.
 
 <!-- Excerpt -->
@@ -38,12 +38,12 @@ its tag name as the first argument.
 var XComponent = document.registerElement('x-component');
 ```
 
-Now you can use `<x-component>`  wherever you want in the document.  
+Now you can use `<x-component>`  wherever you want in the document.
 
 ```
 <x-component></x-component>
 ```
-  
+
 Note: `<x-component>` can appear in the document before the definition of the
 custom element execution. See
 [HTML5Rocks article](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/)
@@ -62,13 +62,13 @@ polyfill it.
 
 You need to have at least one '`-`' inside the name of a custom element. Any tag
 names without '`-`' will result in an error.
-  
-Good  
+
+Good
 
 * x-component
 * x-web-component
 
-Bad  
+Bad
 
 * web_component
 * xelement
@@ -84,22 +84,22 @@ var XComponent = document.registerElement('x-component');
 var dom = new XComponent();
 document.body.appendChild(dom);
 ```
-  
-The above example is using `new` to instantiate a custom element.  
+
+The above example is using `new` to instantiate a custom element.
 
 ```
 document.registerElement('x-component');
 var dom = document.createElement('x-component');
 document.body.appendChild(dom);
 ```
-  
-This example uses `document.createElement()` to instantiate a custom element.  
+
+This example uses `document.createElement()` to instantiate a custom element.
 
 # Adding features to a custom element
 
 Being able to use a custom tag name itself is fine, but it doesn't do much.
 Let's add some features to the element.
-  
+
 In order to add features to a custom element, you first need to create a basic
 prototype object by calling `Object.create()` with `HTMLElement.prototype` as an
 argument. This gives you an empty prototype object with the basic HTML element
@@ -107,7 +107,7 @@ feature set in its prototype chain. Add any functions and properties you want to
 the prototype object, then pass your prototype to document.registerElement as
 shown below:
 
-```  
+```
 var proto = Object.create(HTMLElement.prototype);
 proto.name = 'Custom Element';
 proto.alert = function() {
@@ -124,7 +124,7 @@ Let's see what's going on in a custom element using Chrome DevTools. Use the
 "Elements" panel to inspect the `x-component` tag we just created. You can see
 the `x-component` is an instance of a `x-component` prototype which is an
 instance of the `HTMLElement` prototype.
-  
+
 ![Custom Element Structure](/img/stories/customelements-inherit.png)
 
 # Type Extension Custom Element
@@ -133,17 +133,17 @@ You can create a custom element that extends a native HTML element's features.
 This is called a Type Extension Custom Element. To use the element, use the
 original tag and specify the custom tag name using the '`is`' attribute.
 
-```  
+```
 <div is="x-component"></div>
 ```
-  
+
 To define a type extension:
 
-- Create the base prototype object using the prototype of the extended element,  
+- Create the base prototype object using the prototype of the extended element,
 instead of HTMLElement.
-- Add an `extends` key in the second argument to `document.registerElement()`,  
+- Add an `extends` key in the second argument to `document.registerElement()`,
 specifying the *tag name* of the extended element.
-  
+
 Following is an example code when extending the `input` element:
 
 ```
@@ -152,12 +152,12 @@ var XComponent = document.registerElement('x-component', {
   prototype: Object.create(HTMLInputElement.prototype)
 });
 ```
-  
+
 Notice that it `extends: 'input'` and its prototype is based on
 `HTMLInputElement` instead of `HTMLElement`. Now you can use
 `<input is="x-component">` inside your document. By doing so, you can have
 extended APIs on top of basic `input` element's features.
-  
+
 Note: You may wonder what happens if you set different elements for `'extends`'
 and '`prototype`'. Yes, it is possible and may cause unexpected results. But as
 far as I have experimented, you won't get any valuable outcome.
@@ -166,38 +166,38 @@ far as I have experimented, you won't get any valuable outcome.
 
 So what's the point of Type Extension Custom Element? Let's look at a great
 existing example at the GitHub website.
-  
-![relative-time type extension](/img/stories/customelements-relativetime.png)  
-  
+
+![relative-time type extension](/img/stories/customelements-relativetime.png)
+
 GitHub has a many components that displays date and time. Notice they are not
 absolute dates/times but relative to the browser's current time.
 You should be able to imagine how to calculate that but GitHub is doing that
 using Type Extension Custom Element with [`time-
 elements`](https://github.com/github/time-elements).
-  
-Let's look into how it works.  
-  
-![time element](/img/stories/customelements-time.png)  
-  
-There are four things you should notice:  
+
+Let's look into how it works.
+
+![time element](/img/stories/customelements-time.png)
+
+There are four things you should notice:
 
 * `time` tag is used as a base element
 * `datetime` attribute indicates an absolute date/time
 * `relative-time` is specified as a type extension
 * `TextContent` indicates a relative date/time
-  
+
 This is done by calculating a relative date/time out from an absolute date/time
 (`datetime`) attribute on the fly as a type extension.
-  
+
 The benefit of using Type Extension Custom Element is that even if JavaScript is
 turned off or the browser doesn't support Custom Elements (including polyfill),
 the `time` element will still show the date/time information as a fallback
 keeping its semantics. Try using DevTools and turning off JavaScript; you'll
 notice it shows absolute dates and times.
-  
+
 Read webcomponents.org's
 [How GitHub is using Web Components in production](http://webcomponents.org/articles/interview-with-joshua-peek/)
-for more details about `time-elements`.  
+for more details about `time-elements`.
 
 # Lifecycle callbacks
 
@@ -205,21 +205,21 @@ I mentioned the `relative-time` custom element inserts a relative date/time into
 `TextContent` on the fly. But when does that happen? You can define functions to
 be called when certain events happened on Custom Elements, which are called
 "lifecycle callbacks".
-  
-Here's the list of lifecycle callbacks:  
-  
-**.createdCallback()**  
+
+Here's the list of lifecycle callbacks:
+
+**.createdCallback()**
 Called after the element is created.
 
-**.attachedCallback()**  
+**.attachedCallback()**
 Called when the element is attached to the document
 
-**.detachedCallback()**  
+**.detachedCallback()**
 Called when the element is detached from the document.
 
-**.attributeChangedCallback()**  
+**.attributeChangedCallback()**
 Called when one of attributes of the element is changed.
-  
+
 In case of `relative-time`, `.createdCallback()` and
 `.attributeChangedCallback()` are hooked up to insert a relative date/time to
 `TextContent`.
@@ -229,7 +229,7 @@ In case of `relative-time`, `.createdCallback()` and
 To use lifecycle callbacks, just define the functions as properties of a
 prototype object when registering a custom element.
 
-```  
+```
 var proto = Object.create(HTMLElement.prototype);
 proto.createdCallback = function() {
   var div = document.createElement('div');
@@ -254,7 +254,7 @@ read the respective articles
 ([Template](http://webcomponents.org/articles/introduction-to-template-element),
 [Shadow DOM](http://webcomponents.org/articles/introduction-to-shadow-dom))
 written previously.
-  
+
 **HTML**
 ```
 <!-- Template Definition -->
@@ -291,7 +291,7 @@ var XComponent = document.registerElement('x-component', {
   prototype: proto
 });
 ```
-  
+
 [Here's a live example.](http://jsbin.com/yugoka/3/edit?html,js,output)
 
 # Supported browsers
@@ -309,9 +309,9 @@ from [platform.js](https://github.com/Polymer/platform)).
 So that's the Custom Elements.
 [As you may have noticed](http://webcomponents.org/articles/interview-with-joshua-peek/)
 , Custom Elements are used in the production of GitHub supporting IE9 by using
-polyfill. Now is your time to try this feature.  
-  
-If you are interested in learning more about the Custom Elements, head over to:  
+polyfill. Now is your time to try this feature.
+
+If you are interested in learning more about the Custom Elements, head over to:
 
 * [Custom Elements: defining new elements in HTML - HTML5Rocks](http://goo.gl/ozdC4Q)
 * [Custom Elements spec](http://w3c.github.io/webcomponents/spec/custom/)
