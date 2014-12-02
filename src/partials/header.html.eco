@@ -8,7 +8,7 @@
     <meta name="google-site-verification" content="px-LvGmZP4t9mI3QVcWkTYciiRbToixpY-F-NfIybaE">
 
     <!-- for Google -->
-    <meta name="author" content="<%= @getAuthor() %>">
+    <meta name="author" content="<%= @getAuthor().name %>">
     <meta name="description" content="<%= @getDescription() %>">
     <meta name="theme-color" content="#3a99d7">
 
