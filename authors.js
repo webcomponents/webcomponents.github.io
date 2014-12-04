@@ -76,6 +76,13 @@ module.exports = {
         gplus: "113347367246474469107",
         twitter: "davearel"
     },
+    dimitri_glazkov: {
+        name: "Dimitri Glazkov",
+        bio: "Dimitri is a Software Engineer who works on Blink, currently focused on making Web Components a reality. As a former Web developer, he knows the pains of making Web applications not suck, and thus keeps on pushing the Web platform forward to make it more beautiful (and sane) to work with.",
+        image: "https://avatars2.githubusercontent.com/u/1934?s=80",
+        gplus: "+DimitriGlazkov",
+        twitter: "dglazkov"
+    },
     dominic_cooney: {
         name: "Dominic Cooney",
         bio: "Dominic is Staff Software Engineer at Google on web frontends and server and client web platforms.",
