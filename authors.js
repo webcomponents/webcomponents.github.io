@@ -174,6 +174,13 @@ module.exports = {
         gplus: "104160914042867187276",
         twitter: "mattsmcnulty"
     },
+    philip_walton: {
+        name: "Philip Walton",
+        bio: "Engineer at Google, web standards enthusiast, open source advocate, developer, designer, writer.",
+        gravatar: "81173562da1e1c9ae2ddd0df69ec4f69",
+        gplus: "107605117871505940242",
+        twitter: "philwalton"
+    },
     varunkumar_nagarajan: {
         name: "Varunkumar Nagarajan",
         bio: "A software engineer by profession and a blogger by passion. A web developer. Technology enthusiast. Have four years of industry experience.",
