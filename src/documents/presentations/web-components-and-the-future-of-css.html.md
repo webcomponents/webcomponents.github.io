@@ -16,4 +16,6 @@ Philip Walton explains how, with Web Components, we finally have real style scop
     <iframe src="//www.youtube.com/embed/QHxrr6Q82yI" itemprop="video"></iframe>
 </div>
 
-<p><a href="//philipwalton.github.io/talks/2014-11-24/">Slide and Demos</a></p>
+<a href="//philipwalton.github.io/talks/2014-11-24/">
+    <img src="../../img/stories/web-components-and-the-future-of-css-cover.png" alt="Presentation Cover">
+</a>
