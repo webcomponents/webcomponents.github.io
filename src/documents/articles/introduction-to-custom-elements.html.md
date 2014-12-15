@@ -171,8 +171,7 @@ existing example at the GitHub website.
 GitHub has a many components that displays date and time. Notice they are not
 absolute dates/times but relative to the browser's current time.
 You should be able to imagine how to calculate that but GitHub is doing that
-using Type Extension Custom Element with [`time-
-elements`](https://github.com/github/time-elements).
+using Type Extension Custom Element with [`time-elements`](https://github.com/github/time-elements).
 
 Let's look into how it works.
 
