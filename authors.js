@@ -1,3 +1,5 @@
+
+
 module.exports = {
     addy_osmani: {
         name: "Addy Osmani",
@@ -47,6 +49,13 @@ module.exports = {
         gravatar: "25bb0913435212f30f2fec0eb6e60dde",
         gplus: "117339576748577555094",
         twitter: "hopefulcyborg"
+    },
+    anne_van_kesteren: {
+        name: "Anne van Kesteren",
+        bio: "Anne is a Mozillian who writes standards for the web platform. He loves talking about turning the web into an OS.",
+        image: "https://avatars.githubusercontent.com/u/1544111?v=3&s=80",
+        gplus: "112284435661490019880",
+        twitter: "annevk"
     },
     carmen_popoviciu: {
         name: "Carmen Popoviciu",
