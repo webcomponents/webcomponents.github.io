@@ -13,8 +13,8 @@ The set of specs that comprise web components — including Shadow DOM, custom e
 
 In this talk, Component Kitchen founder Jan Miksovsky introduces the basics of web components, showing how they can easily be created in Google’s Polymer framework. The [source code for all demos](https://github.com/JanMiksovsky/polytechnic-demos) in this talk are posted on GitHub.
 
-You can follow viewing of this talk with the companion talk, [Web Components 201: Designing Web Components for Reuse](//www.youtube.com/watch?v=dwxaG-eoxdU&t=5s).
+You can follow viewing of this talk with the companion talk, [Web Components 201: Designing Web Components for Reuse](/presentations/components-201-designing-components-for-reuse/).
 
-<div class="video-wrap">
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/hEzmy93zr0Y?start=540" itemprop="video"></iframe>
 </div>
