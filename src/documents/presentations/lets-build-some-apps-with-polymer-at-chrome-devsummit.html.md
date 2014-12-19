@@ -16,8 +16,12 @@ debug and test our app.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/kV0hgdMpH28" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <script async class="speakerdeck-embed" data-id="109efd505e16013232db2e3489c2afa1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>

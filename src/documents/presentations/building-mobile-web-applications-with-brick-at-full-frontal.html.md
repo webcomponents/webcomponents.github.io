@@ -15,9 +15,13 @@ application.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/dW2ib0bkxGQ" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://afabbro.github.io/jsconfcolombia-2013-mobile-apps-with-brick/">
     <img src="../../img/stories/building-mobile-web-applications-with-brick-at-full-frontal-cover.jpg" alt="Presentation Cover">

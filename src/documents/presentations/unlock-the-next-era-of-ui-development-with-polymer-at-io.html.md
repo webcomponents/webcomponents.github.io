@@ -16,10 +16,14 @@ the UIs of the future, and shorten the time between concept and reality.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/HKrYfrAzqFA" itemprop="video"></iframe>
 </div>
 
-<div class="video-wrap">
+### Slides
+
+<div class="iframe-wrap">
     <iframe src="//www.slideshare.net/slideshow/embed_code/36418662"></iframe>
 </div>

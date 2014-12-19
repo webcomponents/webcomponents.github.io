@@ -20,8 +20,12 @@ maintainable and more encapsulated than the models we have today.
 
 In this talk we'll do a whirlwind tour of Web Components, Polymer and Material Design.
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/GOPXVLxp9Nc" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <script async class="speakerdeck-embed" data-id="3d369820e26e01312bd84edea5a75f20" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>

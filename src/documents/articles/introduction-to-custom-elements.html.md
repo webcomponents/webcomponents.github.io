@@ -17,7 +17,7 @@ of an existing HTML tag? Custom Elements allow you to do those things.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="//www.youtube.com/embed/iVJA-lGkEFw"></iframe>
 </div>
 

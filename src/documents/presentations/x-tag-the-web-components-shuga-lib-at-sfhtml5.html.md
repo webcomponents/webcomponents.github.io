@@ -13,9 +13,13 @@ Firefox team uses when they work with Web Components.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/iPmN4CvLGJc" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://slides.com/danielbuchner/x-tag/">
     <img src="../../img/stories/x-tag-the-web-components-shuga-lib-at-sfhtml5-cover.jpg" alt="Presentation Cover">

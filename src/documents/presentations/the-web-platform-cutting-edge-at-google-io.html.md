@@ -20,6 +20,8 @@ what they do, their status, and how you can start playing with these powerful
 emerging technologies today. Most importantly, we'll show you how to get
 involved and help influence their direction as they mature.
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/2txPYQOWBtg" itemprop="video"></iframe>
 </div>

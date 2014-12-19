@@ -17,9 +17,13 @@ you'll wonder how we ever lived without them.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/s1PTPZwzQA4" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://markdalgleish.github.io/presentation-web-components/">
     <img src="../../img/stories/web-components-why-you-are-already-an-expert-at-web-directions-cover.jpg" alt="Presentation Cover">

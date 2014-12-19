@@ -19,7 +19,7 @@ available on Chrome, Opera, Firefox and Safari.
 
 For those who prefer to watch instead of read, here is a summary of how it works.
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="//www.youtube.com/embed/qC5xK6H0GlQ"></iframe>
 </div>
 

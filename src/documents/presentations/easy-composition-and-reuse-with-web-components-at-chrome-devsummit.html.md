@@ -14,10 +14,14 @@ components, and make HTML finally earn its keep.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/6vcQlD-jadk" itemprop="video"></iframe>
 </div>
 
-<div class="video-wrap">
+### Slides
+
+<div class="iframe-wrap">
     <iframe src="https://docs.google.com/presentation/embed?id=1bNgnYaoE0-GiU6oouDxpW1VTMBZzS6bB1P0rJnnJz-Q&amp;start=false&amp;loop=false&amp;"></iframe>
 </div>

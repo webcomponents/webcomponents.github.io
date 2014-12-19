@@ -27,8 +27,12 @@ frameworks like Angular, Ember, and Polymer are already doing so. This is not
 only one of the most exciting specs in draft, it's also one of the most
 important paradigm shifts in web development since Al Gore created the internet.
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/nbsWP2cPhhU" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <script async class="speakerdeck-embed" data-id="93aa45201cdc013275c65e46c93fec54" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

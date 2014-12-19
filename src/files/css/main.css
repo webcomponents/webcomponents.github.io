@@ -930,7 +930,7 @@ header, section {
 
 /* --- Responsive <iframe> --- */
 
-.video-wrap {
+.iframe-wrap {
     height: 0;
     margin-bottom: 18px;
     overflow: hidden;
@@ -939,7 +939,7 @@ header, section {
     position: relative;
 }
 
-.video-wrap iframe {
+.iframe-wrap iframe {
     height: 100%;
     left: 0;
     position: absolute;

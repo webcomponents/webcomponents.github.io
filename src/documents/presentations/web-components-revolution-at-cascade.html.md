@@ -15,6 +15,8 @@ the future that Web Components will bring.
 
 <!-- Excerpt -->
 
+### Slides
+
 <a href="http://robdodson.me/webcomponents-cascade">
     <img src="../../img/stories/web-components-revolution-at-cascade-cover.jpg" alt="Presentation Cover">
 </a>

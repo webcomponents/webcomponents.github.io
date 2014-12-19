@@ -16,8 +16,12 @@ web platform technologies.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//player.vimeo.com/video/68212204?byline=0&amp;portrait=0&amp;color=ff9933" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <script async class="speakerdeck-embed" data-id="c2179e708c460130ca7e1231392d706a" data-ratio="1.33507170795306" src="//speakerdeck.com/assets/embed.js"></script>

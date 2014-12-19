@@ -20,6 +20,8 @@ touch input, smooth animations, and how you can combine them to create awesome
 apps. Write less boilerplate, target every platform, and be more productive by
 using the next generation of the web platform.
 
+### Slides
+
 <a href="http://addyosmani.github.io/fitc-wccdt/">
     <img src="../../img/stories/web-components-can-do-that-at-fitc-cover.jpg" alt="Presentation Cover">
 </a>

@@ -19,8 +19,12 @@ quickly build apps that look gorgeous on phones, tablets, and desktops. With
 these new tools we can greatly simplify the process of supporting multiple
 screen sizes, while also keeping our code sane and readable.
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/kn0y7uugO0Y" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <script async class="speakerdeck-embed" data-id="182b5d001d95013278dd06e915146373" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

@@ -36,10 +36,14 @@ Web Components and Backbone.js complement each other and, together, are a
 revolutionary pair that offers new and exciting approaches for developing
 interactive UI modules on the web.
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/dztuKgjk0Bg" itemprop="video"></iframe>
 </div>
 
-<div class="video-wrap">
+### Slides
+
+<div class="iframe-wrap">
     <iframe src="//www.slideshare.net/slideshow/embed_code/42832724"></iframe>
 </div>

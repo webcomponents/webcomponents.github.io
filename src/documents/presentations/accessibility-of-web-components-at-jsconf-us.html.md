@@ -20,9 +20,13 @@ In this talk, we'll discuss web accessibility in a bleeding-edge
 way to illustrate that accessibility conversations don't have to be boring or
 old-school.
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/BgvDZZ8Ms8c" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://marcysutton.github.io/accessibility-of-web-components/slides.html">
     <img src="../../img/stories/accessibility-of-web-components-at-jsconf-us-cover.jpg" alt="Presentation Cover">

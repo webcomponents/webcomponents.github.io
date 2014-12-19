@@ -15,8 +15,12 @@ way we develop and interact on the web.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//player.vimeo.com/video/97308701?byline=0&amp;portrait=0&amp;color=ff9933" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <script async class="speakerdeck-embed" data-id="ee6d05c0497301316db35a0ddfd7041e" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
