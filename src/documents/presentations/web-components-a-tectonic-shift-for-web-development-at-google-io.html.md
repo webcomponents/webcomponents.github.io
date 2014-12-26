@@ -16,9 +16,13 @@ tools have already landed in a modern browser near you!
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/fqULJBBEVQE" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://html5-demos.appspot.com/static/webcomponents-bdconf/index.html">
     <img src="../../img/stories/web-components-a-tectonic-shift-for-web-development-at-google-io-cover.jpg" alt="Presentation Cover">

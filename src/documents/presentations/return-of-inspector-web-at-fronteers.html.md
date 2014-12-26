@@ -21,9 +21,13 @@ similar to web components or embracing the technology completely. We will take a
 look at these changes, and also dive into some code for a comprehensive overview
 of 'the state of things' - spoiler: it's still always changing.
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//player.vimeo.com/video/78899868?byline=0&amp;portrait=0&amp;color=ff9933" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://afabbro.github.io/the-return-of-inspector-web/">
     <img src="../../img/stories/return-of-inspector-web-at-fronteers-cover.jpg" alt="Presentation Cover">

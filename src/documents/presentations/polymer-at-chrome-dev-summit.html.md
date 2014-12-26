@@ -14,9 +14,13 @@ of opinionated API sugaring for building smarter apps, faster.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/DH1vTVkqCDQ" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://html5-demos.appspot.com/static/cds2013/index.html">
     <img src="../../img/stories/polymer-at-chrome-dev-summit-cover.jpg" alt="Presentation Cover">

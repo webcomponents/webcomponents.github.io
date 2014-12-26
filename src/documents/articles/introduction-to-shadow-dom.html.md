@@ -12,7 +12,7 @@ DOM scoping. Learn how to use it on your own website.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+<div class="iframe-wrap">
   <iframe src="//www.youtube.com/embed/Is4FZxKGqqk"></iframe>
 </div>
 

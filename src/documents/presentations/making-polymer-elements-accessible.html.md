@@ -16,10 +16,14 @@ accessible elements that all your users can benefit from.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/_IBiXfxhF-A" itemprop="video"></iframe>
 </div>
 
-<div class="video-wrap">
+### Slides
+
+<div class="iframe-wrap">
     <iframe src="//www.slideshare.net/slideshow/embed_code/36519773"></iframe>
 </div>

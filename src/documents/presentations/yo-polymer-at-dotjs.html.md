@@ -16,6 +16,8 @@ and learn how to create your own custom elements.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/booRxAJblwM" itemprop="video"></iframe>
 </div>

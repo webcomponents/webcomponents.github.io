@@ -14,9 +14,13 @@ friends from CustomElements.io.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/75EuHl6CSTo" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://robdodson.me/sfhtml5-talk/">
     <img src="../../img/stories/web-component-mashups-at-3am-at-sfhtml5-cover.jpg" alt="Presentation Cover">

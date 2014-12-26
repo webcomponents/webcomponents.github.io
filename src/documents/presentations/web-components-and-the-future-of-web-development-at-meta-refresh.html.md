@@ -18,9 +18,13 @@ to solve these problems.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/pb6DsPNdoXk" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://slides.varunkumar.me/webcomponents/">
     <img src="../../img/stories/web-components-and-the-future-of-web-development-at-meta-refresh-cover.jpg" alt="Presentation Cover">

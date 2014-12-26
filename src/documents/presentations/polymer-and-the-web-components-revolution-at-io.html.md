@@ -19,10 +19,14 @@ create an end-to-end workflow for developers and their users, unveil the
 burgeoning ecosystem of web components, and demonstrate the next generation of
 web apps. The web components revolution is here. Join us in building the future!
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/yRbOSdAe_JU" itemprop="video"></iframe>
 </div>
 
-<div class="video-wrap">
+### Slides
+
+<div class="iframe-wrap">
     <iframe src="//www.slideshare.net/slideshow/embed_code/36712429"></iframe>
 </div>

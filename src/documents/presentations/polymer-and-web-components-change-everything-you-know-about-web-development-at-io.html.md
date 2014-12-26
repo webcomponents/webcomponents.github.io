@@ -16,9 +16,13 @@ productive and reduces the cognitive load of being a web developer.
 
 <!-- Excerpt -->
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/8OJ7ih8EE7s" itemprop="video"></iframe>
 </div>
+
+### Slides
 
 <a href="http://polymer-change.appspot.com/">
     <img src="../../img/stories/polymer-and-web-components-change-everything-you-know-about-web-development-at-io-cover.jpg" alt="Presentation Cover">

@@ -17,10 +17,14 @@ Polymer, and learned a lot and heard a lot of feedback from developers.
 Matt will share what they have learned, the state of the art of Polymer today,
 and most importantly what’s next.
 
-<div class="video-wrap">
+### Video
+
+<div class="iframe-wrap">
     <iframe src="//www.youtube.com/embed/0LT6W5QVCJI" itemprop="video"></iframe>
 </div>
 
-<div class="video-wrap">
+### Slides
+
+<div class="iframe-wrap">
     <iframe src="//www.slideshare.net/slideshow/embed_code/42197217"></iframe>
 </div>
