@@ -47,7 +47,7 @@ module.exports = function(grunt) {
             all: {
                 src: [
                     'src/documents/**/*', 'src/files/css/*', 'src/layouts/**/*',
-                    'src/partials/**/*', '*.js', '*.json'
+                    'src/partials/**/*', '*.js'
                 ],
                 options: {
                     editorconfig: '.editorconfig'
