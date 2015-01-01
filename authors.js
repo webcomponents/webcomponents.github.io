@@ -169,6 +169,13 @@ module.exports = {
         gplus: "+RobDodson",
         twitter: "rob_dodson"
     },
+    seb_cevey: {
+        name: "Sébastien Cevey",
+        bio: "Sébastien is a Software Engineer at the Guardian, working predominently on editorial tools. He currently lives in London, UK.",
+        image: "https://avatars2.githubusercontent.com/u/36964?v=3&s=80",
+        gplus: "+theefer",
+        twitter: "theefer"
+    },
     tom_dale: {
         name: "Tom Dale",
         bio: "Tom helped create Ember.js, a JavaScript framework that brings sanity to the web. He also co-founded Tilde with Yehuda Katz, Leah Silber and Carl Lerche.",
