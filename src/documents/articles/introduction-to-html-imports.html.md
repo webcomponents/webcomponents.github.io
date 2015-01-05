@@ -41,11 +41,11 @@ component.html
 `doctype`, `html`, `head`, `body` aren't required. HTML Imports will immediately load the imported document, resolve subresources and execute JavaScript, if any.
 
 ## Execution order
-Browsers parse the content of HTML in linear order. This means `script` tags at the top of HTML will be executed earlier than the ones at the bottom. Also, note that browsers usually wait for any JavaScript code to finish executing before parsing the following lines of HTML.  
+Browsers parse the content of HTML in linear order. This means `script` tags at the top of HTML will be executed earlier than the ones at the bottom. Also, note that browsers usually wait for any JavaScript code to finish executing before parsing the following lines of HTML.
 
-In order to avoid `script` tag to block rendering of HTML, you can use either `async` or `defer` attribute. `defer` attribute postpones execution of the script until entire HTML is rendered. `async` attribute lets the browser asynchronously execute the script so it won't block rendering HTML.  
+In order to avoid `script` tag to block rendering of HTML, you can use `async` / `defer` attributes (or you can move all of your script tags to the bottom of the page). `defer` attribute postpones execution of the script until entire HTML is parsed. `async` attribute lets the browser asynchronously execute the script so it won't block rendering HTML.
 
-Then, how do HTML Imports work?  
+Then, how do HTML Imports work?
 
 Script inside an html import behave just like a `script` tag with a `defer` attribute. In the example code below, index.html will execute script1.js and script2.js inside component.html before executing script3.js.
 
