@@ -23,17 +23,16 @@ HTML Imports allow you to load those resources as an aggregated HTML file.
 ---
 
 ## Using HTML Imports
-In order to load an HTML file, add a `link` tag with an `import` in the `rel` attribute and an href that contains a path to the HTML file. For example, if you want to load an HTML file called component.html into index.html:
+In order to load an HTML file, add a `link` tag with an `import` in the `rel` attribute and an `href` that contains a path to the HTML file. For example, if you want to load an HTML file called `component.html` into `index.html`:
 
-
-index.html
+*index.html*
 ```html
 <link rel="import" href="component.html" >
 ```
 
 You can load any resource including scripts, stylesheets, and web fonts, into the imported HTML just like you do to regular HTML files:
 
-component.html
+*component.html*
 ```html
 <link rel="stylesheet" href="css/style.css">
 <script src="js/script.js"></script>
@@ -48,25 +47,25 @@ In order to avoid `script` tag to block rendering of HTML, you can use `async` /
 
 Then, how do HTML Imports work?
 
-Script inside an html import behave just like a `script` tag with a `defer` attribute. In the example code below, index.html will execute script1.js and script2.js inside component.html before executing script3.js.
+Script inside an html import behave just like a `script` tag with a `defer` attribute. In the example code below, `index.html` will execute `script1.js` and `script2.js` inside `component.html` before executing `script3.js`.
 
-index.html
+*index.html*
 ```html
 <link rel="import" href="component.html"> // 1.
 <title>Import Example</title>
 <script src="script3.js"></script>        // 4.
 ```
 
-component.html
+*component.html*
 ```html
 <script src="js/script1.js"></script>     // 2.
 <script src="js/script2.js"></script>     // 3.
 ```
 
-1. Loads component.html from index.html and wait for execution
-1. Execute script1.js in component.html
-1. Execute script2.js in component.html after execution of script1.js
-1. Execute script3.js in index.html after execution of script2.js
+1. Loads `component.html` from `index.html` and wait for execution
+1. Execute `script1.js` in `component.html`
+1. Execute `script2.js` in `component.html` after execution of `script1.js`
+1. Execute `script3.js` in `index.html` after execution of `script2.js`
 
 Note that by adding an `async` attribute to `link[rel="import"]`, HTML Import behaves just like [`async` attribute to `script` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script). It won't wait for the execution and load of imported HTML which also means it doesn't block rendering the original HTML. This can potentially improve performance of your website unless other scripts depends on the execution of the imported HTML.
 
@@ -80,13 +79,13 @@ Earlier, I mentioned JavaScript will be executed when an HTML file is imported. 
 
 One caveat to using JavaScript with HTML Imports is that the `document` object in an imported HTML file actually points to the one in the original page.
 
-Taking the previous code as an example, the `document` in index.html and component.html both refers to the `document` object in index.html.
+Taking the previous code as an example, the `document` in `index.html` and `component.html` both refers to the `document` object in `index.html`.
 
 So, how can you refer to the `document` object of the imported HTML file?
 
-In order to obtain component.html's `document` object from within the index.html page, refer to the `link` element's `import` property.
+In order to obtain `component.html`'s `document` object from within the `index.html` page, refer to the `link` element's `import` property.
 
-index.html
+*index.html*
 ```js
 var link = document.querySelector('link[rel="import"]');
 link.addEventListener('load', function(e) {
@@ -95,24 +94,23 @@ link.addEventListener('load', function(e) {
 });
 ```
 
-To obtain the `document` object from within component.html itself, refer to `document.currentScript.ownerDocument`.
+To obtain the `document` object from within `component.html` itself, refer to `document.currentScript.ownerDocument`.
 
-component.html
+*component.html*
 ```js
 var mainDoc = document.currentScript.ownerDocument;
 // mainDoc points to the document under component.html
 ```
 
-If you are using webcomponents.js, use `document._currentScript` instead of `document.currentScript`. The underscore is used to polyfill the `currentScript` property which is not available in all browsers.
+If you are using `webcomponents.js`, use `document._currentScript` instead of `document.currentScript`. The underscore is used to polyfill the `currentScript` property which is not available in all browsers.
 
-
-component.html
+*component.html*
 ```js
 var mainDoc = document._currentScript.ownerDocument;
 // mainDoc points to the document under component.html
 ```
 
-By writing the following code at the beginning of your script, you can easily access component.html's `document` object regardless of if the browser supports HTML Imports or not.
+By writing the following code at the beginning of your script, you can easily access `component.html`'s `document` object regardless of if the browser supports HTML Imports or not.
 
 ```js
 document._currentScript = document._currentScript || document.currentScript;
@@ -126,18 +124,18 @@ What if multiple imported documents all depend on, and try to load the same libr
 
 Say you are loading jQuery in two imported HTML files. If each import contains a `script` tag to load jQuery, it will be loaded and executed twice.
 
-index.html
+*index.html*
 ```html
 <link rel="import" href="component1.html">
 <link rel="import" href="component2.html">
 ```
 
-component1.html
+*component1.html*
 ```html
 <script src="js/jquery.js"></script>
 ```
 
-component2.html
+*component2.html*
 ```html
 <script src="js/jquery.js"></script>
 ```
@@ -153,15 +151,15 @@ But here's another problem: we have added one more file to load. What can we do 
 Luckily, we have a tool called "vulcanize" for the solution.
 
 ### Aggregating network requests
-Vulcanize is a tool to aggregate multiple HTML files into one, in order to reduce the number of network connections. You can install it via npm, and use it from the command line. There are grunt and gulp tasks as well so you can make vulcanize part of your build process.
+[Vulcanize](https://github.com/polymer/vulcanize) is a tool to aggregate multiple HTML files into one, in order to reduce the number of network connections. You can install it via npm, and use it from the command line. There are [grunt](https://github.com/Polymer/grunt-vulcanize) and [gulp](https://github.com/sindresorhus/gulp-vulcanize) tasks as well so you can make vulcanize part of your build process.
 
-To resolve dependencies and aggregate files in index.html:
+To resolve dependencies and aggregate files in `index.html`:
 
 ```bash
 $ vulcanize -o vulcanized.html index.html
 ```
 
-By executing this command, dependencies in index.html will be resolved and will generate an aggregated HTML file called vulcanized.html.
+By executing this command, dependencies in `index.html` will be resolved and will generate an aggregated HTML file called `vulcanized.html`.
 
 Learn more about vulcanize [here](https://www.polymer-project.org/articles/concatenating-web-components.html).
 
@@ -174,7 +172,7 @@ In case you haven't read the previous articles:  With [templates](http://webcom
 
 By combining these with HTML Imports, your custom web component will gain modularity and reusability. Anyone will be able to use it just by adding a `link` tag.
 
-x-component.html
+*x-component.html*
 ```html
 <template id="template">
   <style>
@@ -203,7 +201,7 @@ x-component.html
 </script>
 ```
 
-index.html
+*index.html*
 ```html
   ...
   <link rel="import" href="x-component.html">
@@ -215,7 +213,7 @@ index.html
   ...
 ```
 
-Notice that because the `document` object in x-component.html is the same one in index.html, you don't have to write anything tricky. It registers itself for you.
+Notice that because the `document` object in `x-component.html` is the same one in `index.html`, you don't have to write anything tricky. It registers itself for you.
 
 ## Supported browsers
 HTML Imports are supported by Chrome and Opera. Firefox supports it behind a flag as of December 2014 (Update: [Mozilla has said](https://hacks.mozilla.org/2014/12/mozilla-and-web-components/) they are not currently planning to ship Imports, citing the need to first see how ES6 modules play out).
