@@ -7,11 +7,11 @@ category: articles
 layout: single
 tags: ['HTML Imports', 'Custom Elements', 'Shadow DOM', 'Template']
 ---
-[Template](http://webcomponents.org/articles/introduction-to-template-element), [Shadow DOM](http://webcomponents.org/articles/introduction-to-shadow-dom), and [Custom Elements](http://webcomponents.org/articles/introduction-to-custom-elements) enable you to build UI components easier than before. But it's not efficient to load each resources such as HTML, CSS and JavaScript separately.  
+[Template](http://webcomponents.org/articles/introduction-to-template-element), [Shadow DOM](http://webcomponents.org/articles/introduction-to-shadow-dom), and [Custom Elements](http://webcomponents.org/articles/introduction-to-custom-elements) enable you to build UI components easier than before. But it's not efficient to load each resources such as HTML, CSS and JavaScript separately.
 
-Deduping dependencies isn't easy either. To load a library like jQuery UI or Bootstrap today requires using separate tags for JavaScript, CSS, and Web Fonts. Things get even more complex if you deal with Web Components with multiple dependencies.  
+Deduping dependencies isn't easy either. To load a library like jQuery UI or Bootstrap today requires using separate tags for JavaScript, CSS, and Web Fonts. Things get even more complex if you deal with Web Components with multiple dependencies.
 
-HTML Imports allow you to load those resources as an aggregated HTML file.  
+HTML Imports allow you to load those resources as an aggregated HTML file.
 
 <!-- Excerpt -->
 
@@ -22,7 +22,7 @@ HTML Imports allow you to load those resources as an aggregated HTML file.
 ---
 
 ## Using HTML Imports
-In order to load an HTML file, add a `link` tag with an `import` in the `rel` attribute and an href that contains a path to the HTML file. For example, if you want to load an HTML file called component.html into index.html:  
+In order to load an HTML file, add a `link` tag with an `import` in the `rel` attribute and an href that contains a path to the HTML file. For example, if you want to load an HTML file called component.html into index.html:
 
 
 index.html
@@ -72,18 +72,18 @@ Note that by adding an `async` attribute to `link[rel="import"]`, HTML Import be
 ## Going beyond origins
 HTML Imports basically can't import resources from other origins. For example, you can't import an HTML file at http://example.com/ from http://webcomponents.org/.
 
-To avoid this restriction, use CORS (Cross Origin Resource Sharing). To learn about CORS, read [this article](http://www.html5rocks.com/tutorials/cors/).  
+To avoid this restriction, use CORS (Cross Origin Resource Sharing). To learn about CORS, read [this article](http://www.html5rocks.com/tutorials/cors/).
 
 ## window and document object in an imported HTML
-Earlier, I mentioned JavaScript will be executed when an HTML file is imported. But this doesn't mean the markup in the imported HTML file will also be rendered inside the browser. You need to write some JavaScript to help here.  
+Earlier, I mentioned JavaScript will be executed when an HTML file is imported. But this doesn't mean the markup in the imported HTML file will also be rendered inside the browser. You need to write some JavaScript to help here.
 
-One caveat to using JavaScript with HTML Imports is that the `document` object in an imported HTML file actually points to the one in the original page.  
+One caveat to using JavaScript with HTML Imports is that the `document` object in an imported HTML file actually points to the one in the original page.
 
-Taking the previous code as an example, the `document` in index.html and component.html both refers to the `document` object in index.html.  
+Taking the previous code as an example, the `document` in index.html and component.html both refers to the `document` object in index.html.
 
-So, how can you refer to the `document` object of the imported HTML file?  
+So, how can you refer to the `document` object of the imported HTML file?
 
-In order to obtain component.html's `document` object from within the index.html page, refer to the `link` element's `import` property.  
+In order to obtain component.html's `document` object from within the index.html page, refer to the `link` element's `import` property.
 
 index.html
 ```js
@@ -94,7 +94,7 @@ link.addEventListener('load', function(e) {
 });
 ```
 
-To obtain the `document` object from within component.html itself, refer to `document.currentScript.ownerDocument`.  
+To obtain the `document` object from within component.html itself, refer to `document.currentScript.ownerDocument`.
 
 component.html
 ```js
@@ -102,7 +102,7 @@ var mainDoc = document.currentScript.ownerDocument;
 // mainDoc points to the document under component.html
 ```
 
-If you are using webcomponents.js, use `document._currentScript` instead of `document.currentScript`. The underscore is used to polyfill the `currentScript` property which is not available in all browsers.  
+If you are using webcomponents.js, use `document._currentScript` instead of `document.currentScript`. The underscore is used to polyfill the `currentScript` property which is not available in all browsers.
 
 
 component.html
@@ -111,19 +111,19 @@ var mainDoc = document._currentScript.ownerDocument;
 // mainDoc points to the document under component.html
 ```
 
-By writing the following code at the beginning of your script, you can easily access component.html's `document` object regardless of if the browser supports HTML Imports or not.  
+By writing the following code at the beginning of your script, you can easily access component.html's `document` object regardless of if the browser supports HTML Imports or not.
 
 ```js
 document._currentScript = document._currentScript || document.currentScript;
 ```
 
 ## Performance consideration
-One of the benefits of using HTML Imports is to be able to organize resources. But this also means more overhead when loading those resources because of additional HTML file. There are couple of points to consider:  
+One of the benefits of using HTML Imports is to be able to organize resources. But this also means more overhead when loading those resources because of additional HTML file. There are couple of points to consider:
 
 ### Resolving dependencies
-What if multiple imported documents all depend on, and try to load the same library? For example:  
+What if multiple imported documents all depend on, and try to load the same library? For example:
 
-Say you are loading jQuery in two imported HTML files. If each import contains a `script` tag to load jQuery, it will be loaded and executed twice.  
+Say you are loading jQuery in two imported HTML files. If each import contains a `script` tag to load jQuery, it will be loaded and executed twice.
 
 index.html
 ```html
@@ -141,37 +141,37 @@ component2.html
 <script src="js/jquery.js"></script>
 ```
 
-This is a problem imports solve for free.  
+This is a problem imports solve for free.
 
-Unlike `script` tags, HTML Imports skip loading and executing HTML files that are previously loaded. Taking the previous code as an example, by wrapping the `script` tag that loads jQuery with an HTML Import, it will be loaded and executed only once.  
+Unlike `script` tags, HTML Imports skip loading and executing HTML files that are previously loaded. Taking the previous code as an example, by wrapping the `script` tag that loads jQuery with an HTML Import, it will be loaded and executed only once.
 
 ![Dependency resolution](/img/stories/htmlimports-dependency.png)
 
-But here's another problem: we have added one more file to load. What can we do with this bloating number of files?  
+But here's another problem: we have added one more file to load. What can we do with this bloating number of files?
 
-Luckily, we have a tool called "vulcanize" for the solution.  
+Luckily, we have a tool called "vulcanize" for the solution.
 
 ### Aggregating network requests
-Vulcanize is a tool to aggregate multiple HTML files into one, in order to reduce the number of network connections. You can install it via npm, and use it from the command line. There are grunt and gulp tasks as well so you can make vulcanize part of your build process.  
+Vulcanize is a tool to aggregate multiple HTML files into one, in order to reduce the number of network connections. You can install it via npm, and use it from the command line. There are grunt and gulp tasks as well so you can make vulcanize part of your build process.
 
-To resolve dependencies and aggregate files in index.html:  
+To resolve dependencies and aggregate files in index.html:
 
 ```bash
 $ vulcanize -o vulcanized.html index.html
 ```
 
-By executing this command, dependencies in index.html will be resolved and will generate an aggregated HTML file called vulcanized.html.  
+By executing this command, dependencies in index.html will be resolved and will generate an aggregated HTML file called vulcanized.html.
 
 Learn more about vulcanize [here](https://www.polymer-project.org/articles/concatenating-web-components.html).
 
-Note: http2's server push abilities are considered to eliminate needs for concatenating and vulcanizing files in the future.  
+Note: http2's server push abilities are considered to eliminate needs for concatenating and vulcanizing files in the future.
 
 ## Combining HTML Imports with Template, Shadow DOM and Custom Elements
-Let's utilize HTML Imports with [the code we've been working through this article series](http://webcomponents.org/articles/introduction-to-custom-elements/).  
+Let's utilize HTML Imports with [the code we've been working through this article series](http://webcomponents.org/articles/introduction-to-custom-elements/).
 
-In case you haven't read the previous articles:  With [templates](http://webcomponents.org/articles/introduction-to-template-element/), defining the content of your custom element can be declarative. With [Shadow DOM](http://webcomponents.org/articles/introduction-to-shadow-dom/), styles, IDs and classes of an element can be scoped to itself. With [Custom Elements](http://webcomponents.org/articles/introduction-to-custom-elements/), you can define your own custom HTML tags.  
+In case you haven't read the previous articles:  With [templates](http://webcomponents.org/articles/introduction-to-template-element/), defining the content of your custom element can be declarative. With [Shadow DOM](http://webcomponents.org/articles/introduction-to-shadow-dom/), styles, IDs and classes of an element can be scoped to itself. With [Custom Elements](http://webcomponents.org/articles/introduction-to-custom-elements/), you can define your own custom HTML tags.
 
-By combining these with HTML Imports, your custom web component will gain modularity and reusability. Anyone will be able to use it just by adding a `link` tag.  
+By combining these with HTML Imports, your custom web component will gain modularity and reusability. Anyone will be able to use it just by adding a `link` tag.
 
 x-component.html
 ```html
@@ -214,15 +214,15 @@ index.html
   ...
 ```
 
-Notice that because the `document` object in x-component.html is the same one in index.html, you don't have to write anything tricky. It registers itself for you.  
+Notice that because the `document` object in x-component.html is the same one in index.html, you don't have to write anything tricky. It registers itself for you.
 
 ## Supported browsers
-HTML Imports are supported by Chrome and Opera. Firefox supports it behind a flag as of December 2014 (Update: [Mozilla has said](https://hacks.mozilla.org/2014/12/mozilla-and-web-components/) they are not currently planning to ship Imports, citing the need to first see how ES6 modules play out).  
+HTML Imports are supported by Chrome and Opera. Firefox supports it behind a flag as of December 2014 (Update: [Mozilla has said](https://hacks.mozilla.org/2014/12/mozilla-and-web-components/) they are not currently planning to ship Imports, citing the need to first see how ES6 modules play out).
 
-To check availability, go to [chromestatus.com](https://www.chromestatus.com/features/4642138092470272) or [caniuse.com](http://caniuse.com/#feat=custom-elements). For polyfilling other browsers, you can use [webcomponents.js](https://github.com/Polymer/webcomponentsjs) (renamed from [platform.js](https://github.com/Polymer/platform)).  
+To check availability, go to [chromestatus.com](https://www.chromestatus.com/features/4642138092470272) or [caniuse.com](http://caniuse.com/#feat=custom-elements). For polyfilling other browsers, you can use [webcomponents.js](https://github.com/Polymer/webcomponentsjs) (renamed from [platform.js](https://github.com/Polymer/platform)).
 
 ## Resources
-So that's the HTML Imports. If you are interested in learning more about the HTML Imports, head over to:  
+So that's the HTML Imports. If you are interested in learning more about the HTML Imports, head over to:
 
 * [HTML Imports: #include for the web - HTML5Rocks](http://goo.gl/EqeOBI)
 * [HTML Imports spec](http://w3c.github.io/webcomponents/spec/imports/)
