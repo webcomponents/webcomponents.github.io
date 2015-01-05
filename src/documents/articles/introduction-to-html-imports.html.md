@@ -1,12 +1,13 @@
 ---
 title: Introduction to HTML Imports
 authors: [agektmr]
-date: 2014-12-19
+date: 2015-01-05
 image: devbytes-htmlimports.png
 category: articles
 layout: single
 tags: ['HTML Imports', 'Custom Elements', 'Shadow DOM', 'Template']
 ---
+
 [Template](http://webcomponents.org/articles/introduction-to-template-element), [Shadow DOM](http://webcomponents.org/articles/introduction-to-shadow-dom), and [Custom Elements](http://webcomponents.org/articles/introduction-to-custom-elements) enable you to build UI components easier than before. But it's not efficient to load each resources such as HTML, CSS and JavaScript separately.
 
 Deduping dependencies isn't easy either. To load a library like jQuery UI or Bootstrap today requires using separate tags for JavaScript, CSS, and Web Fonts. Things get even more complex if you deal with Web Components with multiple dependencies.
