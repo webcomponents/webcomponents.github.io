@@ -127,6 +127,13 @@ module.exports = {
         gplus: "+joshuapeek",
         twitter: "joshpeek"
     },
+    jeremy_fairbank: {
+        name: "Jeremy Fairbank",
+        bio: "Hi, my name is Jeremy Fairbank, and I am a web developer. I enjoy working with JavaScript and Ruby, but I know my way around other languages. I like to build modular, scalable applications with reasonable abstraction to keep things DRY. I really enjoy helping and teaching others, especially about JavaScript.",
+        image: "https://avatars2.githubusercontent.com/u/195580?v=3&s=460",
+        gplus: "+JeremyFairbank",
+        twitter: "ElPapaPollo"
+    },
     mark_dalgleish: {
         name: "Mark Dalgleish",
         bio: "Mark is a senior UI developer at SEEK and the lead organiser of MelbJS. He’s obsessed with everything web and loves using JavaScript, CSS and HTML to create rich experiences that resonate with end users. In his spare time, he loves experimenting with the latest web technologies, sharing projects online and helping others learn progressive web development techniques.",
