@@ -35,7 +35,7 @@ To start using these features today, first download `webcomponents.js` using Bow
 
 Then, include `webcomponents.js` as you would any other script:
 
-    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <script src="bower_components/webcomponents.js/webcomponents.js"></script>
 
 Alternatively, you can install the Web Component polyfills using [npm](http://npmjs.org):
 
