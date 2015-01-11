@@ -1,3 +1,4 @@
+---
 title: "High Performance Web Components"
 authors: [steve_souders]
 event: HTML5DevConf 2014
