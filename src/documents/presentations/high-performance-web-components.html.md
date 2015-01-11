@@ -18,8 +18,9 @@ How many photo carousels have you built? Date pickers? Dynamic tables and charts
     <iframe src="//www.youtube.com/embed/m3EPIeKaDCU" itemprop="video"></iframe>
 </div>
 
+
 ### Slides
 
 <div class="iframe-wrap">
-    <iframe src="http://www.slideshare.net/souders/high-performance-web-components-35001442"></iframe>
+  <iframe src="//www.slideshare.net/slideshow/embed_code/35001442" frameborder="0" marginwidth="0" allowfullscreen> </iframe>
 </div>
