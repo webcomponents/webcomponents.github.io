@@ -8,9 +8,9 @@ category: presentations
 layout: single
 ---
 
-Steve is Chief Performance Officer at Fastly developing web performance services. His book, High Performance Web Sites, explains his best practices for performance; it was #1 in Amazon's Computer and Internet bestsellers. His follow-up book, Even Faster Web Sites, provides performance tips for today's Web 2.0 applications. Steve is the creator of many performance tools and services including YSlow, the HTTP Archive, Cuzillion, Jdrop, SpriteMe, ControlJS, and Browserscope. He serves as co-chair of Velocity, the web performance and operations conference from O'Reilly, and is co-founder of the Firebug Working Group. He taught CS193H: High Performance Web Sites at Stanford, and does many public speaking appearances.
-
+How many photo carousels have you built? Date pickers? Dynamic tables and charts? Wouldn't it be great if there was a way to make these custom elements encapsulated and reusable? Welcome to Web Components! The building blocks are well known: HTML templates, custom elements, HTML imports, and shadow DOM. It's fairly easy to build simple examples. But what happens when performance degrades? Join this discussion of the synchronous and asynchronous nature of web components, and how they can impact the rendering of the entire page.
 <!-- excerpt -->
+
 
 ### Video
 
