@@ -146,6 +146,13 @@ module.exports = {
         gplus: "104420396861285844168",
         twitter: "markdalgleish"
     },
+    michael_bleigh: {
+        name: "Michael Bleigh",
+        bio: "Michael is a web applications architect specializing in bridging the gap between design and development. Utilizing skills in both front and back-end development, he has both developed for and managed teams of developers in conceiving, designing, and implementing cutting-edge web applications.",
+        gravatar: "69dc78b59ef008c58e6e842f9f3e0624",
+        gplus: "100660544095714416357",
+        twitter: "@mbleigh"
+    },
     pascal_precht: {
         name: "Pascal Precht",
         bio: "Pascal is a front-end engineer with a love for semantic markup and evolving technologies in the open web. He loves contributing to open source and is the creator of the popular angular-translate module. He also likes traveling the world and speaks at conferences and meetups. When he's not busy preparing the next workshops for thoughtram, you might find him outside with his skateboard.",
