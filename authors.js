@@ -176,6 +176,13 @@ module.exports = {
         gplus: "+theefer",
         twitter: "theefer"
     },
+    steve_souders: {
+        name: "Steve Souders",
+        bio: "Steve is Chief Performance Officer at Fastly developing web performance services. Steve is the creator of many performance tools and services including YSlow, the HTTP Archive, Cuzillion, Jdrop, SpriteMe, ControlJS, and Browserscope. He is co-founder of the Firebug Working Group and does many public speaking appearances.",
+        gravatar: "b070a2ec44b07451d10f5ea351e81a04",
+        gplus: "+SteveSouders",
+        twitter: "@Souders"
+    },
     tom_dale: {
         name: "Tom Dale",
         bio: "Tom helped create Ember.js, a JavaScript framework that brings sanity to the web. He also co-founded Tilde with Yehuda Katz, Leah Silber and Carl Lerche.",
