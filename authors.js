@@ -14,8 +14,8 @@ module.exports = {
         twitter: "agektmr"
     },
     aki_rodic: {
-        name: "Aki Rodic",
-        bio: "My name is Aleksandar Rodić but most people know me by Aki. I am a technical artist, creative coder or something along those lines. I worked for Electronic Arts, Pixar, LucasArts and I currently work at Google Creative Lab. My biggest passion is bringing high quality 3D graphics to the web and creating tools for all sorts of creative applications.",
+        name: "Aki Rodić",
+        bio: "Aki is a technical artist, creative coder or something along those lines. He worked for Electronic Arts, Pixar, LucasArts, Google and now he currently works at Flux Factory. His biggest passion is bringing high quality 3D graphics to the web and creating tools for all sorts of creative applications.",
         image: "https://avatars3.githubusercontent.com/u/708984?v=3&s=80",
         gplus: "110597683886277984552",
         twitter: "akirodic"
@@ -127,7 +127,7 @@ module.exports = {
     },
     jeremy_fairbank: {
         name: "Jeremy Fairbank",
-        bio: "Hi, my name is Jeremy Fairbank, and I am a web developer. I enjoy working with JavaScript and Ruby, but I know my way around other languages. I like to build modular, scalable applications with reasonable abstraction to keep things DRY. I really enjoy helping and teaching others, especially about JavaScript.",
+        bio: "Jeremy is a web developer who enjoys to work with JavaScript and Ruby. He likes to build modular, scalable applications with reasonable abstraction to keep things DRY. He really enjoys helping and teaching others, especially about JavaScript.",
         image: "https://avatars2.githubusercontent.com/u/195580?v=3&s=80",
         gplus: "+JeremyFairbank",
         twitter: "ElPapaPollo"
