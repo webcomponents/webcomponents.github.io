@@ -23,35 +23,6 @@
         </div>
         <div class="single-sidebar">
             <section class="card card-tags" role="region" itemscope itemtype="http://schema.org/ItemList">
-                <h3 itemprop="name">Boilerplates</h3>
-                <ul class="tag-list">
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
-                        <a target="_blank" href="https://github.com/webcomponents/polymer-boilerplate" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
-                            <span itemprop="name">Polymer Boilerplate</span>
-                        </a>
-                    </li>
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
-                        <a target="_blank" href="https://github.com/webcomponents/x-tag-boilerplate" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
-                            <span itemprop="name">X-Tag Boilerplate</span>
-                        </a>
-                    </li>
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
-                        <a target="_blank" href="https://github.com/webcomponents/element-boilerplate" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
-                            <span itemprop="name">VanillaJS Boilerplate</span>
-                        </a>
-                    </li>
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
-                        <a target="_blank" href="https://github.com/webcomponents/generator-element" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
-                            <span itemprop="name">Element Generator</span>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-            <section class="card card-tags" role="region" itemscope itemtype="http://schema.org/ItemList">
                 <h3 itemprop="name">Examples</h3>
                 <ul class="tag-list">
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
@@ -70,6 +41,29 @@
                         <a target="_blank" href="https://github.com/webcomponents/hello-world-element" itemprop="url">
                             <span class="icon icon-github-alt"></span>
                             <span itemprop="name">Hello World VanillaJS</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="card card-tags" role="region" itemscope itemtype="http://schema.org/ItemList">
+                <h3 itemprop="name">Boilerplates</h3>
+                <ul class="tag-list">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/polymer-boilerplate" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Polymer Boilerplate</span>
+                        </a>
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/x-tag-boilerplate" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">X-Tag Boilerplate</span>
+                        </a>
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/element-boilerplate" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">VanillaJS Boilerplate</span>
                         </a>
                     </li>
                 </ul>
