@@ -68,6 +68,29 @@
                     </li>
                 </ul>
             </section>
+            <section class="card card-tags" role="region" itemscope itemtype="http://schema.org/ItemList">
+                <h3 itemprop="name">Generators</h3>
+                <ul class="tag-list">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/generator-element" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Element Generator for Yeoman</span>
+                        </a>
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/webcomponents/slush-element" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Element Generator for Slush</span>
+                        </a>
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/yeoman/generator-polymer/" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Polymer Generator</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </div>
     </main>
 </div>
