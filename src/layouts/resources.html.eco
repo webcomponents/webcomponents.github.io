@@ -91,6 +91,23 @@
                     </li>
                 </ul>
             </section>
+            <section class="card card-tags" role="region" itemscope itemtype="http://schema.org/ItemList">
+                <h3 itemprop="name">Tools</h3>
+                <ul class="tag-list">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/Polymer/vulcanize" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Vulcanize</span>
+                        </a>
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://github.com/Polymer/web-component-tester" itemprop="url">
+                            <span class="icon icon-github-alt"></span>
+                            <span itemprop="name">Web Component Tester</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </div>
     </main>
 </div>
