@@ -146,6 +146,13 @@ module.exports = {
         gplus: "104420396861285844168",
         twitter: "markdalgleish"
     },
+    michael_bleigh: {
+        name: "Michael Bleigh",
+        bio: "Michael is a web applications architect specializing in bridging the gap between design and development. Utilizing skills in both front and back-end development, he has both developed for and managed teams of developers in conceiving, designing, and implementing cutting-edge web applications.",
+        gravatar: "69dc78b59ef008c58e6e842f9f3e0624",
+        gplus: "100660544095714416357",
+        twitter: "@mbleigh"
+    },
     pascal_precht: {
         name: "Pascal Precht",
         bio: "Pascal is a front-end engineer with a love for semantic markup and evolving technologies in the open web. He loves contributing to open source and is the creator of the popular angular-translate module. He also likes traveling the world and speaks at conferences and meetups. When he's not busy preparing the next workshops for thoughtram, you might find him outside with his skateboard.",
@@ -187,6 +194,13 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/36964?v=3&s=80",
         gplus: "+theefer",
         twitter: "theefer"
+    },
+    steve_souders: {
+        name: "Steve Souders",
+        bio: "Steve is Chief Performance Officer at Fastly developing web performance services. Steve is the creator of many performance tools and services including YSlow, the HTTP Archive, Cuzillion, Jdrop, SpriteMe, ControlJS, and Browserscope. He is co-founder of the Firebug Working Group and does many public speaking appearances.",
+        gravatar: "b070a2ec44b07451d10f5ea351e81a04",
+        gplus: "+SteveSouders",
+        twitter: "@Souders"
     },
     tom_dale: {
         name: "Tom Dale",
