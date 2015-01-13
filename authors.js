@@ -151,7 +151,7 @@ module.exports = {
         bio: "Michael is a web applications architect specializing in bridging the gap between design and development. Utilizing skills in both front and back-end development, he has both developed for and managed teams of developers in conceiving, designing, and implementing cutting-edge web applications.",
         gravatar: "69dc78b59ef008c58e6e842f9f3e0624",
         gplus: "100660544095714416357",
-        twitter: "@mbleigh"
+        twitter: "mbleigh"
     },
     pascal_precht: {
         name: "Pascal Precht",
@@ -200,7 +200,7 @@ module.exports = {
         bio: "Steve is Chief Performance Officer at Fastly developing web performance services. Steve is the creator of many performance tools and services including YSlow, the HTTP Archive, Cuzillion, Jdrop, SpriteMe, ControlJS, and Browserscope. He is co-founder of the Firebug Working Group and does many public speaking appearances.",
         gravatar: "b070a2ec44b07451d10f5ea351e81a04",
         gplus: "+SteveSouders",
-        twitter: "@Souders"
+        twitter: "Souders"
     },
     tom_dale: {
         name: "Tom Dale",

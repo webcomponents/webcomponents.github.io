@@ -8,7 +8,7 @@ category: presentations
 layout: single
 ---
 
-You may have heard of Firebase, the real-time database recently acquired by Google. Did you know that it's got some fantastic integration with Web Components? Walk through the construction of a real-time app with Polymer and Firebase and see just how fast you could be building your next idea. Presented by Michael Bleigh and Jake Johnson at Web Components LA - November 2014
+You may have heard of Firebase, the real-time database recently acquired by Google. Did you know that it's got some fantastic integration with Web Components? Walk through the construction of a real-time app with Polymer and Firebase and see just how fast you could be building your next idea.
 
 <!-- Excerpt -->
 
