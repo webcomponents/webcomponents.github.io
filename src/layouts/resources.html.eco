@@ -106,6 +106,12 @@
                             <span itemprop="name">Web Component Tester</span>
                         </a>
                     </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                        <a target="_blank" href="https://ele.io/" itemprop="url">
+                            <span class="icon icon-eleio"></span>
+                            <span itemprop="name">Ele.io - Web Components Playground</span>
+                        </a>
+                    </li>
                 </ul>
             </section>
         </div>

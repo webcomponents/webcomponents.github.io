@@ -1125,6 +1125,14 @@ header, section {
     color: #434a54;
 }
 
+#resources .icon-eleio {
+    height: .9em;
+    width: .9em;
+    background: url(../img/icon-eleio.png) center center no-repeat;
+    display: inline-block;
+    background-size: cover;
+}
+
 /** =========================================================================
     Fonts
     ========================================================================= */
