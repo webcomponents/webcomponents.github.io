@@ -41,10 +41,11 @@ starter-kit with all you need included, from polyfills to automated tasks.
 
 The only problem is that you still need to make some changes manually after
 forking it like changing an element's name in different files. So, in order to
-automate this process, we created a [Yeoman Generator](http://yeoman.io/) that
+automate this process, we created a [Yeoman Generator](http://yeoman.io/) and a [Slush Generator](http://slushjs.github.io/#/) that
 can scaffold a Web Components project in seconds using the command-line:
 
-* [Element Generator](https://github.com/webcomponents/element-boilerplate).
+* [Element Generator for Yeoman](https://github.com/webcomponents/element-boilerplate).
+* [Element Generator for Slush](https://github.com/webcomponents/slush-element).
 
 There are a bunch of cool stuff in this [NodeJS](http://nodejs.org/) tool that
 weren't able to be included in the boilerplate, things like validating your element's
