@@ -14,9 +14,10 @@ creating anything, first you need to understand what is this all about. That's w
 selected the best [Articles](/articles/) and [Presentations](/articles/) for
 you. More than that, we recommend you to read:
 
+* [Component Kitchen's interactive tutorial](http://component.kitchen/tutorial);
+* [Eric's article on how to create Custom Elements using VanillaJS](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/);
 * [Polymer's documentation](http://www.polymer-project.org/docs/polymer/polymer.html);
-* [X-Tag's documentation](http://x-tags.org/docs);
-* [Eric's article on how to create Custom Elements using VanillaJS](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/).
+* [X-Tag's documentation](http://x-tags.org/docs).
 
 These will give you an idea on how these different solutions work and what's
 better for you.
