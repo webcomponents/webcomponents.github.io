@@ -772,41 +772,53 @@ header, section {
     display: inline-block;
 }
 
-/* RSS
+/* Announcement
 ============================================================================= */
 
-.card-rss {
+.card-announcement {
     margin: 0 40px 40px;
 }
 
 @media (max-width: 980px) {
-    .card-rss {
+    .card-announcement {
         margin: 0 20px 20px;
         padding: 0 15px;
     }
 }
 
-.card-rss img {
-    float: left;
-    margin-right: 15px;
-    padding: 10px 0;
-}
-
-.card-rss p {
+.card-announcement p {
     padding: 25px 0 0;
 }
 
 @media (max-width: 480px) {
-    .card-rss p {
+    .card-announcement p {
         padding: 17px 0 0;
         font-size: .9em;
     }
 }
 
-.card-rss a {
+.card-announcement a {
     color: #ff5c03;
 }
 
+.card-announcement .icon-wrapper {
+    float: left;
+    height: 48px;
+    margin: 10px 15px 10px 0;
+    padding: 12px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.card-announcement .icon-wrapper span {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.card-announcement .icon-wrapper-rss {
+    background: #FAA21B;
+}
 /* Pagination
 ============================================================================= */
 
