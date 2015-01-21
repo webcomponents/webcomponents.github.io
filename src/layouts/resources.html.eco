@@ -27,19 +27,19 @@
                 <ul class="tag-list">
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/webcomponents/hello-world-polymer" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">Hello World Polymer</span>
                         </a>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/webcomponents/hello-world-xtag" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">Hello World X-Tag</span>
                         </a>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/webcomponents/hello-world-element" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">Hello World VanillaJS</span>
                         </a>
                     </li>
@@ -50,19 +50,19 @@
                 <ul class="tag-list">
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/webcomponents/polymer-boilerplate" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">Polymer Boilerplate</span>
                         </a>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/webcomponents/x-tag-boilerplate" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">X-Tag Boilerplate</span>
                         </a>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/webcomponents/element-boilerplate" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">VanillaJS Boilerplate</span>
                         </a>
                     </li>
@@ -73,19 +73,19 @@
                 <ul class="tag-list">
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/yeoman/generator-polymer/" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">Polymer Generator for Yeoman</span>
                         </a>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/webcomponents/generator-element" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">Element Generator for Yeoman</span>
                         </a>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/webcomponents/slush-element" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">Element Generator for Slush</span>
                         </a>
                     </li>
@@ -102,13 +102,13 @@
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/Polymer/vulcanize" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">Vulcanize</span>
                         </a>
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
                         <a target="_blank" href="https://github.com/Polymer/web-component-tester" itemprop="url">
-                            <span class="icon icon-github-alt"></span>
+                            <span class="icon icon-github"></span>
                             <span itemprop="name">Web Component Tester</span>
                         </a>
                     </li>

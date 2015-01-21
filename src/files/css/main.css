@@ -1121,7 +1121,7 @@ header, section {
     Resources
     ========================================================================= */
 
-#resources .icon-github-alt {
+#resources .icon-github {
     color: #434a54;
 }
 
@@ -1162,12 +1162,14 @@ header, section {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-tag:before { content: "\e600"; }
+.icon-arrow-right:before { content: "\e603"; }
 .icon-clock:before { content: "\e60c"; }
+.icon-dollar:before { content: "\e605"; }
+.icon-github:before { content: "\f113"; }
 .icon-location:before { content: "\e601"; }
 .icon-pencil:before { content: "\e602"; }
-.icon-arrow-right:before { content: "\e603"; }
-.icon-github-alt:before { content: "\f113"; }
+.icon-rss:before { content: "\ea94"; }
+.icon-tag:before { content: "\e600"; }
 
 /* --- Homepage installation --- */
 
