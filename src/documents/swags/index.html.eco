@@ -1,0 +1,24 @@
+---
+name: swags
+title: Swags
+description: A list of awesome products with the Web Components logo.
+layout: swags
+---
+
+<% for item in @fixOrder(@getCollection("swags").toJSON()): %>
+    <% if item.link: %>
+    <section class="card card-swag" itemscope itemtype="http://schema.org/Product">
+        <h3 itemprop="name"><%= item.title %></h3>
+
+        <a class="story-image" href="<%= item.link %>" itemprop="url">
+            <img src="<%= @site.url %><%= item.image %>" alt="<%= item.title %>" itemprop="image">
+        </a>
+
+        <div class="description" itemprop="description">
+            <%- item.content %>
+        </div>
+
+        <a class="card-main-btn" href="<%= item.link %>">Buy now!</a>
+    </section>
+    <% end %>
+<% end %>

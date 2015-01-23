@@ -1,0 +1,22 @@
+<%- @partial('header') %>
+<div class="page-wrap">
+<%- @partial('menu') %>
+
+<div class="wrapper">
+    <div class="card card-announcement card-announcement-swags">
+        <div class="icon-wrapper">
+            <span class="icon-dollar"></span>
+        </div>
+        <p>
+            In order to provide some high-quality swags to you, we chose the best manufacturers to handle all aspects of selling, producing, shipping, and customer service. We don't earn a single cent in any product, all profits belong to those manufacturers.
+        </p>
+    </div>
+
+    <main class="card-container layout-archive" role="main" itemscope itemtype="http://schema.org/CollectionPage">
+        <!-- Post Listing -->
+        <%- @content %>
+    </main>
+</div>
+</div>
+
+<%- @partial('footer') %>

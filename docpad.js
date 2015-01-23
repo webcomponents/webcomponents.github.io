@@ -246,6 +246,14 @@ module.exports = {
                     $startsWith: "/specs"
                 }
             }, [{ order: 1 }]);
+        },
+
+        swags: function() {
+            return this.getCollection("documents").findAllLive({
+                url: {
+                    $startsWith: "/swags"
+                }
+            }, [{ order: 1 }]);
         }
     },
 
