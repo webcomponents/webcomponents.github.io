@@ -553,7 +553,7 @@ header, section {
     width: 100%;
 }
 
-.see-all {
+.card-main-btn {
     background: rgb(22, 100, 151);
     color: #fff;
     display: block;
@@ -571,7 +571,7 @@ header, section {
     transition: background .3s;
 }
 
-.see-all:hover {
+.card-main-btn:hover {
     background: rgba(22, 100, 151, .9);
     text-decoration: none;
 }

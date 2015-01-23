@@ -20,5 +20,5 @@
         </p>
       </p>
     </div>
-    <a class="see-all" href="/polyfills/">Learn more about the <%= @slug %></a>
+    <a class="card-main-btn" href="/polyfills/">Learn more about the <%= @slug %></a>
 </section>
