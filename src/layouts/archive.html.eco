@@ -4,8 +4,8 @@
 
 <div class="wrapper">
     <% if @hasRssFeed(): %>
-        <div class="card card-story card-announcement">
-            <div class="icon-wrapper icon-wrapper-rss">
+        <div class="card card-announcement card-announcement-rss">
+            <div class="icon-wrapper">
                 <span class="icon-rss"></span>
             </div>
             <p>

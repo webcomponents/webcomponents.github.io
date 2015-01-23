@@ -665,6 +665,35 @@ header, section {
     padding: 20px;
 }
 
+/* Card ~ Swag
+============================================================================= */
+
+.card-swag h3 {
+    font-size: 1.2em;
+}
+
+.card-swag p {
+    padding: 0;
+}
+
+.layout-archive .card-swag .description {
+    padding: 10px 20px;
+}
+
+.card-swag .description a {
+    color: #3a99d7;
+}
+
+.card-swag .description img {
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.card-swag .card-main-btn {
+    text-transform: none;
+    padding: 15px 0;
+}
+
 /* Card ~ Browser Support
 ============================================================================= */
 
@@ -772,28 +801,19 @@ header, section {
     display: inline-block;
 }
 
-/* Announcement
-============================================================================= */
+/** =========================================================================
+    Announcement
+    ========================================================================= */
 
 .card-announcement {
     margin: 0 40px 40px;
+    padding: 0 20px;
 }
 
 @media (max-width: 980px) {
     .card-announcement {
         margin: 0 20px 20px;
         padding: 0 15px;
-    }
-}
-
-.card-announcement p {
-    padding: 25px 0 0;
-}
-
-@media (max-width: 480px) {
-    .card-announcement p {
-        padding: 17px 0 0;
-        font-size: .9em;
     }
 }
 
@@ -804,7 +824,6 @@ header, section {
 .card-announcement .icon-wrapper {
     float: left;
     height: 48px;
-    margin: 10px 15px 10px 0;
     padding: 12px;
     width: 48px;
     border-radius: 50%;
@@ -816,9 +835,37 @@ header, section {
     text-align: center;
 }
 
-.card-announcement .icon-wrapper-rss {
-    background: #FAA21B;
+/* Announcement - RSS
+   ========================================================================== */
+
+.card-announcement-rss p {
+    padding: 25px 0 0;
 }
+
+@media (max-width: 480px) {
+    .card-announcement-rss p {
+        padding: 17px 0 0;
+        font-size: .9em;
+    }
+}
+
+.card-announcement-rss .icon-wrapper {
+    background: #FAA21B;
+    margin: 10px 15px 10px 0;
+}
+
+/* Announcement - Swags
+   ========================================================================== */
+
+.card-announcement-swags p {
+    padding: 15px 0;
+}
+
+.card-announcement-swags .icon-wrapper {
+    background: #5ACD49;
+    margin: 15px 15px 15px 0;
+}
+
 /* Pagination
 ============================================================================= */
 
