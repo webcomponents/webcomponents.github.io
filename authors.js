@@ -83,6 +83,13 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/4638332?v=2&s=80",
         twitter: "CarmenPopoviciu"
     },
+    chris_coyier:  {
+        name: "Chris Coyier",
+        bio: "Front End Developer, creator of CSS-Tricks & CodePen, and co-host of Shop Talk Show",
+        gravatar: "8081b26e05bb4354f7d65ffc34cbbd67",
+        gplus: "+ChrisCoyier",
+        twitter: "chriscoyier"
+    },
     community: {
         name: "Community",
         bio: "Posts marked as authored by the community represent best practices which have reached a level of concensus. They may evolve over time but their core fundamentals are considered generally good ideas.",
@@ -123,6 +130,13 @@ module.exports = {
         gravatar: "d2ce35e4e0518f19f771ade302e43a66",
         gplus: "113347367246474469107",
         twitter: "davearel"
+    },
+    dave_rupert: {
+        name: "Dave Rupert",
+        bio: "Lead Developer at Paravel & co-host of Shop Talk Show",
+        image: "https://avatars2.githubusercontent.com/u/42218?v=3&s=80",
+        gplus: "+DaveRupert",
+        twitter: "davatron5000"
     },
     dimitri_glazkov: {
         name: "Dimitri Glazkov",
