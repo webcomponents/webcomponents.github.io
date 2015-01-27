@@ -1,4 +1,11 @@
 module.exports = {
+    aaron_frost: {
+        name: "Aaron Frost",
+        bio: "Google Developer Expert, Fisherman, JavaScript Engineer at Domo, Inc., & Panelist on JavaScript Jabber",
+        image: "https://avatars1.githubusercontent.com/u/662832?v=3&s=80",
+        gplus: "+AaronFrost",
+        twitter: "js_dev"
+    },
     addy_osmani: {
         name: "Addy Osmani",
         bio: "Addy works on the Chrome Developer Relations team at Google, building and advocating for tools to help improve developer productivity and satisfaction. His personal projects include TodoMVC, which helps developers compare JavaScript MVC frameworks and AuraJS. He's also written 'Developing Backbone.js Applications' and 'Learning JavaScript Design Patterns'.",
@@ -12,6 +19,13 @@ module.exports = {
         gravatar: "bffa1782705a3b1a2bcd2135cea1858c",
         gplus: "+agektmr",
         twitter: "agektmr"
+    },
+    aj_oneal: {
+        name: "AJ O'Neal",
+        bio: "JavaScript Developer & Panelist on JavaScript Jabber",
+        image: "https://avatars2.githubusercontent.com/u/122831?v=3&s=80",
+        gplus: "+coolaj86",
+        twitter: "coolaj86"
     },
     aki_rodic: {
         name: "Aki Rodić",
@@ -76,6 +90,12 @@ module.exports = {
         gplus: "+WebComponents",
         twitter: "webcomponents"
     },
+    charles_max_wood: {
+        name: "Charles Max Wood",
+        bio: "Host of JavaScript Jabber and Adventures In Angular and several other podcasts. Freelance Podcaster, Programmer, & Web Entrepreneur",
+        image: "https://avatars0.githubusercontent.com/u/10699?v=3&s=80",
+        twitter: "cmaxw"
+    },
     christian_heilmann: {
         name: "Christian Heilmann",
         bio: "Chris is Principal Evangelist at Mozilla. He has dedicated a lot of his time making the web better. He spent a few years in Yahoo building products and explaining and training people and is now at Mozilla. Chris wrote and contributed to four books on web development and wrote many articles and hundreds of blog posts for Ajaxian, Smashing Magazine, Yahoo, Mozilla, ScriptJunkie and many more.",
@@ -118,6 +138,20 @@ module.exports = {
         gplus: "+EricBidelman",
         twitter: "ebidel"
     },
+    erik_isaksen: {
+        name: "Erik Isaksen",
+        bio: "Front End Developer, Chrome Google Developer Expert, Host of The Web Platform Podcast",
+        image: "https://avatars1.githubusercontent.com/u/647043?v=3&s=80",
+        gplus: "+ErikIsaksen",
+        twitter: "eisaksen"
+    },
+    jamison_dance: {
+        name: "Jamison Dance",
+        bio: "Software Engineer at Kuali Co. & Panelist on JavaScript Jabber.",
+        image: "https://avatars2.githubusercontent.com/u/72027?v=3&s=80",
+        gplus: "100006477772655287322",
+        twitter: "jergason"
+    },
     jan_miksovsky: {
         name: "Jan Miksovsky",
         bio: "Jan is a user experience designer/developer. He's the founder of Component Kitchen, a startup focusing on promoting web components.",
@@ -131,6 +165,13 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/195580?s=80",
         gplus: "+JeremyFairbank",
         twitter: "ElPapaPollo"
+    },
+    joe_eames: {
+        name: "Joe Eames",
+        bio: "Organizer of NG-Conf, Front End Developer, & Panelist on JavaScript Jabber",
+        image: "https://avatars0.githubusercontent.com/u/1072285?v=3&s=80",
+        gplus: "+JoeEames",
+        twitter: "josepheames"
     },
     joshua_peek: {
         name: "Joshua Peek",
