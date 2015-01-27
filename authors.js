@@ -124,6 +124,13 @@ module.exports = {
         gplus: "+DanielBuchner",
         twitter: "csuwildcat"
     },
+    danny_blue: {
+        name: "Danny Blue",
+        bio: "Front end developer at Deloitte Digital, Web Components Enthusiast, & panelist on The Web Platform Podcast",
+        image: "https://avatars2.githubusercontent.com/u/6563621?v=3&s=80",
+        gplus: "+DannyBlueDesign",
+        twitter: "DannyBlueDesign"
+    },
     dave_arel: {
         name: "Dave Arel",
         bio: "Dave is a freelancer in pursuit of entrepreneurship. Former Director of JavaScript Engineering at Belly.",
@@ -242,6 +249,13 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/2159051?v=3&s=80",
         gplus: "+Polymer",
         twitter: "polymer"
+    },
+    raphael_rougeron: {
+        name: "Raphaël Rougeron",
+        bio: "Creator of THe Bosonic Project, Entrepreneur, and Software Engineer",
+        image: "https://avatars0.githubusercontent.com/u/5461?v=3&s=80",
+        gplus: "104100630884313767105",
+        twitter: "goldoraf"
     },
     rey_bango: {
         name: "Rey Bango",
