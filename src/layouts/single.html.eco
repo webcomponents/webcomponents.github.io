@@ -7,7 +7,7 @@
         <div class="single-content" role="article">
             <!-- Post -->
             <section class="card card-story" role="region">
-                <% if @document.category != 'presentations': %>
+                <% if @document.category != 'presentations' && @document.category != 'podcasts': %>
                     <% if @document.image: %>
                         <div class="story-image">
                             <img src="<%= @site.url %>/img/stories/<%= @document.image %>" alt="<%= @document.title %>" itemprop="image">
@@ -29,6 +29,13 @@
                         <p class="post-location" itemprop="contentLocation">
                             <span class="icon-location"></span>
                             <%= @document.event %>
+                        </p>
+                    <% end %>
+
+                    <% if @document.podcast: %>
+                        <p class="post-location" itemprop="contentLocation">
+                           <span class="icon-rss"></span>
+                           <%= @document.podcast %>
                         </p>
                     <% end %>
 
