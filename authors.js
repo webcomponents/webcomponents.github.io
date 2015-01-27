@@ -306,6 +306,12 @@ module.exports = {
         gplus: "118012571057666061540",
         twitter: "marcysutton"
     },
+    matt_claypotch: {
+        name: "Matt Claypotch",
+        bio: "Mozilla Apps Engineer & Lead on Mozilla Brick Project",
+        gravatar: "0db077abb2bbaf54ca6de43f45976d11",
+        twitter: "potch"
+    },
     matt_mcnulty: {
         name: "Matt McNulty",
         bio: "Matthew leads the Polymer team, which is part of the Chrome team at Google. Prior to joining Google, he was responsible for the Enyo framework, Ares development environment, and SDK at webOS.",
@@ -319,6 +325,12 @@ module.exports = {
         gravatar: "81173562da1e1c9ae2ddd0df69ec4f69",
         gplus: "107605117871505940242",
         twitter: "philwalton"
+    },
+    soledad_penades: {
+        name: "Soledad Penades",
+        bio: "GIF Hacktivist & Mozilla Apps Engineer",
+        image: "https://avatars2.githubusercontent.com/u/5609?v=3&s=80",
+        twitter: "supersole"
     },
     varunkumar_nagarajan: {
         name: "Varunkumar Nagarajan",
