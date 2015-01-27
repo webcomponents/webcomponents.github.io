@@ -166,6 +166,13 @@ module.exports = {
         gplus: "+JanMiksovsky",
         twitter: "JanMiksovsky"
     },
+    jen_simmons: {
+        name: "Jen Simmons",
+        bio: "Professional Designer, Developer, & Host of The Web Ahead Podcast",
+        image: "https://avatars2.githubusercontent.com/u/108474?v=3&s=80",
+        gplus: "+JenSimmons",
+        twitter: "jensimmons"
+    },
     jeremy_fairbank: {
         name: "Jeremy Fairbank",
         bio: "Jeremy is a web developer who enjoys to work with JavaScript and Ruby. He likes to build modular, scalable applications with reasonable abstraction to keep things DRY. He really enjoys helping and teaching others, especially about JavaScript.",
