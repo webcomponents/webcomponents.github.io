@@ -285,6 +285,13 @@ module.exports = {
         gplus: "+theefer",
         twitter: "theefer"
     },
+    steve_faulkner: {
+        name: "Steve Faulkner",
+        bio: "Principal Accessibility Engineer at Paciello Group and Web Components Accessibility Expert",
+        image: "https://avatars1.githubusercontent.com/u/835859?v=3&s=80",
+        gplus: "+SteveFaulkner",
+        twitter: "stevefaulkner"
+    },
     steve_souders: {
         name: "Steve Souders",
         bio: "Steve is Chief Performance Officer at Fastly developing web performance services. He is the creator of many performance tools and services including YSlow, the HTTP Archive, Cuzillion, Jdrop, SpriteMe, ControlJS, and Browserscope. He is co-founder of the Firebug Working Group and does many public speaking appearances.",
