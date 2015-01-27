@@ -245,7 +245,7 @@ header, section {
 .nav-item {
     height: 1em;
     overflow: hidden;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .nav-link {
@@ -1004,6 +1004,13 @@ header, section {
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+.podcast-wrap {
+    margin-bottom: 18px;
+    overflow: hidden;
+    padding-top: 30px;
+    position: relative;
 }
 
 /* Author

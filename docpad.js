@@ -41,6 +41,9 @@ module.exports = {
         },
 
         getAuthorGooglePlus: function(author) {
+            if(!"glpus" in this.authors[author]) {
+                return "https://plus.google.com/";
+            }
             return "https://plus.google.com/" + this.authors[author].gplus + "/";
         },
 
@@ -116,8 +119,10 @@ module.exports = {
         hasRssFeed: function(item) {
             var articles = this.document.title === "Articles";
             var presentations = this.document.title === "Presentations";
+            var podcasts = this.document.title === "Podcasts";
 
-            return articles || presentations;
+
+            return articles || presentations || podcasts;
         },
 
         getSticky: function(collection){
@@ -231,6 +236,18 @@ module.exports = {
             }, [{ date: -1 }]);
         },
 
+        podcasts: function() {
+            return this.getCollection("documents").findAllLive({
+                url: {
+                    $startsWith: "/podcasts"
+                },
+                layout: "single",
+                isPagedAuto: {
+                    $ne: true
+                }
+            }, [{ date: -1 }]);
+        },
+
         sandbox: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
@@ -290,6 +307,10 @@ module.exports = {
             presentations: {
                 collection: "presentations",
                 url: "/presentations.xml"
+            },
+            podcasts: {
+                collection: "podcasts",
+                url: "/podcasts.xml"
             }
         }
     }
