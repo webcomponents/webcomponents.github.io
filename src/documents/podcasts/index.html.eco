@@ -1,0 +1,62 @@
+---
+name: podcasts
+title: Podcasts
+description: A list podcasts featuring Web Components.
+layout: archive
+
+isPaged: true
+pagedCollection: 'podcasts'
+pageSize: 6
+---
+
+<% for item in @fixOrder(@getPageCollection("podcasts").toJSON()): %>
+    <section class="card card-story podcasts card-presentations" itemscope itemtype="http://schema.org/TechArticle">
+          <% if item.episode_link: %>
+            <a class="title" href="<%= item.episode_link %>" target="_blank">
+                <span itemprop="name"><%= item.title %></span>
+            </a>
+          <% else: %>
+            <span class="title" itemprop="name"><%= item.title %></span>
+          <% end %>
+
+        <div class="post-info">
+            <p class="post-author">
+                <% for author, i in item.authors: %>
+                    <% if i == 0: %>By<% else: %>&<% end %>
+                    <a href="<%= @getAuthorTwitter(author) %>" target="_blank" itemprop="author"><%= @getAuthor(author).name %></a>
+                <% end %>
+            </p>
+            <div>
+            <% if item.podcast: %>
+                <p class="post-location post-podcast">
+                  <% if item.link: %>
+
+                    <a class="title" href="<%= item.link %>" target="_blank">
+                      <span class="icon-rss"></span>
+                      <%= item.podcast %>
+                    </a>
+                   <% else: %>
+                    <span class="icon-rss"></span>
+                    <%= item.podcast %>
+                    <% end %>
+                </p>
+            <% end %>
+
+            <p class="post-date" itemprop="datePublished">
+                <span class="icon-clock"></span>
+                <%- item.humanDate %>
+            </p>
+            </div>
+        </div>
+
+        <div class="description" itemprop="text">
+            <%- @getExcerpt(item.contentRenderedWithoutLayouts) %>
+
+            <% if @hasReadMore(item.contentRenderedWithoutLayouts): %>
+                <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
+            <% end %>
+
+
+        </div>
+    </section>
+<% end %>
