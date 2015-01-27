@@ -103,6 +103,13 @@ module.exports = {
         gplus: "+ChristianHeilmann",
         twitter: "codepo8"
     },
+    christian_smith: {
+        name: "Christian Smith",
+        bio: "Open Source Developer, startup enthusiast, creator & maintainer of the Anvil Connect ID Server, and panelist on The Web Platform Podcast",
+        image: "https://avatars2.githubusercontent.com/u/332377?v=3&s=80",
+        gplus: "102960666917566201616",
+        twitter: "anvilhacks"
+    },
     daniel_buchner: {
         name: "Daniel Buchner",
         bio: "Daniel — formerly at Mozilla — is a creative, technical, Product Manager who is helping to push the web app ecosystem forward. As the creator of the X-Tag library and contributor to Brick (Mozilla's supported set of custom elements), Daniel has worked on the Web Components family of W3 specifications and helps drive the platform implementation process at Mozilla.",
