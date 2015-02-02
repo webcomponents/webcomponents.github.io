@@ -10,7 +10,7 @@ layout: swags
     <section class="card card-swag" itemscope itemtype="http://schema.org/Product">
         <h3 itemprop="name"><%= item.title %></h3>
 
-        <a class="story-image" href="<%= item.link %>" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', '<%= @document.title %>', '<%= item.title %>'], '<%= item.link %>');">
+        <a class="story-image" href="<%= item.link %>" title="<%= item.title %>" itemprop="url">
             <img src="<%= @site.url %><%= item.image %>" alt="<%= item.title %>" itemprop="image">
         </a>
 
@@ -18,7 +18,22 @@ layout: swags
             <%- item.content %>
         </div>
 
-        <a class="card-main-btn" href="<%= item.link %>" onclick="_gaq.push(['_trackEvent', 'External links', '<%= @document.title %>', '<%= item.title %>'], '<%= item.link %>');">Buy now!</a>
+        <a class="card-main-btn" href="<%= item.link %>" title="<%= item.title %>">Buy now!</a>
     </section>
     <% end %>
 <% end %>
+
+<script>
+var links = document.querySelectorAll('.story-image, .card-main-btn');
+
+for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function(e) {
+        _gaq.push([
+            '_trackEvent',
+            'External links',
+            '<%= @document.title %>',
+            links[i].title
+        ]);
+    });
+};
+</script>
