@@ -17,11 +17,3 @@ takes a totally imperative approach to creating Web Components as opposed
 to the declarative way of building with Polymer. Some features include
 legacy browser support, optional mixins to share across components, &
 functional pseudos to assist in delegation.
-
-<!-- Excerpt -->
-
-<div class="podcast-wrap">
-    <audio controls itemprop="audio">
-      <source src="http://traffic.libsyn.com/thewebplatform/episode-21_the-xtag-project.mp3" type="audio/mpeg">
-    </audio>
-</div>

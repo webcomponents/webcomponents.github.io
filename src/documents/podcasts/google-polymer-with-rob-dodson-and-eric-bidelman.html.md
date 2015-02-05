@@ -13,12 +13,4 @@ The JavaScript Jabber Panel discusses the Polymer Project
 with guests Rob Dodson & Eric Bidelman who work on the
 project at Google. They discussion the components, frameworks,
 & libraries available to developers as well the strengths and
-weaknesses of web components
-
-<!-- Excerpt -->
-
-<div class="podcast-wrap">
-    <audio controls itemprop="audio">
-      <source src="http://media.devchat.tv/js-jabber/JSJ120GooglePolymer.mp3" type="audio/mpeg">
-    </audio>
-</div>
+weaknesses of web components.
