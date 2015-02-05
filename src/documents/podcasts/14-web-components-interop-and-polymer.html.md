@@ -19,11 +19,3 @@ Rob Dodson, Google Engineer, goes through many of the changes made to Polymer 0.
 including accessibility and performance enhancements that help in making applications more
 integrated and how Google is working to share what the Blink Team has learned from implementing
 Web Components in Chrome with other browser vendors and developers.
-
-<!-- Excerpt -->
-
-<div class="podcast-wrap">
-    <audio controls itemprop="audio">
-      <source src="http://traffic.libsyn.com/thewebplatform/episode-14_web-components-interop-and-polymer.mp3" type="audio/mpeg">
-    </audio>
-</div>

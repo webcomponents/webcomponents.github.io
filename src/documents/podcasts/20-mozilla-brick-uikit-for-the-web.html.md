@@ -17,11 +17,3 @@ library built on top of Web Components like Polymer, it is a collection of eleme
 little abstraction as possible. Brick's goal has been to make building the interface of web
 applications easier. UI is not as easy for many developers to build from scratch and it can be
 difficult to get performant, usable, and attractive widgets.
-
-<!-- Excerpt -->
-
-<div class="podcast-wrap">
-    <audio controls itemprop="audio">
-      <source src="http://traffic.libsyn.com/thewebplatform/episode-20-mozilla-brick-uikit-for-the-web.mp3" type="audio/mpeg">
-    </audio>
-</div>
