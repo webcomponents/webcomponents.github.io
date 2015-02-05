@@ -14,11 +14,3 @@ Raphael and his team of developers mostly focus their development efforts workin
 building out secure and robust applications as well as intricate cross browser UI Components. The UI
 components part of his work is especially interesting in that it led him to create The Bosonic Project, an alternative
 type of Web Components library that takes a different approach than Polymer or x-Tag.
-
-<!-- Excerpt -->
-
-<div class="podcast-wrap">
-    <audio controls itemprop="audio">
-      <source src="http://traffic.libsyn.com/thewebplatform/episode-11_the-bosonic-project.mp3" type="audio/mpeg">
-    </audio>
-</div>
