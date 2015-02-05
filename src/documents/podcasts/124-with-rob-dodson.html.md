@@ -12,11 +12,3 @@ layout: single
 Shop Talk Show is joined by Rob Dodson. Rob works on Polymer
 at Google. True Facts. We take a deep dive with him into Polymer
 and Web Components.
-
-<!-- Excerpt -->
-
-<div class="podcast-wrap">
-    <audio controls itemprop="audio">
-      <source src="http://audio.simplecast.fm/6407.mp3" type="audio/mpeg">
-    </audio>
-</div>
