@@ -168,7 +168,7 @@ module.exports = {
     },
     erik_isaksen: {
         name: "Erik Isaksen",
-        bio: "Front End Developer, Chrome Google Developer Expert, Host of The Web Platform Podcast",
+        bio: "Front End Developer, Chrome HTML5 Google Developer Expert, Host of The Web Platform Podcast",
         image: "https://avatars1.githubusercontent.com/u/647043?v=3&s=80",
         gplus: "+ErikIsaksen",
         twitter: "eisaksen"
@@ -252,7 +252,7 @@ module.exports = {
     },
     raphael_rougeron: {
         name: "Raphaël Rougeron",
-        bio: "Creator of THe Bosonic Project, Entrepreneur, and Software Engineer",
+        bio: "Creator of The Bosonic Project, Entrepreneur, and Software Engineer",
         image: "https://avatars0.githubusercontent.com/u/5461?v=3&s=80",
         gplus: "104100630884313767105",
         twitter: "goldoraf"
