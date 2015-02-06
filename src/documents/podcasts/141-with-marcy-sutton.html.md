@@ -4,7 +4,8 @@ authors: [marcy_sutton, dave_rupert, chris_coyier ]
 podcast: Shop Talk Show
 date: 2014-11-10
 category: podcasts
-link: "http://shoptalkshow.com/feed/podcast/"
+feed: "http://shoptalkshow.com/feed/podcast/"
+link: "http://shoptalkshow.com"
 episode_link: "http://shoptalkshow.com/episodes/141-marcy-sutton/"
 layout: single
 ---
