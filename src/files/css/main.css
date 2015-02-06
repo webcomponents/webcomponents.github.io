@@ -242,7 +242,7 @@ header, section {
 }
 
 .nav-item {
-    height: 1em;
+    height: .9em;
     overflow: hidden;
     padding: 0 15px;
 }
@@ -250,8 +250,8 @@ header, section {
 .nav-link {
     color: #fff;
     display: block;
-    font-size: 1em;
-    line-height: 1em;
+    font-size: .9em;
+    line-height: .9em;
     position: relative;
     text-transform: uppercase;
     -webkit-transition: -webkit-transform .3s linear;
@@ -328,6 +328,7 @@ header, section {
     .nav-link {
         height: 50px;
         line-height: 3.4em;
+        font-size: 1em;
     }
 
     .nav-link::before {
@@ -341,12 +342,13 @@ header, section {
     }
 }
 
-
-@media (max-width: 1100px) {
+@media (max-width: 1160px){
     .nav-item {
-        padding: 0 15px;
+        padding: 0 8px;
     }
 }
+
+
 
 /* Search Box
 ============================================================================= */
