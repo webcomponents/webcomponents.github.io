@@ -4,7 +4,8 @@ authors: [rob_dodson, dave_rupert, chris_coyier ]
 podcast: Shop Talk Show
 date: 2014-08-12
 category: podcasts
-link: "http://shoptalkshow.com/feed/podcast/"
+feed: "http://shoptalkshow.com/feed/podcast/"
+link: "http://shoptalkshow.com"
 episode_link: "http://shoptalkshow.com/episodes/124-rob-dodson/"
 layout: single
 ---

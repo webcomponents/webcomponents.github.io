@@ -4,7 +4,8 @@ authors: [rob_dodson, jen_simmons ]
 podcast: The Web Ahead
 date: 2014-10-08
 category: podcasts
-link: "http://feeds.5by5.tv/webahead"
+feed: "http://feeds.5by5.tv/webahead"
+link: "http://5by5.tv/webahead"
 episode_link: "http://5by5.tv/webahead/86"
 layout: single
 ---

@@ -4,7 +4,8 @@ authors: [eric_bidelman, rob_dodson, aaron_frost, aj_oneal, charles_max_wood, ja
 podcast: JavaScript Jabber
 date: 2014-08-06
 category: podcasts
-link: "http://feeds.feedwrench.com/JavaScriptJabber.rss"
+feed: "http://feeds.feedwrench.com/JavaScriptJabber.rss"
+link: "http://devchat.tv/js-jabber"
 episode_link: "http://devchat.tv/js-jabber/120-jsj-google-polymer-with-rob-dodson-and-eric-bidelman"
 layout: single
 ---
