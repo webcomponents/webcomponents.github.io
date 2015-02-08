@@ -26,7 +26,7 @@ of an existing HTML tag? Custom Elements allow you to do those things.
 # What are Custom Elements?
 
 Custom Elements enable developers to create their own custom HTML tags, let
-them use those tags in their sites and apps, and enable easier component resuse.
+them use those tags in their sites and apps, and enable easier component reuse.
 
 # How to build a custom element
 
