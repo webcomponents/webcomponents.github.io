@@ -1,0 +1,20 @@
+---
+layout: events
+---
+
+<div class="wrapper" itemscope itemtype="http://schema.org/CollectionPage">
+    <header class="header" role="banner">
+        <a class="logo" href="<%= @site.url %>" itemprop="url">
+            <img src="<%= @site.url %>/img/logo.svg" alt="<%= @site.title %>" width="246" height="158" itemprop="image">
+        </a>
+        <h1 class="title" itemprop="name"><%= @site.title %></h1>
+        <h2 class="subtitle" itemprop="description"><%= @site.description %></h2>
+    </header>
+
+    <main class="card-container layout-home" role="main">
+
+        
+    <section class="card card-event" role="region"></section>
+
+    </main>
+</div>

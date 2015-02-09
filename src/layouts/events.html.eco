@@ -1,0 +1,7 @@
+<%- @partial('header') %>
+<div class="page-wrap">
+<%- @partial('menu') %>
+<%- @content %>
+</div>
+
+<%- @partial('footer') %>
