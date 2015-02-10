@@ -139,6 +139,13 @@ module.exports = {
         gplus: "+joshuapeek",
         twitter: "joshpeek"
     },
+    levent_gurses: {
+        name: "Levent Gurses",
+        bio: "Mobile developer, entrepreneur, speaker, & community organizer",
+        image: "https://avatars1.githubusercontent.com/u/2237424?v=3&s=80",
+        gplus: "110194331801013865008",
+        twitter: "gursesl"
+    },
     mark_dalgleish: {
         name: "Mark Dalgleish",
         bio: "Mark is a senior UI developer at SEEK and the lead organiser of MelbJS. He’s obsessed with everything web and loves using JavaScript, CSS and HTML to create rich experiences that resonate with end users. In his spare time, he loves experimenting with the latest web technologies, sharing projects online and helping others learn progressive web development techniques.",
