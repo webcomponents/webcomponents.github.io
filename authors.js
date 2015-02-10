@@ -237,6 +237,12 @@ module.exports = {
         gplus: "107605117871505940242",
         twitter: "philwalton"
     },
+    soledad_penades: {
+        name: "Soledad Penades",
+        bio: "GIF Hacktivist & Mozilla Apps Engineer",
+        image: "https://avatars2.githubusercontent.com/u/5609?v=3&s=80",
+        twitter: "supersole"
+    },
     varunkumar_nagarajan: {
         name: "Varunkumar Nagarajan",
         bio: "Varunkumar is a software engineer by profession and a blogger by passion. He's a technology enthusiast and has four years of industry experience.",
