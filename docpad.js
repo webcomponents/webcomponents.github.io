@@ -208,7 +208,7 @@ module.exports = {
                 url: {
                     $startsWith: "/discover"
                 }
-            }, [{ title: 1 }]);
+            }, [{ order: 1 }]);
         },
 
         libraries: function() {
@@ -216,7 +216,7 @@ module.exports = {
                 url: {
                     $startsWith: "/libraries"
                 }
-            }, [{ title: 1 }]);
+            }, [{ order: 1 }]);
         },
 
         presentations: function() {
