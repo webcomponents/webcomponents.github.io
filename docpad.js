@@ -231,15 +231,6 @@ module.exports = {
             }, [{ date: -1 }]);
         },
 
-        sandbox: function() {
-            return this.getCollection("documents").findAllLive({
-                url: {
-                    $startsWith: "/sandbox"
-                },
-                layout: "page"
-            }, [{ title: 1 }]);
-        },
-
         specs: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
