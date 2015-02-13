@@ -3,7 +3,7 @@ title: "An Introduction to Web Components & Polymer"
 authors: [levent_gurses]
 event: Web Components DC
 date: 2015-01-07
-image: introduction-to-web-components-and-polymer.png
+image: introduction-to-web-components-and-polymer-at-dc-webcomponents.png
 category: presentations
 layout: single
 ---
