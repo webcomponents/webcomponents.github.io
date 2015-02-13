@@ -7,7 +7,7 @@
                 <iframe src="http://platform.twitter.com/widgets/tweet_button.1359159993.html#_=1360010161235&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=en&amp;size=m&amp;url=<%= @site.url %>&amp;text=<%= @site.title %> ~ <%= @site.description %>" class="twitter-share-button twitter-count-horizontal" data-twttr-rendered="true" allowtransparency="true" frameborder="0" scrolling="no" width="100" height="20"></iframe>
             </li>
             <li class="fb-btn">
-                <iframe src="//www.facebook.com/plugins/like.php?href=<%= @site.url %>&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=20&amp;appId=176947299114210" allowTransparency="true" frameborder="0" scrolling="no" width="80" height="20"></iframe>
+                <iframe src="//www.facebook.com/plugins/like.php?href=<%= @site.url %>&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=20&amp;appId=176947299114210" allowTransparency="true" frameborder="0" scrolling="no" width="85" height="20"></iframe>
             </li>
             <li class="gplus-btn">
                 <iframe src="https://plusone.google.com/_/+1/fastbutton?bsv&amp;size=medium&amp;hl=en-US&amp;url=<%= @site.url %>&amp;parent=<%= @site.url %>" allowtransparency="true" frameborder="0" scrolling="no" width="70" height="20"></iframe>
