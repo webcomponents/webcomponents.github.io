@@ -14,10 +14,11 @@ with Web Components.
 
 <!-- Excerpt -->
 
+
 ### Video
 
 <div class="iframe-wrap">
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/2vWgJ7w3hu0" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/2vWgJ7w3hu0"></iframe>
 </div>
 
 ### Slides
