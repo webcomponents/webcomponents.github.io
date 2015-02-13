@@ -16,7 +16,7 @@ module.exports = {
     aki_rodic: {
         name: "Aki Rodić",
         bio: "Aki is a technical artist, creative coder or something along those lines. He worked for Electronic Arts, Pixar, LucasArts, Google and now he currently works at Flux Factory. His biggest passion is bringing high quality 3D graphics to the web and creating tools for all sorts of creative applications.",
-        image: "https://avatars3.githubusercontent.com/u/708984?v=3&s=80",
+        image: "https://avatars3.githubusercontent.com/u/708984?s=80",
         gplus: "110597683886277984552",
         twitter: "akirodic"
     },
@@ -36,7 +36,7 @@ module.exports = {
     },
     alice_boxhall: {
         name: "Alice Boxhall",
-        bio: "Alice Boxhall is a software engineer at Google, where she works on improving accessibility support in Google Chrome.",
+        bio: "Alice is a software engineer at Google, where she works on improving accessibility support in Google Chrome.",
         gravatar: "28ddf038eb5c6020431cb7d1b3fb03af",
         gplus: "111975973972817482025",
         twitter: "sundress"
@@ -44,7 +44,7 @@ module.exports = {
     andrew_rota: {
         name: "Andrew Rota",
         bio: "Andrew is a front-end software engineer who specializes in building interactive HTML5 JavaScript web applications. He is currently a JavaScript Engineer at Wayfair in Boston.",
-        image: "https://avatars2.githubusercontent.com/u/718017?v=3&s=80",
+        image: "https://avatars2.githubusercontent.com/u/718017?s=80",
         gplus: "+AndrewRota",
         twitter: "AndrewRota"
     },
@@ -58,7 +58,7 @@ module.exports = {
     anne_van_kesteren: {
         name: "Anne van Kesteren",
         bio: "Anne is a Mozillian who writes standards for the web platform. He loves talking about turning the web into an OS.",
-        image: "https://avatars.githubusercontent.com/u/1544111?v=3&s=80",
+        image: "https://avatars.githubusercontent.com/u/1544111?s=80",
         gplus: "112284435661490019880",
         twitter: "annevk"
     },
@@ -66,7 +66,7 @@ module.exports = {
         name: "Carmen Popoviciu",
         bio: "Carmen is a front-end engineer and the leading lady of the Dutch AngularJS User Group. She loves Angular and is passionate about its community. She hopes to one day make a difference for the web with the code she writes.",
         gplus: "118143942632321563925",
-        image: "https://avatars2.githubusercontent.com/u/4638332?v=2&s=80",
+        image: "https://avatars2.githubusercontent.com/u/4638332?s=80",
         twitter: "CarmenPopoviciu"
     },
     community: {
@@ -128,21 +128,21 @@ module.exports = {
     jeremy_fairbank: {
         name: "Jeremy Fairbank",
         bio: "Jeremy is a web developer who enjoys to work with JavaScript and Ruby. He likes to build modular, scalable applications with reasonable abstraction to keep things DRY. He really enjoys helping and teaching others, especially about JavaScript.",
-        image: "https://avatars2.githubusercontent.com/u/195580?v=3&s=80",
+        image: "https://avatars2.githubusercontent.com/u/195580?s=80",
         gplus: "+JeremyFairbank",
         twitter: "ElPapaPollo"
     },
     joshua_peek: {
         name: "Joshua Peek",
-        bio: "Josh is a Front-end developer at GitHub. Contributor to Bower, and maintainer of Sprockets, the Ruby on Rails Asset pipeline tool.",
+        bio: "Josh is a front-end developer at GitHub. Contributor to Bower, and maintainer of Sprockets, the Ruby on Rails Asset pipeline tool.",
         image: "https://avatars2.githubusercontent.com/u/137?s=80",
         gplus: "+joshuapeek",
         twitter: "joshpeek"
     },
     levent_gurses: {
         name: "Levent Gurses",
-        image: "https://avatars1.githubusercontent.com/u/2237424?v=3&s=80",
         bio: "Levent is a mobile developer, speaker and community organizer. He codes in Swift/Objective-C, Java, and JavaScript on the MEAN stack.",
+        image: "https://avatars1.githubusercontent.com/u/2237424?s=80",
         gplus: "110194331801013865008",
         twitter: "gursesl"
     },
@@ -169,7 +169,7 @@ module.exports = {
     },
     peter_gasston: {
         name: "Peter Gasston",
-        bio: "Peter Gasston has been a web developer for over 10 years in both agency and corporate settings. He was one of the original contributors to CSS3.info, the leading online destination for CSS3. Peter has been published in the UK's .net magazine, gives talks about CSS and web technologies at developer conferences, and runs the web development blog Broken Links. He lives in London, England.",
+        bio: "Peter has been a web developer for over 10 years in both agency and corporate settings. He was one of the original contributors to CSS3.info, the leading online destination for CSS3. Peter has been published in the UK's .net magazine, gives talks about CSS and web technologies at developer conferences, and runs the web development blog Broken Links. He lives in London, England.",
         gravatar: "9d9f17e37b751b9f83081ba3dd44bab4",
         gplus: "101356325339382110529",
         twitter: "stopsatgreen"
@@ -177,7 +177,7 @@ module.exports = {
     polymer: {
         name: "Polymer",
         bio: "Posts marked as authored by the Polymer library team.",
-        image: "https://avatars2.githubusercontent.com/u/2159051?v=3&s=80",
+        image: "https://avatars2.githubusercontent.com/u/2159051?s=80",
         gplus: "+Polymer",
         twitter: "polymer"
     },
@@ -198,13 +198,13 @@ module.exports = {
     seb_cevey: {
         name: "Sébastien Cevey",
         bio: "Sébastien is a Software Engineer at the Guardian, working predominently on editorial tools. He currently lives in London, UK.",
-        image: "https://avatars2.githubusercontent.com/u/36964?v=3&s=80",
+        image: "https://avatars2.githubusercontent.com/u/36964?s=80",
         gplus: "+theefer",
         twitter: "theefer"
     },
     steve_souders: {
         name: "Steve Souders",
-        bio: "Steve is Chief Performance Officer at Fastly developing web performance services. Steve is the creator of many performance tools and services including YSlow, the HTTP Archive, Cuzillion, Jdrop, SpriteMe, ControlJS, and Browserscope. He is co-founder of the Firebug Working Group and does many public speaking appearances.",
+        bio: "Steve is Chief Performance Officer at Fastly developing web performance services. He is the creator of many performance tools and services including YSlow, the HTTP Archive, Cuzillion, Jdrop, SpriteMe, ControlJS, and Browserscope. He is co-founder of the Firebug Working Group and does many public speaking appearances.",
         gravatar: "b070a2ec44b07451d10f5ea351e81a04",
         gplus: "+SteveSouders",
         twitter: "Souders"
@@ -218,7 +218,7 @@ module.exports = {
     },
     marcy_sutton: {
         name: "Marcy Sutton",
-        bio: "Developer @Substantial. @GDISeattle co-leader. Bike racer, music junkie, #a11y advocate, dog lover, big ole nerd. Also twittering @marcybikes.",
+        bio: "Marcy is a developer at Substantial. She's GDI Seattle co-leader, bike racer, music junkie, #a11y advocate, dog lover, big ole nerd.",
         gravatar: "1cd529dea0aa4dda3b1242a350163a6e",
         gplus: "118012571057666061540",
         twitter: "marcysutton"
@@ -232,14 +232,14 @@ module.exports = {
     },
     philip_walton: {
         name: "Philip Walton",
-        bio: "Engineer at Google, web standards enthusiast, open source advocate, developer, designer, writer.",
+        bio: "Philip is an engineer at Google, web standards enthusiast, open source advocate, developer, designer, writer.",
         gravatar: "81173562da1e1c9ae2ddd0df69ec4f69",
         gplus: "107605117871505940242",
         twitter: "philwalton"
     },
     varunkumar_nagarajan: {
         name: "Varunkumar Nagarajan",
-        bio: "A software engineer by profession and a blogger by passion. A web developer. Technology enthusiast. Have four years of industry experience.",
+        bio: "Varunkumar is a software engineer by profession and a blogger by passion. He's a technology enthusiast and has four years of industry experience.",
         gravatar: "a7c860a23fc707909d7b78fcbb374367",
         gplus: "+varunkumarnagarajan",
         twitter: "varunkumar"
