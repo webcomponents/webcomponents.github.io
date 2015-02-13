@@ -239,8 +239,9 @@ module.exports = {
     },
     soledad_penades: {
         name: "Soledad Penades",
-        bio: "GIF Hacktivist & Mozilla Apps Engineer",
+        bio: "Senior UI Developer at Mozilla",
         image: "https://avatars2.githubusercontent.com/u/5609?v=3&s=80",
+        gplus: "107635555691483494328",
         twitter: "supersole"
     },
     varunkumar_nagarajan: {
