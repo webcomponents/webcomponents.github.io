@@ -21,10 +21,10 @@ on developing iOS apps with Web Components and Google's Polymer Library.
     <iframe src="//www.youtube.com/embed/1CYeDli9n1U" itemprop="video"></iframe>
 </div>
 
+
+
 ### Slides
 
 <div class="iframe-wrap">
-  <iframe src="//www.slideshare.net/slideshow/embed_code/44503159" width="425" height="355"
-  frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
-  style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+  <iframe src="//www.slideshare.net/slideshow/embed_code/44503159"> </iframe>
 </div>
