@@ -18,8 +18,8 @@ layout: home
             <%- @partial('card-links', { name: 'Libraries', slug: 'libraries', docs: @getCollection("libraries").toJSON() }) %>
         </div>
         <div class="column-middle">
-            <%- @partial('card-links', { name: 'Specs', slug: 'specs', docs: @getCollection("specs").toJSON() }) %>
             <%- @partial('card-links', { name: 'Discover', slug: 'discover', docs: @getCollection("discover").toJSON() }) %>
+            <%- @partial('card-links', { name: 'Specs', slug: 'specs', docs: @getCollection("specs").toJSON() }) %>
         </div>
         <div class="column-last">
             <%- @partial('card-story', { name: 'Articles', slug: 'articles', docs: @getSticky(@getCollection("articles").toJSON()) }) %>
