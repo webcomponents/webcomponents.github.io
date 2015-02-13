@@ -142,7 +142,7 @@ module.exports = {
     levent_gurses: {
         name: "Levent Gurses",
         image: "https://avatars1.githubusercontent.com/u/2237424?v=3&s=80",
-        bio: "Levent is a senior mobile developer & owner of Movel.co.",
+        bio: "Levent is a mobile developer, speaker and community organizer. He codes in Swift/Objective-C, Java, and JavaScript on the MEAN stack.",
         gplus: "110194331801013865008",
         twitter: "gursesl"
     },
