@@ -141,8 +141,8 @@ module.exports = {
     },
     levent_gurses: {
         name: "Levent Gurses",
-        bio: "Levent is a senior mobile developer & owner of Movel.co",
         image: "https://avatars1.githubusercontent.com/u/2237424?v=3&s=80",
+        bio: "Levent is a senior mobile developer & owner of Movel.co.",
         gplus: "110194331801013865008",
         twitter: "gursesl"
     },
