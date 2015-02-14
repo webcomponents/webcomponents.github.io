@@ -216,6 +216,13 @@ module.exports = {
         gplus: "+TomDale",
         twitter: "tomdale"
     },
+    tomomi_imura: {
+        name: "Tomomi Imura",
+        bio: "Tomomi is a Open Web advocate and front-end engineer, who loves everything mobile, and writes about HTML5, CSS, JS, UX, tech events, gadgets, etc.",
+        gravatar: "1b741e5d8f5efe12c6307db4ebfab8f9",
+        gplus: "109703967652024576627",
+        twitter: "girlie_mac"
+    },
     marcy_sutton: {
         name: "Marcy Sutton",
         bio: "Marcy is a developer at Substantial. She's GDI Seattle co-leader, bike racer, music junkie, #a11y advocate, dog lover, big ole nerd.",
