@@ -10,14 +10,13 @@ episode_link: "http://thewebplatform.libsyn.com/mozilla-brick-a-uikit-for-mobile
 layout: single
 ---
 
-Matt Claypotch, Mozilla Apps Engineer & Lead on Mozilla Brick Project and Soledad Penades,
-GIF Hacktivist & Mozilla Apps Engineer, join The Web Platform Podcast to talk about building
-UI focused Web Components for the 'Mobile First' Web Development.
+Mozilla Brick contributors Matt Claypotch and Soledad Penades join The Web Platform Podcast to talk about building
+UI focused Web Components for 'Mobile First' Web Development.
 
 <!-- Excerpt -->
 
-Mozilla Brick is a set of 'Mobile First' focused Web Components built as close to the specs as possible.
-It is not a library built on top of Web Components like Polymer, it is a collection of elements with as
+Mozilla Brick is a set of 'Mobile First' focused Web Components built 'as close to the specs as possible'.
+Brick is not a library built on top of Web Components like Polymer, Instead, it is a collection of elements with as
 little abstraction as possible. Brick's goal has been to make building the interface of web
 applications easier. UI is not as easy for many developers to build from scratch and it can be
 difficult to get performant, usable, and attractive widgets.

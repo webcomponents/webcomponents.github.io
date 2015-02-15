@@ -10,17 +10,15 @@ episode_link: "http://thewebplatform.libsyn.com/21-the-x-tag-project"
 layout: single
 ---
 
-Daniel Buchner, Product Manager at Target & former Mozillian, talks with
-The Web Platform Podcast on x-tag, the Custom Elements library competitor
-to Polymer that he created alongside former Mozillian & Kraken Developer,
-Arron Schaar.
+Daniel Buchner talks with The Web Platform Podcast on x-tag, the Custom Elements library competitor
+to Polymer, that he created alongside former Mozillian & Kraken Developer, Arron Schaar.
 
 <!-- Excerpt -->
 
 <p>
-X-tag is a interesting way to work with web components that
+X-Tag is an interesting way to work with web components in that it
 takes a totally imperative approach to creating Web Components as opposed
-to the declarative way of building with Polymer. Some features include
+to the declarative way of building with libraries like Polymer. Some features include
 legacy browser support, optional mixins to share across components, &
 functional pseudos to assist in delegation.
 </p>

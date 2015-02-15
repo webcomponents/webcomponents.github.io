@@ -10,6 +10,6 @@ episode_link: "http://shoptalkshow.com/episodes/141-marcy-sutton/"
 layout: single
 ---
 
-Shop Talk Show is joined by Marcy Sutton. Marcy is a interactive
-developer at Substantial in Seattle. We take a deep dive into
+Shop Talk Show is joined by Marcy Sutton. Marcy is an web accessibility expert & interactive
+developer at Substantial in Seattle. Chris & Dave take a deep dive into
 web components, accessibility, Angular JS, AJAX, ARIA, and more!
