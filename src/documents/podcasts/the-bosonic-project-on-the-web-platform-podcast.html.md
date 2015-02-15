@@ -17,6 +17,6 @@ building out secure and robust applications as well as intricate cross browser U
 <!-- Excerpt -->
 
 <p>
-The UI components part of his work is especially interesting in that it led him to create The Bosonic Project, an
-alternative type of Web Components library that takes a different approach than Polymer or x-Tag.
+The UI components part of Raphael's work is especially interesting in that it led him to create The Bosonic Project, an
+alternative type of Web Components library that takes a far different approach than Polymer or x-Tag.
 </p>
