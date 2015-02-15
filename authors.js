@@ -76,6 +76,13 @@ module.exports = {
         gplus: "112284435661490019880",
         twitter: "annevk"
     },
+    carl_franklin: {
+        name: "Carl Franklin",
+        bio: "Carl is a .NET developer and co-host of .NET Rocks",
+        image: "https://avatars2.githubusercontent.com/u/1486348?v=3&s=80",
+        gplus: "100899542989822699152",
+        twitter: "carlfranklin"
+    },
     carmen_popoviciu: {
         name: "Carmen Popoviciu",
         bio: "Carmen is a front-end engineer and the leading lady of the Dutch AngularJS User Group. She loves Angular and is passionate about its community. She hopes to one day make a difference for the web with the code she writes.",
@@ -117,6 +124,13 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/332377?v=3&s=80",
         gplus: "102960666917566201616",
         twitter: "anvilhacks"
+    },
+    cory_house: {
+        name: "Cory House",
+        bio: "Cory is a full stack web application developer in the Kansas City area specializing in C#.Net and jQuery",
+        image: "https://avatars3.githubusercontent.com/u/1688997?v=3&s=80",
+        gplus: "104997628038333365690",
+        twitter: "housecor"
     },
     daniel_buchner: {
         name: "Daniel Buchner",
@@ -271,6 +285,13 @@ module.exports = {
         gravatar: "cf09578bc47ef46a1989b160374bc11d",
         gplus: "+ReyBango",
         twitter: "reybango"
+    },
+    richard_campbell: {
+      name: "Richard Campbell",
+        bio: "Richard is a .NET developer and co-host of .NET Rocks",
+        image: "https://avatars1.githubusercontent.com/u/1779253?v=3&s=80",
+        gplus: "+RichardCampbell_DotNetRocks",
+        twitter: "richcampbell"
     },
     rob_dodson: {
         name: "Rob Dodson",
