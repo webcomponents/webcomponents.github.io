@@ -1,7 +1,7 @@
 module.exports = {
     aaron_frost: {
         name: "Aaron Frost",
-        bio: "Google Developer Expert, Fisherman, JavaScript Engineer at Domo, Inc., & Panelist on JavaScript Jabber",
+        bio: "Aaron is an Angular Google Developer Expert, JavaScript Engineer at Domo, Inc., & Panelist on JavaScript Jabber",
         image: "https://avatars1.githubusercontent.com/u/662832?v=3&s=80",
         gplus: "+AaronFrost",
         twitter: "js_dev"
@@ -22,7 +22,7 @@ module.exports = {
     },
     aj_oneal: {
         name: "AJ O'Neal",
-        bio: "JavaScript Developer & Panelist on JavaScript Jabber",
+        bio: "AJ is a full stack JavaScript developer & Panelist on JavaScript Jabber",
         image: "https://avatars2.githubusercontent.com/u/122831?v=3&s=80",
         gplus: "+coolaj86",
         twitter: "coolaj86"
@@ -85,7 +85,7 @@ module.exports = {
     },
     chris_coyier:  {
         name: "Chris Coyier",
-        bio: "Front End Developer, creator of CSS-Tricks & CodePen, and co-host of Shop Talk Show",
+        bio: "Chris is a Front End Developer, creator of CSS-Tricks & CodePen, and co-host of Shop Talk Show",
         gravatar: "8081b26e05bb4354f7d65ffc34cbbd67",
         gplus: "+ChrisCoyier",
         twitter: "chriscoyier"
@@ -99,20 +99,21 @@ module.exports = {
     },
     charles_max_wood: {
         name: "Charles Max Wood",
-        bio: "Host of JavaScript Jabber and Adventures In Angular and several other podcasts. Freelance Podcaster, Programmer, & Web Entrepreneur",
+        bio: "Chuck is host of JavaScript Jabber & Adventures In Angular as well as several other popular developer podcasts. He is a freelance podcaster, programmer, & web entrepreneur",
         image: "https://avatars0.githubusercontent.com/u/10699?v=3&s=80",
+        gplus: "100618129919238239461",
         twitter: "cmaxw"
     },
     christian_heilmann: {
         name: "Christian Heilmann",
-        bio: "Chris is Principal Evangelist at Mozilla. He has dedicated a lot of his time making the web better. He spent a few years in Yahoo building products and explaining and training people and is now at Mozilla. Chris wrote and contributed to four books on web development and wrote many articles and hundreds of blog posts for Ajaxian, Smashing Magazine, Yahoo, Mozilla, ScriptJunkie and many more.",
+        bio: "Chris is Senior Program Manager Developer Experience and Evangelism at Microsoft. He has dedicated a lot of his time making the web better and Chris spent a few years in Yahoo building products and explaining and is a former Mozillian.",
         gravatar: "07fcd228af02d476b1b8367d85a903b2",
         gplus: "+ChristianHeilmann",
         twitter: "codepo8"
     },
     christian_smith: {
         name: "Christian Smith",
-        bio: "Open Source Developer, startup enthusiast, creator & maintainer of the Anvil Connect ID Server, and panelist on The Web Platform Podcast",
+        bio: "Christian is an open source developer, startup enthusiast, and creator/maintainer of the Anvil Connect ID Server as well as a panelist on The Web Platform Podcast",
         image: "https://avatars2.githubusercontent.com/u/332377?v=3&s=80",
         gplus: "102960666917566201616",
         twitter: "anvilhacks"
@@ -126,7 +127,7 @@ module.exports = {
     },
     danny_blue: {
         name: "Danny Blue",
-        bio: "Front end developer at Deloitte Digital, Web Components Enthusiast, & panelist on The Web Platform Podcast",
+        bio: "Danny is a front end developer at Deloitte Digital, Web Components Enthusiast, and panelist on The Web Platform Podcast",
         image: "https://avatars2.githubusercontent.com/u/6563621?v=3&s=80",
         gplus: "+DannyBlueDesign",
         twitter: "DannyBlueDesign"
@@ -140,7 +141,7 @@ module.exports = {
     },
     dave_rupert: {
         name: "Dave Rupert",
-        bio: "Lead Developer at Paravel & co-host of Shop Talk Show",
+        bio: "David is a lead developer at Paravel & co-host of Shop Talk Show",
         image: "https://avatars2.githubusercontent.com/u/42218?v=3&s=80",
         gplus: "+DaveRupert",
         twitter: "davatron5000"
@@ -168,14 +169,14 @@ module.exports = {
     },
     erik_isaksen: {
         name: "Erik Isaksen",
-        bio: "Front End Developer, Chrome HTML5 Google Developer Expert, Host of The Web Platform Podcast",
+        bio: "Erik is a Front End Developer, W3C HTML Invited Expert, Chrome HTML5 Google Developer Expert, and host of The Web Platform Podcast",
         image: "https://avatars1.githubusercontent.com/u/647043?v=3&s=80",
         gplus: "+ErikIsaksen",
         twitter: "eisaksen"
     },
     jamison_dance: {
         name: "Jamison Dance",
-        bio: "Software Engineer at Kuali Co. & Panelist on JavaScript Jabber.",
+        bio: "Jamison is a software engineer at Kuali Co. and panelist on JavaScript Jabber.",
         image: "https://avatars2.githubusercontent.com/u/72027?v=3&s=80",
         gplus: "100006477772655287322",
         twitter: "jergason"
@@ -189,7 +190,7 @@ module.exports = {
     },
     jen_simmons: {
         name: "Jen Simmons",
-        bio: "Professional Designer, Developer, & Host of The Web Ahead Podcast",
+        bio: "Jen is a professional designer and developer in the New York City area. She is host of The Web Ahead Podcast",
         image: "https://avatars2.githubusercontent.com/u/108474?v=3&s=80",
         gplus: "+JenSimmons",
         twitter: "jensimmons"
@@ -203,7 +204,7 @@ module.exports = {
     },
     joe_eames: {
         name: "Joe Eames",
-        bio: "Organizer of NG-Conf, Front End Developer, & Panelist on JavaScript Jabber",
+        bio: "Joe is organizer of NG-Conf, front end developer, and panelist on JavaScript Jabber",
         image: "https://avatars0.githubusercontent.com/u/1072285?v=3&s=80",
         gplus: "+JoeEames",
         twitter: "josepheames"
@@ -259,7 +260,7 @@ module.exports = {
     },
     raphael_rougeron: {
         name: "Raphaël Rougeron",
-        bio: "Creator of The Bosonic Project, Entrepreneur, and Software Engineer",
+        bio: "Raphael is creator of THe Bosonic Project, entrepreneur, and software engineer",
         image: "https://avatars0.githubusercontent.com/u/5461?v=3&s=80",
         gplus: "104100630884313767105",
         twitter: "goldoraf"
@@ -287,7 +288,7 @@ module.exports = {
     },
     steve_faulkner: {
         name: "Steve Faulkner",
-        bio: "Principal Accessibility Engineer at Paciello Group and Web Components Accessibility Expert",
+        bio: "Steve is Principal Accessibility Engineer at Paciello Group and Web Components Accessibility Expert",
         image: "https://avatars1.githubusercontent.com/u/835859?v=3&s=80",
         gplus: "+SteveFaulkner",
         twitter: "stevefaulkner"
@@ -322,7 +323,7 @@ module.exports = {
     },
     matt_claypotch: {
         name: "Matt Claypotch",
-        bio: "Mozilla Apps Engineer & Lead on Mozilla Brick Project",
+        bio: "Matt is a Mozilla Apps Engineer & lead on Mozilla Brick Project",
         gravatar: "0db077abb2bbaf54ca6de43f45976d11",
         twitter: "potch"
     },
