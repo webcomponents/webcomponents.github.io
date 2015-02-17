@@ -7,7 +7,7 @@
         <div class="single-content" role="article">
             <!-- Post -->
             <section class="card card-story" role="region">
-                <% if @document.category != 'presentations': %>
+                <% if @document.category != 'presentations' && @document.category != 'podcasts': %>
                     <% if @document.image: %>
                         <div class="story-image">
                             <img src="<%= @site.url %>/img/stories/<%= @document.image %>" alt="<%= @document.title %>" itemprop="image">
@@ -32,6 +32,13 @@
                         </p>
                     <% end %>
 
+                    <% if @document.podcast: %>
+                        <p class="post-location" itemprop="contentLocation">
+                           <span class="icon-rss"></span>
+                           <%= @document.podcast %>
+                        </p>
+                    <% end %>
+
                     <p class="post-date" itemprop="datePublished">
                         <span class="icon-clock"></span>
                         <%- @document.humanDate %>
@@ -41,9 +48,16 @@
                 <div class="description" itemprop="text">
                     <%- @content %>
 
-                    <% if @document.link: %>
+                    <% if @document.link && !@document.episode_link: %>
                         <a class="read-more" href="<%= @document.link %>" target="_blank">Read More ></a>
                     <% end %>
+
+                    <% if @document.episode_link: %>
+
+                          <a class="read-more" href="<%= @document.episode_link %>" target="_blank">Listen Now ></a>
+
+                    <% end %>
+
                 </div>
             </section>
 
