@@ -10,11 +10,29 @@ layout: events
         <h1 class="title" itemprop="name"><%= @site.title %></h1>
         <h2 class="subtitle" itemprop="description"><%= @site.description %></h2>
     </header>
-
-    <main class="card-container layout-home" role="main">
-
-        
-    <section class="card card-event" role="region"></section>
-
+    
+    <h4 class="wrapper-float-title">Next Meetups</h4>
+    <main class="card-container layout-events" role="main" id="events">
+        <p class="loading">Loading...</p>
     </main>
 </div>
+
+<script type="text/template" id="card-event-template">
+    <section class="card card-story card-event">
+        <a class="story-image" href="{{url}}" target="_blank">
+            <img src="{{image}}" alt="{{name}}">
+            <div class="card-event--header">
+                <time>{{date}}</time>
+                <address>{{city}}{{country}}</address>
+                <span>{{yes_rsvp_count}} RVSPs</span>
+            </div>
+        </a>
+        <a class="title" href="{{url}}" target="_blank">
+            <span itemprop="name">{{name}}</span>
+        </a>
+        <div class="description">
+            <p>{{description}}</p>
+            <a class="read-more" href="{{url}}" target="_blank">Read More &gt;</a>
+        </div>
+    </section>
+</script>

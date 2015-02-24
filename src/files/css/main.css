@@ -117,6 +117,14 @@ header, section {
     position: relative;
 }
 
+.wrapper-float-title {
+    padding: 0 48px;
+    margin-bottom: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
 .page-wrap {
     min-height: 100%;
     /* equal to .credits height */
@@ -128,6 +136,19 @@ header, section {
     display: block;
     /* equal to .credits height */
     height: 70px;
+}
+
+@media (max-width: 1180px) {
+    .wrapper-float-title {
+        padding: 15px 30px 0;
+    }
+}
+
+@media (max-width: 730px) {
+    .wrapper-float-title {
+        padding: 30px 0 0;
+        text-align: center;
+    }
 }
 
 /** =========================================================================
@@ -355,7 +376,7 @@ header, section {
 .search-box {
     float: right;
     padding-top: 2px;
-    width: 320px;
+    width: 270px;
 }
 
 .search-box * {
@@ -375,7 +396,7 @@ header, section {
 
 @media (max-width: 1100px) {
     .search-box {
-        width: 260px;
+        width: 250px;
     }
 }
 
@@ -425,6 +446,20 @@ header, section {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+}
+
+.layout-events {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+.layout-events .loading,
+.layout-events .no-events {
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 
 
@@ -509,6 +544,56 @@ header, section {
         margin-bottom: 20px;
     }
 }
+
+/* Card ~ Event (Events)
+============================================================================= */
+
+.card-event {
+    width: 31%;
+    margin: 0 10px 30px;
+}
+
+.card-event .story-image {
+    position: relative;
+    max-height: 135px;
+    background-color: #000;
+}
+
+.card-event .story-image img {
+    opacity: 0.65;
+}
+
+.card-event--header {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    top: 25px;
+    line-height: 38px;
+}
+
+.card-event--header address{
+    text-transform: uppercase;
+}
+
+@media (max-width: 1180px) {
+    .card-event {
+        width: 47%;
+    }
+    .card-event .story-image img {
+        position: relative;
+        top: -30px;
+    }
+}
+
+@media (max-width: 730px) {
+    .card-event {
+        width: 100%;
+    }
+}
+
 
 /* Card ~ Story (Articles, Presentations)
 ============================================================================= */
