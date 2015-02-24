@@ -265,4 +265,4 @@ module.exports = {
         gplus: "+ZenoRochaBN",
         twitter: "zenorocha"
     }
-}
+};
