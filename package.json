@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "docpad": "^6.69.1",
+    "docpad": "~6.69.1",
     "docpad-plugin-cleanurls": "^2.7.0",
     "docpad-plugin-eco": "^2.1.0",
     "docpad-plugin-ghpages": "^2.4.2",
@@ -19,12 +19,12 @@
     "grunt-bower-task": "~0.4.0",
     "grunt-cli": "~0.1.11",
     "grunt-contrib-clean": "~0.6.0",
-    "grunt-contrib-cssmin": "~0.11.0",
-    "grunt-contrib-htmlmin": "~0.3.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-htmlmin": "^0.4.0",
     "grunt-imageoptim": "^1.4.1",
-    "grunt-pagespeed": "~0.4.1",
     "grunt-lintspaces": "~0.6.0",
-    "load-grunt-tasks": "~2.0.0"
+    "grunt-pagespeed": "~0.4.1",
+    "load-grunt-tasks": "^3.1.0"
   },
   "scripts": {
     "build": "docpad generate --env static",
