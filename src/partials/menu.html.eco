@@ -32,6 +32,11 @@
                         <span itemprop="name">Presentations</span>
                     </a>
                 </li>
+                <li class="nav-item <% if @isActiveMenu('podcasts'): %>nav-active<% end %>">
+                    <a href="<%= @site.url %>/podcasts/" class="nav-link" title="Podcasts" itemprop="url">
+                        <span itemprop="name">Podcasts</span>
+                    </a>
+                </li>
                 <li class="nav-item <% if @isActiveMenu('resources'): %>nav-active<% end %>">
                     <a href="<%= @site.url %>/resources/" class="nav-link" title="Resources" itemprop="url">
                         <span itemprop="name">Resources</span>
