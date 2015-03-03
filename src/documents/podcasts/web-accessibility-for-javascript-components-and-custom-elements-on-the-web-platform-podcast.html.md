@@ -3,10 +3,8 @@ title: "9: Web Accessibility for JavaScript Components and Custom Elements"
 authors: [marcy_sutton, steve_faulkner, erik_isaksen, danny_blue ]
 podcast: The Web Platform Podcast
 date: 2014-09-03
+link: "http://thewebplatform.libsyn.com/web-accessibility-for-javascript-components-and-custom-elements"
 category: podcasts
-feed: "http://thewebplatform.libsyn.com/rss"
-link: "http://thewebplatform.libsyn.com"
-episode_link: "http://thewebplatform.libsyn.com/web-accessibility-for-javascript-components-and-custom-elements"
 layout: single
 ---
 

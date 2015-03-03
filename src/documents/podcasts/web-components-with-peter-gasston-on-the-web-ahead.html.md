@@ -3,10 +3,8 @@ title: "66: Web Components with Peter Gasston"
 authors: [peter_gasston, jen_simmons ]
 podcast: The Web Ahead
 date: 2014-04-09
+link: "http://5by5.tv/webahead/66"
 category: podcasts
-feed: "http://feeds.5by5.tv/webahead"
-link: "http://5by5.tv/webahead"
-episode_link: "http://5by5.tv/webahead/66"
 layout: single
 ---
 

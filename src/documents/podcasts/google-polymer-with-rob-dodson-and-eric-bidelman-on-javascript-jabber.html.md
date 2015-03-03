@@ -3,10 +3,8 @@ title: "120: Google Polymer with Rob Dodson and Eric Bidelman"
 authors: [eric_bidelman, rob_dodson, aaron_frost, aj_oneal, charles_max_wood, jamison_dance, joe_eames ]
 podcast: JavaScript Jabber
 date: 2014-08-06
+link: "http://devchat.tv/js-jabber/120-jsj-google-polymer-with-rob-dodson-and-eric-bidelman"
 category: podcasts
-feed: "http://feeds.feedwrench.com/JavaScriptJabber.rss"
-link: "http://devchat.tv/js-jabber"
-episode_link: "http://devchat.tv/js-jabber/120-jsj-google-polymer-with-rob-dodson-and-eric-bidelman"
 layout: single
 ---
 

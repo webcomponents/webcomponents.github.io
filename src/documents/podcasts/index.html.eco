@@ -11,16 +11,11 @@ pageSize: 6
 
 <% for item in @fixOrder(@getPageCollection("podcasts").toJSON()): %>
     <section class="card card-story podcasts card-presentations" itemscope itemtype="http://schema.org/TechArticle">
-          <% if item.episode_link: %>
-            <a class="title" href="<%= item.episode_link %>" target="_blank">
-                <span itemprop="name"><%= item.title %></span>
-            </a>
-          <% else: %>
-            <span class="title" itemprop="name"><%= item.title %></span>
-          <% end %>
+        <a class="title" href="<%= item.link %>" target="_blank">
+            <span itemprop="name"><%= item.title %></span>
+        </a>
 
-<div class="post-info">
-
+        <div class="post-info">
             <p class="post-author">
                 <% for author, i in item.authors: %>
                     <% if i == 0: %>By<% else: %>&<% end %>
@@ -30,18 +25,10 @@ pageSize: 6
 
             <% if item.podcast: %>
                 <p class="post-location" itemprop="contentLocation">
-                   <% if item.feed: %>
-                     <a class="title" href="<%= item.feed %>" target="_blank">
-                       <%= item.podcast %>
-                     </a>
-                   <% else: %>
-                   <a class="title" href="<%= item.link %>" target="_blank"
-                      <%= item.podcast %>
-</a>
-                   <% end %>
                     <span class="icon-mic"></span>
+                    <%= item.podcast %>
                 </p>
-                <% end %>
+            <% end %>
 
             <p class="post-date" itemprop="datePublished">
                 <span class="icon-clock"></span>
@@ -53,11 +40,7 @@ pageSize: 6
         <div class="description" itemprop="text">
             <%- @getExcerpt(item.contentRenderedWithoutLayouts) %>
 
-            <% if @hasReadMore(item.contentRenderedWithoutLayouts):  %>
-                <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
-            <% else: %>
-                <a class="read-more" href="<%= item.episode_link %>" target="_blank">Listen Now ></a>
-            <% end %>
+            <a class="read-more" href="<%= item.link %>" target="_blank">Listen Now ></a>
         </div>
     </section>
 <% end %>

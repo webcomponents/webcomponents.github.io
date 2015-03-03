@@ -3,10 +3,8 @@ title: "1096: Web Components with Cory House"
 authors: [cory_house, carl_franklin, richard_campbell ]
 podcast: .NET Rocks
 date: 2015-02-04
+link: "http://www.dotnetrocks.com/default.aspx?showNum=1096"
 category: podcasts
-feed: "http://www.dotnetrocks.com/feed.aspx"
-link: "http://www.dotnetrocks.com/Default.aspx"
-episode_link: "http://www.dotnetrocks.com/default.aspx?showNum=1096"
 layout: single
 ---
 
