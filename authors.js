@@ -144,7 +144,7 @@ module.exports = {
         bio: "Danny is a front end developer at Deloitte Digital, Web Components Enthusiast, and panelist on The Web Platform Podcast",
         image: "https://avatars2.githubusercontent.com/u/6563621?v=3&s=80",
         gplus: "+DannyBlueDesign",
-        twitter: "DannyBlueDesign"
+        twitter: "dee_bloo"
     },
     dave_arel: {
         name: "Dave Arel",
