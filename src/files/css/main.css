@@ -1332,6 +1332,7 @@ header, section {
 .icon-pencil:before { content: "\e602"; }
 .icon-rss:before { content: "\ea94"; }
 .icon-tag:before { content: "\e600"; }
+.icon-mic:before { content: "\e91e"; }
 
 /* --- Homepage installation --- */
 

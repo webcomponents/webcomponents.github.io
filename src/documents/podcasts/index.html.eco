@@ -32,7 +32,6 @@ pageSize: 6
                 <p class="post-location" itemprop="contentLocation">
                    <% if item.feed: %>
                      <a class="title" href="<%= item.feed %>" target="_blank">
-                       <span class="icon-rss"></span>
                        <%= item.podcast %>
                      </a>
                    <% else: %>
@@ -40,6 +39,7 @@ pageSize: 6
                       <%= item.podcast %>
 </a>
                    <% end %>
+                    <span class="icon-mic"></span>
                 </p>
                 <% end %>
 

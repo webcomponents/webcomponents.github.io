@@ -34,7 +34,7 @@
 
                     <% if @document.podcast: %>
                         <p class="post-location" itemprop="contentLocation">
-                           <span class="icon-rss"></span>
+                           <span class="icon-mic"></span>
                            <%= @document.podcast %>
                         </p>
                     <% end %>
