@@ -24,7 +24,6 @@ layout: home
         <div class="column-last">
             <%- @partial('card-story', { name: 'Articles', slug: 'articles', docs: @getSticky(@getCollection("articles").toJSON()) }) %>
             <%- @partial('card-story', { name: 'Presentations', slug: 'presentations', docs: @getSticky(@getCollection("presentations").toJSON()) }) %>
-            <%- @partial('card-story', { name: 'Podcasts', slug: 'podcasts', docs: @getSticky(@getCollection("podcasts").toJSON()) }) %>
             <%- @partial('card-community', { name: 'Community', slug: 'community' }) %>
         </div>
     </main>
