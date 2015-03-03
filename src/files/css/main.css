@@ -242,16 +242,16 @@ header, section {
 }
 
 .nav-item {
-    height: .9em;
+    height: 1em;
     overflow: hidden;
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .nav-link {
     color: #fff;
     display: block;
-    font-size: .9em;
-    line-height: .9em;
+    font-size: 1em;
+    line-height: 1em;
     position: relative;
     text-transform: uppercase;
     -webkit-transition: -webkit-transform .3s linear;
@@ -328,7 +328,6 @@ header, section {
     .nav-link {
         height: 50px;
         line-height: 3.4em;
-        font-size: 1em;
     }
 
     .nav-link::before {
@@ -342,9 +341,9 @@ header, section {
     }
 }
 
-@media (max-width: 1160px){
+@media (max-width: 1100px){
     .nav-item {
-        padding: 0 8px;
+        padding: 0 15px;
     }
 }
 
@@ -1005,13 +1004,6 @@ header, section {
     position: absolute;
     top: 0;
     width: 100%;
-}
-
-.podcast-wrap {
-    margin-bottom: 18px;
-    overflow: hidden;
-    padding-top: 30px;
-    position: relative;
 }
 
 /* Author
