@@ -37,11 +37,6 @@
                         <span itemprop="name">Resources</span>
                     </a>
                 </li>
-                <li class="nav-item <% if @isActiveMenu('swags'): %>nav-active<% end %>">
-                    <a href="<%= @site.url %>/swags/" class="nav-link" title="Swags" itemprop="url">
-                        <span itemprop="name">Swags</span>
-                    </a>
-                </li>
             </ul>
         </nav>
 
