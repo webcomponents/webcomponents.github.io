@@ -270,11 +270,18 @@ header, section {
     transform: translate3d(0, 0, 0);
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus,
+.nav-active .nav-link {
     -webkit-transform: translateY(-105%);
     -moz-transform: translateY(-105%);
     transform: translateY(-105%);
     text-decoration: none;
+}
+
+.nav-active .nav-link::before {
+    color: #4DB7FC;
+    font-weight: 400;
 }
 
 /* --- Centralized header bar --- */
@@ -335,7 +342,7 @@ header, section {
         content: '';
     }
 
-    .nav-link:focus,.nav-link:hover {
+    .nav-link:focus, .nav-link:hover {
         -webkit-transform: translate3d(0, 0, 0);
         -moz-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
@@ -1107,7 +1114,7 @@ header, section {
 }
 
 .aux-nav ul li {
-    color: #3A99D7;
+    color: #67C1FC;
     font-size: 1em;
     line-height: 1.4em;
 }
