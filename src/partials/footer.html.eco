@@ -7,25 +7,30 @@
         <ul>
             <li>Learn</li>
             <li>
-                <a href="<%= @site.url %>/articles/" title="Articles"itemprop="url">
+                <a href="<%= @site.url %>/articles/" title="Articles" itemprop="url">
                     <span itemprop="name">Articles</span>
                 </a>
             </li>
             <li>
-                <a href="<%= @site.url %>/presentations/" title="Presentations"itemprop="url">
+                <a href="<%= @site.url %>/presentations/" title="Presentations" itemprop="url">
                     <span itemprop="name">Presentations</span>
+                </a>
+            </li>
+            <li>
+                <a href="<%= @site.url %>/podcasts/" title="Podcasts" itemprop="url">
+                    <span itemprop="name">Podcasts</span>
                 </a>
             </li>
         </ul>
         <ul>
             <li>Code</li>
             <li>
-                <a href="<%= @site.url %>/polyfills/" title="Polyfills"itemprop="url">
+                <a href="<%= @site.url %>/polyfills/" title="Polyfills" itemprop="url">
                     <span itemprop="name">Polyfills</span>
                 </a>
             </li>
             <li>
-                <a href="<%= @site.url %>/resources/" title="Resources"itemprop="url">
+                <a href="<%= @site.url %>/resources/" title="Resources" itemprop="url">
                     <span itemprop="name">Resources</span>
                 </a>
             </li>
@@ -33,7 +38,7 @@
         <ul>
             <li>Community</li>
             <li>
-                <a href="<%= @site.url %>/swags/" title="Swags"itemprop="url">
+                <a href="<%= @site.url %>/swags/" title="Swags" itemprop="url">
                     <span itemprop="name">Swags</span>
                 </a>
             </li>
