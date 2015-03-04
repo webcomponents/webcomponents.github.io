@@ -76,6 +76,13 @@ module.exports = {
         gplus: "112284435661490019880",
         twitter: "annevk"
     },
+    bill_heaton: {
+        name: "Bill Heaton",
+        bio: "Bill is a Senior UI Engineer at CrowdStrike who loves to build great applications with Ember.js",
+        image: "https://avatars2.githubusercontent.com/u/17178?v=3&s=80",
+        gplus: "+BillHeaton",
+        twitter: "pixelhandler"
+    },
     carl_franklin: {
         name: "Carl Franklin",
         bio: "Carl is a .NET developer and co-host of .NET Rocks",
