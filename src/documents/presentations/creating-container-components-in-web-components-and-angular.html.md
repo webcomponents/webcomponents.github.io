@@ -1,6 +1,6 @@
 ---
 title: "Creating container components in Web Components and Angular"
-authors: [ kara_erickson, rachel_moore ]
+authors: [ kara_erickson, rachael_moore ]
 event: NGConf
 date: 2015-03-05
 image: creating-container-components-in-web-components-and-angular.jpg
@@ -12,7 +12,7 @@ Architecting your Angular application with reusable components can be complicate
 
 <!-- Excerpt -->
 
-Rachel & Kara explain how to create container components today in Angular 1.3 and also give a brief glimpse into what a solution will look like in the upcoming Angular 2.0 release.
+Rachael & Kara explain how to create container components today in Angular 1.3 and also give a brief glimpse into what a solution will look like in the upcoming Angular 2.0 release.
 
 ### Video
 

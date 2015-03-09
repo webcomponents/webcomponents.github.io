@@ -286,9 +286,9 @@ module.exports = {
         gplus: "+Polymer",
         twitter: "polymer"
     },
-    rachel_moore: {
-        name: "Rachel L Moore",
-        bio: "Rachel is a UI Engineer at OpenTable specializing in the implementation of enterprise-scale interfaces using HTML, CSS, and JavaScript.",
+    rachael_moore: {
+        name: "Rachael L Moore",
+        bio: "Rachael is a UI Engineer at OpenTable specializing in the implementation of enterprise-scale interfaces using HTML, CSS, and JavaScript.",
         image: "https://avatars2.githubusercontent.com/u/1043291?v=3&s=80",
         gplus: "114793307961902718846",
         twitter: "morewry"
