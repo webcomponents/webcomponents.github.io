@@ -22,6 +22,6 @@ Rachel & Kara explain how to create container components today in Angular 1.3 an
 
 ### Slides
 
-<a href="https://docs.google.com/presentation/d/1SZ05jFRF9Rfsrn39z5-vdyLbY37XZGEgQfZ1uIOaEEo/pub?start=false&amp;loop=false&amp;slide=id.g6326acee8_1314&slide=id.g6326acee8_1314">
-    <img src="../../img/stories/creating-container-components-in-web-components-and-angular-cover.jpg" alt="Presentation Cover">
-</a>
+<div class="iframe-wrap">
+    <iframe src="https://docs.google.com/presentation/embed?id=1SZ05jFRF9Rfsrn39z5-vdyLbY37XZGEgQfZ1uIOaEEo&amp;start=false&amp;loop=false&amp;"></iframe>
+</div>
