@@ -48,10 +48,12 @@
                 <div class="description" itemprop="text">
                     <%- @content %>
 
-                    <% if @document.link && @document.category != 'podcasts': %>
-                        <a class="read-more" href="<%= @document.link %>" target="_blank">Read More ></a>
-                    <% else: %>
-                        <a class="read-more" href="<%= @document.episode_link %>" target="_blank">Listen Now ></a>
+                    <% if @document.link: %>
+                        <% if @document.category == 'podcasts': %>
+                            <a class="read-more" href="<%= @document.link %>" target="_blank">Listen Now ></a>
+                        <% else: %>
+                            <a class="read-more" href="<%= @document.link %>" target="_blank">Read More ></a>
+                        <% end %>
                     <% end %>
                 </div>
             </section>
