@@ -237,6 +237,13 @@ module.exports = {
         gplus: "+joshuapeek",
         twitter: "joshpeek"
     },
+    kara_erickson: {
+        name: "Kara Erickson",
+        bio: "Kara is a Web Engineer at OpenTable where she builds Angular applications",
+        image: "https://avatars2.githubusercontent.com/u/3871688?v=3&s=80",
+        gplus: "",
+        twitter: "karaforthewin"
+    },
     levent_gurses: {
         name: "Levent Gurses",
         bio: "Levent is a mobile developer, speaker and community organizer. He codes in Swift/Objective-C, Java, and JavaScript on the MEAN stack.",
@@ -278,6 +285,13 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/2159051?s=80",
         gplus: "+Polymer",
         twitter: "polymer"
+    },
+    rachel_moore: {
+        name: "Rachel L Moore",
+        bio: "Rachael is a UI Engineer at OpenTable specializing in the implementation of enterprise-scale interfaces using HTML, CSS, and JavaScript",
+        image: "https://avatars2.githubusercontent.com/u/1043291?v=3&s=80",
+        gplus: "114793307961902718846",
+        twitter: "morewry"
     },
     raphael_rougeron: {
         name: "Raphaël Rougeron",
