@@ -1,7 +1,7 @@
 module.exports = {
     aaron_frost: {
         name: "Aaron Frost",
-        bio: "Aaron is an Angular Google Developer Expert, JavaScript Engineer at Domo, Inc., & Panelist on JavaScript Jabber",
+        bio: "Aaron is an Angular Google Developer Expert, JavaScript Engineer at Domo, Inc., & Panelist on JavaScript Jabber.",
         image: "https://avatars1.githubusercontent.com/u/662832?v=3&s=80",
         gplus: "+AaronFrost",
         twitter: "js_dev"
@@ -22,7 +22,7 @@ module.exports = {
     },
     aj_oneal: {
         name: "AJ O'Neal",
-        bio: "AJ is a full stack JavaScript developer & Panelist on JavaScript Jabber",
+        bio: "AJ is a full stack JavaScript developer & Panelist on JavaScript Jabber.",
         image: "https://avatars2.githubusercontent.com/u/122831?v=3&s=80",
         gplus: "+coolaj86",
         twitter: "coolaj86"
@@ -78,14 +78,14 @@ module.exports = {
     },
     bill_heaton: {
         name: "Bill Heaton",
-        bio: "Bill is a Senior UI Engineer at CrowdStrike who loves to build great applications with Ember.js",
+        bio: "Bill is a Senior UI Engineer at CrowdStrike who loves to build great applications with Ember.js.",
         image: "https://avatars2.githubusercontent.com/u/17178?v=3&s=80",
         gplus: "+BillHeaton",
         twitter: "pixelhandler"
     },
     carl_franklin: {
         name: "Carl Franklin",
-        bio: "Carl is a .NET developer and co-host of .NET Rocks",
+        bio: "Carl is a .NET developer and co-host of .NET Rocks.",
         image: "https://avatars2.githubusercontent.com/u/1486348?v=3&s=80",
         gplus: "100899542989822699152",
         twitter: "carlfranklin"
@@ -99,7 +99,7 @@ module.exports = {
     },
     chris_coyier:  {
         name: "Chris Coyier",
-        bio: "Chris is a Front End Developer, creator of CSS-Tricks & CodePen, and co-host of Shop Talk Show",
+        bio: "Chris is a Front End Developer, creator of CSS-Tricks & CodePen, and co-host of Shop Talk Show.",
         gravatar: "8081b26e05bb4354f7d65ffc34cbbd67",
         gplus: "+ChrisCoyier",
         twitter: "chriscoyier"
@@ -113,7 +113,7 @@ module.exports = {
     },
     charles_max_wood: {
         name: "Charles Max Wood",
-        bio: "Chuck is host of JavaScript Jabber & Adventures In Angular as well as several other popular developer podcasts. He is a freelance podcaster, programmer, & web entrepreneur",
+        bio: "Chuck is host of JavaScript Jabber & Adventures In Angular as well as several other popular developer podcasts. He is a freelance podcaster, programmer, & web entrepreneur.",
         image: "https://avatars0.githubusercontent.com/u/10699?v=3&s=80",
         gplus: "100618129919238239461",
         twitter: "cmaxw"
@@ -127,14 +127,14 @@ module.exports = {
     },
     christian_smith: {
         name: "Christian Smith",
-        bio: "Christian is an open source developer, startup enthusiast, and creator/maintainer of the Anvil Connect ID Server as well as a panelist on The Web Platform Podcast",
+        bio: "Christian is an open source developer, startup enthusiast, and creator/maintainer of the Anvil Connect ID Server as well as a panelist on The Web Platform Podcast.",
         image: "https://avatars2.githubusercontent.com/u/332377?v=3&s=80",
         gplus: "102960666917566201616",
         twitter: "anvilhacks"
     },
     cory_house: {
         name: "Cory House",
-        bio: "Cory is a full stack web application developer in the Kansas City area specializing in C#.Net and jQuery",
+        bio: "Cory is a full stack web application developer in the Kansas City area specializing in C#.Net and jQuery.",
         image: "https://avatars3.githubusercontent.com/u/1688997?v=3&s=80",
         gplus: "104997628038333365690",
         twitter: "housecor"
@@ -148,7 +148,7 @@ module.exports = {
     },
     danny_blue: {
         name: "Danny Blue",
-        bio: "Danny is a front end developer at Deloitte Digital, Web Components Enthusiast, and panelist on The Web Platform Podcast",
+        bio: "Danny is a front end developer at Deloitte Digital, Web Components Enthusiast, and panelist on The Web Platform Podcast.",
         image: "https://avatars2.githubusercontent.com/u/6563621?v=3&s=80",
         gplus: "+DannyBlueDesign",
         twitter: "dee_bloo"
@@ -162,7 +162,7 @@ module.exports = {
     },
     dave_rupert: {
         name: "Dave Rupert",
-        bio: "David is a lead developer at Paravel & co-host of Shop Talk Show",
+        bio: "David is a lead developer at Paravel & co-host of Shop Talk Show.",
         image: "https://avatars2.githubusercontent.com/u/42218?v=3&s=80",
         gplus: "+DaveRupert",
         twitter: "davatron5000"
@@ -190,7 +190,7 @@ module.exports = {
     },
     erik_isaksen: {
         name: "Erik Isaksen",
-        bio: "Erik is a Front End Developer, W3C HTML Invited Expert, Chrome HTML5 Google Developer Expert, and host of The Web Platform Podcast",
+        bio: "Erik is a Front End Developer, W3C HTML Invited Expert, Chrome HTML5 Google Developer Expert, and host of The Web Platform Podcast.",
         image: "https://avatars1.githubusercontent.com/u/647043?v=3&s=80",
         gplus: "+ErikIsaksen",
         twitter: "eisaksen"
@@ -211,7 +211,7 @@ module.exports = {
     },
     jen_simmons: {
         name: "Jen Simmons",
-        bio: "Jen is a professional designer and developer in the New York City area. She is host of The Web Ahead Podcast",
+        bio: "Jen is a professional designer and developer in the New York City area. She is host of The Web Ahead Podcast.",
         image: "https://avatars2.githubusercontent.com/u/108474?v=3&s=80",
         gplus: "+JenSimmons",
         twitter: "jensimmons"
@@ -225,7 +225,7 @@ module.exports = {
     },
     joe_eames: {
         name: "Joe Eames",
-        bio: "Joe is organizer of NG-Conf, front end developer, and panelist on JavaScript Jabber",
+        bio: "Joe is organizer of NG-Conf, front end developer, and panelist on JavaScript Jabber.",
         image: "https://avatars0.githubusercontent.com/u/1072285?v=3&s=80",
         gplus: "+JoeEames",
         twitter: "josepheames"
@@ -239,7 +239,7 @@ module.exports = {
     },
     kara_erickson: {
         name: "Kara Erickson",
-        bio: "Kara is a Web Engineer at OpenTable where she builds Angular applications",
+        bio: "Kara is a Web Engineer at OpenTable where she builds Angular applications.",
         image: "https://avatars2.githubusercontent.com/u/3871688?v=3&s=80",
         gplus: "",
         twitter: "karaforthewin"
@@ -288,14 +288,14 @@ module.exports = {
     },
     rachel_moore: {
         name: "Rachel L Moore",
-        bio: "Rachael is a UI Engineer at OpenTable specializing in the implementation of enterprise-scale interfaces using HTML, CSS, and JavaScript",
+        bio: "Rachel is a UI Engineer at OpenTable specializing in the implementation of enterprise-scale interfaces using HTML, CSS, and JavaScript.",
         image: "https://avatars2.githubusercontent.com/u/1043291?v=3&s=80",
         gplus: "114793307961902718846",
         twitter: "morewry"
     },
     raphael_rougeron: {
         name: "Raphaël Rougeron",
-        bio: "Raphael is creator of THe Bosonic Project, entrepreneur, and software engineer",
+        bio: "Raphael is creator of The Bosonic Project, entrepreneur, and software engineer.",
         image: "https://avatars0.githubusercontent.com/u/5461?v=3&s=80",
         gplus: "104100630884313767105",
         twitter: "goldoraf"
@@ -309,7 +309,7 @@ module.exports = {
     },
     richard_campbell: {
       name: "Richard Campbell",
-        bio: "Richard is a .NET developer and co-host of .NET Rocks",
+        bio: "Richard is a .NET developer and co-host of .NET Rocks.",
         image: "https://avatars1.githubusercontent.com/u/1779253?v=3&s=80",
         gplus: "+RichardCampbell_DotNetRocks",
         twitter: "richcampbell"
@@ -330,7 +330,7 @@ module.exports = {
     },
     steve_faulkner: {
         name: "Steve Faulkner",
-        bio: "Steve is Principal Accessibility Engineer at Paciello Group and Web Components Accessibility Expert",
+        bio: "Steve is Principal Accessibility Engineer at Paciello Group and Web Components Accessibility Expert.",
         image: "https://avatars1.githubusercontent.com/u/835859?v=3&s=80",
         gplus: "+SteveFaulkner",
         twitter: "stevefaulkner"
@@ -365,7 +365,7 @@ module.exports = {
     },
     matt_claypotch: {
         name: "Matt Claypotch",
-        bio: "Matt is a Mozilla Apps Engineer & lead on Mozilla Brick Project",
+        bio: "Matt is a Mozilla Apps Engineer & lead on Mozilla Brick Project.",
         gravatar: "0db077abb2bbaf54ca6de43f45976d11",
         twitter: "potch"
     },
