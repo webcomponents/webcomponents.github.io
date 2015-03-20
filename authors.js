@@ -55,6 +55,13 @@ module.exports = {
         gplus: "111975973972817482025",
         twitter: "sundress"
     },
+    andrea_giammarchi: {
+        name: "Andrea Giammarchi",
+        bio: "Andrea is a former JavaScript engineer at Nokia, Facebook, and Twitter.",
+        image: "https://avatars3.githubusercontent.com/u/85749?s=80",
+        gplus: "108461295186427019068",
+        twitter: "WebReflection"
+    },
     andrew_rota: {
         name: "Andrew Rota",
         bio: "Andrew is a front-end software engineer who specializes in building interactive HTML5 JavaScript web applications. He is currently a JavaScript Engineer at Wayfair in Boston.",
