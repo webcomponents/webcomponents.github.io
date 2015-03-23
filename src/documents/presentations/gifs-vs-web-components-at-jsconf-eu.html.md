@@ -2,8 +2,8 @@
 title: "GIFs vs Web Components"
 authors: [glen_maddern]
 event: JSConf EU
-date: 2015-09-14
-image: gifs-vs-web-components.png
+date: 2014-09-14
+image: gifs-vs-web-components-at-jsconf-eu.png
 category: presentations
 layout: single
 ---
@@ -15,11 +15,11 @@ This talk is about the reality of component-based web development, told through 
 ### Video
 
 <div class="iframe-wrap">
-	<iframe src="https://www.youtube.com/embed/i7mrZ_JsA8A" itemprop="video"></iframe>
+    <iframe src="https://www.youtube.com/embed/i7mrZ_JsA8A" itemprop="video"></iframe>
 </div>
 
 ### Slides
 
 <div class="iframe-wrap">
-	<iframe src="http://geelen.github.io/gifs-vs-web-components/"></iframe>
+    <iframe src="http://geelen.github.io/gifs-vs-web-components/"></iframe>
 </div>
