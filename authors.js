@@ -202,6 +202,13 @@ module.exports = {
         gplus: "+ErikIsaksen",
         twitter: "eisaksen"
     },
+    glen_maddern: {
+        name: "Glen Maddern",
+        bio: "Glen is an independent Web Developer from Melbourne, Australia.",
+        image: "https://avatars0.githubusercontent.com/u/23264?v=3&s=80",
+        gplus: "114824413646492828472",
+        twitter: "glenmaddern"
+    },
     jamison_dance: {
         name: "Jamison Dance",
         bio: "Jamison is a software engineer at Kuali Co. and panelist on JavaScript Jabber.",
