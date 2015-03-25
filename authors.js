@@ -174,6 +174,13 @@ module.exports = {
         gplus: "+DaveRupert",
         twitter: "davatron5000"
     },
+    denis_radin: {
+        name: "Denis Radin",
+        bio: "Denis is a front-end engineer with passion for experiments & performance optimization and a bit of an expert in interaction design",
+        image: "https://avatars3.githubusercontent.com/u/810671?v=3&s=80",
+        gplus: "102511038489977786689",
+        twitter: "pixelscommander"
+    },
     dimitri_glazkov: {
         name: "Dimitri Glazkov",
         bio: "Dimitri is a Software Engineer who works on Blink, currently focused on making Web Components a reality. As a former Web developer, he knows the pains of making Web applications not suck, and thus keeps on pushing the Web platform forward to make it more beautiful (and sane) to work with.",
@@ -278,6 +285,13 @@ module.exports = {
         gravatar: "69dc78b59ef008c58e6e842f9f3e0624",
         gplus: "100660544095714416357",
         twitter: "mbleigh"
+    },
+    nick_niemeir: {
+        name: "Nick Niemeir",
+        bio: "Nick is a JavaScript Agent Engineer at New Relic",
+        image: "https://avatars2.githubusercontent.com/u/357596?v=3&s=80",
+        gplus: "103683663813168059290",
+        twitter: "nickniemeir"
     },
     pascal_precht: {
         name: "Pascal Precht",
