@@ -52,6 +52,38 @@ hr {
     clear: both;
 }
 
+/* Table
+============================================================================= */
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+@media (max-width: 480px) {
+    table {
+        font-size:.9em
+    }
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
 /* Util
 ============================================================================= */
 
