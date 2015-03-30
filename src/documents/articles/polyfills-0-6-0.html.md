@@ -14,8 +14,6 @@ Exciting news - the 0.6.0 version of the `webcomponents.js` polyfills has been [
 
 This also marks about 6 months since the polyfills were moved from the Polymer organization over to WebComponents.org. Here are some stats comparing the Polymer/platform repository activity in the six months prior to the move (the precursor to webcomponents.js), to the WebComponents/webcomponentsjs repository in the six months since its creation:
 
----
-
 |                         | platform          |         webcomponentsjs  |
 |-------------------------|-----------------------------------------|-----------------------------------------------------|
 | Contributors            | 3                                       | 26                                                  |
