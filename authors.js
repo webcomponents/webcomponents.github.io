@@ -418,6 +418,13 @@ module.exports = {
         gplus: "107635555691483494328",
         twitter: "supersole"
     },
+    taylor_savage: {
+        name: "Taylor Savage",
+        bio: "Taylor is the Product Manager of the Polymer team at Google.",
+        gravatar: "6a69588f4ea38f9290095b767ff3a544",
+        gplus: "102882605910499670146",
+        twitter: "taylorthesavage"
+    },
     varunkumar_nagarajan: {
         name: "Varunkumar Nagarajan",
         bio: "Varunkumar is a software engineer by profession and a blogger by passion. He's a technology enthusiast and has four years of industry experience.",
