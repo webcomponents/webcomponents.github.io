@@ -1,5 +1,5 @@
 ---
-layout: events
+layout: home
 ---
 
 <div class="wrapper" itemscope itemtype="http://schema.org/CollectionPage">
@@ -17,7 +17,7 @@ layout: events
     </main>
 </div>
 
-<script type="text/template" id="card-event-template">
+<template id="card-event-template">
     <section class="card card-story card-event">
         <a class="story-image" href="{{url}}" target="_blank">
             <img src="{{image}}" alt="{{name}}">
@@ -35,4 +35,12 @@ layout: events
             <a class="read-more" href="{{url}}" target="_blank">Read More &gt;</a>
         </div>
     </section>
+</template>
+
+<script src="<%= @site.url %>/js/events.js"></script>
+
+<script>
+    window.addEventListener('load', function(){
+        new Events();
+    });
 </script>

@@ -23,7 +23,6 @@
 <script src="<%= @site.url %>/vendor/respond/respond.src.js"></script>
 <![endif]-->
 
-<script src="<%= @site.url %>/js/events.js"></script>
 <script src="<%= @site.url %>/js/main.js"></script>
 
 <!-- Inspectlet -->
