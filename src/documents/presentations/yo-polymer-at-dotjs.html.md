@@ -2,7 +2,8 @@
 title: "Yo Polymer: a new way of building web apps"
 authors: [addy_osmani]
 event: DotJS
-date: 2013-12-02
+date: 2014-01-27
+original_date: 2013-12-02
 image: yo-polymer-at-dotjs.jpg
 category: presentations
 layout: single

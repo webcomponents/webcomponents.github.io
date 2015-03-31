@@ -2,7 +2,8 @@
 title: "Making Polymer Elements Accessible"
 authors: [alice_boxhall]
 event: Google I/O
-date: 2014-06-24
+date: 2014-07-01
+original_date: 2014-06-24
 image: making-polymer-elements-accessible-at-io.jpg
 category: presentations
 layout: single

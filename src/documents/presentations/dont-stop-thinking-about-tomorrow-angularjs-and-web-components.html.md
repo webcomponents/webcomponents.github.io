@@ -2,7 +2,8 @@
 title: "Don't stop thinking about tomorrow - AngularJS and Web Components"
 authors: [pascal_precht, carmen_popoviciu]
 event: ngEurope
-date: 2014-10-22
+date: 2014-10-31
+original_date: 2014-10-22
 image: dont-stop-thinking-about-tomorrow.png
 category: presentations
 layout: single

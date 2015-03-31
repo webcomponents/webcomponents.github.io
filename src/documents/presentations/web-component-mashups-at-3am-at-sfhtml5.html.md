@@ -2,7 +2,8 @@
 title: "Web Component Mashups at 3 a.m"
 authors: [rob_dodson]
 event: SFHTML5
-date: 2014-04-30
+date: 2014-05-16
+original_date: 2014-04-30
 image: web-component-mashups-at-3am-at-sfhtml5.jpg
 category: presentations
 layout: single

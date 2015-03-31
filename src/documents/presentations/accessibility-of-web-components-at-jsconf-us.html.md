@@ -2,7 +2,8 @@
 title: "Accessibility of Web Components"
 authors: [marcy_sutton]
 event: JSConf US
-date: 2014-05-30
+date: 2014-07-03
+original_date: 2014-05-30
 image: accessibility-of-web-components-at-jsconf-us.jpg
 category: presentations
 layout: single

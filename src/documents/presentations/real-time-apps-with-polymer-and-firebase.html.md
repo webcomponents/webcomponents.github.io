@@ -2,7 +2,8 @@
 title: "Real-Time Apps with Polymer and Firebase"
 authors: [michael_bleigh]
 event: Web Components LA Meetup
-date: 2014-11-12
+date: 2015-01-13
+original_date: 2014-11-12
 image: real-time-apps-with-polymer-and-firebase.png
 category: presentations
 layout: single

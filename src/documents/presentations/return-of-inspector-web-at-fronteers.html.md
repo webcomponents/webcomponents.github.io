@@ -2,7 +2,8 @@
 title: "Return of Inspector Web: Web Components a year later"
 authors: [angelina_fabbro]
 event: Fronteers
-date: 2013-10-11
+date: 2014-03-13
+original_date: 2013-10-11
 image: return-of-inspector-web-at-fronteers.jpg
 category: presentations
 layout: single

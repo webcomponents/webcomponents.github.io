@@ -2,7 +2,8 @@
 title: "Componentize The Web: Back To The Browser!"
 authors: [addy_osmani]
 event: LXJS
-date: 2014-06-28
+date: 2014-06-30
+original_date: 2014-06-28
 image: componentize-the-web-back-to-the-browser-at-lxjs.jpg
 category: presentations
 layout: single

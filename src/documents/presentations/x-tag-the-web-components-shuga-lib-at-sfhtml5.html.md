@@ -2,7 +2,8 @@
 title: "X-Tag: The Web Components shuga lib!"
 authors: [daniel_buchner]
 event: SFHTML5
-date: 2014-04-30
+date: 2014-05-15
+original_date: 2014-04-30
 image: x-tag-the-web-components-shuga-lib-at-sfhtml5.jpg
 category: presentations
 layout: single

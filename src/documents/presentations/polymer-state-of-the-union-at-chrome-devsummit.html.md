@@ -2,7 +2,8 @@
 title: "Polymer: State of the Union"
 authors: [matt_mcnulty]
 event: Chrome Dev Summit
-date: 2014-11-19
+date: 2014-12-04
+original_date: 2014-11-19
 image: polymer-state-of-the-union-at-chrome-devsummit.jpg
 category: presentations
 layout: single

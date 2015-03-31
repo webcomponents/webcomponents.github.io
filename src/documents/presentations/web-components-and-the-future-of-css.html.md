@@ -2,7 +2,8 @@
 title: "Web Components and the Future of CSS"
 authors: [philip_walton]
 event: SFHTML5
-date: 2014-11-24
+date: 2014-12-13
+original_date: 2014-11-24
 image: web-components-and-the-future-of-css.png
 category: presentations
 layout: single

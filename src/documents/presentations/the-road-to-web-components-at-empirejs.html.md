@@ -2,7 +2,8 @@
 title: "The Road to Web Components"
 authors: [tom_dale]
 event: SFHTML5
-date: 2014-05-05
+date: 2014-05-23
+original_date: 2014-05-05
 image: the-road-to-web-components-at-empirejs.jpg
 category: presentations
 layout: single

@@ -2,7 +2,8 @@
 title: "The Web Platform's Cutting Edge"
 authors: [alex_komoroske, dimitri_glazkov]
 event: Google I/O
-date: 2012-06-27
+date: 2014-01-22
+original_date: 2012-06-27
 image: the-web-platform-cutting-edge-at-google-io.jpg
 category: presentations
 layout: single

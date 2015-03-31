@@ -2,7 +2,8 @@
 title: Web Components 201: Designing Web Components for Reuse
 authors: [jan_miksovsky]
 event: Polytechnic Seattle
-date: 2014-11-15
+date: 2014-11-17
+original_date: 2014-11-15
 category: presentations
 layout: single
 ---

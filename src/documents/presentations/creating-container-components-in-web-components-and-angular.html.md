@@ -1,8 +1,9 @@
 ---
 title: "Creating container components in Web Components and Angular"
-authors: [ kara_erickson, rachael_moore ]
+authors: [kara_erickson, rachael_moore]
 event: NGConf
-date: 2015-03-05
+date: 2015-03-09
+original_date: 2015-03-05
 image: creating-container-components-in-web-components-and-angular.jpg
 category: presentations
 layout: single

@@ -2,7 +2,8 @@
 title: "Web Components: a new way of building web apps"
 authors: [eric_bidelman]
 event: BDConf
-date: 2013-07-23
+date: 2014-01-22
+original_date: 2013-07-23
 image: web-components-a-new-way-of-building-web-apps-at-bdconf.jpg
 category: presentations
 layout: single

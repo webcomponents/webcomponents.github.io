@@ -2,7 +2,8 @@
 title: "Web Components Can Do That?!"
 authors: [addy_osmani]
 event: Fitc Toronto
-date: 2014-04-28
+date: 2014-05-15
+original_date: 2014-04-28
 image: web-components-can-do-that-at-fitc.jpg
 category: presentations
 layout: single

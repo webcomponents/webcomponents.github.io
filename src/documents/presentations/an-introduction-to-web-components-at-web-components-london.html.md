@@ -2,7 +2,8 @@
 title: "An Introduction to Web Components"
 authors: [soledad_penades]
 event: Web Components London
-date: 2015-01-13
+date: 2015-02-13
+original_date: 2015-01-13
 image: an-introduction-to-web-components-at-web-components-london.jpg
 category: presentations
 layout: single

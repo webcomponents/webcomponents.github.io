@@ -2,7 +2,8 @@
 title: "Complementarity of React and Web Components"
 authors: [andrew_rota]
 event: React.js Conf
-date: 2015-01-29
+date: 2015-02-09
+original_date: 2015-01-29
 image: complementarity-of-react-and-web-components-at-reactjs-conf.jpg
 category: presentations
 layout: single

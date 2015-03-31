@@ -2,7 +2,8 @@
 title: "Polymer and Web Components change everything you know about Web development"
 authors: [eric_bidelman]
 event: Google I/O
-date: 2014-06-24
+date: 2014-06-28
+original_date: 2014-06-24
 image: polymer-and-web-components-change-everything-you-know-about-web-development-at-io.jpg
 category: presentations
 layout: single

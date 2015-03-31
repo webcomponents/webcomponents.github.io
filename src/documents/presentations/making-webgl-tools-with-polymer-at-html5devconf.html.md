@@ -2,7 +2,8 @@
 title: "Making WebGL tools with Polymer"
 authors: [aki_rodic]
 event: HTML5 Dev Conf
-date: 2014-10-21
+date: 2015-01-09
+original_date: 2014-10-21
 image: making-webgl-tools-with-polymer-at-html5devconf.jpg
 category: presentations
 layout: single

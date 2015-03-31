@@ -2,7 +2,8 @@
 title: "Future CSS in Web Components"
 authors: [peter_gasston]
 event: CSSConf.eu
-date: 2013-09-13
+date: 2015-01-22
+original_date: 2013-09-13
 image: future-css-in-web-components-at-css-conf.jpg
 category: presentations
 layout: single

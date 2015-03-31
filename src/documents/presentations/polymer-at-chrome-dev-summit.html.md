@@ -2,7 +2,8 @@
 title: "Polymer: declarative, encapsulated, and reusable components for the web"
 authors: [eric_bidelman]
 event: Chrome Dev Summit
-date: 2013-12-04
+date: 2014-01-22
+original_date: 2013-12-04
 image: polymer-at-chrome-dev-summit.jpg
 category: presentations
 layout: single

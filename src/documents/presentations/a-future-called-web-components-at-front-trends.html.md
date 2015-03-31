@@ -2,7 +2,8 @@
 title: "A future called Web Components"
 authors: [zeno_rocha]
 event: Front Trends
-date: 2014-05-09
+date: 2014-06-28
+original_date: 2014-05-09
 image: a-future-called-web-components-at-front-trends.jpg
 category: presentations
 layout: single

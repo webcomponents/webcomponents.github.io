@@ -2,7 +2,8 @@
 title: "Multi-device apps with Web Components"
 authors: [rob_dodson]
 event: jQuery Conference
-date: 2014-09-13
+date: 2014-09-20
+original_date: 2014-09-13
 image: multi-device-apps-with-web-components-at-jqcon.jpg
 category: presentations
 layout: single

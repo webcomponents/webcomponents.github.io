@@ -2,7 +2,8 @@
 title: "Unlock the next era of UI development with Polymer"
 authors: [rob_dodson]
 event: Google I/O
-date: 2014-06-24
+date: 2014-06-28
+original_date: 2014-06-24
 image: unlock-the-next-era-of-ui-development-with-polymer-at-io.jpg
 category: presentations
 layout: single

@@ -2,7 +2,8 @@
 title: "GIFs vs Web Components"
 authors: [glen_maddern]
 event: JSConf EU
-date: 2014-09-14
+date: 2015-03-22
+original_date: 2014-09-14
 image: gifs-vs-web-components-at-jsconf-eu.png
 category: presentations
 layout: single

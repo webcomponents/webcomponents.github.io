@@ -2,7 +2,8 @@
 title: "Web Components + Backbone: A Game-Changing Combination"
 authors: [andrew_rota]
 event: Backbone Conf
-date: 2014-12-15
+date: 2014-12-18
+original_date: 2014-12-15
 image: webcomponents-plus-backbone-a-game-changing-combination-at-backbone-conf.jpg
 category: presentations
 layout: single

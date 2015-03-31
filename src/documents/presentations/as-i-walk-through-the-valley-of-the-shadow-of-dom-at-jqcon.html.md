@@ -2,7 +2,8 @@
 title: "As I Walk Through The Valley Of The Shadow Of DOM"
 authors: [dave_arel]
 event: jQuery Conference
-date: 2014-09-12
+date: 2014-09-20
+original_date: 2014-09-12
 image: as-i-walk-through-the-valley-of-the-shadow-of-dom-at-jqcon.jpg
 category: presentations
 layout: single

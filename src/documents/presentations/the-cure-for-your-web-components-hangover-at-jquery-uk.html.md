@@ -2,7 +2,8 @@
 title: "The cure for your Web Components hangover"
 authors: [soledad_penades]
 event: jQuery UK
-date: 2015-03-06
+date: 2015-03-20
+original_date: 2015-03-06
 image: the-cure-for-your-web-components-hangover-at-jquery-uk.jpg
 category: presentations
 layout: single

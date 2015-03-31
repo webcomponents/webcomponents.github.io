@@ -2,7 +2,8 @@
 title: "Web Components: Getting Started"
 authors: [peter_gasston]
 event: State of the Browser
-date: 2013-04-13
+date: 2014-01-22
+original_date: 2013-04-13
 image: web-components-getting-started-at-state-of-the-browser.jpg
 category: presentations
 layout: single

@@ -2,7 +2,8 @@
 title: "Server-less applications powered by Web Components"
 authors: [seb_cevey]
 event: JSConf EU
-date: 2014-09-14
+date: 2015-01-01
+original_date: 2014-09-14
 category: presentations
 layout: single
 tags: ['Polymer', 'Custom Elements', 'Data-binding', 'Composition']

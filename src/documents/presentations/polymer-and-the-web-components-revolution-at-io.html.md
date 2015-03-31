@@ -2,7 +2,8 @@
 title: "Polymer and the Web Components revolution"
 authors: [matt_mcnulty]
 event: Google I/O
-date: 2014-06-24
+date: 2014-06-28
+original_date: 2014-06-24
 image: polymer-and-the-web-components-revolution-at-io.jpg
 category: presentations
 layout: single

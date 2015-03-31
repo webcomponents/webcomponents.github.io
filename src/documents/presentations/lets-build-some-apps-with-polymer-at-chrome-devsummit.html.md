@@ -2,7 +2,8 @@
 title: "Let’s build some apps with Polymer!"
 authors: [rob_dodson]
 event: Chrome Dev Summit
-date: 2014-11-19
+date: 2014-12-04
+original_date: 2014-11-19
 image: lets-build-some-apps-with-polymer-at-chrome-devsummit.jpg
 category: presentations
 layout: single

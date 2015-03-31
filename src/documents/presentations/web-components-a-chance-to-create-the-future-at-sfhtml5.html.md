@@ -2,7 +2,8 @@
 title: "Web Components: a chance to create the future"
 authors: [zeno_rocha]
 event: SFHTML5
-date: 2014-04-30
+date: 2014-05-15
+original_date: 2014-04-30
 image: web-components-a-chance-to-create-the-future-at-sfhtml5.jpg
 category: presentations
 layout: single

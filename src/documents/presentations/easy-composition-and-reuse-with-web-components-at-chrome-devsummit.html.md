@@ -2,7 +2,8 @@
 title: "Easy composition and reuse with Web Components"
 authors: [dimitri_glazkov]
 event: Chrome Dev Summit
-date: 2014-11-19
+date: 2014-12-04
+original_date: 2014-11-19
 image: easy-composition-and-reuse-with-web-components-at-chrome-devsummit.jpg
 category: presentations
 layout: single
