@@ -1,7 +1,8 @@
 ---
 title: Web Components and you – dangers to avoid
 authors: [christian_heilmann]
-date: 2014-04-14
+date: 2014-04-25
+original_date: 2014-04-14
 link: http://christianheilmann.com/2014/04/18/web-components-and-you-dangers-to-avoid/
 category: articles
 layout: single

@@ -2,6 +2,7 @@
 title: Accessibility and the Shadow DOM
 authors: [marcy_sutton]
 date: 2014-02-05
+original_date: 2014-02-05
 link: http://substantial.com/blog/2014/02/05/accessibility-and-the-shadow-dom/
 category: articles
 layout: single

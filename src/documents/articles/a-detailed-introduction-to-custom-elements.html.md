@@ -1,7 +1,8 @@
 ---
 title: A Detailed Introduction To Custom Elements
 authors: [peter_gasston]
-date: 2014-03-04
+date: 2014-03-12
+original_date: 2014-03-04
 link: http://coding.smashingmagazine.com/2014/03/04/introduction-to-custom-elements/
 category: articles
 layout: single

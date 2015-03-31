@@ -1,7 +1,8 @@
 ---
 title: Shadow DOM: The Basics
 authors: [rob_dodson]
-date: 2013-08-27
+date: 2014-01-19
+original_date: 2013-08-27
 link: http://robdodson.me/blog/2013/08/27/shadow-dom-the-basics/
 category: articles
 layout: single

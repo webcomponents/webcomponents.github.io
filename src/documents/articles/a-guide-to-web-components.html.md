@@ -1,7 +1,8 @@
 ---
 title: A Guide to Web Components
 authors: [rob_dodson]
-date: 2013-11-11
+date: 2014-01-19
+original_date: 2013-11-11
 link: http://css-tricks.com/modular-future-web-components/
 category: articles
 layout: single

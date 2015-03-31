@@ -1,7 +1,8 @@
 ---
 title: Accessible Web Components - Part 1
 authors: [addy_osmani, alice_boxhall]
-date: 2014-04-02
+date: 2014-05-14
+original_date: 2014-04-02
 link: http://www.polymer-project.org/articles/accessible-web-components.html
 category: articles
 layout: single

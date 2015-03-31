@@ -1,7 +1,8 @@
 ---
 title: Creating a Polymer Chat App with Material Design
 authors: [tomomi_imura]
-date: 2015-01-15
+date: 2015-02-14
+original_date: 2015-01-15
 link: http://www.pubnub.com/blog/creating-a-polymer-chat-app-with-material-design/
 category: articles
 layout: single

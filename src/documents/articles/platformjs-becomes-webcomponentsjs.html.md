@@ -1,7 +1,8 @@
 ---
 title: platform.js ⇒ webcomponents.js
 authors: [polymer]
-date: 2014-10-16
+date: 2014-10-20
+original_date: 2014-10-16
 link: https://blog.polymer-project.org/announcements/2014/10/16/platform-becomes-webcomponents/
 category: articles
 layout: single

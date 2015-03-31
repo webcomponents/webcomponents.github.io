@@ -1,7 +1,8 @@
 ---
 title: Mozilla and Web Components: Update
 authors: [anne_van_kesteren]
-date: 2014-12-15
+date: 2014-12-18
+original_date: 2014-12-15
 link: https://hacks.mozilla.org/2014/12/mozilla-and-web-components/
 category: articles
 layout: single

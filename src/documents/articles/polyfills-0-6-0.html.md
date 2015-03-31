@@ -1,7 +1,8 @@
 ---
 title:  webcomponents.js 0.6.0 release
 authors: [taylor_savage]
-date:   2015-03-27
+date: 2015-03-27
+original_date: 2015-03-27
 category: articles
 layout: single
 tags: ['HTML Imports', 'Custom Elements', 'Shadow DOM', 'Template', 'Polyfills']

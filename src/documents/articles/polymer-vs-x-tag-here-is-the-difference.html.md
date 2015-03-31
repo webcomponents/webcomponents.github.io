@@ -2,6 +2,7 @@
 title: Polymer vs. X-Tag - Here's the difference
 authors: [pascal_precht]
 date: 2014-07-29
+original_date: 2014-07-29
 link: http://pascalprecht.github.io/2014/07/21/polymer-vs-x-tag-here-is-the-difference/
 category: articles
 layout: single

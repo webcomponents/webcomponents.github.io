@@ -2,6 +2,7 @@
 title: Ten Principles for Great General-Purpose Web Components
 authors: [jan_miksovsky]
 date: 2014-06-13
+original_date: 2014-06-10
 link: https://github.com/basic-web-components/components-dev/wiki/Ten-Principles-for-Great-General-Purpose-Web-Components
 category: articles
 layout: single

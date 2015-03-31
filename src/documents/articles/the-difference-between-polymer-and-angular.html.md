@@ -1,7 +1,8 @@
 ---
 title: Here's the difference between Polymer and Angular
 authors: [alex_mingoia]
-date: 2014-06-24
+date: 2014-07-08
+original_date: 2014-06-24
 link: http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/
 category: articles
 layout: single

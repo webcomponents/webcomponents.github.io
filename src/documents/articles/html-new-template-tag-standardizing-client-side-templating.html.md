@@ -1,7 +1,8 @@
 ---
 title: HTML's New Template Tag: standardizing client-side templating
 authors: [eric_bidelman]
-date: 2013-02-26
+date: 2014-01-19
+original_date: 2013-02-26
 link: http://www.html5rocks.com/en/tutorials/webcomponents/template/
 category: articles
 layout: single

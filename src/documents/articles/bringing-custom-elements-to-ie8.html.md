@@ -2,6 +2,7 @@
 title: Bringing Custom Elements to IE8
 authors: [andrea_giammarchi]
 date: 2015-03-20
+original_date: 2015-03-20
 link: http://webreflection.blogspot.com.br/2015/03/bringing-custom-elements-to-ie8.html
 category: articles
 layout: single

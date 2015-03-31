@@ -2,6 +2,7 @@
 title: Polymer 0.8 Sneak Peek
 authors: [michael_bleigh]
 date: 2015-02-23
+original_date: 2015-02-23
 link: https://divshot.com/blog/web-components/polymer-0-8-sneak-peek/
 category: articles
 layout: single

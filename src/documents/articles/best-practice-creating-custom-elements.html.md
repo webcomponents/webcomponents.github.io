@@ -1,7 +1,8 @@
 ---
 title: Best Practice for Creating Custom Elements
 authors: [peter_gasston]
-date: 2015-01-27
+date: 2015-02-16
+original_date: 2015-01-27
 link: http://www.broken-links.com/2015/01/27/best-practice-creating-custom-elements/
 category: articles
 layout: single

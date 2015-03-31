@@ -1,7 +1,8 @@
 ---
 title: Polymer Web Components with Marionette.js
 authors: [jeremy_fairbank]
-date: 2015-01-03
+date: 2015-01-09
+original_date: 2015-01-03
 link: http://blog.jeremyfairbank.com/javascript/polymer-web-components-with-marionette-js/
 category: articles
 layout: single

@@ -1,7 +1,8 @@
 ---
 title: Sharing styles across Web Components with Polymer and core-style
 authors: [pascal_precht]
-date: 2014-08-01
+date: 2014-09-30
+original_date: 2014-08-01
 link: http://pascalprecht.github.io/2014/08/01/sharing-styles-across-web-components-with-polymer-and-core-style/
 category: articles
 layout: single
