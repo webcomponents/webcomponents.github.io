@@ -2,6 +2,7 @@
 title: How should I name my element?
 authors: [zeno_rocha]
 date: 2014-04-28
+original_date: 2014-04-28
 image: how-should-i-name-my-element.jpg
 category: articles
 layout: single

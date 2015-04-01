@@ -2,6 +2,7 @@
 title: Introduction to Custom Elements
 authors: [agektmr]
 date: 2014-11-24
+original_date: 2014-11-24
 image: devbytes-customelements.png
 category: articles
 layout: single

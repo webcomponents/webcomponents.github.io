@@ -2,6 +2,7 @@
 title: How GitHub is using Web Components in production
 authors: [joshua_peek]
 date: 2014-09-30
+original_date: 2014-09-30
 image: interview-with-joshua-peek.jpg
 category: articles
 layout: single

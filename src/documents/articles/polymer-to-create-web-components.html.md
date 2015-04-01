@@ -2,7 +2,7 @@
 title: Using Polymer to Create Web Components
 authors: [rey_bango]
 date: 2014-03-31
-publish_date: 2014-03-31
+original_date: 2014-03-31
 link: http://code.tutsplus.com/tutorials/using-polymer-to-create-web-components--cms-20475
 category: articles
 layout: single

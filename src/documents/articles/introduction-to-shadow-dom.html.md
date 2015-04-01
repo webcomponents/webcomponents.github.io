@@ -2,6 +2,7 @@
 title: Introduction to Shadow DOM
 authors: [agektmr]
 date: 2014-10-30
+original_date: 2014-10-30
 image: devbytes-shadowdom.png
 category: articles
 layout: single

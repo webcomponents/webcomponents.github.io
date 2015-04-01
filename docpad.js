@@ -272,7 +272,7 @@ module.exports = {
     plugins: {
         moment: {
             formats: [
-                { raw: "date", format: "MMMM Do, YYYY", formatted: "humanDate" }
+                { raw: "original_date", format: "MMMM Do, YYYY", formatted: "humanDate" }
             ]
         },
         grunt: {

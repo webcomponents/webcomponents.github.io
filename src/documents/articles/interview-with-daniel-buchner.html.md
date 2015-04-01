@@ -2,6 +2,7 @@
 title: What's next for X-Tag project
 authors: [daniel_buchner]
 date: 2014-12-02
+original_date: 2014-12-02
 image: interview-with-daniel-buchner.jpg
 category: articles
 layout: single

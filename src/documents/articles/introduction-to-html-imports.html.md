@@ -2,6 +2,7 @@
 title: Introduction to HTML Imports
 authors: [agektmr]
 date: 2015-01-05
+original_date: 2015-01-05
 image: devbytes-htmlimports.png
 category: articles
 layout: single

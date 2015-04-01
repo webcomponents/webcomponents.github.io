@@ -2,6 +2,7 @@
 title: Introduction to the template elements
 authors: [agektmr]
 date: 2014-10-07
+original_date: 2014-10-07
 image: devbytes-template.png
 category: articles
 layout: single

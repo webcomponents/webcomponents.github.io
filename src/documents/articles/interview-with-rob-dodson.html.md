@@ -2,6 +2,7 @@
 title: The Journey to Web Components
 authors: [rob_dodson]
 date: 2014-10-31
+original_date: 2014-10-31
 image: interview-with-rob-dodson.jpg
 category: articles
 layout: single
