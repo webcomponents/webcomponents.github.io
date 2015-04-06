@@ -1,7 +1,0 @@
-{
-    "private": true,
-    "name": "webcomponents.org",
-    "dependencies": {
-        "respond": "~1.3.0"
-    }
-}

@@ -67,10 +67,6 @@
     </div>
 </footer>
 
-<!--[if lt IE 9]>
-<script src="<%= @site.url %>/vendor/respond/respond.src.js"></script>
-<![endif]-->
-
 <script src="<%= @site.url %>/js/main.js"></script>
 
 <!-- Inspectlet -->

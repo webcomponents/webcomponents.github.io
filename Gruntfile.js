@@ -1,14 +1,5 @@
 module.exports = function(grunt) {
     grunt.initConfig({
-        bower: {
-            install: {
-                options: {
-                    targetDir: 'src/files/vendor',
-                    cleanBowerDir: true
-                }
-            }
-        },
-
         clean: {
             dist: [
                 'out/browser-support',
