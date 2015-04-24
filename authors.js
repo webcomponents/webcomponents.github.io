@@ -90,6 +90,13 @@ module.exports = {
         gplus: "+BillHeaton",
         twitter: "pixelhandler"
     },
+    bruce_lawson: {
+        name: "Bruce Lawson",
+        bio: "Bruce is co-author of Introducing HTML5 and Opera employee.",
+        image: "https://avatars0.githubusercontent.com/u/378048?v=3&s=80",
+        gplus: "100920685204416042547",
+        twitter: "brucel"
+    },
     carl_franklin: {
         name: "Carl Franklin",
         bio: "Carl is a .NET developer and co-host of .NET Rocks.",
