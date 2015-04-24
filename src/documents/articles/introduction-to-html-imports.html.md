@@ -6,7 +6,7 @@ original_date: 2015-01-05
 image: devbytes-htmlimports.png
 category: articles
 layout: single
-tags: ['HTML Imports', 'Custom Elements', 'Shadow DOM', 'Template']
+tags: ['Introduction', 'HTML Imports', 'Custom Elements', 'Shadow DOM', 'Template']
 ---
 
 [Template](http://webcomponents.org/articles/introduction-to-template-element), [Shadow DOM](http://webcomponents.org/articles/introduction-to-shadow-dom), and [Custom Elements](http://webcomponents.org/articles/introduction-to-custom-elements) enable you to build UI components easier than before. But it's not efficient to load each resources such as HTML, CSS and JavaScript separately.

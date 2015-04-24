@@ -6,7 +6,7 @@ original_date: 2014-11-24
 image: devbytes-customelements.png
 category: articles
 layout: single
-tags: ['Custom Elements', 'Shadow DOM', 'Template']
+tags: ['Introduction', 'Custom Elements', 'Shadow DOM', 'Template']
 ---
 
 HTML is the most important factor for the web platform. It provides various low
