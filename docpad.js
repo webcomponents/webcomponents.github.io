@@ -25,25 +25,23 @@ module.exports = {
         ===================================================================== */
 
         getAuthor: function(author) {
-            if (author) {
+            if (author)
                 return this.authors[author];
-            }
 
             return this.authors["community"];
         },
 
         getAuthorImage: function(author) {
-            if (this.authors[author].gravatar) {
+            if (this.authors[author].gravatar)
                 return "https://2.gravatar.com/avatar/" + this.authors[author].gravatar;
-            }
 
             return this.authors[author].image;
         },
 
         getAuthorGooglePlus: function(author) {
-            if(!"glpus" in this.authors[author]) {
+            if(!"glpus" in this.authors[author])
                 return "https://plus.google.com/";
-            }
+
             return "https://plus.google.com/" + this.authors[author].gplus + "/";
         },
 
@@ -64,29 +62,25 @@ module.exports = {
                 tag: tag
             });
 
-            if (page != null) {
+            if (page != null)
                 return page.get("url");
-            }
 
             return "";
         },
 
         getTitle: function() {
-            if (this.document.title) {
+            if (this.document.title)
                 return "" + this.document.title + " — " + this.site.title;
-            }
 
             return "" + this.site.title;
         },
 
         getDescription: function() {
-            if (this.document.layout === "single") {
+            if (this.document.layout === "single")
                 return this.getExcerpt(this.document.content);
-            }
 
-            if (this.document.description) {
+            if (this.document.description)
                 return this.document.description;
-            }
 
             return this.site.description;
         },
@@ -95,17 +89,15 @@ module.exports = {
             var content = String(item);
             var i = content.search("<!-- Excerpt -->");
 
-            if (i >= 0) {
+            if (i >= 0)
                 return content.slice(0, (i - 1));
-            }
 
             return content;
         },
 
         getImage: function() {
-            if (this.document.image) {
+            if (this.document.image)
                 return "" + this.site.url + "/img/stories/" + this.document.image;
-            }
 
             return this.site.image;
         },
@@ -130,17 +122,15 @@ module.exports = {
                 return item.sticky === true;
             });
 
-            if(arraySticky.length > 0){
+            if (arraySticky.length > 0)
                 return arraySticky.slice(0, 1);
-            }
 
             return collection.slice(0, 1);
         },
 
         isActiveMenu: function(path) {
-            if (path === this.document.relativeDirPath) {
+            if (path === this.document.relativeDirPath)
                 return true;
-            }
 
             return;
         },
@@ -153,9 +143,8 @@ module.exports = {
                 documentsOdd = [],
                 i = 0;
 
-            if (!Array.isArray(documentsList)) {
+            if (!Array.isArray(documentsList))
                 return documentsList;
-            }
 
             for (; i < documentsList.length; i++) {
                 if (i%2 === 0) {
