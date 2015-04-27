@@ -6,7 +6,7 @@ original_date: 2014-10-30
 image: devbytes-shadowdom.png
 category: articles
 layout: single
-tags: ['Shadow DOM', 'Template']
+tags: ['Introduction', 'Shadow DOM', 'Template']
 ---
 Shadow DOM is an emerging web standard that gives developers access to style and
 DOM scoping. Learn how to use it on your own website.

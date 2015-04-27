@@ -6,7 +6,7 @@ original_date: 2014-10-07
 image: devbytes-template.png
 category: articles
 layout: single
-tags: ['Template']
+tags: ['Introduction', 'Template']
 ---
 
 Templates allow teams to divide their work, allowing designers to focus on views
