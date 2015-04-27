@@ -1,8 +1,9 @@
 ---
 title: Why Web Components?
 authors: [zeno_rocha, addy_osmani]
-date: 2015-04-16
-original_date: 2015-04-16
+date: 2015-04-27
+original_date: 2015-04-27
+image: why-web-components.jpg
 category: articles
 layout: single
 tags: ['Introduction']
@@ -45,6 +46,6 @@ That means we can finally fill any gaps in the platform in a meaningful way. Whi
 
 We hope this brief guide inspires you to learn more about Web Components and forth experimenting with your own custom elements.
 
-If you want learn more you're in the right place, start taking a deep dive into our [introductory articles](/tags/introduction) or go right to the [presentations](/presentations).
+If you want learn more you're in the right place, start taking a deep dive into our [introductory articles](/tags/introduction) or check it out this [overview video](https://www.youtube.com/watch?v=T5y_lmLngAk).
 
 &lt;have-fun&gt; :)
