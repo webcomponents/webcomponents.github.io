@@ -216,6 +216,13 @@ module.exports = {
         gplus: "+ErikIsaksen",
         twitter: "eisaksen"
     },
+    ewa_gasperowicz: {
+        name: "Ewa Gasperowicz",
+        bio: "Ewa is a Developer Programs Engineer at Google.",
+        image: "https://avatars0.githubusercontent.com/u/1914261?v=3&s=80",
+        gplus: "+EwaGasperowicz",
+        twitter: "devnook"
+    },
     glen_maddern: {
         name: "Glen Maddern",
         bio: "Glen is an independent Web Developer from Melbourne, Australia.",
