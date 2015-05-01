@@ -418,6 +418,13 @@ module.exports = {
         gplus: "104160914042867187276",
         twitter: "mattsmcnulty"
     },
+    phil_leggetter: {
+        name: "Phil Leggetter",
+        bio: "Phil is Head of Developer Evangelism at Pusher. He frequently writes articles and give talks on realtime web technologies and general web technology.",
+        image: "https://avatars2.githubusercontent.com/u/328367?s=80",
+        gplus: "+PhilLeggetter",
+        twitter: "leggetter"
+    },
     philip_walton: {
         name: "Philip Walton",
         bio: "Philip is an engineer at Google, web standards enthusiast, open source advocate, developer, designer, writer.",
