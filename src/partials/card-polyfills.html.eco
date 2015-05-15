@@ -12,10 +12,10 @@
       <code>npm install webcomponents.js</code>
       </p>
         <p>
-          <a href="https://github.com/webcomponents/webcomponentsjs/archive/v0.6.1.zip" class="card-download-button" onclick="_gaq.push(['_trackEvent', 'Downloads', 'webcomponents.js', 'v0.6.1']);">
+          <a href="https://github.com/webcomponents/webcomponentsjs/archive/v0.7.0.zip" class="card-download-button" onclick="_gaq.push(['_trackEvent', 'Downloads', 'webcomponents.js', 'v0.7.0']);">
             Download webcomponents.js
           </a>
-          <span class="filesize">0.6.1 (116KB minified, 34KB gzipped)</span>
+          <span class="filesize">0.7.0 (116KB minified, 34KB gzipped)</span>
         </p>
       </p>
     </div>
