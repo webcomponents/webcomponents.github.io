@@ -202,6 +202,13 @@ module.exports = {
         gplus: "+DominicCooney",
         twitter: "coonsta"
     },
+    emily_lewis: {
+        name: "Emily Lewis",
+        bio: "owner of and lead developer for Bright Umbrella.",
+        gravatar: "c8f68a50708844053b927806ba4e9753",
+        gplus: "+EmilyLewis",
+        twitter: "emilylewis"
+},
     eric_bidelman: {
         name: "Eric Bidelman",
         bio: "Eric is a Staff Developer Programs Engineer on the Google Chrome team. His current passion is web components and Polymer. Eric is the author of 'Using the HTML5 Filesystem API' and regularly contributes to html5rocks.com and other open source projects. Prior to Google, Eric worked as a software engineer at the University of Michigan where he designed rich web applications and APIs for the university’s 19 libraries.",
@@ -265,6 +272,13 @@ module.exports = {
         gplus: "+JoeEames",
         twitter: "josepheames"
     },
+    john_rogerson: {
+        name: "John Rogerson",
+        bio: "John is a professional Web Developer and Lead Design Technologist at GE Electric",
+        image: "https://avatars1.githubusercontent.com/u/154399?v=3&s=80",
+        gplus: "",
+        twitter: "iboxifoo"
+    },
     joshua_peek: {
         name: "Joshua Peek",
         bio: "Josh is a front-end developer at GitHub. Contributor to Bower, and maintainer of Sprockets, the Ruby on Rails Asset pipeline tool.",
@@ -278,6 +292,13 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/3871688?v=3&s=80",
         gplus: "",
         twitter: "karaforthewin"
+    },
+    lea_alcantara: {
+        name: "Lea Alcantara",
+        bio: " Lea is a lead designer of Bright Umbrella, designs websites with sass, and hosts the Ctrl+Click Podcast",
+        gravatar: "8cdca6867ac4069945d3d34d0e57ea06",
+        gplus: "116236443394652751060",
+        twitter: "lealea"
     },
     levent_gurses: {
         name: "Levent Gurses",
