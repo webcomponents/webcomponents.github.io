@@ -279,6 +279,13 @@ module.exports = {
         gplus: "",
         twitter: "iboxifoo"
     },
+    josh_crowther: {
+        name: "Josh Crowther",
+        bio: "Josh is a full-stack engineer currently working with Node.js based stacks. He's profficient in JavaScript particularly with the Angular.js framework.",
+        image: "https://avatars2.githubusercontent.com/u/5588878?s=80",
+        gplus: "+JoshCrowther",
+        twitter: "jshcrowthe"
+    },
     joshua_peek: {
         name: "Joshua Peek",
         bio: "Josh is a front-end developer at GitHub. Contributor to Bower, and maintainer of Sprockets, the Ruby on Rails Asset pipeline tool.",
