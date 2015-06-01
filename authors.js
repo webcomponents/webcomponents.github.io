@@ -251,6 +251,13 @@ module.exports = {
         gplus: "+JanMiksovsky",
         twitter: "JanMiksovsky"
     },
+    jason_strimpel: {
+        name: "Jason Strimpel",
+        bio: "Jason is the co-author of Web Components from jQuery to Polymer",
+        image: "https://avatars3.githubusercontent.com/u/382516?v=3&s=80",
+        gplus: "+JasonStrimpel",
+        twitter: "StrimpelJason"
+    },
     jen_simmons: {
         name: "Jen Simmons",
         bio: "Jen is a professional designer and developer in the New York City area. She is host of The Web Ahead Podcast.",
