@@ -1,5 +1,5 @@
 ---
-title:  Extending Styles
+title: Extending Styles
 authors: [philip_walton]
 date: 2015-05-25
 original_date: 2015-05-20
