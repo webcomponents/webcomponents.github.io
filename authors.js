@@ -153,6 +153,13 @@ module.exports = {
         gplus: "104997628038333365690",
         twitter: "housecor"
     },
+    dane_oconner: {
+        name: "Dane O'Conner",
+        bio: "Dane is a programmer, entrepreneur, and panelist on Polymer Podcast",
+        image: "https://avatars0.githubusercontent.com/u/84087?v=3&s=80",
+        gplus: "",
+        twitter: "thedeeno"
+    },
     daniel_buchner: {
         name: "Daniel Buchner",
         bio: "Daniel — formerly at Mozilla — is a creative, technical, Product Manager who is helping to push the web app ecosystem forward. As the creator of the X-Tag library and contributor to Brick (Mozilla's supported set of custom elements), Daniel has worked on the Web Components family of W3 specifications and helps drive the platform implementation process at Mozilla.",
@@ -230,6 +237,13 @@ module.exports = {
         gplus: "+EwaGasperowicz",
         twitter: "devnook"
     },
+    filipe_araujo: {
+        name: "Filipe Araujo",
+        bio: "Filipe is a Web Architect & a panelist on Polymer Podcast",
+        image: "https://avatars0.githubusercontent.com/u/189541?v=3&s=80",
+        gplus: "+FilipeAraujo1",
+        twitter: "filipearaujo"
+    },
     glen_maddern: {
         name: "Glen Maddern",
         bio: "Glen is an independent Web Developer from Melbourne, Australia.",
@@ -278,6 +292,13 @@ module.exports = {
         image: "https://avatars1.githubusercontent.com/u/154399?v=3&s=80",
         gplus: "",
         twitter: "iboxifoo"
+    },
+    jonathan_belcher: {
+        name: "Jonathan Belcher",
+        bio: "Jonathan is a developer and panelist on Polymer Podcast",
+        image: "https://avatars2.githubusercontent.com/u/6817400?v=3&s=80",
+        gplus: "",
+        twitter: "belcherj"
     },
     josh_crowther: {
         name: "Josh Crowther",
@@ -487,6 +508,13 @@ module.exports = {
         gravatar: "a7c860a23fc707909d7b78fcbb374367",
         gplus: "+varunkumarnagarajan",
         twitter: "varunkumar"
+    },
+    william_jeffries: {
+        name: "William Jeffries",
+        bio: "William is a Web Developer & panelist on Polymer Podcast",
+        image: "https://avatars3.githubusercontent.com/u/4542879?v=3&s=80",
+        gplus: "",
+        twitter: "williamcodes"
     },
     zeno_rocha: {
         name: "Zeno Rocha",
