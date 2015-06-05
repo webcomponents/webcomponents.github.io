@@ -412,6 +412,13 @@ module.exports = {
         gplus: "+SteveSouders",
         twitter: "Souders"
     },
+    scott_miles: {
+        name: "Scott Miles",
+        bio: "Scott is a Software engineer in the Polymer team. He currently lives in Napa, CA.",
+        gravatar: "73441c3e7032ac7ecd4f95876bdc3541",
+        gplus: "116100920359918112000",
+        twitter: "ScottJMiles"
+    },
     tom_dale: {
         name: "Tom Dale",
         bio: "Tom helped create Ember.js, a JavaScript framework that brings sanity to the web. He also co-founded Tilde with Yehuda Katz, Leah Silber and Carl Lerche.",
