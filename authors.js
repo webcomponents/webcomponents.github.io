@@ -215,7 +215,7 @@ module.exports = {
         gravatar: "c8f68a50708844053b927806ba4e9753",
         gplus: "+EmilyLewis",
         twitter: "emilylewis"
-},
+    },
     eric_bidelman: {
         name: "Eric Bidelman",
         bio: "Eric is a Staff Developer Programs Engineer on the Google Chrome team. His current passion is web components and Polymer. Eric is the author of 'Using the HTML5 Filesystem API' and regularly contributes to html5rocks.com and other open source projects. Prior to Google, Eric worked as a software engineer at the University of Michigan where he designed rich web applications and APIs for the university’s 19 libraries.",
@@ -264,6 +264,13 @@ module.exports = {
         gravatar: "eab84bbf714f065bbfece0c58d9fc6c3",
         gplus: "+JanMiksovsky",
         twitter: "JanMiksovsky"
+    },
+    jarom_mcdonald: {
+        name: "Jarom McDonald",
+        bio: "Jarom is a YouTube Google Developer Expert & Web Components enthusiast",
+        gravatar: "255122f396049d1c7fb264cfa6ec584c",
+        gplus: "+JaromMcDonald",
+        twitter: "jarommcdonald"
     },
     jen_simmons: {
         name: "Jen Simmons",
@@ -314,12 +321,26 @@ module.exports = {
         gplus: "+joshuapeek",
         twitter: "joshpeek"
     },
+    justin_ribeiro: {
+        name: "Justin Ribeiro",
+        bio: "Justin is a Wearables Google Developer Expert & Web Components enthusiast",
+        image: "https://avatars0.githubusercontent.com/u/643503?v=3&s=80",
+        gplus: "+JustinRibeiro",
+        twitter: "justinribeiro"
+    },
     kara_erickson: {
         name: "Kara Erickson",
         bio: "Kara is a Web Engineer at OpenTable where she builds Angular applications.",
         image: "https://avatars2.githubusercontent.com/u/3871688?v=3&s=80",
         gplus: "",
         twitter: "karaforthewin"
+    },
+    kevin_schaaf: {
+        name: "Kevin Schaaf",
+        bio: "Kevin is a Senior Engineer on the Google Polymer team",
+        image: "https://avatars3.githubusercontent.com/u/1354932?v=3&s=80",
+        gplus: "104428575387715454302",
+        twitter: "kevinpschaaf"
     },
     lea_alcantara: {
         name: "Lea Alcantara",
@@ -335,12 +356,39 @@ module.exports = {
         gplus: "110194331801013865008",
         twitter: "gursesl"
     },
+    marcy_sutton: {
+        name: "Marcy Sutton",
+        bio: "Marcy is a developer at Substantial. She's GDI Seattle co-leader, bike racer, music junkie, #a11y advocate, dog lover, big ole nerd.",
+        gravatar: "1cd529dea0aa4dda3b1242a350163a6e",
+        gplus: "118012571057666061540",
+        twitter: "marcysutton"
+    },
     mark_dalgleish: {
         name: "Mark Dalgleish",
         bio: "Mark is a senior UI developer at SEEK and the lead organiser of MelbJS. He’s obsessed with everything web and loves using JavaScript, CSS and HTML to create rich experiences that resonate with end users. In his spare time, he loves experimenting with the latest web technologies, sharing projects online and helping others learn progressive web development techniques.",
         gravatar: "eec502b7f6f17f63f1e36d1cd566a254",
         gplus: "104420396861285844168",
         twitter: "markdalgleish"
+    },
+    matt_claypotch: {
+        name: "Matt Claypotch",
+        bio: "Matt is a Mozilla Apps Engineer & lead on Mozilla Brick Project.",
+        gravatar: "0db077abb2bbaf54ca6de43f45976d11",
+        twitter: "potch"
+    },
+    matt_mcnulty: {
+        name: "Matt McNulty",
+        bio: "Matthew leads the Polymer team, which is part of the Chrome team at Google. Prior to joining Google, he was responsible for the Enyo framework, Ares development environment, and SDK at webOS.",
+        gravatar: "255122f396049d1c7fb264cfa6ec584c",
+        gplus: "104160914042867187276",
+        twitter: "mattsmcnulty"
+    },
+    mauro_solcia: {
+        name: "Mauro Solcia",
+        bio: "Mauro is a Google Developer Expert for Drive & Web Component enthusiast",
+        image: "https://avatars2.githubusercontent.com/u/1431346?v=3&s=80",
+        gplus: "+MauroSmokybobSolcia",
+        twitter: "smokybob84"
     },
     michael_bleigh: {
         name: "Michael Bleigh",
@@ -369,6 +417,20 @@ module.exports = {
         gravatar: "9d9f17e37b751b9f83081ba3dd44bab4",
         gplus: "101356325339382110529",
         twitter: "stopsatgreen"
+    },
+    phil_leggetter: {
+        name: "Phil Leggetter",
+        bio: "Phil is Head of Developer Evangelism at Pusher. He frequently writes articles and give talks on realtime web technologies and general web technology.",
+        image: "https://avatars2.githubusercontent.com/u/328367?s=80",
+        gplus: "+PhilLeggetter",
+        twitter: "leggetter"
+    },
+    philip_walton: {
+        name: "Philip Walton",
+        bio: "Philip is an engineer at Google, web standards enthusiast, open source advocate, developer, designer, writer.",
+        gravatar: "81173562da1e1c9ae2ddd0df69ec4f69",
+        gplus: "107605117871505940242",
+        twitter: "philwalton"
     },
     polymer: {
         name: "Polymer",
@@ -399,7 +461,7 @@ module.exports = {
         twitter: "reybango"
     },
     richard_campbell: {
-      name: "Richard Campbell",
+        name: "Richard Campbell",
         bio: "Richard is a .NET developer and co-host of .NET Rocks.",
         image: "https://avatars1.githubusercontent.com/u/1779253?v=3&s=80",
         gplus: "+RichardCampbell_DotNetRocks",
@@ -411,6 +473,13 @@ module.exports = {
         gravatar: "95c3a3b33ea51545229c625bef42e343",
         gplus: "+RobDodson",
         twitter: "rob_dodson"
+    },
+    scott_miles: {
+        name: "Scott Miles",
+        bio: "Scott is a Software engineer in the Polymer team. He currently lives in Napa, CA.",
+        gravatar: "73441c3e7032ac7ecd4f95876bdc3541",
+        gplus: "116100920359918112000",
+        twitter: "ScottJMiles"
     },
     seb_cevey: {
         name: "Sébastien Cevey",
@@ -433,12 +502,19 @@ module.exports = {
         gplus: "+SteveSouders",
         twitter: "Souders"
     },
-    scott_miles: {
-        name: "Scott Miles",
-        bio: "Scott is a Software engineer in the Polymer team. He currently lives in Napa, CA.",
-        gravatar: "73441c3e7032ac7ecd4f95876bdc3541",
-        gplus: "116100920359918112000",
-        twitter: "ScottJMiles"
+    soledad_penades: {
+        name: "Soledad Penades",
+        bio: "Soledad is a Senior Apps Developer working on improving the Web Platform at Mozilla.",
+        image: "https://avatars2.githubusercontent.com/u/5609?s=80",
+        gplus: "107635555691483494328",
+        twitter: "supersole"
+    },
+    taylor_savage: {
+        name: "Taylor Savage",
+        bio: "Taylor is the Product Manager of the Polymer team at Google.",
+        gravatar: "6a69588f4ea38f9290095b767ff3a544",
+        gplus: "102882605910499670146",
+        twitter: "taylorthesavage"
     },
     tom_dale: {
         name: "Tom Dale",
@@ -454,53 +530,12 @@ module.exports = {
         gplus: "109703967652024576627",
         twitter: "girlie_mac"
     },
-    marcy_sutton: {
-        name: "Marcy Sutton",
-        bio: "Marcy is a developer at Substantial. She's GDI Seattle co-leader, bike racer, music junkie, #a11y advocate, dog lover, big ole nerd.",
-        gravatar: "1cd529dea0aa4dda3b1242a350163a6e",
-        gplus: "118012571057666061540",
-        twitter: "marcysutton"
-    },
-    matt_claypotch: {
-        name: "Matt Claypotch",
-        bio: "Matt is a Mozilla Apps Engineer & lead on Mozilla Brick Project.",
-        gravatar: "0db077abb2bbaf54ca6de43f45976d11",
-        twitter: "potch"
-    },
-    matt_mcnulty: {
-        name: "Matt McNulty",
-        bio: "Matthew leads the Polymer team, which is part of the Chrome team at Google. Prior to joining Google, he was responsible for the Enyo framework, Ares development environment, and SDK at webOS.",
-        gravatar: "255122f396049d1c7fb264cfa6ec584c",
-        gplus: "104160914042867187276",
-        twitter: "mattsmcnulty"
-    },
-    phil_leggetter: {
-        name: "Phil Leggetter",
-        bio: "Phil is Head of Developer Evangelism at Pusher. He frequently writes articles and give talks on realtime web technologies and general web technology.",
-        image: "https://avatars2.githubusercontent.com/u/328367?s=80",
-        gplus: "+PhilLeggetter",
-        twitter: "leggetter"
-    },
-    philip_walton: {
-        name: "Philip Walton",
-        bio: "Philip is an engineer at Google, web standards enthusiast, open source advocate, developer, designer, writer.",
-        gravatar: "81173562da1e1c9ae2ddd0df69ec4f69",
-        gplus: "107605117871505940242",
-        twitter: "philwalton"
-    },
-    soledad_penades: {
-        name: "Soledad Penades",
-        bio: "Soledad is a Senior Apps Developer working on improving the Web Platform at Mozilla.",
-        image: "https://avatars2.githubusercontent.com/u/5609?s=80",
-        gplus: "107635555691483494328",
-        twitter: "supersole"
-    },
-    taylor_savage: {
-        name: "Taylor Savage",
-        bio: "Taylor is the Product Manager of the Polymer team at Google.",
-        gravatar: "6a69588f4ea38f9290095b767ff3a544",
-        gplus: "102882605910499670146",
-        twitter: "taylorthesavage"
+    uri_shaked: {
+        name: "Uri Shaked",
+        bio: "Uri is a Angular Google Developer Expert & Salsa Dancer",
+        image : "https://avatars3.githubusercontent.com/u/892318?v=3&s=80",
+        gplus: "+UriShaked",
+        twitter: "UriShaked"
     },
     varunkumar_nagarajan: {
         name: "Varunkumar Nagarajan",
