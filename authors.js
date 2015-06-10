@@ -551,6 +551,13 @@ module.exports = {
         gplus: "",
         twitter: "williamcodes"
     },
+    wilson_page: {
+        name: "Wilson Page",
+        bio: "Wilson is a Front-end developer at Mozilla. He works with Firefox OS, web applications, web components, performance, and architecture.",
+        image: "https://avatars0.githubusercontent.com/u/1020551?v=3&s=80",
+        gplus: "+WilsonPage",
+        twitter: "wilsonpage"
+    },
     zeno_rocha: {
         name: "Zeno Rocha",
         bio: "Zeno is front-end engineer at Liferay, Inc. Besides that, he's a writer at Smashing Magazine, member at the Google Developer Experts program, host at Zone Of Front-Enders podcast and co-founder of BrazilJS Foundation.",
