@@ -530,6 +530,13 @@ module.exports = {
         gplus: "109703967652024576627",
         twitter: "girlie_mac"
     },
+    tyler_mcginnis: {
+        name: "Tyler McGinnis",
+        bio: "Tyler is a Firebase Expert & Lead Instructor at DevMounta.in",
+        image: "https://avatars2.githubusercontent.com/u/2933430?v=3&s=80",
+        gplus: "+TylerMcGinnis33",
+        twitter: "tylermcginnis33"
+    },
     uri_shaked: {
         name: "Uri Shaked",
         bio: "Uri is a Angular Google Developer Expert & Salsa Dancer",
