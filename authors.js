@@ -439,7 +439,7 @@ module.exports = {
         gplus: "+Polymer",
         twitter: "polymer"
     },
-    paullewis: {
+    paul_lewis: {
         name: "Paul Lewis",
         bio: "Paul works at Google on the Chrome Developer Relations team as an advocate. I help developers improve the performance of their sites and apps.",
         gravatar: "e890a763587331f62cf2c39d38137b30",

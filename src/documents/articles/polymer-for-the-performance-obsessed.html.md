@@ -1,6 +1,6 @@
 ---
 title: Polymer for the Performance-obsessed
-authors: [paullewis]
+authors: [paul_lewis]
 date: 2015-06-12
 original_date: 2015-06-11
 link: https://aerotwist.com/blog/polymer-for-the-performance-obsessed/
