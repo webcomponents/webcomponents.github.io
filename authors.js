@@ -439,6 +439,13 @@ module.exports = {
         gplus: "+Polymer",
         twitter: "polymer"
     },
+    paullewis: {
+        name: "Paul Lewis",
+        bio: "Paul works at Google on the Chrome Developer Relations team as an advocate. I help developers improve the performance of their sites and apps.",
+        gravatar: "e890a763587331f62cf2c39d38137b30",
+        gplus: "+aerotwist",
+        twitter: "aerotwist"
+    },
     rachael_moore: {
         name: "Rachael L Moore",
         bio: "Rachael is a UI Engineer at OpenTable specializing in the implementation of enterprise-scale interfaces using HTML, CSS, and JavaScript.",
