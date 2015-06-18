@@ -118,6 +118,13 @@ module.exports = {
         gplus: "+ChrisCoyier",
         twitter: "chriscoyier"
     },
+    chris_joel: {
+        name: "Chris Joel",
+        bio: "Chris is a developer at Google working on the Polymer Elements Catalog",
+        image: "https://avatars1.githubusercontent.com/u/240083?v=3&s=80",
+        gplus: "+ChrisJoel",
+        twitter: "robodynamo"
+    },
     community: {
         name: "Community",
         bio: "Posts marked as authored by the community represent best practices which have reached a level of concensus. They may evolve over time but their core fundamentals are considered generally good ideas.",
@@ -166,6 +173,13 @@ module.exports = {
         gravatar: "35e22073952684192bb93702a947308c",
         gplus: "+DanielBuchner",
         twitter: "csuwildcat"
+    },
+    daniel_freedman: {
+        name: "Daniel Freedman",
+        bio: "Dan is a developer at Google on the Polymer team",
+        image: "https://avatars1.githubusercontent.com/u/46725?v=3&s=80",
+        gplus: "+DanielFreedman",
+        twitter: "danfreedman"
     },
     danny_blue: {
         name: "Danny Blue",
