@@ -265,6 +265,13 @@ module.exports = {
         gplus: "114824413646492828472",
         twitter: "glenmaddern"
     },
+    ian_feather: {
+        name: "Ian Feather",
+        bio: "Ian is a Senior Software Engineer at Schibsted Media",
+        image: "https://avatars3.githubusercontent.com/u/814861?v=3&s=80",
+        gplus: "110969031627614427177",
+        twitter: "ianfeather"
+    },
     jamison_dance: {
         name: "Jamison Dance",
         bio: "Jamison is a software engineer at Kuali Co. and panelist on JavaScript Jabber.",
