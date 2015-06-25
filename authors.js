@@ -272,6 +272,13 @@ module.exports = {
         gplus: "110969031627614427177",
         twitter: "ianfeather"
     },
+    ian_macleod: {
+        name: "Ian MacLeod",
+        bio: "Ian is a Senior Software Engineer at Google working on the Polymer team",
+        gravatar: "332c12bfd93b13813ced42a3f9c7b613",
+        gplus: "103364890282662967672",
+        twitter: "nevir"
+    },
     jamison_dance: {
         name: "Jamison Dance",
         bio: "Jamison is a software engineer at Kuali Co. and panelist on JavaScript Jabber.",
