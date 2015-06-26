@@ -27,11 +27,8 @@ work in an environment.
     <iframe src="//www.youtube.com/embed/7WgEuNZCCHk" itemprop="video"></iframe>
 </div>
 
-<!-- ### Slides
+### Slides
 
-  TODO: Get slides link from Rob
-<a href="" target="_blank">
-  <img src="../../img/stories/componentize-your-app-with-polymer-element-cover.jpg" alt="Presentation cover">
+<a href="https://speakerdeck.com/robdodson/componentize-your-app-with-polymer" target="_blank">
+  <img src="../../img/stories/componentize-your-app-with-polymer-elements-cover.jpg" alt="Presentation cover">
 </a>
-
--->
