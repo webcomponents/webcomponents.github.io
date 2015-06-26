@@ -425,6 +425,13 @@ module.exports = {
         gplus: "100660544095714416357",
         twitter: "mbleigh"
     },
+    mike_schwartz: {
+        name: "Mike Schwartz",
+        bio: "Mike is an Architect at Modus Create and the designer of DecafJS and SilkJS JavaScript frameworks",
+        gravatar: "255122f396049d1c7fb264cfa6ec584c",
+        gplus: "",
+        twitter: "ModusSchwartz"
+    },
     nick_niemeir: {
         name: "Nick Niemeir",
         bio: "Nick is a JavaScript Agent Engineer at New Relic",
