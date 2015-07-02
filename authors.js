@@ -83,6 +83,13 @@ module.exports = {
         gplus: "112284435661490019880",
         twitter: "annevk"
     },
+    ajit_kumar: {
+        name: "Ajit Kumar",
+        bio: "Ajit is Co-founder of Walking Tree, Speaker, Sencha Trainer, Author of Sencha Charts Essentials, Sencha Touch Cookbook, Sencha MVC Architecture, and ADempiere Cookbook.",
+        gravatar: "f3d812c50181277a75a997270518ee15",
+        gplus: "116345362547047775246",
+        twitter: "findajit"
+    },
     bill_heaton: {
         name: "Bill Heaton",
         bio: "Bill is a Senior UI Engineer at CrowdStrike who loves to build great applications with Ember.js.",
