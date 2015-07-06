@@ -272,6 +272,13 @@ module.exports = {
         gplus: "114824413646492828472",
         twitter: "glenmaddern"
     },
+    hidde_vries: {
+        name: "Hidde de Vries",
+        bio: "Hidde is web designer and developer, experienced with things like responsive web design, front-end development and progressive enhancement.",
+        image: "a45d47ab5ae5dcb067f29f788faed5af",
+        gplus: "",
+        twitter: "hdv"
+    },
     ian_feather: {
         name: "Ian Feather",
         bio: "Ian is a Senior Software Engineer at Schibsted Media",
