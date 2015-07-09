@@ -32,7 +32,7 @@ If you care to get a glance into the content of the interview first, here is the
 
 ### Erik
 This is webcomponents.org and you're listening to the interview sessions .I'm your host Erik Isaksen and we also have
-a guest today, Travis Leithead. He's from the Microsoft teams and he's going to be talking about the Microsoft has done
+a guest today, Travis Leithead. He's from the Microsoft teams and he's going to be talking about what Microsoft has done
 on the web platform and specifically dealing with Web Components so welcome Travis.
 
 ### Travis
