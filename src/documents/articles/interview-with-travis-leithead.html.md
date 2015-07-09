@@ -1,113 +1,126 @@
 ---
-title: The Journey to Web Components
-authors: [rob_dodson]
-date: 2014-10-31
-original_date: 2014-10-31
-image: interview-with-rob-dodson.jpg
+title: Web Components and Microsoft Edge
+authors: [travis_leithead, erik_isaksen]
+date: 2015-07-08
+original_date: 2015-07-08
+image: interview-with-travis-leithead.jpg
 category: articles
 layout: single
-tags: ['Interview', 'Polymer']
+tags: ['Interview', 'Edge Browser']
 ---
 
-Continuing our [interview series](/tags/interview) with Web Components' early
-adopters, this week we speak with [Rob Dodson](http://robdodson.me/), a
-developer advocate at Google focused on [Polymer](https://www.polymer-project.org/)
-and Web Components.
+Our [interview series](/tags/interview) continues with Microsoft Software Engineer & Internet Maker
+[Travis Leithead](https://www.twitter.com/TravisLeithead), who is currently focused on DOM rendering
+performance and paving the path for Web Components in Microsoft's [Edge Browser](https://www.microsoft.com/en-us/windows/microsoft-edge).
 
 <!-- Excerpt -->
 
-### Your first blog posts related to Web Components were published before joining Google, do you think it somehow influenced your current position?
+Here is the full 38 minute audio interview.
 
-Absolutely! Prior to working at Google I was working as a contractor building UI
-libraries. It felt like everyone I worked for had a similar need: Build a UI
-system so they could get their mobile web presence squared away. When I
-discovered Web Components I was like "Woah! This is it!" and I started trying to
-learn as much as I could.
+<div>
+    <audio controls>
+          <source src="/media/interviews/interview-session-1_travis-leithead-07082015.mp3" type="audio/mpeg">
+          <source src="/media/interviews/interview-session-1_travis-leithead-07082015.ogg" type="audio/ogg">
+          <!-- fallback for non supporting browsers goes here -->
+          <a href="/media/interviews/interview-session-1_travis-leithead-07082015.mp3">download audio</a>
+    </audio>
+</div>
 
-For me, the best way to deeply understand something is to write about it. There
-are two benefits to publishing as you explore a topic: It forces you to put in
-the extra effort to really understand the subject, and it gets your name out
-there. I found that my blog posts were getting picked up by the various front
-end newsletters and I was also spending more and more time in the (now defunct)
-Polymer IRC channel.
+If you care to get a glance into the content of the interview first, here is the first 5 minutes of transcript.
 
-Eventually [Eric Bidelman](https://twitter.com/ebidel) got in touch with me and
-asked if I'd be interested in applying to join the DevRel team.
+## Partial Transcript <span class="transcript-length">(5 minutes of 38 total minutes)</span>
 
-### You've been working along with the Polymer team for 9 months already. What have been your biggest challenges and what have you been working on lately?
+### Erik
+This is webcomponents.org and you're listening to the interview sessions .I'm your host Erik Isaksen and we also have
+a guest today, Travis Leithead. He's from the Microsoft teams and he's going to be talking about the Microsoft has done
+on the web platform and specifically dealing with Web Components so welcome Travis.
 
-As far as Polymer is concerned, probably the biggest challenge is managing all
-of the inbound support requests. We have a few hundred components, and we're
-trying to support the last two versions of each browser with a set of
-technologies and polyfills that are pretty bleeding edge. Some things break,
-some things are not as polished as we would like, but we're a very small team
-(less than 10 people) and we have to try to prioritize as best we can — tackle
-the really gnarly problems, and keep making progress.
+### Travis
+Thank you Erik. It's good to be on your program
 
-Personally, I just launched
-[a new YouTube series called Polycasts](https://www.youtube.com/watch?v=jrt7sMq9lO0)
-to help developers learn Polymer. I'm super excited to be doing these shows so
-I hope folks tune in and let me know what kinds of episodes they would like to see.
+*(laughing)*
 
-### How are Web Components being adopted internally in other Google products?
+### Travis
+What's your background like? What do you do for Microsoft because I see you a lot of the face-to-face's for Web Components.
+I guess I'll start on my background. I've...I got started in web development like as a kid. This is back when I got the
+book and it was telling you how to do web programming in Netscape versus Internet Explorer 4. And so I would tinker, learn,
+play, and copy code from the limited number of websites that were out there and that's kinda how I got my start. And then
+I fell in love with C++...and...school...and went off and did a bunch of graduate work in the realms of Computer Security.
+And, I figured I'd go and work for the NSA or something after...after college but a friend said "No, you should...you
+should put in your application to Microsoft" I'm like "yeah I already did...but you know, whatever...I'll work through
+the site channel" and sure enough I got an interview and hired onto this team called "Internet Explorer" I had heard about.
+I was a pretty staunch Firefox user back then.
 
-Many Google products are used by millions of users so any kind of big paradigm
-shift can take a while. I've personally found a ton of success working with
-internal prototypers who are more free to experiment with new technologies in a
-relatively safe environment.
+### Erik
+yeah
 
-There are a number of Google products which are now experimenting in Polymer,
-and then that work gets converted over to whatever stack the engineering team
-for the product uses (Closure or GWT, for example). There are also a handful of
-internal tools which are being built entirely in Polymer because they don't have
-to worry about supporting really old legacy browsers like IE8. I think
-prototyping and internal tools is a great place for any organization to start
-playing around with Web Components.
+### Travis
+I think everyone was pretty much fed up with IE6.
 
-### Lots of people are starting to use Polymer in many different projects. Do you consider it ready for production?
+*(laughing)*
 
-The answer to that question is a bit nuanced :)
+### Erik
+Well when it came out though, it was probably like the biggest technical improvement...right? IE6 had a lot of things
+that the other browsers didn't have and it was a pioneer for AJAX I remember.
 
-Polymer is a future facing project, and we only aim to support the last two
-versions of each browser. This means you can still use Polymer in production,
-but if you need to support older browsers like IE8 you may need to do some UA
-sniffing and serve them a different experience.
+### Travis
+No question. It, also surprisingly and relevant to this conversation, had a bunch of "web componenty" stuff in it too.
 
-It's easy to conflate Polymer and Web Components (I probably don't help this
-situation with the way I evangelize both at the same time), but a point I'd like
-to get across is that each of the Web Component technologies can be used
-standalone and each has a different level of production readiness. Custom
-Elements have a very small polyfill and big sites like Github are already using
-them in production. If you don't feel like Polymer is right for you, then I'd
-encourage you to download the Custom Elements polyfill and just give that a
-shot. Start small and use the bits that make sense.
+### Erik
+In the form of like HTC files? Or...
 
-### What's next for Polymer?
+### Travis
+Yeah. Which that stands for HTML Components
 
-There are a handful of things the Polymer engineers are focusing on at the
-moment, mainly performance, testing, and accessibility. Performance is always
-tough because our goal is to get browser makers to actually implement the Web
-Component standards, not to just build fast polyfills. So there's a tension
-there. We recognize that to succeed we will need to make improvements,
-especially on Mobile Safari, so that's become a big focus for us as of late. For
-testing, we're working on getting all of our repos running on SauceLabs so we
-can verify that things are consistent cross-browser. We have over 100 repos so
-this takes some time but we're making good progress. And we recently released
-core-a11y-keys to help with accessibility keybindings but we still have a lot
-more to do in that respect.
+*(laughing)*
 
-We're also working to really polish the elements that are already available.
-Just looking at Github, our closed ticket count is at 843, and much of that came
-after our big public announcement at Google I/O. Within Developer Relations
-we're also working to improve the docs and to build more sample apps and
-boilerplates that developers can leverage.
+### Erik
+Nice. I never actually knew what it stood for.
 
-Overall I feel really good about where things are headed and am looking forward
-to what the next few months will bring!
+### Travis
+So...yeah...it was another declarative model like XBL was but kinda predated that
 
----
+### Erik
+ok
+
+### Travis
+So we've been happy to slowly, over the course of the last years, eradicate most of that code from our product. It was
+not terribly well implemented I guess I could say...but it was a great feature for the time.
+
+### Erik
+So how did you get Involved in Web Components?
+
+### Travis
+I think it all started...I'm gunna say...like back in two thousand and eight or nine. I was working...a former coworker
+of mine named Tony Ross and I were invited to a call with Google and I think Raphael Weinstein...and maybe Dimitri was
+involved at that point...I can't recall. But they wanted to talk to us about data binding because they knew we had a
+data binding system with HTML tables and they wanted to pick our brains on like what a good data binding system would be
+and I think we sat down and talked about it and our point of view was "Oh my goodness! Don't go there right now!". Like
+this is fraught with dragons and you're going to pick an approach...and it's going to be wrong. And...you know...maybe
+think about decomposing that problem a little bit...and so then the next time we heard from them, maybe it was a year or
+two later, and they had started down this direction of these separate specs and this vision...sort of the way you start
+to see it formed now with Shadow DOM and Custom Elements, and templates and all that. And so I've been involved from the
+periphery from those early days and then got more involved as we helped Raphael with the template spec. Tony Ross was one
+of the editors before it got integrated with HTML. And...
+
+### Erik
+What does it mean at Microsoft to be involved with Web Components?
+
+### Travis
+It means you get a lot a questions from the community
+
+*(laughing)*
+
+### Erik
+Yeah, It's kind of a...It's been a challenge because we haven't been able to really commit development resources to playing
+with the space. And that's really where the good quality feedback comes from. And so...to be involved is usually to grab
+time here or there between projects with developers to coordinate on...you know...does this approach that they're talking
+about sound sensible...and to try to stay on the top of the flood of email from the different mailing lists on the different
+specs in the working group. So...it's a pretty big time commitment I'd say but also kind of fun and really interesting to
+see what's being developed with it...though frustrating that I can't say that we've got support for it or anything like
+that yet.
 
 ## Credits
 
-* Questions by [Zeno Rocha](https://twitter.com/zenorocha).
-* Image from [Halloween Experiment](http://www.itsamessage.com/halloween2014/#FZyefIp) by [Jaume Sanchez](https://twitter.com/thespite) and [Ricardo Cabello](https://twitter.com/mrdoob).
+* Questions by [Erik Isaksen](https://twitter.com/eisaksen) & [Raphaël Rougeron](https://twitter.com/goldoraf).
+* image, transcription, & audio by [Erik Isaksen](https://twitter.com/eisaksen)
