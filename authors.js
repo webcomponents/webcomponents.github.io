@@ -590,7 +590,6 @@ module.exports = {
         name: "Travis Leithead",
         bio: "Travis is a Software Engineer & Internet Maker at Microsoft and is currently focused on the Edge Browser",
         image: "https://avatars0.githubusercontent.com/u/2152696?v=3&s=80",
-        gplus: "",
         twitter: "TravisLeithead"
     },
     tyler_mcginnis: {

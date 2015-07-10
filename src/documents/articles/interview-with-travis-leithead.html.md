@@ -6,7 +6,7 @@ original_date: 2015-07-08
 image: interview-with-travis-leithead.jpg
 category: articles
 layout: single
-tags: ['Interview', 'Edge Browser']
+tags: ['Interview', 'Browser Support']
 ---
 
 Our [interview series](/tags/interview) continues with Microsoft Software Engineer & Internet Maker
@@ -17,13 +17,11 @@ improvements and paving the path for Web Components in Microsoft's [Edge Browser
 
 Listen to the full 38 minute audio interview.
 
-<div>
-    <audio controls>
-          <source src="/media/interviews/interview-session-1_travis-leithead-07082015.mp3" type="audio/mpeg">
-          <source src="/media/interviews/interview-session-1_travis-leithead-07082015.ogg" type="audio/ogg">
-          <a href="/media/interviews/interview-session-1_travis-leithead-07082015.mp3">download audio</a>
-    </audio>
-</div>
+<audio controls>
+      <source src="/media/interviews/interview-session-1_travis-leithead-07082015.mp3" type="audio/mpeg">
+      <source src="/media/interviews/interview-session-1_travis-leithead-07082015.ogg" type="audio/ogg">
+      <a href="/media/interviews/interview-session-1_travis-leithead-07082015.mp3">download audio</a>
+</audio>
 
 ### What is your background & what is the work you do at Microsoft?
 
@@ -60,7 +58,7 @@ I also try to stay on the top of the flood of email from the different mailing l
 It's a pretty big time commitment but it is kind of fun and really interesting to see what's being developed with Web Components.
 At times it can be frustrating that I can't say that "we have support for it" or anything like that yet.
 
-### Microsoft has done a great deal of collaboration and interactive work with other browser vendors. Can you talk to us about the W3C Web Apps face-to-face meetings you've been having to finalize the specs. How have they gone? How can developers keep updated on the outcomes of these meetings?
+### Microsoft has done a great deal of collaboration and interactive work with other browser vendors. Can you talk to us about the W3C Web Apps face-to-face meetings you've been having to finalize the specs? How have they gone? How can developers keep updated on the outcomes of these meetings?
 
 Dimitri has been championing Web Components at various meetings of the Web Apps working group faces-to-face meetings for some time now.
 He'd schedule some time at the meetings to talk about Web Components and in the early meetings he'd hear from Mozilla
@@ -83,15 +81,15 @@ The next meeting is on July 21st, 2015 in Mountain View California at Google's H
 meeting except this time we are going in and looking at Custom Elements. Two of the big topics, at least in my point of view,
 are the timing issue of when you do upgrades to a Custom Element and the "is" syntax and subclassing.
 
-### We talked a little about Shadow DOM & Custom Elements but what about Templates & HTML Imports. HTML Imports are pretty contentious. It that saved for last?
+### We talked a little about Shadow DOM & Custom Elements but what about Templates & HTML Imports. HTML Imports are pretty contentious. Is that saved for last?
 
-I think that's a safe bet [for HTML Imports]. Most of the issues have been resolved for Templates. In fact I don't know that anyone has any
+I think that's a safe bet for HTML Imports. Most of the issues have been resolved for Templates. In fact I don't know that anyone has any
 beef with what's been integrated into the spec so far--including us. We're good. :-) We are trying to find a way to get that
 implemented. As for imports, I'm undecided on whether I like it or not. Part of me says it doesn't add enough unique value
 aside from this dependency resolution model that's built into it. It's really easy to polyfill otherwise. There is also
 the deal with the EcmaScript Harmony proposal for Module Loader and trying to rationalize what the difference is between
-the module Loader and HTML Imports: what I think is that HTML Imports [should] rely on the Module Loader's algorithms for
-doing dependency resolution and since Imports [were implemented first before the] Module Loader I think Mozilla & Microsoft are a little hesitant
+the module Loader and HTML Imports: what I think is that HTML Imports should rely on the Module Loader's algorithms for
+doing dependency resolution and since Imports were implemented first before the Module Loader I think Mozilla & Microsoft are a little hesitant
 to jump on board with that until some of the details of that Module Loader algorithms are worked out.
 
 ### With all of the major specs in the top 10 of Edge’s User Voice poll, what are your feelings on when any of them will make it into the Edge Browser?
