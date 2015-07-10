@@ -3,6 +3,7 @@ title: "5: The Web Components Community"
 authors: [zeno_rocha, erik_isaksen, christian_smith ]
 podcast: The Web Platform Podcast
 date: 2014-08-04
+original_date: 2014-08-04
 link: "http://thewebplatform.libsyn.com/the-web-components-community-helpful-resources"
 category: podcasts
 layout: single

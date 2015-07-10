@@ -3,6 +3,7 @@ title: "Testing Polymer"
 authors: [ian_macleod, jonathan_belcher, william_jeffries, filipe_araujo, dane_oconner]
 podcast: "Polymer Podcast"
 date: 2015-06-23
+original_date: 2015-06-23
 link: "http://www.stitcher.com/podcast/polymer-podcast/e/39470555"
 category: podcasts
 layout: single

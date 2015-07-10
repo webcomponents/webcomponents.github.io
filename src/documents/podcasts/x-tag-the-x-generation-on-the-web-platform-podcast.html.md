@@ -3,6 +3,7 @@ title: "47: X-Tag - The X Generation"
 authors: [daniel_buchner, danny_blue, tyler_mcginnis, justin_ribeiro, erik_isaksen ]
 podcast: The Web Platform Podcast
 date: 2015-06-09
+original_date: 2015-06-09
 link: "http://thewebplatform.libsyn.com/47-x-tag-the-x-generation"
 category: podcasts
 layout: single

@@ -1,8 +1,9 @@
 ---
-title: "Polymer 1.0"
+title: "46: Polymer 1.0"
 authors: [taylor_savage, matt_mcnulty, kevin_schaaf, justin_ribeiro, uri_shaked, mauro_solcia, jarom_mcdonald, erik_isaksen, danny_blue]
 podcast: "The Web Platform Podcast"
 date: 2015-06-02
+original_date: 2015-06-02
 link: "http://thewebplatform.libsyn.com/46-polymer-10"
 category: podcasts
 layout: single
