@@ -503,6 +503,13 @@ module.exports = {
         gravatar: "1b741e5d8f5efe12c6307db4ebfab8f9",
         twitter: "girlie_mac"
     },
+    travis_leithead: {
+        name: "Travis Leithead",
+        bio: "Travis is a Software Engineer & Internet Maker at Microsoft and is currently focused on the Edge Browser",
+        image: "https://avatars0.githubusercontent.com/u/2152696?v=3&s=80",
+        gplus: "",
+        twitter: "TravisLeithead"
+    },
     tyler_mcginnis: {
         name: "Tyler McGinnis",
         bio: "Tyler is a Firebase Expert & Lead Instructor at DevMounta.in",
