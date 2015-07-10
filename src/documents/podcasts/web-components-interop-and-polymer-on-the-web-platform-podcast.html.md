@@ -3,6 +3,7 @@ title: "14: Web Components Interop and Polymer"
 authors: [rob_dodson, erik_isaksen, danny_blue ]
 podcast: The Web Platform Podcast
 date: 2014-10-17
+original_date: 2014-10-17
 link: "http://thewebplatform.libsyn.com/web-components-interop-and-polymer"
 category: podcasts
 layout: single
