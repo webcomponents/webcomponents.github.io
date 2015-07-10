@@ -35,7 +35,7 @@
                 <div class="description">
                     <%- @getExcerpt(item.contentRenderedWithoutLayouts) %>
 
-                    <% if @hasReadMore(item.contentRenderedWithoutLayouts): %>
+                    <% if @hasReadMore(item.contentRenderedWithoutLayouts) && !item.link: %>
                         <a class="read-more" href="<%= @site.url %><%= item.url %>">Read More ></a>
                     <% end %>
 
