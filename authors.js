@@ -329,6 +329,12 @@ module.exports = {
         image: "https://avatars3.githubusercontent.com/u/1354932?v=3&s=80",
         twitter: "kevinpschaaf"
     },
+    kaelig: {
+        name: "Kaelig Deloumeau-Prigent",
+        bio: "Kaelig is French blogger, author and front-end web developer working in London at FT Labs. Previously, I’ve worked on the responsive sites of the BBC News and the Guardian.",
+        gravatar: "f7e7b837bd06d6193f4ac70f17e6f44b",
+        twitter: "kaelig"
+    },
     lea_alcantara: {
         name: "Lea Alcantara",
         bio: " Lea is a lead designer of Bright Umbrella, designs websites with sass, and hosts the Ctrl+Click Podcast",
