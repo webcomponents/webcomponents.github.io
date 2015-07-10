@@ -9,10 +9,6 @@ layout: single
 tags: ['Custom Elements', 'Polymer']
 ---
 
-One of the biggest things that come with web components, is the fact that you
-can extend existing elements. And since your own custom elements are also just
-HTML elements, you can extend them as well as native elements.
-From a surface point of view there's no difference between native elements and custom elements.
-Let's take a look at how we can extend existing elements with Polymer.
+One of the biggest things that come with web components, is the fact that you can extend existing elements. And since your own custom elements are also just HTML elements, you can extend them as well as native elements. From a surface point of view there's no difference between native elements and custom elements. Let's take a look at how we can extend existing elements with Polymer.
 
 <!-- Excerpt -->

@@ -9,15 +9,11 @@ category: presentations
 layout: single
 ---
 
-The component driven, performance focused approach of React is a perfect
-complement to the modularity and portability of native HTML Web Components.
+The component driven, performance focused approach of React is a perfect complement to the modularity and portability of native HTML Web Components.
 
 <!-- Excerpt -->
 
-At first glance, React and Web Components might seem like two radically
-different solutions to the same problem. But when combined properly they
-complement each other to create an extremely powerful, expressive framework
-for developing complex web applications.
+At first glance, React and Web Components might seem like two radically different solutions to the same problem. But when combined properly they complement each other to create an extremely powerful, expressive framework for developing complex web applications.
 
 ### Video
 

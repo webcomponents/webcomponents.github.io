@@ -9,5 +9,4 @@ category: podcasts
 layout: single
 ---
 
-Shop Talk Show is joined by Rob Dodson. Rob works on Polymer at Google. Chris &
-Dave take a deep dive with him into Polymer and Web Components.
+Shop Talk Show is joined by Rob Dodson. Rob works on Polymer at Google. Chris & Dave take a deep dive with him into Polymer and Web Components.

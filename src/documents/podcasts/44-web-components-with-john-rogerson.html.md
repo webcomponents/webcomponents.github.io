@@ -9,6 +9,4 @@ category: podcasts
 layout: single
 ---
 
-Front-end expert John Rogerson offers some practical use cases and draws analogies to web dev approaches we are all
-already familiar with. John further discusses the pros of web components (modularity, extensibility), the cons (new
-technology, undefined standards, accessibility) and how they may reflect the future of web development.
+Front-end expert John Rogerson offers some practical use cases and draws analogies to web dev approaches we are all already familiar with. John further discusses the pros of web components (modularity, extensibility), the cons (new technology, undefined standards, accessibility) and how they may reflect the future of web development.

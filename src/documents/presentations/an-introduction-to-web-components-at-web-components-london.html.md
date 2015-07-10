@@ -9,13 +9,9 @@ category: presentations
 layout: single
 ---
 
-The first meetup held at Web Components London focuses on introducing the basics
-of creating Web Components & working with them in your applications. Soledad
-explores the spec, Polymer, X-Tag, and how to publish components so others in
-the community can benefit from them as well.
+The first meetup held at Web Components London focuses on introducing the basics of creating Web Components & working with them in your applications. Soledad explores the spec, Polymer, X-Tag, and how to publish components so others in the community can benefit from them as well.
 
 <!-- Excerpt -->
-
 
 ### Video
 

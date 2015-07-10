@@ -9,16 +9,11 @@ category: presentations
 layout: single
 ---
 
-A huge opportunity is brewing. One where web development becomes a powerfully
-rich ecosystem of discoverable, sharable, and reusable components. Polymer is
-the first library of its kind to fully embrace this brave new web platform.
+A huge opportunity is brewing. One where web development becomes a powerfully rich ecosystem of discoverable, sharable, and reusable components. Polymer is the first library of its kind to fully embrace this brave new web platform.
 
 <!-- Excerpt -->
 
-In this session we’ll reveal the latest with Polymer, what Polymer is doing to
-create an end-to-end workflow for developers and their users, unveil the
-burgeoning ecosystem of web components, and demonstrate the next generation of
-web apps. The web components revolution is here. Join us in building the future!
+In this session we’ll reveal the latest with Polymer, what Polymer is doing to create an end-to-end workflow for developers and their users, unveil the burgeoning ecosystem of web components, and demonstrate the next generation of web apps. The web components revolution is here. Join us in building the future!
 
 ### Video
 

@@ -9,9 +9,6 @@ layout: single
 tags: ['Custom Elements', 'Shadow DOM']
 ---
 
-Web Components are going to fundamentally change the nature of HTML. At first
-glance, they may seem like a complicated set of new technologies, but Web
-Components are built around a simple premise. Developers should be free to act
-like browser vendors, extending the vocabulary of HTML itself.
+Web Components are going to fundamentally change the nature of HTML. At first glance, they may seem like a complicated set of new technologies, but Web Components are built around a simple premise. Developers should be free to act like browser vendors, extending the vocabulary of HTML itself.
 
 <!-- Excerpt -->

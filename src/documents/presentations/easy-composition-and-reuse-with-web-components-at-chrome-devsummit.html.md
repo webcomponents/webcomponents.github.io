@@ -9,9 +9,7 @@ category: presentations
 layout: single
 ---
 
-Dimitri explores the set of enabling technologies that make up Web Components,
-and describes how these pieces make it easy and fast to build composable
-components, and make HTML finally earn its keep.
+Dimitri explores the set of enabling technologies that make up Web Components, and describes how these pieces make it easy and fast to build composable components, and make HTML finally earn its keep.
 
 <!-- Excerpt -->
 

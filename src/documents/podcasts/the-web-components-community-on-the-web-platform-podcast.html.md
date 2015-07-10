@@ -9,13 +9,8 @@ category: podcasts
 layout: single
 ---
 
-Web Components are a set of emerging and rapidly changing technologies that are
-altering the way many developers are starting to build web applications. Zeno
-Rocha, a dominant force in the front end development community, talks with The
-Web Platform Podcast on how developers can get started building with these
-technologies today & how to build their very own components.
+Web Components are a set of emerging and rapidly changing technologies that are altering the way many developers are starting to build web applications. Zeno Rocha, a dominant force in the front end development community, talks with The Web Platform Podcast on how developers can get started building with these technologies today & how to build their very own components.
 
 <!-- Excerpt -->
 
-Zeno additionally covers Web Components tooling, using Github & Bower, building
-for the communities, and other front end developer goodness.
+Zeno additionally covers Web Components tooling, using Github & Bower, building for the communities, and other front end developer goodness.

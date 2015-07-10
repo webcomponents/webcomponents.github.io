@@ -7,7 +7,7 @@ layout: polyfills
 
 ### Why Shadow DOM?
 
-[Shadow DOM](http://w3c.github.io/webcomponents/spec/shadow/) addresses the lack of true DOM tree encapsulation when building components. With Shadow DOM, elements can get a new kind of node associated with them. This new kind of node is called a shadow root. An element that has a shadow root associated with it is called a shadow host. 
+[Shadow DOM](http://w3c.github.io/webcomponents/spec/shadow/) addresses the lack of true DOM tree encapsulation when building components. With Shadow DOM, elements can get a new kind of node associated with them. This new kind of node is called a shadow root. An element that has a shadow root associated with it is called a shadow host.
 
 The content of a shadow host isn’t rendered; the content of the shadow root is rendered instead.
 
@@ -67,7 +67,7 @@ Shadow DOM renders them as if they are. In this way, the user can manipulate lig
 ## Polyfill details
 
 A polyfill to provide Shadow DOM functionality in browsers that don't
-support it natively. 
+support it natively.
 
 First download the `webcomponents.js` [polyfills](https://github.com/WebComponents/webcomponentsjs) using [Bower](http://bower.io):
 
@@ -124,7 +124,7 @@ ex:
 If you plan to work with elements that need to be wrapped over and over, try passing a wrapped version of the element into an immediately-invoked function expression.
 
     (function(document) {
-      
+
       // Now a library like jQuery can add
       // listeners to the wrapped document
       $(document).on('click', function(e) {

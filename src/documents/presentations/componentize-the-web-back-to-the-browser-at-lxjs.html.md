@@ -9,15 +9,11 @@ category: presentations
 layout: single
 ---
 
-Web Components are ushering in a HTML renaissance, encouraging us to think about
-how we can bring back the declarative simplicity of HTML to the components we
-write today.
+Web Components are ushering in a HTML renaissance, encouraging us to think about how we can bring back the declarative simplicity of HTML to the components we write today.
 
 <!-- Excerpt -->
 
-Learn how Custom Elements, Shadow DOM, HTML Imports and Templates
-can help you stay productive and build elements that are (potentially) more
-maintainable and more encapsulated than the models we have today.
+Learn how Custom Elements, Shadow DOM, HTML Imports and Templates can help you stay productive and build elements that are (potentially) more maintainable and more encapsulated than the models we have today.
 
 In this talk we'll do a whirlwind tour of Web Components, Polymer and Material Design.
 

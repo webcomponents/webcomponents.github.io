@@ -9,7 +9,4 @@ category: podcasts
 layout: single
 ---
 
-The JavaScript Jabber Panel discusses the Polymer Project with guests Rob Dodson
-& Eric Bidelman who work on the project at Google. They discuss the components,
-frameworks, & libraries available to developers as well the strengths and
-weaknesses of web components.
+The JavaScript Jabber Panel discusses the Polymer Project with guests Rob Dodson & Eric Bidelman who work on the project at Google. They discuss the components, frameworks, & libraries available to developers as well the strengths and weaknesses of web components.

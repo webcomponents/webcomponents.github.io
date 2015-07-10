@@ -9,8 +9,6 @@ layout: single
 tags: ['Shadow DOM', 'Styling', 'CSS']
 ---
 
-Let's face it. There's nothing sexy about unstyled markup. Lucky for us, the
-brilliant folks behind Web Components foresaw this and didn't leave us hanging.
-We have many options when it comes to styling content in a shadow tree.
+Let's face it. There's nothing sexy about unstyled markup. Lucky for us, the brilliant folks behind Web Components foresaw this and didn't leave us hanging. We have many options when it comes to styling content in a shadow tree.
 
 <!-- Excerpt -->

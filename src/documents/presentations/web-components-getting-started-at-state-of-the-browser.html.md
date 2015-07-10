@@ -9,11 +9,7 @@ category: presentations
 layout: single
 ---
 
-Web Components is the collective name for a series of W3C modules that introduce
-new HTML, CSS and JavaScript properties for extending web pages with reusable
-components. This talk will introduce Templates, Decorators, Custom Elements and
-the Shadow DOM, giving you enough information to get started with the future of
-web platform technologies.
+Web Components is the collective name for a series of W3C modules that introduce new HTML, CSS and JavaScript properties for extending web pages with reusable components. This talk will introduce Templates, Decorators, Custom Elements and the Shadow DOM, giving you enough information to get started with the future of web platform technologies.
 
 <!-- Excerpt -->
 

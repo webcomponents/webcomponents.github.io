@@ -9,14 +9,11 @@ category: presentations
 layout: single
 ---
 
-Polymer started as an experiment in pushing the web platform. In the two and a
-half years since, it helped ship a lot of standards, a developer preview of
-Polymer, and learned a lot and heard a lot of feedback from developers.
+Polymer started as an experiment in pushing the web platform. In the two and a half years since, it helped ship a lot of standards, a developer preview of Polymer, and learned a lot and heard a lot of feedback from developers.
 
 <!-- Excerpt -->
 
-Matt will share what they have learned, the state of the art of Polymer today,
-and most importantly what’s next.
+Matt will share what they have learned, the state of the art of Polymer today, and most importantly what’s next.
 
 ### Video
 

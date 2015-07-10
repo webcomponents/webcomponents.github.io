@@ -9,9 +9,7 @@ category: presentations
 layout: single
 ---
 
-In this talk Rob will cover the wild and wooly world of Web Component mashups.
-Grab a few X-Tag components, mixin some Polymer elements, and invite your
-friends from CustomElements.io.
+In this talk Rob will cover the wild and wooly world of Web Component mashups. Grab a few X-Tag components, mixin some Polymer elements, and invite your friends from CustomElements.io.
 
 <!-- Excerpt -->
 

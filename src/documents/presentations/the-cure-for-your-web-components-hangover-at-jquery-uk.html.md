@@ -9,11 +9,7 @@ category: presentations
 layout: single
 ---
 
-This is a talk on how to get things done today without shooting yourself in the
-foot and finding about it tomorrow. Or next month. Or you don’t, but your users
-do. Learn how to make your code more readable and expressive (without getting
-too meta), make it easy to run and maintain, and then lean back and have a cuppa
-while admiring the beauty of the thing you just have built.
+This is a talk on how to get things done today without shooting yourself in the foot and finding about it tomorrow. Or next month. Or you don’t, but your users do. Learn how to make your code more readable and expressive (without getting too meta), make it easy to run and maintain, and then lean back and have a cuppa while admiring the beauty of the thing you just have built.
 
 <!-- Excerpt -->
 

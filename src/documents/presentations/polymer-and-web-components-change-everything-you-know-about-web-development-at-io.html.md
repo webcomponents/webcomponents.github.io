@@ -9,11 +9,7 @@ category: presentations
 layout: single
 ---
 
-Web components are a game changer. Unlike other new features, the technologies
-are purely about developer productivity, solving many of web development's
-shortcomings. Polymer and web components change how we think about, design, and
-compose web applications. Learn how the Web Components revolution makes you more
-productive and reduces the cognitive load of being a web developer.
+Web components are a game changer. Unlike other new features, the technologies are purely about developer productivity, solving many of web development's shortcomings. Polymer and web components change how we think about, design, and compose web applications. Learn how the Web Components revolution makes you more productive and reduces the cognitive load of being a web developer.
 
 <!-- Excerpt -->
 

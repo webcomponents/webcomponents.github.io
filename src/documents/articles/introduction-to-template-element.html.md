@@ -9,12 +9,9 @@ layout: single
 tags: ['Introduction', 'Template']
 ---
 
-Templates allow teams to divide their work, allowing designers to focus on views
-written in HTML and CSS, while other engineers focus on logic and back end
-integration.
+Templates allow teams to divide their work, allowing designers to focus on views written in HTML and CSS, while other engineers focus on logic and back end integration.
 
-In this article, you'll learn how to use a new HTML element that is already
-available on Chrome, Opera, Firefox and Safari.
+In this article, you'll learn how to use a new HTML element that is already available on Chrome, Opera, Firefox and Safari.
 
 <!-- Excerpt -->
 
@@ -28,28 +25,15 @@ For those who prefer to watch instead of read, here is a summary of how it works
 
 ## Why Templates for browsers?
 
-"Templates" used to be a technology frequently used with server side technologies
-such as PHP, Django (Python) or Ruby on Rails. But lately it's becoming more
-common to use templates in the browser.
+"Templates" used to be a technology frequently used with server side technologies such as PHP, Django (Python) or Ruby on Rails. But lately it's becoming more common to use templates in the browser.
 
-This is primarily driven by the changing landscape of web architecture. Servers
-are becoming more dedicated to processing data, clients are becoming more
-dedicated to user interactions and views. MVC (Model, View, Controller) is no
-longer a server side only pattern, it's becoming a client side thing - look at
-AngularJS, Backbone.js, Ember.js, etc.
+This is primarily driven by the changing landscape of web architecture. Servers are becoming more dedicated to processing data, clients are becoming more dedicated to user interactions and views. MVC (Model, View, Controller) is no longer a server side only pattern, it's becoming a client side thing - look at AngularJS, Backbone.js, Ember.js, etc.
 
-Solutions for browser side templating in the past used JavaScript. For example,
-[Mustache.js](http://mustache.github.io/),
-[Handlebars.js](http://handlebarsjs.com/), [AngularJS](https://angularjs.org/),
-[Backbone.js](http://backbonejs.org/). But techniques used in those libraries
-have a few pitfalls.
+Solutions for browser side templating in the past used JavaScript. For example, [Mustache.js](http://mustache.github.io/), [Handlebars.js](http://handlebarsjs.com/), [AngularJS](https://angularjs.org/), [Backbone.js](http://backbonejs.org/). But techniques used in those libraries have a few pitfalls.
 
-### using div tag:
+### Using div tag:
 
-In the following example, the template is actually a `div` tag which is hidden with
-a bit of CSS. The downside of this approach is that the browser will fetch
-resources from inside the template, even if those resources haven't been used
-yet. In this case, `logo.svg`.
+In the following example, the template is actually a `div` tag which is hidden with a bit of CSS. The downside of this approach is that the browser will fetch resources from inside the template, even if those resources haven't been used yet. In this case, `logo.svg`.
 
     <div style="display:none;">
       <div>
@@ -58,12 +42,9 @@ yet. In this case, `logo.svg`.
       </div>
     </div>
 
-### using script tag:
+### Using script tag:
 
-In the following example, the template content is stored inside of a `script` tag.
-The down side of this approach is that the templates will be converted into DOM
-elements   using `.innerHTML`, which could introduce a cross site scripting
-vulnerability if an adequate sanity check is not performed.
+In the following example, the template content is stored inside of a `script` tag. The down side of this approach is that the templates will be converted into DOM elements   using `.innerHTML`, which could introduce a cross site scripting vulnerability if an adequate sanity check is not performed.
 
     <script type="text/template">
       <div>
@@ -72,9 +53,7 @@ vulnerability if an adequate sanity check is not performed.
       </div>
     </script>
 
-And this is where native `<template>` comes in. `<template>` addresses
-these problems by providing an ability to insert "inert HTML tags" into a
-document.
+And this is where native `<template>` comes in. `<template>` addresses these problems by providing an ability to insert "inert HTML tags" into a document.
 
 By using "inert HTML tags":
 
@@ -107,10 +86,7 @@ In order to stamp out the template, you'll need to write a bit of JavaScript.
 
 [Here's a live example](http://jsbin.com/qaxiw/7/edit).
 
-The `template` node queried on first line will be cloned using
-`document.importNode()`. By assigning `true` to the 2nd argument, we are
-creating a deep copy. Appending it to another node will bring the contents of
-the template to life, in other words
+The `template` node queried on first line will be cloned using `document.importNode()`. By assigning `true` to the 2nd argument, we are creating a deep copy. Appending it to another node will bring the contents of the template to life, in other words
 
 * Included `script` tags will be executed
 * Included resources (`img`, `video`, etc) will be fetched
@@ -118,8 +94,7 @@ the template to life, in other words
 
 ## The template element doesn't provide data binding
 
-If you have experience working with other template engines such as AngularJS,
-Mustache.js, etc, you may expect to be able to use
+If you have experience working with other template engines such as AngularJS, Mustache.js, etc, you may expect to be able to use
 
 **placeholders**
 
@@ -133,20 +108,11 @@ Mustache.js, etc, you may expect to be able to use
 
     <template if="{{item.active}}"></template>
 
-but these are different concepts from vanilla templating. These concepts are
-actually called "data binding" and are not implemented in the native template
-element. If you are interested in using these features, I recommend looking into
-[Polymer](http://www.polymer-project.org/)
-([TemplateBinding](https://github.com/Polymer/TemplateBinding)) or
-[x-tags](http://www.x-tags.org/).
+but these are different concepts from vanilla templating. These concepts are actually called "data binding" and are not implemented in the native template element. If you are interested in using these features, I recommend looking into [Polymer](http://www.polymer-project.org/) ([TemplateBinding](https://github.com/Polymer/TemplateBinding)) or [x-tags](http://www.x-tags.org/).
 
 ## Supported browsers
 
-The template element is supported by Chrome, Opera, Safari and Firefox as of
-October 2014. To check availability, go to
-[chromestatus.com](https://www.chromestatus.com/features/5207287069147136). For
-polyfilling Internet Explorer and other legacy browsers, you can use
-[platform.js](https://github.com/polymer/platform).
+The template element is supported by Chrome, Opera, Safari and Firefox as of October 2014. To check availability, go to [chromestatus.com](https://www.chromestatus.com/features/5207287069147136). For polyfilling Internet Explorer and other legacy browsers, you can use [platform.js](https://github.com/polymer/platform).
 
 ## Resources
 

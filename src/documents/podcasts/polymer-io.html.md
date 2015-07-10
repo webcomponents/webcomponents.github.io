@@ -9,6 +9,4 @@ category: podcasts
 layout: single
 ---
 
-In this episode, the Polymer Podcast panel talks with Taylor Savage, product manager for the Polymer Project, about the
-announcements at Google I/O and Polymer 1.0. We learn about the Polymer starter kit, the new web component catalogs, and
-how the polymer team gets things done!
+In this episode, the Polymer Podcast panel talks with Taylor Savage, product manager for the Polymer Project, about the announcements at Google I/O and Polymer 1.0. We learn about the Polymer starter kit, the new web component catalogs, and how the polymer team gets things done!

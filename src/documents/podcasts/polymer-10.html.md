@@ -9,7 +9,4 @@ category: podcasts
 layout: single
 ---
 
-Polymer 1.0 is here! Lean mean and production ready. On episode 46 The Web Platform Podcast talks to a Proverbial Packed
-Panel of Professional Polymer People. Polymer has grown a ton since its developer preview and has been streamlined for
-performance. It's a a big show with a panel of both GDE’s and members of the Polymer team to get a better idea of just how this
-project has grown and why Polymer and web components as a whole are important for the modern and future web platform.
+Polymer 1.0 is here! Lean mean and production ready. On episode 46 The Web Platform Podcast talks to a Proverbial Packed Panel of Professional Polymer People. Polymer has grown a ton since its developer preview and has been streamlined for performance. It's a a big show with a panel of both GDE’s and members of the Polymer team to get a better idea of just how this project has grown and why Polymer and web components as a whole are important for the modern and future web platform.

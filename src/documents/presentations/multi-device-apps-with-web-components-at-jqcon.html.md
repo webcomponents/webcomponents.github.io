@@ -9,16 +9,11 @@ category: presentations
 layout: single
 ---
 
-Building a multi-device app is extremely challenging, unless you're an expert
-developer. It's time for the web to get its own collection of fast, beautiful,
-and responsive by default components.
+Building a multi-device app is extremely challenging, unless you're an expert developer. It's time for the web to get its own collection of fast, beautiful, and responsive by default components.
 
 <!-- Excerpt -->
 
-In this talk, we'll look at how you can use readily available Web Components to
-quickly build apps that look gorgeous on phones, tablets, and desktops. With
-these new tools we can greatly simplify the process of supporting multiple
-screen sizes, while also keeping our code sane and readable.
+In this talk, we'll look at how you can use readily available Web Components to quickly build apps that look gorgeous on phones, tablets, and desktops. With these new tools we can greatly simplify the process of supporting multiple screen sizes, while also keeping our code sane and readable.
 
 ### Video
 

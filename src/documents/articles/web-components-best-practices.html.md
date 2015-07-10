@@ -35,9 +35,7 @@ Keep in mind that we fully expect best practices to evolve over time and so this
 
 ## As always, don't forget...
 
-A successful web component will be used by many people in many different
-contexts--meaning that following general web development best practices becomes
-even more important.
+A successful web component will be used by many people in many different contexts--meaning that following general web development best practices becomes even more important.
 
 1. **Accessibility**: Make your component accessible by using appropriate ARIA roles—something that is much more important when we're creating new types of elements! In cases where inheritance from a semantic base element is for any reason impossible or infeasible, be sure to add a `role=""` attribute, if any apply.
 2. **Performance**: If you use a callback-based API for long-running operations, don't block the main thread excessively. Debounce methods and logic loops that affect rendering performance using requestAnimationFrame as a queue. Respond to being removed from the tree by suspending expensive operations like animation—and don't start expensive operations until you're actually inserted into the DOM.

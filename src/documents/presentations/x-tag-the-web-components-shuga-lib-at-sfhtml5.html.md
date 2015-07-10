@@ -9,8 +9,7 @@ category: presentations
 layout: single
 ---
 
-In this lightning talk, Daniel will demo the latest tools and libraries that the
-Firefox team uses when they work with Web Components.
+In this lightning talk, Daniel will demo the latest tools and libraries that the Firefox team uses when they work with Web Components.
 
 <!-- Excerpt -->
 

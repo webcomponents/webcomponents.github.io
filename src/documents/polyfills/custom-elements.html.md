@@ -25,8 +25,7 @@ Before you can use a custom element, it needs to be registered. Otherwise, the b
 
 ##### document.registerElement()
 
-To register a new custom element in JavaScript, invoke `document.registerElement()` somewhere in the page.
-As before, custom elements built this way work just like standard elements.
+To register a new custom element in JavaScript, invoke `document.registerElement()` somewhere in the page. As before, custom elements built this way work just like standard elements.
 
 Here's the imperative version of the previous example:
 
@@ -34,7 +33,7 @@ Here's the imperative version of the previous example:
     XFooPrototype.createdCallback = function() {
       this.textContent = "I'm an x-foo!";
     };
-    
+
     XFooPrototype.foo = function() {
       console.log('foo() called');
     };
@@ -47,11 +46,10 @@ Here's the imperative version of the previous example:
 
 **Extending existing elements**
 
-If you want to inherit from a specialized form of `HTMLElement` (e.g. `HTMLButtonElement`),
-declare the type using the `extends` option when calling `document.registerElement()`:
-  
+If you want to inherit from a specialized form of `HTMLElement` (e.g. `HTMLButtonElement`), declare the type using the `extends` option when calling `document.registerElement()`:
+
 Example extending `button`:
-  
+
     var XFooButtonPrototype = Object.create(HTMLButtonElement.prototype);
     XFooButtonPrototype.createdCallback = function() {
       this.textContent = "I'm an x-foo button!";
@@ -64,18 +62,15 @@ Example extending `button`:
 
 #### Using a custom element
 
-After registration, you can construct an instance of your element just like
-standard DOM elements:
+After registration, you can construct an instance of your element just like standard DOM elements:
 
     <x-foo></x-foo>
 
-If you've used `extends` to create a custom element that derives from an existing DOM element
-(e.g. something other than `HTMLElement`), use the `is` syntax:
+If you've used `extends` to create a custom element that derives from an existing DOM element (e.g. something other than `HTMLElement`), use the `is` syntax:
 
     <button is="x-foo-button"></button>
 
-In the declarative and `document.registerElement()` example above, `XFoo` was defined as the new element's constructor.
-This can also be used to create an instance:
+In the declarative and `document.registerElement()` example above, `XFoo` was defined as the new element's constructor. This can also be used to create an instance:
 
     var xFoo = new XFoo();
     document.body.appendChild(xFoo);
@@ -83,8 +78,7 @@ This can also be used to create an instance:
     var xFooButton = document.createElement('button', 'x-foo-button');
     xFooButton.foo(); // "foo() called"
 
-Browser limitations require that we supply the constructor while you supply the `prototype`.
-Use the `createdCallback` to do initialization work that might otherwise be in a constructor.
+Browser limitations require that we supply the constructor while you supply the `prototype`. Use the `createdCallback` to do initialization work that might otherwise be in a constructor.
 
 ## Polyfill details
 
@@ -125,7 +119,6 @@ The Custom Elements specification is still under discussion. The polyfill implem
 * `attributeChangedCallback(attributeName)` is called when a custom element's attribute value has changed
 
 `createdCallback` is invoked _synchronously_ with element instantiation, the other callbacks are called _asyncronously_. The asynchronous callbacks generally use the MutationObserver timing model, which means they are called before layouts, paints, or other triggered events, so the developer need not worry about flashing content or other bad things happening before the callback has a chance to react to changes.
-
 
 ## Tools & Testing
 

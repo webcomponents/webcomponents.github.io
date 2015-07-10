@@ -9,5 +9,4 @@ category: podcasts
 layout: single
 ---
 
-The Polymer Podcast panel talks with to Ian MacLeod, core architect behind web-component-tester about testing with
-Polymer. They also delve into WCT's rich history and tackle some of the harder aspects of testing.
+The Polymer Podcast panel talks with to Ian MacLeod, core architect behind web-component-tester about testing with Polymer. They also delve into WCT's rich history and tackle some of the harder aspects of testing.

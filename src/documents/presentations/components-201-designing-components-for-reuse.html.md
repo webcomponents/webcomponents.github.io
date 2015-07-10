@@ -12,11 +12,9 @@ Getting the most out of web components requires a change in mindset. Component K
 
 <!-- Excerpt -->
 
-The [source code for all demos](https://github.com/JanMiksovsky/polytechnic-demos) in this talk are posted on GitHub. The talk
-references a set of [Ten Principles for Great General Purpose Web Components](https://github.com/basic-web-components/components-dev/wiki/Ten-Principles-for-Great-General-Purpose-Web-Components).
+The [source code for all demos](https://github.com/JanMiksovsky/polytechnic-demos) in this talk are posted on GitHub. The talk references a set of [Ten Principles for Great General Purpose Web Components](https://github.com/basic-web-components/components-dev/wiki/Ten-Principles-for-Great-General-Purpose-Web-Components).
 
-This talk was the second in a series of two. The first, introductory talk is
-[Web Components 101: An Introduction to Fundamental Changes in HTML](/presentations/components-101-intro-to-fundamental-changes-in-html/).
+This talk was the second in a series of two. The first, introductory talk is [Web Components 101: An Introduction to Fundamental Changes in HTML](/presentations/components-101-intro-to-fundamental-changes-in-html/).
 
 ### Video
 

@@ -9,17 +9,11 @@ category: presentations
 layout: single
 ---
 
-We've been talking a lot about Web Components as a community. Encapsulation,
-templating, custom elements, polyfills: it's an exciting time to be a developer!
-(`<taco-button>`, anyone?) Before we create the next generation of soulless
-`<div>` tags, we should consider the role of semantics in shiny, new
-technologies.
+We've been talking a lot about Web Components as a community. Encapsulation, templating, custom elements, polyfills: it's an exciting time to be a developer! (`<taco-button>`, anyone?) Before we create the next generation of soulless `<div>` tags, we should consider the role of semantics in shiny, new technologies.
 
 <!-- Excerpt -->
 
-In this talk, we'll discuss web accessibility in a bleeding-edge
-way to illustrate that accessibility conversations don't have to be boring or
-old-school.
+In this talk, we'll discuss web accessibility in a bleeding-edge way to illustrate that accessibility conversations don't have to be boring or old-school.
 
 ### Video
 

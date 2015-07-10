@@ -9,10 +9,7 @@ category: presentations
 layout: single
 ---
 
-In this tutorial we'll take a deep dive into how Web Components (A collection of
-technologies that includes Shadow DOM, HTML Templates, Custom Elements, and HTML
-Imports) can be used as building blocks to construct a functioning web
-application.
+In this tutorial we'll take a deep dive into how Web Components (A collection of technologies that includes Shadow DOM, HTML Templates, Custom Elements, and HTML Imports) can be used as building blocks to construct a functioning web application.
 
 <!-- Excerpt -->
 

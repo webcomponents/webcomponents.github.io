@@ -9,9 +9,7 @@ category: presentations
 layout: single
 ---
 
-Polymer is a new type of library for the evolving modern web platform that
-leverages the many technlogies behind web components. It provides an extra layer
-of opinionated API sugaring for building smarter apps, faster.
+Polymer is a new type of library for the evolving modern web platform that leverages the many technlogies behind web components. It provides an extra layer of opinionated API sugaring for building smarter apps, faster.
 
 <!-- Excerpt -->
 

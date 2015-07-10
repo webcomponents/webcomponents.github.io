@@ -9,6 +9,4 @@ category: podcasts
 layout: single
 ---
 
-Shop Talk Show is joined by Marcy Sutton. Marcy is an web accessibility expert &
-interactive developer at Substantial in Seattle. Chris & Dave take a deep dive
-into web components, accessibility, Angular JS, AJAX, ARIA, and more!
+Shop Talk Show is joined by Marcy Sutton. Marcy is an web accessibility expert & interactive developer at Substantial in Seattle. Chris & Dave take a deep dive into web components, accessibility, Angular JS, AJAX, ARIA, and more!

@@ -9,12 +9,7 @@ category: presentations
 layout: single
 ---
 
-Polymer web components makes it easier and faster to create anything from a
-button to a complete application across the desktop, mobile, and beyond. Web
-Components usher in a new era of web development based on encapsulated and
-interoperable custom elements that extend HTML itself. Levent Gurses, creates an
-exciting developer-focused session on developing iOS apps with Web Components
-and Google's Polymer Library.
+Polymer web components makes it easier and faster to create anything from a button to a complete application across the desktop, mobile, and beyond. Web Components usher in a new era of web development based on encapsulated and interoperable custom elements that extend HTML itself. Levent Gurses, creates an exciting developer-focused session on developing iOS apps with Web Components and Google's Polymer Library.
 
 <!-- Excerpt -->
 

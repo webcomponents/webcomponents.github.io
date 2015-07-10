@@ -9,6 +9,4 @@ category: podcasts
 layout: single
 ---
 
-Rob Dodson, Google Engineer, goes through many of the recent changes made to
-Polymer, including accessibility and performance enhancements that help in
-making applications more integrated.
+Rob Dodson, Google Engineer, goes through many of the recent changes made to Polymer, including accessibility and performance enhancements that help in making applications more integrated.

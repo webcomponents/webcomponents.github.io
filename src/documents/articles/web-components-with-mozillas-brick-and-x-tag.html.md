@@ -9,8 +9,6 @@ layout: single
 tags: ['Brick', 'X-Tag']
 ---
 
-In this article, we will explore the use of Mozilla’s Brick and X-Tag libraries.
-First we’ll use Brick to rapidly prototype a simple application. Then, we’ll
-build a custom web component using X-Tag.
+In this article, we will explore the use of Mozilla’s Brick and X-Tag libraries. First we’ll use Brick to rapidly prototype a simple application. Then, we’ll build a custom web component using X-Tag.
 
 <!-- Excerpt -->

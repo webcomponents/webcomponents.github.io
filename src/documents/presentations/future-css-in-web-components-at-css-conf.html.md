@@ -9,16 +9,11 @@ category: presentations
 layout: single
 ---
 
-Web Components are set to revolutionise the way we create web pages, and a key
-role in that revolution will be played by CSS. Scoped styles and variables are
-vital to the reusability of content modules which Web Components bring, while
-more advanced proposals even allow the application of markup through style...
+Web Components are set to revolutionise the way we create web pages, and a key role in that revolution will be played by CSS. Scoped styles and variables are vital to the reusability of content modules which Web Components bring, while more advanced proposals even allow the application of markup through style...
 
 <!-- Excerpt -->
 
-This talk will introduce the core features of the future web - templates, custom
-elements and Shadow DOM - with a strong emphasis on new and repurposed CSS
-properties and capabilities
+This talk will introduce the core features of the future web - templates, custom elements and Shadow DOM - with a strong emphasis on new and repurposed CSS properties and capabilities.
 
 ### Video
 

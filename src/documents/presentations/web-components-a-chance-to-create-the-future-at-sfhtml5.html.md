@@ -9,10 +9,7 @@ category: presentations
 layout: single
 ---
 
-In this lightning talk Zeno will demonstrate some tools that can help you
-create your own Web Components. He'll also share a new community resource where
-authors can pass around articles and debate the best practices for building with
-components.
+In this lightning talk Zeno will demonstrate some tools that can help you create your own Web Components. He'll also share a new community resource where authors can pass around articles and debate the best practices for building with components.
 
 <!-- Excerpt -->
 

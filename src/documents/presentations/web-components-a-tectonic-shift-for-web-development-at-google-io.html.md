@@ -9,11 +9,7 @@ category: presentations
 layout: single
 ---
 
-Web Components are here to fundamentally change the way we think, build, and
-consume our web apps. This session will prepare you for the future of the web
-platform by discussing the lower level technologies that form the basis of Web
-Components (Shadow DOM, custom elements, MDV, new CSS primitives). Many of these
-tools have already landed in a modern browser near you!
+Web Components are here to fundamentally change the way we think, build, and consume our web apps. This session will prepare you for the future of the web platform by discussing the lower level technologies that form the basis of Web Components (Shadow DOM, custom elements, MDV, new CSS primitives). Many of these tools have already landed in a modern browser near you!
 
 <!-- Excerpt -->
 

@@ -9,10 +9,7 @@ category: presentations
 layout: single
 ---
 
-Web Components are a collection of standards which are working their way
-through the W3C. Discover how this new concept formed by Templates,
-Decorators, Shadow DOM, Custom Elements, and HTML Imports will revolutionize the
-way we develop and interact on the web.
+Web Components are a collection of standards which are working their way through the W3C. Discover how this new concept formed by Templates, Decorators, Shadow DOM, Custom Elements, and HTML Imports will revolutionize the way we develop and interact on the web.
 
 <!-- Excerpt -->
 

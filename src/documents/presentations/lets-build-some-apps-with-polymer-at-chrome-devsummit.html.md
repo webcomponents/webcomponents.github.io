@@ -9,11 +9,7 @@ category: presentations
 layout: single
 ---
 
-This talk will cover what it takes to build a single page app in Polymer. Rob
-will demonstrate how to quickly scaffold the structure of an application by
-leveraging Material Design elements, explore best practices around lazy loading
-elements to keep our app speedy, and also touch upon the tools we can use to
-debug and test our app.
+This talk will cover what it takes to build a single page app in Polymer. Rob will demonstrate how to quickly scaffold the structure of an application by leveraging Material Design elements, explore best practices around lazy loading elements to keep our app speedy, and also touch upon the tools we can use to debug and test our app.
 
 <!-- Excerpt -->
 

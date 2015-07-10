@@ -9,9 +9,7 @@ category: presentations
 layout: single
 ---
 
-This talk is about understanding Custom Elements and how they fit in to application development today. Andrea goes
-through a brief overview of the Web Component Specs, the support currently, and the libraries available to developers
-to use with Web Components.
+This talk is about understanding Custom Elements and how they fit in to application development today. Andrea goes through a brief overview of the Web Component Specs, the support currently, and the libraries available to developers to use with Web Components.
 
 <!-- Excerpt -->
 

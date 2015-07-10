@@ -9,9 +9,6 @@ layout: single
 tags: ['Shadow DOM']
 ---
 
-Today, we’ll get our hands dirty with some code! By the end of this post, you’ll
-be able to create your own encapsulated widgets that pull in content from the
-outside world and rearrange their bits and pieces to produce something wholly
-different.
+Today, we’ll get our hands dirty with some code! By the end of this post, you’ll be able to create your own encapsulated widgets that pull in content from the outside world and rearrange their bits and pieces to produce something wholly different.
 
 <!-- Excerpt -->
