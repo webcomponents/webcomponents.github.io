@@ -3,7 +3,7 @@ title: Why Web Components will make the web a better place for our users
 authors: [kaelig]
 date: 2015-07-10
 original_date: 2015-07-01
-link: https://medium.com/@kaelig/why-web-components-will-make-the-web-a-better-place-for-our-users-38dc3154fc1dpolymer-1-0/
+link: https://medium.com/@kaelig/why-web-components-will-make-the-web-a-better-place-for-our-users-38dc3154fc1d
 category: articles
 layout: single
 tags: ['Community']
