@@ -317,6 +317,12 @@ module.exports = {
         image: "https://avatars0.githubusercontent.com/u/643503?v=3&s=80",
         twitter: "justinribeiro"
     },
+    kaelig: {
+        name: "Kaelig Deloumeau-Prigent",
+        bio: "Kaelig is a french blogger, author and front-end web developer working in London at FT Labs. Previously, he worked on the responsive sites of the BBC News and the Guardian.",
+        gravatar: "f7e7b837bd06d6193f4ac70f17e6f44b",
+        twitter: "kaelig"
+    },
     kara_erickson: {
         name: "Kara Erickson",
         bio: "Kara is a Web Engineer at OpenTable where she builds Angular applications.",
@@ -328,12 +334,6 @@ module.exports = {
         bio: "Kevin is a Senior Engineer on the Google Polymer team",
         image: "https://avatars3.githubusercontent.com/u/1354932?v=3&s=80",
         twitter: "kevinpschaaf"
-    },
-    kaelig: {
-        name: "Kaelig Deloumeau-Prigent",
-        bio: "Kaelig is French blogger, author and front-end web developer working in London at FT Labs. Previously, I’ve worked on the responsive sites of the BBC News and the Guardian.",
-        gravatar: "f7e7b837bd06d6193f4ac70f17e6f44b",
-        twitter: "kaelig"
     },
     lea_alcantara: {
         name: "Lea Alcantara",
