@@ -65,7 +65,7 @@ At times it can be frustrating that I can't say that "we have support for it" or
 Dimitri has been championing Web Components at various meetings of the Web Apps working group faces-to-face meetings for some time now.
 He'd schedule some time at the meetings to talk about Web Components and in the early meetings he'd hear from Mozilla
 & Apple "Eh", "Interesting", or "I don't like that approach" and I think it was very frustrating for him. When originally planning the 2015 Spring
-meeting scheduled for the entire Web Apps working group, [the organizers] didn't have enough material to get everyone together for a
+meeting scheduled for the entire Web Apps working group, the organizers didn't have enough material to get everyone together for a
 couple of days. That's when they decided to do specific topical break out sessions. The first one was meant to solely focus on Web Components.
 Then Dimitri organized and said "listen...the spec with the most disagreement on various issues is Shadow DOM". Then he
 wrote a document summarizing the contentious bits of Shadow DOM. In the document, he talked about multiple Shadow Roots & Hosts.
