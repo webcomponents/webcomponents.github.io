@@ -3,6 +3,7 @@ title: "Web Components with John Rogerson"
 authors: [john_rogerson, lea_alcantara, emily_lewis]
 podcast: Ctrl+Click Cast
 date: 2015-05-21
+original_date: 2015-05-21
 link: "http://ctrlclickcast.com/episodes/web-components"
 category: podcasts
 layout: single

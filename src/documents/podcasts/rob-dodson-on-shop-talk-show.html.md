@@ -3,6 +3,7 @@ title: "124: With Rob Dodson"
 authors: [rob_dodson, dave_rupert, chris_coyier]
 podcast: Shop Talk Show
 date: 2014-08-12
+original_date: 2014-08-12
 link: "http://shoptalkshow.com/episodes/124-rob-dodson/"
 category: podcasts
 layout: single

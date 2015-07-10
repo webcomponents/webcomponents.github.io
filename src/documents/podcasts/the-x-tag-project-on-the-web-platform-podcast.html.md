@@ -3,6 +3,7 @@ title: "21: The X-Tag Project"
 authors: [daniel_buchner, erik_isaksen ]
 podcast: The Web Platform Podcast
 date: 2014-12-12
+original_date: 2014-12-12
 link: "http://thewebplatform.libsyn.com/21-the-x-tag-project"
 category: podcasts
 layout: single

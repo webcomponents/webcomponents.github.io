@@ -3,6 +3,7 @@ title: "11: The Bosonic Project"
 authors: [raphael_rougeron, erik_isaksen, danny_blue ]
 podcast: The Web Platform Podcast
 date: 2014-09-15
+original_date: 2014-09-15
 link: http://thewebplatform.libsyn.com/the-bosonic-project
 category: podcasts
 layout: single

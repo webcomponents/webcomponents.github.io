@@ -3,6 +3,7 @@ title: "20: Mozilla Brick, ‘UIKit’ for The Web"
 authors: [matt_claypotch, soledad_penades, erik_isaksen ]
 podcast: The Web Platform Podcast
 date: 2014-11-30
+original_date: 2014-11-30
 link: "http://thewebplatform.libsyn.com/mozilla-brick-a-uikit-for-mobile-first"
 category: podcasts
 layout: single
