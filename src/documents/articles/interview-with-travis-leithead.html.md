@@ -38,15 +38,15 @@ heard about before; I was a pretty staunch Firefox user back then.
 
 ### How did you get involved with Web Components and what does it mean at Microsoft to be involved with Web Components?
 
-I think it all started back in 2008 or 2009. A former co-worker of mine named Tony Ross and I were invited to a call with
-Google. I think Raphael Weinstein and maybe Dimitri were involved at that point but I can't recall. They wanted to talk
+I think it all started back in 2008 or 2009. A former co-worker of mine named [Tony Ross](https://www.linkedin.com/pub/tony-ross/8b/882/51) and I were invited to a call with
+Google. I think [Raphael Weinstein](https://plus.google.com/111386188573471152118/) and maybe [Dimitri Glazkov](https://plus.google.com/+DimitriGlazkov/) were involved at that point but I can't recall. They wanted to talk
 to us about data binding. They knew we had a data binding system with HTML tables and they wanted to pick our brains
 on what a good system would be. We sat down and talked about it and our point of view was "Oh my goodness! Don't go there right now!".
 This is fraught with dragons. You're going to pick an approach and it's going to be wrong. Maybe think about decomposing
 that problem a little bit.
 
 The next time we heard from them (maybe it was a year or two later), they had started down
-[the current] direction of separate specs and this vision sort of the way you start to see it formed now with Shadow DOM,
+[the current direction](http://www.w3.org/wiki/WebComponents/) of separate specs and this vision sort of the way you start to see it formed now with Shadow DOM,
 Custom Elements, templates and all that. And so I've been involved from the periphery since those early days and then got
 more involved as we helped Raphael with the template spec. Tony Ross was one of the editors before Templates got integrated
 with HTML.
@@ -62,7 +62,7 @@ At times it can be frustrating that I can't say that "we have support for it" or
 
 ### Microsoft has done a great deal of collaboration and interactive work with other browser vendors. Can you talk to us about the W3C Web Apps face-to-face meetings you've been having to finalize the specs. How have they gone? How can developers keep updated on the outcomes of these meetings?
 
-Dimitri has been championing Web Components at various meetings of the Web Apps working group faces-to-face meetings for some time now. 
+Dimitri has been championing Web Components at various meetings of the Web Apps working group faces-to-face meetings for some time now.
 He'd schedule some time at the meetings to talk about Web Components and in the early meetings he'd hear from Mozilla
 & Apple "Eh", "Interesting", or "I don't like that approach" and I think it was very frustrating for him. When originally planning the 2015 Spring
 meeting scheduled for the entire Web Apps working group, [the organizers] didn't have enough material to get everyone together for a
@@ -73,7 +73,7 @@ He talked about the Shadow Root Piercing Combinator, and a bunch of other issues
 together; we didn't just have browser vendors in there, but we had library & framework representatives from
 Polymer, React, and Angular who contributed to the conversations. My take away: the experience was fantastic. I
 think having that focused effort on Web Components really accelerated the pace at which we were able to resolve
-a lot of issues. In many cases, there wasn't that much disagreement. It was great to get 
+a lot of issues. In many cases, there wasn't that much disagreement. It was great to get
 everyone on the same page. Once we got everyone to understand, the hang-ups and disagreements were really trivial to
 resolve. In the first half-hour (or hour) at the last Shadow DOM meeting we had resolved 4 of the 5 major
 issues. After dinner we came back with a tentative resolution for the remaining issue. It was just phenomenal. Everyone
@@ -97,15 +97,14 @@ to jump on board with that until some of the details of that Module Loader algor
 ### With all of the major specs in the top 10 of Edge’s User Voice poll, what are your feelings on when any of them will make it into the Edge Browser?
 
 Yeah...It's actually the top 5. :-) Numbers two through five are the Web Component specs and the first one is about updating our browser so
-that everyone is using the most modern version. I can't really say [exactly] when these will be implemented, but Template is our first
-priority from a polyfill standpoint. Template is one of the more challenging to [polyfill] and one of the more core pieces of Web Components.
-Then after that will be Shadow DOM. That's probably the second hardest to polyfill. Then we'll [likely do] Custom Elements at the same
-time or shortly thereafter. Then Imports after that. That's my plan for at least those four specs and CSS Variables [a.k.a., Custom Properties] will
+that everyone is using the most modern version. I can't really say exactly when these will be implemented, but Template is our first
+priority from a polyfill standpoint. Template is one of the more challenging to polyfill and one of the more core pieces of Web Components.
+Then after that will be Shadow DOM. That's probably the second hardest to polyfill. Then we'll likely do Custom Elements at the same
+time or shortly thereafter. Then finally Imports after that. That's my plan for at least those four specs and CSS Variables (a.k.a., Custom Properties) will
 likely get implemented somewhere in between as well.
 
 If we are talking goals and not hard dates, I think I would be comfortable saying that we may have full Web Component support
 in Edge by the end of next year. By the time we get them in Edge you'll likely see Web Components everywhere. :-)
-
 
 ## Credits
 
