@@ -9,17 +9,11 @@ category: presentations
 layout: single
 ---
 
-Divs, nested divs and more nested divs… A pretty web UI with nasty markups is a big turn-off. Now with a new set of new
-W3C web platform primitives called Web Components, we can encapsulate UI and complex functionalities, just like packing
-data and functions into a single component, and restrict the access in object-oriented programming.
+Divs, nested divs and more nested divs… A pretty web UI with nasty markups is a big turn-off. Now with a new set of new W3C web platform primitives called Web Components, we can encapsulate UI and complex functionalities, just like packing data and functions into a single component, and restrict the access in object-oriented programming.
 
 <!-- Excerpt -->
 
-<p>The web components
-   don’t add ugly children in your DOM tree, in fact, they are separated from the tree. The DOM-related methods like
-   getElementById() doesn’t give you an access inside! So, how can you use the encapsulated components and also obtain the
-   access inside and style them?
-   </p>
+The web components don’t add ugly children in your DOM tree, in fact, they are separated from the tree. The DOM-related methods like getElementById() doesn’t give you an access inside! So, how can you use the encapsulated components and also obtain the access inside and style them?
 
 ### Video
 

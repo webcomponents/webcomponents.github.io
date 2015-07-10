@@ -1,5 +1,4 @@
 (function (window, document, undefined) {
-
     'use strict';
 
     var button = document.querySelector('.menu-button'),
