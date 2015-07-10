@@ -6,7 +6,7 @@ original_date: 2015-01-15
 link: http://www.pubnub.com/blog/creating-a-polymer-chat-app-with-material-design/
 category: articles
 layout: single
-tags: ['Custom Elements', 'Polymer']
+tags: ['Polymer']
 ---
 
 We’ve published a wide variety of demos and tutorials showing you how to build a realtime chatroom with JavaScript; 10Chat with only 10 lines of JavaScript, AngularJS chat, going “native” with PhoneGap for Android and iOS, etc.

@@ -6,7 +6,7 @@ original_date: 2015-06-18
 link: "http://moduscreate.com/hands-on-with-polymer-1-0/"
 category: articles
 layout: single
-tags: ['Custom Elements', 'Polymer', 'HTML Imports', 'Shadow DOM']
+tags: ['Polymer']
 ---
 
 On May 29, 2015, the polymer team announced the release of Polymer 1.0.  Since the release of Polymer 0.5 developer preview, the team has rewritten the library from the ground up, with increased performance and better functionality as results.

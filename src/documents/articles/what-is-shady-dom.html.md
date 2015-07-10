@@ -6,7 +6,7 @@ original_date: 2015-05-29
 link: https://www.polymer-project.org/1.0/articles/shadydom.html
 category: articles
 layout: single
-tags: ['Polymer', 'Shadow Dom']
+tags: ['Polymer', 'Shadow DOM']
 ---
 
 Encapsulation is at the core of Web Components, aim to provide the user a simple element interface that is rendered with complexity hidden under the hood.

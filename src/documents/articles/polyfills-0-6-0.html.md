@@ -5,7 +5,7 @@ date: 2015-03-27
 original_date: 2015-03-27
 category: articles
 layout: single
-tags: ['HTML Imports', 'Custom Elements', 'Shadow DOM', 'Template', 'Polyfills']
+tags: ['Polyfills']
 ---
 
 Exciting news - the 0.6.0 version of the `webcomponents.js` polyfills has been [released](https://github.com/webcomponents/webcomponentsjs/tree/v0.6.0). A lot of critical fixes are in this release - highlights are described below.

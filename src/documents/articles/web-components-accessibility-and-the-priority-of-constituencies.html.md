@@ -6,7 +6,7 @@ original_date: 2015-04-23
 link: http://www.brucelawson.co.uk/2015/web-components-accessibility-and-the-priority-of-constituencies/
 category: articles
 layout: single
-tags: ['Accessibility', 'Spec']
+tags: ['Accessibility', 'Community']
 ---
 
 Gosh, what a snappy title. I’m not expecting a job offer from Buzzfeed any time soon.

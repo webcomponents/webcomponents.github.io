@@ -6,7 +6,7 @@ original_date: 2015-05-20
 link: http://philipwalton.com/articles/extending-styles/
 category: articles
 layout: single
-tags: ['Styles', 'Custom Elements']
+tags: ['Styling', 'Custom Elements', 'Shadow DOM']
 ---
 
 The point of extending styles is to reuse code. If you’ve defined some base-level styles, you want to be able to use those styles again without having to rewrite them. And if you need to change those base-level styles, you want those changes to propagate throughout.

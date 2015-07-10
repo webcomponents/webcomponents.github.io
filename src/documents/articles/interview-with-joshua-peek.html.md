@@ -6,7 +6,7 @@ original_date: 2014-09-30
 image: interview-with-joshua-peek.jpg
 category: articles
 layout: single
-tags: ['Interview', 'Use cases']
+tags: ['Interview']
 ---
 
 More and more people have been using Web Components. Some just want to play with

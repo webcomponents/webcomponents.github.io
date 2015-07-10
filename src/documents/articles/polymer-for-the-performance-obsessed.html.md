@@ -6,7 +6,7 @@ original_date: 2015-06-11
 link: https://aerotwist.com/blog/polymer-for-the-performance-obsessed/
 category: articles
 layout: single
-tags: ['Polymer', 'perfomance']
+tags: ['Polymer', 'Perfomance']
 ---
 
 I'm building a small web app at the moment, and so I've taken the opportunity to give Polymer 1.0 a proper test drive. The question I was asking myself: can I get all these goodies without making users pay a huge performance cost?

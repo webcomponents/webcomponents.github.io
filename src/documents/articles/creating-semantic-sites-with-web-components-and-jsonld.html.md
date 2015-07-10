@@ -6,7 +6,7 @@ original_date: 2015-03-09
 link: http://updates.html5rocks.com/2015/03/creating-semantic-sites-with-web-components-and-jsonld
 category: articles
 layout: single
-tags: ['Schema.org', 'JSON-LD']
+tags: ['Semantics']
 ---
 
 With the rising popularity of web components and supporting libraries like Polymer, custom elements become an attractive way to build UI features. The default encapsulation of custom elements makes them especially useful for creating independent widgets.

@@ -6,7 +6,7 @@ original_date: 2015-03-20
 link: http://webreflection.blogspot.com.br/2015/03/bringing-custom-elements-to-ie8.html
 category: articles
 layout: single
-tags: ['Polyfill', 'Custom Elements']
+tags: ['Polyfills', 'Custom Elements']
 ---
 
 Bringing modern Web standards to old browsers is always challenging, sometimes nearly impossible, but always beneficial for a graceful migrations approach.

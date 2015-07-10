@@ -6,7 +6,7 @@ original_date: 2015-05-26
 link: https://medium.com/@zenorocha/discoverability-for-web-components-72ce29f128b2
 category: articles
 layout: single
-tags: ['Web Components', 'Custom Elements']
+tags: ['Community']
 ---
 
 In a world where you can create your own `<awesome-button>` tag and distribute it with a simple `<link rel="import">`, a whole range of options for composability and reusability emerges.
