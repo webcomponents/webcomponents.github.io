@@ -60,13 +60,13 @@ At times it can be frustrating that I can't say that "we have support for it" or
 
 ### Microsoft has done a great deal of collaboration and interactive work with other browser vendors. Can you talk to us about the W3C Web Apps face-to-face meetings you've been having to finalize the specs? How have they gone? How can developers keep updated on the outcomes of these meetings?
 
-Dimitri has been championing Web Components at various meetings of the Web Apps working group faces-to-face meetings for some time now.
+Dimitri had been championing Web Components at various meetings of the Web Apps working group faces-to-face meetings for some time now.
 He'd schedule some time at the meetings to talk about Web Components and in the early meetings he'd hear from Mozilla
 & Apple "Eh", "Interesting", or "I don't like that approach" and I think it was very frustrating for him. When originally planning the 2015 Spring
 meeting scheduled for the entire Web Apps working group, the organizers didn't have enough material to get everyone together for a
 couple of days. That's when they decided to do specific topical break out sessions. The first one was meant to solely focus on Web Components.
 Then Dimitri organized and said "listen...the spec with the most disagreement on various issues is Shadow DOM". Then he
-wrote a document summarizing the contentious bits of Shadow DOM. In the document, he talked about multiple Shadow Roots & Hosts.
+wrote [a document summarizing the contentious bits of Shadow DOM](https://github.com/w3c/webcomponents/wiki/Shadow-DOM:-Contentious-Bits). In the document, he talked about multiple Shadow Roots & Hosts.
 He talked about the Shadow Root Piercing Combinator, and a bunch of other issues in Shadow DOM that were disputed. He got us all
 together; we didn't just have browser vendors in there, but we had library & framework representatives from
 Polymer, React, and Angular who contributed to the conversations. My take away: the experience was fantastic. I
@@ -78,13 +78,13 @@ issues. After dinner we came back with a tentative resolution for the remaining 
 was feeling really good about it.
 
 The next meeting is on July 21st, 2015 in Mountain View California at Google's Headquarters. It's the same venue as the last
-meeting except this time we are going in and looking at Custom Elements. Two of the big topics, at least in my point of view,
-are the timing issue of when you do upgrades to a Custom Element and the "is" syntax and subclassing.
+meeting except this time we are going in and looking at Custom Elements. The big topics, at least in my point of view,
+are the timing issue of when you do upgrades to a Custom Element, the "is" syntax, and subclassing.
 
 ### We talked a little about Shadow DOM & Custom Elements but what about Templates & HTML Imports. HTML Imports are pretty contentious. Is that saved for last?
 
 I think that's a safe bet for HTML Imports. Most of the issues have been resolved for Templates. In fact I don't know that anyone has any
-beef with what's been integrated into the spec so far--including us. We're good. :-) We are trying to find a way to get that
+beef with what's been integrated into the spec so far - including us. We're good. We are trying to find a way to get that
 implemented. As for imports, I'm undecided on whether I like it or not. Part of me says it doesn't add enough unique value
 aside from this dependency resolution model that's built into it. It's really easy to polyfill otherwise. There is also
 the deal with the EcmaScript Harmony proposal for Module Loader and trying to rationalize what the difference is between
@@ -107,4 +107,4 @@ in Edge by the end of next year. By the time we get them in Edge you'll likely s
 ## Credits
 
 * Questions by [Erik Isaksen](https://twitter.com/eisaksen) and [Raphaël Rougeron](https://twitter.com/goldoraf).
-* image & audio by [Erik Isaksen](https://twitter.com/eisaksen)
+* Image & audio by [Erik Isaksen](https://twitter.com/eisaksen)
