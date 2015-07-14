@@ -704,6 +704,21 @@ header, section {
 /* Card ~ Swag
 ============================================================================= */
 
+.card-about h3 {
+    font-size: 1.2em;
+}
+
+.card-about p {
+    padding: 0;
+}
+
+.layout-archive .card-about .description {
+    padding: 10px 20px;
+}
+
+/* Card ~ Swag
+============================================================================= */
+
 .card-swag h3 {
     font-size: 1.2em;
 }

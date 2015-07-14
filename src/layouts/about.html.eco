@@ -1,0 +1,13 @@
+<%- @partial('header') %>
+<div class="page-wrap">
+<%- @partial('menu') %>
+
+<div class="wrapper">
+    <main class="card-container layout-archive" role="main" itemscope itemtype="http://schema.org/CollectionPage">
+        <!-- Post Listing -->
+        <%- @content %>
+    </main>
+</div>
+</div>
+
+<%- @partial('footer') %>
