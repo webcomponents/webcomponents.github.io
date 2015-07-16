@@ -1408,3 +1408,11 @@ header, section {
     color: #9c9c9c;
     margin-right: 3px;
 }
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
