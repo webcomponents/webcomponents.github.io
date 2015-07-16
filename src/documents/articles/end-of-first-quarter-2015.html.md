@@ -29,27 +29,27 @@ The site is probably the heart of this organization, it's our hub to distribute 
 
 ### Where did they visited from?
 
-1. United States: 35,603 <small>(26.79%)</small>
-2. United Kingdom: 7,435 <small>(5.58%)</small>
-3. Germany: 7,004 <small>(5.26%)</small>
-4. India: 5,834 <small>(4.38%)</small>
-5. France: 5,388 <small>(4.04%)</small>
+1. United States: 35,603 (26.79%)
+2. United Kingdom: 7,435 (5.58%)
+3. Germany: 7,004 (5.26%)
+4. India: 5,834 (4.38%)
+5. France: 5,388 (4.04%)
 
 ### What did they like to see?
 
-1. [Home](/): 105,363 <small>(44.06%)</small>
-2. [Polyfills](/polyfills): 25,970 <small>(10.86%)</small>
-3. [Introduction to HTML Imports](/articles/introduction-to-html-imports): 19,435 <small>(8.13%)</small>
-4. [Articles](/articles): 11,816 <small>(4.94%)</small>
-5. [Presentations](/presentations): 10,058 <small>(4.21%)</small>
+1. [Home](/): 105,363 (44.06%)
+2. [Polyfills](/polyfills): 25,970 (10.86%)
+3. [Introduction to HTML Imports](/articles/introduction-to-html-imports): 19,435 (8.13%)
+4. [Articles](/articles): 11,816 (4.94%)
+5. [Presentations](/presentations): 10,058 (4.21%)
 
 ### Which external links did they click?
 
-1. [CustomElements.io](http://customelements.io/): 5,375 <small>(16.85%)</small>
-2. [Custom Elements Spec](http://w3c.github.io/webcomponents/spec/custom/): 4,187 <small>(13.13%)</small>
-3. [Built with Polymer](http://builtwithpolymer.org/): 3,969 <small>(12.45%)</small>
-4. [Polymer](http://www.polymer-project.org/): 3,835 <small>(12.03%)</small>
-5. [Component Kitchen](http://component.kitchen/): 3,415 <small>(10.71%)</small>
+1. [CustomElements.io](http://customelements.io/): 5,375 (16.85%)
+2. [Custom Elements Spec](http://w3c.github.io/webcomponents/spec/custom/): 4,187 (13.13%)
+3. [Built with Polymer](http://builtwithpolymer.org/): 3,969 (12.45%)
+4. [Polymer](http://www.polymer-project.org/): 3,835 (12.03%)
+5. [Component Kitchen](http://component.kitchen/): 3,415 (10.71%)
 
 ## GitHub
 
