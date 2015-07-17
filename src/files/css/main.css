@@ -425,6 +425,15 @@ header, section {
     column-count: 3;
 }
 
+.layout-community {
+    -webkit-column-count: 10;
+    -moz-column-count: 10;
+    column-count: 10;
+    -webkit-column-gap: 5px;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+}
+
 .layout-archive {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -660,12 +669,15 @@ header, section {
 
 .profile-list li {
     display: inline-block;
-    padding: 10px;
-    width: 21%;
+    padding: 3px 0;
+    min-width: 50px;
 }
 
 .profile-list li a {
     display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    border: solid 1px #ccc;
 }
 
 .profile-list li a:hover {
@@ -673,7 +685,6 @@ header, section {
 }
 
 .profile-list .picture {
-    border-radius: 50%;
     left: 0;
     overflow: hidden;
     top: 0;
@@ -699,6 +710,11 @@ header, section {
 
 .card-what .description {
     padding: 20px;
+}
+
+.card-community {
+    padding: 0 20px;
+    text-align: left;
 }
 
 /* Card ~ Swag
@@ -1422,12 +1438,4 @@ header, section {
 .tag-list li span {
     color: #9c9c9c;
     margin-right: 3px;
-}
-
-.positive {
-    color: green;
-}
-
-.negative {
-    color: red;
 }

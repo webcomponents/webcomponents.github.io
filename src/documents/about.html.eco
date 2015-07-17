@@ -1,0 +1,26 @@
+---
+name: about
+title: About
+description: About WebComponents.org
+layout: base
+---
+
+<main class="card-container" itemscope itemtype="http://schema.org/CollectionPage">
+
+    <div class="layout-archive">
+    <% for item in @fixOrder(@getCollection("about").toJSON()): %>
+        <% if item.link: %>
+            <section class="card card-<%= item.order %> card-about" itemscope itemtype="http://schema.org/Product">
+                <h3 itemprop="name"><%= item.title %></h3>
+
+                <div class="description" itemprop="description">
+                    <%- item.content %>
+                </div>
+
+            </section>
+        <% end %>
+    <% end %>
+    </div>
+    <%- @partial('card-community', { name: 'Community', slug: 'community' }) %>
+
+</main>
