@@ -42,6 +42,11 @@
                     <span itemprop="name">Swags</span>
                 </a>
             </li>
+            <li>
+                <a href="<%= @site.url %>/assets/" title="Assets" itemprop="url">
+                    <span itemprop="name">Assets</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </div>
