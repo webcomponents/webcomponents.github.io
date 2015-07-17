@@ -5,6 +5,12 @@ module.exports = {
         image: "https://avatars1.githubusercontent.com/u/662832?v=3&s=80",
         twitter: "js_dev"
     },
+    arron_eicholz: {
+        name: "Arron Eicholz",
+        bio: "Arron is a Program Manager at Microsoft and is currently focused on the Edge Browser",
+        image: "https://avatars1.githubusercontent.com/u/4141737?v=3&s=80",
+        twitter: "mrcss"
+    },
     addy_osmani: {
         name: "Addy Osmani",
         bio: "Addy works on the Chrome Developer Relations team at Google, building and advocating for tools to help improve developer productivity and satisfaction. His personal projects include TodoMVC, which helps developers compare JavaScript MVC frameworks and AuraJS. He's also written 'Developing Backbone.js Applications' and 'Learning JavaScript Design Patterns'.",
