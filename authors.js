@@ -467,6 +467,12 @@ module.exports = {
         gravatar: "95c3a3b33ea51545229c625bef42e343",
         twitter: "rob_dodson"
     },
+    rob_eisenberg: {
+        name: "Rob Eisenberg",
+        bio: "Rob is the creator of Caliburn.Micro & Durandal. He is a former Angular 2.0 team member. Currently Rob is building a new tech startup, Durandal Inc., whose first product is Aurelia.",
+        gravatar:"e1709218ec4ecc612e5c9a6d5d59e68f",
+        twitter: "EisenbergEffect"
+    },
     scott_miles: {
         name: "Scott Miles",
         bio: "Scott is a Software engineer in the Polymer team. He currently lives in Napa, CA.",
