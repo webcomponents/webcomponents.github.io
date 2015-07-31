@@ -48,8 +48,6 @@ Its nodes are not children of `<my-custom-element>`.
     shadow.innerHTML = '<content select="q"></content>';
     document.body.appendChild(el);
 
-**Note:** Shadow roots are represented as a `#document-fragment` in the DevTools.
-
 **Composed (rendered) DOM**
 
 The composed DOM is what the browser actually renders. For rendering, the light
