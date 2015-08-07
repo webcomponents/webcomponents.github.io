@@ -91,7 +91,7 @@
                     <h3 itemprop="name">Tags</h3>
                     <ul class="tag-list">
                         <% for tag in @document.tags: %>
-                            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/itemListElement">
+                            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
                                 <a href="<%- @getTagURL(tag) %>" itemprop="url">
                                     <span class="icon icon-tag"></span>
                                     <span itemprop="name"><%= tag %></span>
