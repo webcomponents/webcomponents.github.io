@@ -1029,6 +1029,15 @@ header, section {
     display: inline-block;
     border-radius: 5px;
     box-shadow: 0 3px 1px 0 rgba(0,0,0,.1);
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -ms-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
+}
+
+.download-all-assets-section .card-download-button:hover {
+    background: rgba(22, 100, 151, .9);
 }
 
 @media (max-width: 660px) {
