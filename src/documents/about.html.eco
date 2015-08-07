@@ -2,7 +2,7 @@
 name: about
 title: About
 description: About WebComponents.org
-layout: base
+layout: home
 ---
 
 <main class="card-container" itemscope itemtype="http://schema.org/CollectionPage">
