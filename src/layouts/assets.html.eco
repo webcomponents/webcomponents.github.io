@@ -4,7 +4,9 @@
 
 <div class="wrapper">
     <div class="card card-announcement card-announcement-assets">
-        <div class="icon-wrapper"></div>
+        <div class="icon-wrapper">
+            <span class="icon-image"></span>
+        </div>
         <p>
             Below you'll find some of the assets we've created for WebComponents.org. You may want these for a presentation, a blog post or whatever. All logos are high resolution with transparent backgrounds and are available in SVG, PNG, and Font formats.
         </p>
@@ -16,8 +18,8 @@
     </main>
 
     <div class="download-all-assets-section">
-        <a href="https://github.com/webcomponents/webcomponents-icons/raw/master/all-webcomponents-assets.zip" download class="card-download-button">Download all logos (PNG and SVG)</a>
-        <a href="https://github.com/webcomponents/webcomponents-icons/raw/master/fonts/webcomponents-font.zip" download class="card-download-button">Download @Font-Face</a>
+        <a href="https://github.com/webcomponents/webcomponents-icons/raw/master/all-webcomponents-assets.zip" download class="card-download-button">Download all logos</a>
+        <a href="https://github.com/webcomponents/webcomponents-icons/raw/master/fonts/webcomponents-font.zip" download class="card-download-button">Download @font-face</a>
     </div>
 
     <div class="card-colors-container">

@@ -17,7 +17,7 @@ layout: assets
         <ul class="link-list">
 
             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/itemListElement">
-                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/<%= item.slug %>/<%= item.slug %>.svg" itemprop="url">Get SVG</a>
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/<%= item.slug %>/<%= item.slug %>.svg" itemprop="url">SVG</a>
             </li>
 
             <li class="col" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/itemListElement">

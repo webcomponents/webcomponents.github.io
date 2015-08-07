@@ -438,9 +438,8 @@ header, section {
 }
 
 .layout-assets.card-container {
-    padding: 0 40px 0;
+    padding-bottom: 0;
 }
-
 
 /* --- Two columns --- */
 @media (max-width: 980px) {
@@ -784,6 +783,12 @@ header, section {
     column-count: 1;
 }
 
+@media (max-width: 980px) {
+    .card-colors-container {
+        padding: 0 20px 20px;
+    }
+}
+
 .card-colors {
     padding: 5px;
     margin: 0;
@@ -799,7 +804,7 @@ header, section {
     width: 25%;
     text-align: center;
     height: 180px;
-    padding: 80px;
+    padding: 80px 0;
     color: #fff;
 }
 
@@ -989,15 +994,15 @@ header, section {
 
 .card-announcement-swags .icon-wrapper,
 .card-announcement-assets .icon-wrapper {
-    background: #5ACD49;
     margin: 15px 15px 15px 0;
 }
 
-/* Announcement - Assets
-   ========================================================================== */
+.card-announcement-swags .icon-wrapper {
+    background: #5ACD49;
+}
 
 .card-announcement-assets .icon-wrapper {
-    background: #5ACD49;
+    background: #975FDC;
 }
 
 /* Page - Assets
@@ -1005,16 +1010,16 @@ header, section {
 
 .download-all-assets-section {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 
 .download-all-assets-section .card-download-button {
-    background: #E44D26;
+    background: #166497;
     font-weight: 700;
     color: #fff;
     display: block;
     font-size: .9em;
-    line-height: 1em;
+    line-height: 1.2em;
     padding: 25px 55px;
     text-align: center;
     margin: 5px 20px 7px;
@@ -1022,12 +1027,16 @@ header, section {
     text-transform: uppercase;
     width: 40%;
     display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 3px 1px 0 rgba(0,0,0,.1);
 }
 
 @media (max-width: 660px) {
     .download-all-assets-section {
         padding: 0 20px;
+        margin-bottom: 15px;
     }
+
     .download-all-assets-section .card-download-button {
         margin: 0 0 10px;
         width: 100%;
@@ -1485,15 +1494,45 @@ header, section {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow-right:before { content: "\e603"; }
-.icon-clock:before { content: "\e60c"; }
-.icon-dollar:before { content: "\e605"; }
-.icon-github:before { content: "\f113"; }
-.icon-location:before { content: "\e601"; }
-.icon-pencil:before { content: "\e602"; }
-.icon-rss:before { content: "\ea94"; }
-.icon-tag:before { content: "\e600"; }
-.icon-mic:before { content: "\e91e"; }
+.icon-dollar:before {
+    content: "\e605";
+}
+
+.icon-tag:before {
+    content: "\e600";
+}
+
+.icon-clock:before {
+    content: "\e60c";
+}
+
+.icon-location:before {
+    content: "\e601";
+}
+
+.icon-arrow-right:before {
+    content: "\e603";
+}
+
+.icon-pencil:before {
+    content: "\e602";
+}
+
+.icon-rss:before {
+    content: "\ea94";
+}
+
+.icon-mic:before {
+    content: "\e91e";
+}
+
+.icon-image:before {
+    content: "\e90d";
+}
+
+.icon-github:before {
+    content: "\f113";
+}
 
 /* --- Homepage installation --- */
 

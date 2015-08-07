@@ -38,13 +38,13 @@
         <ul>
             <li>Community</li>
             <li>
-                <a href="<%= @site.url %>/swags/" title="Swags" itemprop="url">
-                    <span itemprop="name">Swags</span>
+                <a href="<%= @site.url %>/assets/" title="Assets" itemprop="url">
+                    <span itemprop="name">Assets</span>
                 </a>
             </li>
             <li>
-                <a href="<%= @site.url %>/assets/" title="Assets" itemprop="url">
-                    <span itemprop="name">Assets</span>
+                <a href="<%= @site.url %>/swags/" title="Swags" itemprop="url">
+                    <span itemprop="name">Swags</span>
                 </a>
             </li>
         </ul>
