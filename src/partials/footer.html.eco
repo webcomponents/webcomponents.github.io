@@ -38,6 +38,11 @@
         <ul>
             <li>Community</li>
             <li>
+                <a href="<%= @site.url %>/about/" title="About" itemprop="url">
+                    <span itemprop="name">About</span>
+                </a>
+            </li>
+            <li>
                 <a href="<%= @site.url %>/assets/" title="Assets" itemprop="url">
                     <span itemprop="name">Assets</span>
                 </a>
