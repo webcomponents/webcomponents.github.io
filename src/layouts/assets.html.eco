@@ -1,0 +1,45 @@
+<%- @partial('header') %>
+<div class="page-wrap">
+<%- @partial('menu') %>
+
+<div class="wrapper">
+    <div class="card card-announcement card-announcement-assets">
+        <div class="icon-wrapper">
+            <span class="icon-image"></span>
+        </div>
+        <p>
+            Below you'll find some of the assets we've created for WebComponents.org. You may want these for a presentation, a blog post or whatever. All logos are high resolution with transparent backgrounds and are available in SVG, PNG, and Font formats.
+        </p>
+    </div>
+
+    <main class="card-container layout-assets" role="main" itemscope itemtype="http://schema.org/CollectionPage">
+        <!-- Post Listing -->
+        <%- @content %>
+    </main>
+
+    <div class="download-all-assets-section">
+        <a href="https://github.com/webcomponents/webcomponents-icons/raw/master/all-webcomponents-assets.zip" download class="card-download-button">Download all logos</a>
+        <a href="https://github.com/webcomponents/webcomponents-icons/raw/master/fonts/webcomponents-font.zip" download class="card-download-button">Download @font-face</a>
+    </div>
+
+    <div class="card-colors-container">
+        <div class="card card-colors">
+            <h2 class="title">Color Palette</h2>
+            <div class="card-color card-color-3A99D7">
+                #3A99D7
+            </div>
+            <div class="card-color card-color-FF5C03">
+                #FF5C03
+            </div>
+            <div class="card-color card-color-166497">
+                #166497
+            </div>
+            <div class="card-color card-color-434A54">
+                #434A54
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<%- @partial('footer') %>

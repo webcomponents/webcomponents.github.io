@@ -440,6 +440,15 @@ header, section {
     column-count: 2;
 }
 
+.layout-assets {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.layout-assets.card-container {
+    padding-bottom: 0;
+}
 
 /* --- Two columns --- */
 @media (max-width: 980px) {
@@ -732,14 +741,16 @@ header, section {
     padding: 10px 20px;
 }
 
-/* Card ~ Swag
+/* Card ~ Swag & Card ~ Asset
 ============================================================================= */
 
-.card-swag h3 {
+.card-swag h3,
+.card-asset h3 {
     font-size: 1.2em;
 }
 
-.card-swag p {
+.card-swag p,
+.card-asset p {
     padding: 0;
 }
 
@@ -756,9 +767,92 @@ header, section {
     padding: 0 20px;
 }
 
-.card-swag .card-main-btn {
+.card-swag .card-main-btn,
+.card-asset .card-main-btn {
     text-transform: none;
     padding: 15px 0;
+}
+
+/* Card ~ Asset
+============================================================================= */
+
+.card-asset .link-list {
+    border-top: 1px solid #f2f4f6;
+    overflow: hidden;
+}
+
+.card-asset .link-list li {
+    text-align: center;
+}
+
+.card-asset .link-list a {
+    color: #434a54;
+}
+
+.card-asset .link-list .col {
+    float: left;
+    width: 50%;
+}
+
+.card-asset .story-image {
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* Card ~ Colors
+============================================================================= */
+
+.card-colors-container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 40px 40px;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+@media (max-width: 980px) {
+    .card-colors-container {
+        padding: 0 20px 20px;
+    }
+}
+
+.card-colors {
+    padding: 5px;
+    margin: 0;
+}
+
+.card-colors .title {
+    margin: 10px 0 15px 10px;
+    text-align: center;
+}
+
+.card-color {
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 180px;
+    padding: 80px 0;
+    color: #fff;
+}
+
+.card-color.card-color-3A99D7 {
+    background-color: #3A99D7;
+}
+
+.card-color.card-color-FF5C03 {
+    background-color: #FF5C03;
+}
+
+.card-color.card-color-166497 {
+    background-color: #166497;
+}
+
+.card-color.card-color-434A54 {
+    background-color: #434A54;
 }
 
 /* Card ~ Browser Support
@@ -921,16 +1015,73 @@ header, section {
     margin: 10px 15px 10px 0;
 }
 
-/* Announcement - Swags
+/* Announcement - Swags & Announcement - Assets
    ========================================================================== */
 
-.card-announcement-swags p {
+.card-announcement-swags p,
+.card-announcement-assets p {
     padding: 15px 0;
+}
+
+.card-announcement-swags .icon-wrapper,
+.card-announcement-assets .icon-wrapper {
+    margin: 15px 15px 15px 0;
 }
 
 .card-announcement-swags .icon-wrapper {
     background: #5ACD49;
-    margin: 15px 15px 15px 0;
+}
+
+.card-announcement-assets .icon-wrapper {
+    background: #975FDC;
+}
+
+/* Page - Assets
+   ========================================================================== */
+
+.download-all-assets-section {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.download-all-assets-section .card-download-button {
+    background: #166497;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    font-size: .9em;
+    line-height: 1.2em;
+    padding: 25px 55px;
+    text-align: center;
+    margin: 5px 20px 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 40%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 3px 1px 0 rgba(0,0,0,.1);
+    -webkit-transition: background .3s;
+    -moz-transition: background .3s;
+    -ms-transition: background .3s;
+    -o-transition: background .3s;
+    transition: background .3s;
+}
+
+.download-all-assets-section .card-download-button:hover {
+    background: rgba(22, 100, 151, .9);
+}
+
+@media (max-width: 660px) {
+    .download-all-assets-section {
+        padding: 0 20px;
+        margin-bottom: 15px;
+    }
+
+    .download-all-assets-section .card-download-button {
+        margin: 0 0 10px;
+        width: 100%;
+        display: block;
+    }
 }
 
 /* Pagination
@@ -1383,15 +1534,45 @@ header, section {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow-right:before { content: "\e603"; }
-.icon-clock:before { content: "\e60c"; }
-.icon-dollar:before { content: "\e605"; }
-.icon-github:before { content: "\f113"; }
-.icon-location:before { content: "\e601"; }
-.icon-pencil:before { content: "\e602"; }
-.icon-rss:before { content: "\ea94"; }
-.icon-tag:before { content: "\e600"; }
-.icon-mic:before { content: "\e91e"; }
+.icon-dollar:before {
+    content: "\e605";
+}
+
+.icon-tag:before {
+    content: "\e600";
+}
+
+.icon-clock:before {
+    content: "\e60c";
+}
+
+.icon-location:before {
+    content: "\e601";
+}
+
+.icon-arrow-right:before {
+    content: "\e603";
+}
+
+.icon-pencil:before {
+    content: "\e602";
+}
+
+.icon-rss:before {
+    content: "\ea94";
+}
+
+.icon-mic:before {
+    content: "\e91e";
+}
+
+.icon-image:before {
+    content: "\e90d";
+}
+
+.icon-github:before {
+    content: "\f113";
+}
 
 /* --- Homepage installation --- */
 

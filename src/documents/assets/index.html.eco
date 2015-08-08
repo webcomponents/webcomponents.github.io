@@ -1,0 +1,68 @@
+---
+name: assets
+title: Assets
+description: A list of awesome assets created for WebComponents.org.
+layout: assets
+---
+
+<% for item in @fixOrder(@getCollection("assets").toJSON()): %>
+    <% if item.image: %>
+    <section class="card card-asset" itemscope itemtype="http://schema.org/ItemList">
+        <h3 itemprop="name"><%= item.title %></h3>
+
+        <figure class="story-image">
+            <img src="<%= item.image %>" alt="<%= item.title %>" itemprop="image">
+        </figure>
+
+        <ul class="link-list">
+
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/<%= item.slug %>/<%= item.slug %>.svg" itemprop="url">SVG</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/<%= item.slug %>/<%= item.slug %>_512x512.png" itemprop="url">512x512</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/<%= item.slug %>/<%= item.slug %>_256x256.png" itemprop="url">256x256</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/<%= item.slug %>/<%= item.slug %>_128x128.png" itemprop="url">128x128</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/<%= item.slug %>/<%= item.slug %>_64x64.png" itemprop="url">64x64</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/<%= item.slug %>/<%= item.slug %>_48x48.png" itemprop="url">48x48</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/<%= item.slug %>/<%= item.slug %>_32x32.png" itemprop="url">32x32</a>
+            </li>
+
+        </ul>
+
+
+        <a class="card-main-btn" download href="https://github.com/webcomponents/webcomponents-icons/raw/master/<%= item.slug %>/<%= item.slug %>.zip" title="<%= item.title %>">Download All</a>
+    </section>
+    <% end %>
+<% end %>
+
+<script>
+var links = document.querySelectorAll('.story-image, .card-main-btn');
+
+for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function(e) {
+        _gaq.push([
+            '_trackEvent',
+            'External links',
+            '<%= @document.title %>',
+            links[i].title
+        ]);
+    });
+};
+</script>

@@ -33,7 +33,7 @@ element as a normal subtree. They can access `.childNodes`, `.children`, `.inner
 `<my-custom-element>` may define shadow DOM by attaching a shadow root to
 itself.
 
-    #document-fragment
+    #shadow-root
       <!-- everything in here is my-custom-element's shadow DOM -->
       <span>People say: <content></content></span>
       <footer>sometimes</footer>
@@ -47,8 +47,6 @@ Its nodes are not children of `<my-custom-element>`.
     var shadow = el.createShadowRoot();
     shadow.innerHTML = '<content select="q"></content>';
     document.body.appendChild(el);
-
-**Note:** Shadow roots are represented as a `#document-fragment` in the DevTools.
 
 **Composed (rendered) DOM**
 
