@@ -733,11 +733,6 @@ header, section {
     text-decoration: underline;
 }
 
-@media (max-width: 767px) {
-    .profile-list .picture {
-        width: 80%;
-    }
-}
 
 /* Card ~ What
 ============================================================================= */
