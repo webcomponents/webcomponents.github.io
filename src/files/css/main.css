@@ -1320,14 +1320,14 @@ header, section {
 }
 
 .aux-nav ul:first-child {
-    width: 55%;
+    width: 20%;
 }
 
 .aux-nav ul {
     float: left;
     width: 15%;
     list-style: none;
-    padding: 20px 40px;
+    padding: 20px 170px;
 }
 
 .aux-nav ul li:first-child {

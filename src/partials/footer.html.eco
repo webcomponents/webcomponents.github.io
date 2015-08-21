@@ -1,10 +1,6 @@
 <div class="aux-nav">
     <nav class="wrapper" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
         <ul>
-            <li>About</li>
-            <li><p>WebComponents.org is where pioneers and community-members of the Web Components ecosystem (like <em>Polymer</em>, <em>X-tags</em>, and other interested parties) document web components best practices so that others can follow the same path instead of needlessly striking out on their own.</p></li>
-        </ul>
-        <ul>
             <li>Learn</li>
             <li>
                 <a href="<%= @site.url %>/articles/" title="Articles" itemprop="url">

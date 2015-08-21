@@ -1,6 +1,6 @@
 <section class="card card-community" role="region" itemscope itemtype="http://schema.org/ItemList">
     <h3 itemprop="name">Who?</h3>
-    <p class="card-about-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+    <p class="card-about-description">We are the pioneers and community-members of the Web Components ecosystem. The WebComponents.org team is dedicated to supporting all that is part of Web Components. Here is a complete list of the contributors to the project on Github.</p>
     <ul class="layout-community profile-list">
 
     </ul>
