@@ -425,6 +425,25 @@ header, section {
     column-count: 3;
 }
 
+.layout-community {
+    margin: 0 auto;
+    max-width: 100%;
+    -webkit-column-count: 10;
+    -moz-column-count: 10;
+    column-count: 10;
+    -webkit-column-gap: 5px;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+}
+
+@media (max-width: 980px) {
+    .layout-community {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
 .layout-archive {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -439,6 +458,14 @@ header, section {
 
 .layout-assets.card-container {
     padding-bottom: 0;
+}
+
+@media (max-width: 980px) {
+    .layout-archive {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
 }
 
 /* --- Two columns --- */
@@ -665,16 +692,19 @@ header, section {
     list-style: none;
     margin: 0 auto;
     text-align: center;
+    width: 100%;
 }
 
 .profile-list li {
     display: inline-block;
-    padding: 10px;
-    width: 21%;
+    padding: 3px 0;
+    min-width: 50px;
 }
 
 .profile-list li a {
     display: inline-block;
+    padding: 5px;
+    margin: 3px;
 }
 
 .profile-list li a:hover {
@@ -682,11 +712,10 @@ header, section {
 }
 
 .profile-list .picture {
-    border-radius: 50%;
     left: 0;
     overflow: hidden;
     top: 0;
-    width: 100%;
+    border: 5px solid #EEEEEE;
 }
 
 .profile-list .name {
@@ -703,6 +732,7 @@ header, section {
     text-decoration: underline;
 }
 
+
 /* Card ~ What
 ============================================================================= */
 
@@ -710,20 +740,29 @@ header, section {
     padding: 20px;
 }
 
-/* Card ~ Swag & Card ~ Asset
+.card-community {
+    padding: 0 20px;
+    text-align: left;
+}
+
+
+/* Card ~ Swag & Card ~ Asset & About
 ============================================================================= */
 
 .card-swag h3,
-.card-asset h3 {
+.card-asset h3,
+.card-about h3 {
     font-size: 1.2em;
 }
 
 .card-swag p,
-.card-asset p {
+.card-asset p,
+.card-about p {
     padding: 0;
 }
 
-.layout-archive .card-swag .description {
+.layout-archive .card-swag .description,
+.layout-archive .card-about .description {
     padding: 10px 20px;
 }
 
@@ -1281,14 +1320,14 @@ header, section {
 }
 
 .aux-nav ul:first-child {
-    width: 55%;
+    width: 20%;
 }
 
 .aux-nav ul {
     float: left;
     width: 15%;
     list-style: none;
-    padding: 20px 40px;
+    padding: 20px 170px;
 }
 
 .aux-nav ul li:first-child {
@@ -1588,12 +1627,4 @@ header, section {
 .tag-list li span {
     color: #9c9c9c;
     margin-right: 3px;
-}
-
-.positive {
-    color: green;
-}
-
-.negative {
-    color: red;
 }

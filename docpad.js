@@ -257,6 +257,14 @@ module.exports = {
             }, [{ order: 1 }]);
         },
 
+        about: function() {
+            return this.getCollection("documents").findAllLive({
+                url: {
+                    $startsWith: "/about"
+                }
+            }, [{ order: -1 }]);
+        },
+
         assets: function() {
             return this.getCollection("documents").findAllLive({
                 url: {
