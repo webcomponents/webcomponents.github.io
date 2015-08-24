@@ -740,12 +740,6 @@ header, section {
     padding: 20px;
 }
 
-.card-community {
-    padding: 0 20px;
-    text-align: left;
-}
-
-
 /* Card ~ Swag & Card ~ Asset & About
 ============================================================================= */
 
@@ -1627,4 +1621,33 @@ header, section {
 .tag-list li span {
     color: #9c9c9c;
     margin-right: 3px;
+}
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.card-container-about {
+    padding-bottom: 40px;
+}
+
+.card-about {
+    margin-bottom: 0;
+}
+
+.card-community {
+    padding: 0 20px;
+    text-align: left;
+    margin: 0 40px 40px;
+}
+
+.card-community p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+@media (max-width: 980px) {
+    .card-community {
+        margin: 0 20px 40px;
+    }
 }
