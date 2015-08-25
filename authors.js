@@ -335,6 +335,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/3871688?v=3&s=80",
         twitter: "karaforthewin"
     },
+    kevin_gleason: {
+        name: "Kevin Gleason",
+        bio: "Kevin is an Embedded Systems and Internet of Things Intern at Pubnub",
+        image: "https://avatars3.githubusercontent.com/u/3036970?v=3&s=80",
+        twitter: "KevinAGleason"
+    },
     kevin_schaaf: {
         name: "Kevin Schaaf",
         bio: "Kevin is a Senior Engineer on the Google Polymer team",
