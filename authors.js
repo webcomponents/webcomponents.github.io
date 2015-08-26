@@ -383,6 +383,12 @@ module.exports = {
         gravatar: "255122f396049d1c7fb264cfa6ec584c",
         twitter: "mattsmcnulty"
     },
+    maurizio_mangione: {
+        name: "Maurizio Mangione",
+        bio: "Maurizio is a Google Developers Expert for web technologies with the specialization on Polymer.",
+        image: "https://avatars2.githubusercontent.com/u/1193298?v=3&s=80",
+        twitter: "granze"
+    },
     mauro_solcia: {
         name: "Mauro Solcia",
         bio: "Mauro is a Google Developer Expert for Drive & Web Component enthusiast",
