@@ -203,6 +203,12 @@ module.exports = {
         gravatar: "73b7633609b8f2bda1e73d35dabacb08",
         twitter: "coonsta"
     },
+    dr_axel_rauschmayer: {
+        name: "Dr. Axel Rauschmayer",
+        bio: "Axel is the author of 'Speaking JavaScript' and 'Exploring ES6' books. He has done extensive research into programming language design and has followed the state and future of JavaScript since its creation.",
+        image: "https://avatars1.githubusercontent.com/u/526114?v=3&s=80",
+        twitter: "rauschma"
+    },
     emily_lewis: {
         name: "Emily Lewis",
         bio: "owner of and lead developer for Bright Umbrella.",
