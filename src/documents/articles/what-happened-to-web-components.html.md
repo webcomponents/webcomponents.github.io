@@ -3,7 +3,7 @@ title: What happened to Web Components?
 authors: [dr_axel_rauschmayer]
 date: 2015-08-31
 original_date: 2015-08-29
-link: http://pixelhandler.com/posts/a-bet-on-web-components-and-embercomponent-synchronicity
+link: http://www.2ality.com/2015/08/web-component-status.html
 category: articles
 layout: single
 tags: ['Browser Support', 'Angular', 'React']
