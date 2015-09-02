@@ -329,6 +329,12 @@ module.exports = {
         image: "https://avatars0.githubusercontent.com/u/643503?v=3&s=80",
         twitter: "justinribeiro"
     },
+    juha_jarvi: {
+        name: "Juha Järvi",
+        bio: "Juha is a programmer and founder at BusFaster Ltd, creating web map tools with TypeScript and asm.js. Always looking into new technology, ever since getting a Commodore 128 way back.",
+        image: "https://avatars1.githubusercontent.com/u/778781?v=3&s=80",
+        twitter: "chartojs"
+    },
     kaelig: {
         name: "Kaelig Deloumeau-Prigent",
         bio: "Kaelig is a french blogger, author and front-end web developer working in London at FT Labs. Previously, he worked on the responsive sites of the BBC News and the Guardian.",
