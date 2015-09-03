@@ -41,6 +41,12 @@ module.exports = {
         gravatar: "e6d71413617dfba7a5ff5b9a7180c007",
         twitter: "jkomoros"
     },
+    alex_russell: {
+        name: "Alex Russell",
+        bio: "Alex is a Software Engineer at Google and one of the original creators of Web Components",
+        image: "https://avatars0.githubusercontent.com/u/97331?v=3&s=80",
+        twitter: "slightlylate"
+    },
     alex_mingoia: {
         name: "Alex Mingoia",
         bio: "Alex is a web engineer and designer building beautiful products.",
@@ -143,6 +149,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/332377?v=3&s=80",
         twitter: "anvilhacks"
     },
+    christopher_chedeau: {
+        name: "Christopher Chadeau",
+        bio: "Christopher is a Front-end Engineer at Facebook working on React and React Native",
+        image: "https://avatars1.githubusercontent.com/u/197597?v=3&s=80",
+        twitter: "Vjeux"
+    },
     cory_house: {
         name: "Cory House",
         bio: "Cory is a full stack web application developer in the Kansas City area specializing in C#.Net and jQuery.",
@@ -244,6 +256,12 @@ module.exports = {
         bio: "Glen is an independent Web Developer from Melbourne, Australia.",
         image: "https://avatars0.githubusercontent.com/u/23264?v=3&s=80",
         twitter: "glenmaddern"
+    },
+    guy_bedford: {
+        name: "Guy Bedford",
+        bio: "Guy is a JavaScript developer and open source contributor currently exploring browser package management with http://jspm.io ",
+        image: "https://avatars1.githubusercontent.com/u/598730?v=3&s=80",
+        twitter: "guybedford"
     },
     hidde_de_vries: {
         name: "Hidde de Vries",
