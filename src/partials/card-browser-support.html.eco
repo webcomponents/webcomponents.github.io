@@ -9,25 +9,25 @@
             <% end %>
         </tr>
         <tr>
-            <td><img title="Templates" src="<%= @site.url %>/img/icon-status-templates.png" alt=""></td>
+            <td><img title="Templates" src="<%= @site.url %>/img/icon-status-templates.png" alt="Templates" width="32" height="32"></td>
             <% for browser in @docs: %>
                 <td><a title="<%= browser.templates %>" <% if browser.templates_link: %>href="<%= browser.templates_link %>"<% end %> class="icon-status icon-status-<%= browser.templates_status %>"></a></td>
             <% end %>
         </tr>
         <tr>
-            <td><img title="HTML Imports" src="<%= @site.url %>/img/icon-status-htmlimports.png" alt=""></td>
+            <td><img title="HTML Imports" src="<%= @site.url %>/img/icon-status-htmlimports.png" alt="HTML Imports" width="32" height="32"></td>
             <% for browser in @docs: %>
                 <td><a title="<%= browser.html_imports %>" <% if browser.html_imports_link: %>href="<%= browser.html_imports_link %>"<% end %> class="icon-status icon-status-<%= browser.html_imports_status %>"></a></td>
             <% end %>
         </tr>
         <tr>
-            <td><img title="Custom Elements" src="<%= @site.url %>/img/icon-status-customelements.png" alt=""></td>
+            <td><img title="Custom Elements" src="<%= @site.url %>/img/icon-status-customelements.png" alt="Custom Elements" width="32" height="32"></td>
             <% for browser in @docs: %>
                 <td><a title="<%= browser.custom_elements %>" <% if browser.custom_elements_link: %>href="<%= browser.custom_elements_link %>"<% end %> class="icon-status icon-status-<%= browser.custom_elements_status %>"></a></td>
             <% end %>
         </tr>
         <tr>
-            <td><img title="Shadow DOM" src="<%= @site.url %>/img/icon-status-shadowdom.png" alt=""></td>
+            <td><img title="Shadow DOM" src="<%= @site.url %>/img/icon-status-shadowdom.png" alt="Shadow DOM" width="32" height="32"></td>
             <% for browser in @docs: %>
                 <td><a title="<%= browser.shadow_dom %>" <% if browser.shadow_dom_link: %>href="<%= browser.shadow_dom_link %>"<% end %> class="icon-status icon-status-<%= browser.shadow_dom_status %>"></a></td>
             <% end %>
