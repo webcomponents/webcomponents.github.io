@@ -521,6 +521,12 @@ module.exports = {
         gravatar: "73441c3e7032ac7ecd4f95876bdc3541",
         twitter: "ScottJMiles"
     },
+    sebastian_henneberg: {
+        name: "Sebastian Henneberg",
+        bio: "Sebastian is a software engineer",
+        image : "https://avatars1.githubusercontent.com/u/3903324?v=3&s=80",
+        twitter: "s_henneberg"
+    },
     seb_cevey: {
         name: "Sébastien Cevey",
         bio: "Sébastien is a Software Engineer at the Guardian, working predominently on editorial tools. He currently lives in London, UK.",
