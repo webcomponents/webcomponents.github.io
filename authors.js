@@ -389,6 +389,12 @@ module.exports = {
         image: "https://avatars1.githubusercontent.com/u/2237424?s=80",
         twitter: "gursesl"
     },
+    lucas_mazza: {
+        name: "Lucas Mazza",
+        bio: "Lucas is a software engineer at Plataformatec team dealing with Ruby on Rails, HTML & CSS, JavaScript and whatever may come.",
+        image: "https://avatars2.githubusercontent.com/u/80978?s=80",
+        twitter: "lucasmazza"
+    },
     marcy_sutton: {
         name: "Marcy Sutton",
         bio: "Marcy is a developer at Substantial. She's GDI Seattle co-leader, bike racer, music junkie, #a11y advocate, dog lover, big ole nerd.",
