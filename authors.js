@@ -383,6 +383,12 @@ module.exports = {
         gravatar: "8cdca6867ac4069945d3d34d0e57ea06",
         twitter: "lealea"
     },
+    leon_revill: {
+      name: "Leon Revill",
+      bio: "Leon is a mobile developer, author, blogger, and Web Component advocate.",
+      image: "https://avatars2.githubusercontent.com/u/2720042?v=3&s=80",
+      twitter: "revillweb"
+    },
     levent_gurses: {
         name: "Levent Gurses",
         bio: "Levent is a mobile developer, speaker and community organizer. He codes in Swift/Objective-C, Java, and JavaScript on the MEAN stack.",
