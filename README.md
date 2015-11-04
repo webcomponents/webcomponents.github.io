@@ -59,12 +59,6 @@ To install it and all the other dependencies, run:
 $ npm install -g grunt-cli
 ```
 
-To install [Bower](http://bower.io/) dependencies, run:
-
-```sh
-$ grunt bower
-```
-
 To check performance regressions, run:
 
 ```sh
