@@ -401,6 +401,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/80978?s=80",
         twitter: "lucasmazza"
     },
+    marcus_hellberg: {
+        name: "Marcus Hellberg",
+        bio: "Marcus is a long time Vaadin user working as a developer advocate. His daily work includes everything from writing blogs and tech demos to attending events and giving presentations on all things Vaadin and web related.",
+        image: "https://vaadin.com/image/user_male_portrait?img_id=119203&t=1453780902864",
+        twitter: "marcushellberg"
+    },
     marcy_sutton: {
         name: "Marcy Sutton",
         bio: "Marcy is a developer at Substantial. She's GDI Seattle co-leader, bike racer, music junkie, #a11y advocate, dog lover, big ole nerd.",
