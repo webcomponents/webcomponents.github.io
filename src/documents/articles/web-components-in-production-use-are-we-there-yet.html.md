@@ -3,7 +3,7 @@ title: "Web Components in production use – are we there yet?"
 authors: [marcus_hellberg]
 date: 2016-01-26
 original_date: 2016-01-26
-link: https://vaadin.com/blog?p_p_id=33
+link: https://vaadin.com/blog/-/blogs/web-components-in-production-use-are-we-there-yet-
 category: articles
 layout: single
 tags: ['Introduction', 'Browser Support']
