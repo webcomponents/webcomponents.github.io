@@ -1,6 +1,7 @@
+---
 title: "65: Strand Web Components"
 authors: [justin_moore, anthony_koerber, daniel_lasky, erik_isaksen, justin_ribeiro, danny_blue]
-podcast: The Web Platform Podcast
+podcast: "The Web Platform Podcast"
 date: 2015-10-13
 original_date: 2015-10-13
 link: "http://thewebplatformpodcast.com/65-strand-web-components"
