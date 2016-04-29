@@ -83,6 +83,12 @@ module.exports = {
         image: "https://avatars.githubusercontent.com/u/1544111?s=80",
         twitter: "annevk"
     },
+    anthony_koerber: {
+      name: "Anthony Koerber",
+      bio: "Anthony is a Front End Developer working on the Strand Library at MediaMath",
+      image: "https://avatars1.githubusercontent.com/u/807662?v=3&s=80",
+      twitter: "DrDooganMeister"
+    },
     ajit_kumar: {
         name: "Ajit Kumar",
         bio: "Ajit is Co-founder of Walking Tree, Speaker, Sencha Trainer, Author of Sencha Charts Essentials, Sencha Touch Cookbook, Sencha MVC Architecture, and ADempiere Cookbook.",
@@ -178,6 +184,12 @@ module.exports = {
         bio: "Dan is a developer at Google on the Polymer team",
         image: "https://avatars1.githubusercontent.com/u/46725?v=3&s=80",
         twitter: "danfreedman"
+    },
+    daniel_lasky: {
+      name: "Daniel Lasky",
+      bio: "Daniel is a Front End Developer at MediaMath working on the Strand Library",
+      image: "https://avatars0.githubusercontent.com/u/1529402?v=3&s=80",
+      twitter: "aerolith"
     },
     danny_blue: {
         name: "Danny Blue",
@@ -352,6 +364,12 @@ module.exports = {
         bio: "Juha is a programmer and founder at BusFaster Ltd, creating web map tools with TypeScript and asm.js. Always looking into new technology, ever since getting a Commodore 128 way back.",
         image: "https://avatars1.githubusercontent.com/u/778781?v=3&s=80",
         twitter: "chartojs"
+    },
+    justin_moore: {
+      name: "Justin Moore",
+      bio: "Justin is a Software Engineer working on the Strand Library at MediaMath",
+      image: "https://avatars1.githubusercontent.com/u/2549335?v=3&s=80",
+      twitter: "jcmmit"
     },
     kaelig: {
         name: "Kaelig Deloumeau-Prigent",
