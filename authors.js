@@ -137,6 +137,12 @@ module.exports = {
         gravatar: "cedf2a3fe1ccf53aa00f50dda79cedf3",
         twitter: "webcomponents"
     },
+    charles_grugan: {
+      name: "Charles Grugan",
+      bio: "Charles is a software engineer at Comcast",
+      image: "https://avatars1.githubusercontent.com/u/1616995?v=3&s=80",
+      twitter: "che_effe"
+    },
     charles_max_wood: {
         name: "Charles Max Wood",
         bio: "Chuck is host of JavaScript Jabber & Adventures In Angular as well as several other popular developer podcasts. He is a freelance podcaster, programmer, & web entrepreneur.",
