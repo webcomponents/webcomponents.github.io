@@ -317,6 +317,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/108474?v=3&s=80",
         twitter: "jensimmons"
     },
+    jenn_voss: {
+      name: "Jenn Voss",
+      bio: "Jenn is a Front End Developer and panelist on The Polymer Podcast.",
+      image: "https://avatars0.githubusercontent.com/u/1682552?v=3&s=80",
+      twitter: "VossJenn"
+    },
     jeremy_fairbank: {
         name: "Jeremy Fairbank",
         bio: "Jeremy is a web developer who enjoys to work with JavaScript and Ruby. He likes to build modular, scalable applications with reasonable abstraction to keep things DRY. He really enjoys helping and teaching others, especially about JavaScript.",
