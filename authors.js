@@ -353,6 +353,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/6817400?v=3&s=80",
         twitter: "belcherj"
     },
+    jonathon_creenaune: {
+      name: "Jonathon Creenaune",
+      bio: "Jonathon is a Developer Manager at Atlassian",
+      image: "https://avatars3.githubusercontent.com/u/1205739?v=3&s=80",
+      twitter: "jcreenaune"
+    },
     josh_crowther: {
         name: "Josh Crowther",
         bio: "Josh is a full-stack engineer currently working with Node.js based stacks. He's profficient in JavaScript particularly with the Angular.js framework.",
@@ -622,6 +628,12 @@ module.exports = {
         bio: "Travis is a Software Engineer & Internet Maker at Microsoft and is currently focused on the Edge Browser",
         image: "https://avatars0.githubusercontent.com/u/2152696?v=3&s=80",
         twitter: "TravisLeithead"
+    },
+    trey_shugart: {
+      name: "Trey Shugart",
+      bio: "Trey is software developer at Atlassian & creator of Skate.js",
+      image: "https://avatars0.githubusercontent.com/u/136556?v=3&s=80",
+      twitter: "treshugart"
     },
     tyler_mcginnis: {
         name: "Tyler McGinnis",
