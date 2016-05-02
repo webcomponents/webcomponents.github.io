@@ -317,6 +317,12 @@ module.exports = {
         gravatar: "255122f396049d1c7fb264cfa6ec584c",
         twitter: "jarommcdonald"
     },
+    jeffrey_posnick: {
+      name: "Jeffrey Posnick",
+      bio: "Jeffrey a member of Google's Open Web Platform Developer Relations team",
+      image: "https://avatars3.githubusercontent.com/u/1749548?v=3&s=80",
+      twitter: "jeffposnick"
+    },
     jen_simmons: {
         name: "Jen Simmons",
         bio: "Jen is a professional designer and developer in the New York City area. She is host of The Web Ahead Podcast.",

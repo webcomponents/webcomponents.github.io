@@ -1,5 +1,5 @@
 ---
-title: "History of Polymer"
+title: "01: History of Polymer"
 authors: [rob_dodson, jonathan_belcher, william_jeffries, filipe_araujo, dane_oconner]
 podcast: "Polymer Podcast"
 date: 2015-05-28

@@ -1,5 +1,5 @@
 ---
-title: "Component Show"
+title: "06: Component Show"
 authors: [jonathan_belcher, william_jeffries, filipe_araujo, jenn_voss, charles_grugan]
 podcast: "Polymer Podcast"
 date: 2015-11-12
