@@ -515,6 +515,12 @@ module.exports = {
         gravatar: "255122f396049d1c7fb264cfa6ec584c",
         twitter: "ModusSchwartz"
     },
+    monica_dinculescu: {
+        name: "Monica Dinculescu",
+        bio: "Monica is a Software Engineer working on Polymer and Chrome for Google",
+        image: "https://avatars2.githubusercontent.com/u/1369170?v=3&s=80",
+        twitter: "notwaldorf"
+    },
     nick_niemeir: {
         name: "Nick Niemeir",
         bio: "Nick is a JavaScript Agent Engineer at New Relic",
@@ -598,6 +604,12 @@ module.exports = {
         bio: "Scott is a Software engineer in the Polymer team. He currently lives in Napa, CA.",
         gravatar: "73441c3e7032ac7ecd4f95876bdc3541",
         twitter: "ScottJMiles"
+    },
+    scott_hanselman: {
+        name: "Scott Hanselman",
+        bio: "Scott is the host of Hanselminutes Podcast",
+        image : "https://avatars3.githubusercontent.com/u/2892?v=3&s=80",
+        twitter: "shanselman"
     },
     sebastian_henneberg: {
         name: "Sebastian Henneberg",
