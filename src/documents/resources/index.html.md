@@ -42,6 +42,6 @@ Now that you finished your element it's time to spread the word about it! You mi
 
 The best way to share a component is by making it available for use with one of the current JavaScript package managers. Currently most web components libraries have great support for [Bower](http://bower.io/), that's why we recommend you to use it. Keep in mind that Bower is not the only package manager for front-end code. [npm](https://www.npmjs.com/) is becoming extremely popular for managing JavaScript pacakges, and it's possible that it will be able to completely replace Bower in the future. For simplicity's sake, we'll stick with Bower for now.
 
-If you're not so sure about this whole Bower thing. Have no fear! [There's a screencast](https://www.youtube.com/watch?v=1rz334A8U7o) where Rob Dodson walks you through installing Bower, creating a project with the `bower init` command, and building your first element using Polymer.
+If you're not so sure about this whole Bower thing, have no fear! [There's a screencast](https://www.youtube.com/watch?v=1rz334A8U7o) where Rob Dodson walks you through installing Bower, creating a project with the `bower init` command, and building your first element using Polymer.
 
 Finally, don't forget to add the `web-components` keyword in your `bower.json` file. By doing this your awesome element will automagically appear on [CustomElements.io](http://customelements.io/).
