@@ -1,0 +1,46 @@
+---
+layout: home
+---
+
+<div class="wrapper" itemscope itemtype="http://schema.org/CollectionPage">
+    <header class="header" role="banner">
+        <a class="logo" href="<%= @site.url %>" itemprop="url">
+            <img src="<%= @site.url %>/img/logo.svg" alt="<%= @site.title %>" width="246" height="158" itemprop="image">
+        </a>
+        <h1 class="title" itemprop="name"><%= @site.title %></h1>
+        <h2 class="subtitle" itemprop="description"><%= @site.description %></h2>
+    </header>
+    
+    <h4 class="wrapper-float-title">Next Meetups</h4>
+    <main class="card-container layout-events" role="main" id="events">
+        <p class="loading">Loading...</p>
+    </main>
+</div>
+
+<template id="card-event-template">
+    <section class="card card-story card-event">
+        <a class="story-image" href="{{url}}" target="_blank">
+            <img src="{{image}}" alt="{{name}}">
+            <div class="card-event--header">
+                <time>{{date}}</time>
+                <address>{{city}}{{country}}</address>
+                <span>{{yes_rsvp_count}} RVSPs</span>
+            </div>
+        </a>
+        <a class="title" href="{{url}}" target="_blank">
+            <span itemprop="name">{{name}}</span>
+        </a>
+        <div class="description">
+            <p>{{description}}</p>
+            <a class="read-more" href="{{url}}" target="_blank">Read More &gt;</a>
+        </div>
+    </section>
+</template>
+
+<script src="<%= @site.url %>/js/events.js"></script>
+
+<script>
+    window.addEventListener('load', function(){
+        new Events();
+    });
+</script>
