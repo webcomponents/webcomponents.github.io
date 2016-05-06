@@ -95,12 +95,6 @@
                 <h3 itemprop="name">Tools</h3>
                 <ul class="tag-list">
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
-                        <a target="_blank" href="https://ele.io/" itemprop="url">
-                            <span class="icon icon-eleio"></span>
-                            <span itemprop="name">Ele.io</span>
-                        </a>
-                    </li>
-                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
                         <a target="_blank" href="https://github.com/Polymer/vulcanize" itemprop="url">
                             <span class="icon icon-github"></span>
                             <span itemprop="name">Vulcanize</span>
