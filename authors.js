@@ -461,6 +461,12 @@ module.exports = {
         gravatar: "eec502b7f6f17f63f1e36d1cd566a254",
         twitter: "markdalgleish"
     },
+    mark_wheeler: {
+        name: "Mark Wheeler",
+        bio: "Mark is a creative technologist and CTO.",
+        gravatar : "6080ee366cd84e86d613922de2bb08de",
+        twitter: "pixelcodeuk"
+    },
     matt_claypotch: {
         name: "Matt Claypotch",
         bio: "Matt is a Mozilla Apps Engineer & lead on Mozilla Brick Project.",
