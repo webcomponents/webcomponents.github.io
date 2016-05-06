@@ -377,6 +377,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/137?s=80",
         twitter: "joshpeek"
     },
+    jouni_koivuviita: {
+      name: "Jouni Koivuviita",
+      bio: "Jouni is a Product Manager of Vaadin Components and Design Director at Vaadin",
+      image: "https://avatars0.githubusercontent.com/u/66382?v=3&s=80",
+      twitter: "jouni"
+    },
     justin_ribeiro: {
         name: "Justin Ribeiro",
         bio: "Justin is a Wearables Google Developer Expert & Web Components enthusiast",
@@ -442,6 +448,12 @@ module.exports = {
         bio: "Lucas is a software engineer at Plataformatec team dealing with Ruby on Rails, HTML & CSS, JavaScript and whatever may come.",
         image: "https://avatars2.githubusercontent.com/u/80978?s=80",
         twitter: "lucasmazza"
+    },
+    manolo_carrasco: {
+      name: "Manolo Carrasco",
+      bio: "Manolo is a Software Engineer at Vaadin",
+      image: "https://avatars3.githubusercontent.com/u/161853?v=3&s=80",
+      twitter: "dodotis"
     },
     marcus_hellberg: {
         name: "Marcus Hellberg",
