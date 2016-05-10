@@ -1,0 +1,49 @@
+{
+    "groups": [
+        {
+            "group_urlname": "paris-webComponents",
+            "id": 15900042,
+            "thumbnail": "http://www.telegraph.co.uk/travel/destination/article130148.ece/ALTERNATES/w620/parisguidetower.jpg"
+        },
+        {
+            "group_urlname": "Web-Components-LA",
+            "id": 15323822,
+            "thumbnail": "http://www.playbillsvspayingbills.com/wp-content/uploads/2009/11/los-angele.jpg"
+        },
+        {
+            "group_urlname": "web-components-meetup",
+            "id": 18219128,
+            "thumbnail": "http://www.digitaluk.co.uk/__data/assets/image/0007/17683/london.jpg"
+        },
+        {
+            "group_urlname": "Madrid-Polymer-Group",
+            "id": 16652772,
+            "thumbnail": "http://anastasia.llobe.com/wp-content/uploads/2014/10/madrid4.jpg"
+        },
+        {
+            "group_urlname": "Melbourne-Polymer-Meetup",
+            "id": 17880852,
+            "thumbnail": "http://www.micm.com.au/wp-content/uploads/2013/11/Melbournebackground.jpg"
+        },
+        {
+            "group_urlname": "polymer-dc",
+            "id": 18320029,
+            "thumbnail": "http://www.denisoneverywhere.com/s/1336/images/editor/clubs/city_pics/washingtondc.jpg"
+        },
+        {
+            "group_urlname": "PolymerMex",
+            "id": 18341121,
+            "thumbnail": "http://www.visitmexico.com/work/models/VisitMexico30/WebPage/ciudad_de_mexico/photoEscudo_ciudad_de_mexico_header_cd_de_mexico.jpg"
+        },
+        {
+            "group_urlname": "DC-Web-Components",
+            "id": 18208577,
+            "thumbnail": "http://www.kirk.senate.gov/images/website/dcimage.jpg"
+        },
+        {
+            "group_urlname": "Web-Components-BA",
+            "id": 16381932,
+            "thumbnail": "http://media-1.web.britannica.com/eb-media/77/61077-004-E82B7B4B.jpg"
+        }
+    ]
+}
