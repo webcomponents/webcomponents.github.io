@@ -6,6 +6,61 @@
             "thumbnail": "http://www.telegraph.co.uk/travel/destination/article130148.ece/ALTERNATES/w620/parisguidetower.jpg"
         },
         {
+            "group_urlname": "Polymer-Birmingham",
+            "id": 19828190,
+            "thumbnail": "http://photos1.meetupstatic.com/photos/event/4/3/d/e/thumb_449417374.jpeg"
+        },
+        {
+            "group_urlname": "Athens-Polymer-Meetup",
+            "id": 18940250,
+            "thumbnail": "http://photos3.meetupstatic.com/photos/event/a/b/2/9/thumb_442063817.jpeg"
+        },
+        {
+            "group_urlname": "Frankfurt-Google-Polymer-Webcomponents-Meetup",
+            "id": 18695437,
+            "thumbnail": "http://photos4.meetupstatic.com/photos/member/9/5/3/1/highres_256358193.jpeg"
+        },
+        {
+            "group_urlname": "London-Polymer-Meetup",
+            "id": 19460680,
+            "thumbnail": "http://photos2.meetupstatic.com/photos/event/8/3/c/f/thumb_446433743.jpeg"
+        },
+        {
+            "group_urlname": "web-components-meetup",
+            "id": 18219128,
+            "thumbnail": "http://photos4.meetupstatic.com/photos/event/4/3/e/5/thumb_446717381.jpeg"
+        },
+        {
+            "group_urlname": "Polymer-Buenos-Aires",
+            "id": 19002062,
+            "thumbnail": "http://photos3.meetupstatic.com/photos/event/b/2/a/2/thumb_444105730.jpeg"
+        },
+        {
+            "group_urlname": "Polymer-Webkomponisten-Rhein-Neckar",
+            "id": 19410388,
+            "thumbnail": "http://photos2.meetupstatic.com/photos/event/5/0/5/1/thumb_446180561.jpeg"
+        },
+        {
+            "group_urlname": "San-Francisco-Polymer-Meetup",
+            "id": 19134438,
+            "thumbnail": "http://photos4.meetupstatic.com/photos/member/9/5/3/1/highres_256358193.jpeg"
+        },
+        {
+            "group_urlname": "San-Francisco-Web-Components-Meetup",
+            "id": 19758543,
+            "thumbnail": "http://photos4.meetupstatic.com/photos/member/9/5/3/1/highres_256358193.jpeg"
+        },
+        {
+            "group_urlname": "Web-Components-Google-Polymer-Amsterdam",
+            "id": 18773152,
+            "thumbnail": "http://photos4.meetupstatic.com/photos/member/9/5/3/1/highres_256358193.jpeg"
+        },
+        {
+            "group_urlname": "WebComponentsMN",
+            "id": 18520248,
+            "thumbnail": "http://photos4.meetupstatic.com/photos/member/9/5/3/1/highres_256358193.jpeg"
+        },
+        {
             "group_urlname": "Web-Components-LA",
             "id": 15323822,
             "thumbnail": "http://www.playbillsvspayingbills.com/wp-content/uploads/2009/11/los-angele.jpg"
@@ -13,7 +68,7 @@
         {
             "group_urlname": "web-components-meetup",
             "id": 18219128,
-            "thumbnail": "http://www.digitaluk.co.uk/__data/assets/image/0007/17683/london.jpg"
+            "thumbnail": "http://www.digitaluk.co.uk/data/assets/image/0007/17683/london.jpg"
         },
         {
             "group_urlname": "Madrid-Polymer-Group",
