@@ -24,7 +24,12 @@
                 var data = JSON.parse(this.responseText),
                     groups = that.prepareGroups(data.groups, "id");
                 // The `key` should be changed to a shared API KEY
-                that._JSONP("https://api.meetup.com/2/events?sign=true&photo-host=public&group_id=" + groups + "&page=6&key=46455a723321385a1a58f4d77314c16",function(res) {
+                that._JSONP(
+                    "https://api.meetup.com/2/events?sign=true" +
+                    "&photo-host=public&group_id="               +
+                    groups                                       +
+                    "&page=6&key=235a631d264079e676b2e5b5fe6853",
+                    function(res) {
                     var events = res.results;
                     that.setEvents(events, data);
                 });
