@@ -269,6 +269,12 @@ module.exports = {
         image: "https://avatars0.githubusercontent.com/u/189541?v=3&s=80",
         twitter: "filipearaujo"
     },
+    gil_fink: {
+      name: "Gil Fink",
+      bio: "Gil is a web developer and the founder of sparXys",
+      image: "https://avatars3.githubusercontent.com/u/1590253?v=3&s=80",
+      twitter: "gilfink"
+    },
     glen_maddern: {
         name: "Glen Maddern",
         bio: "Glen is an independent Web Developer from Melbourne, Australia.",
