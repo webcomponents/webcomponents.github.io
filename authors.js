@@ -461,6 +461,12 @@ module.exports = {
       image: "https://avatars3.githubusercontent.com/u/161853?v=3&s=80",
       twitter: "dodotis"
     },
+    marcus_fihlon: {
+        name: "Marcus Fihlon",
+        bio: "Marcus Fihlon works as a Scrum Master and Software Engineer at the CSS Insurance in Lucerne, Switzerland. He is also a Lecturer at the TEKO, a technical collage in Olten, Switzerland, where his subjects include Web Engineering. He is the grounding member and organizer of the monthly Hackergarten in Lucerne, Switzerland. They meet on the first Thursday of every month to contribute to open source projects, to learn something new and to meet new people. Last but not least, Marcus is the creator and project lead of SportChef, an open source project with the vision to create a management software for sporting events, built on leading edge technology. In his spare time he likes hiking in the Swiss Alps and riding his loved Brompton folding bike.",
+        image: "https://avatars2.githubusercontent.com/u/1254039?v=3&s=80",
+        twitter: "McPringle"
+    },
     marcus_hellberg: {
         name: "Marcus Hellberg",
         bio: "Marcus is a long time Vaadin user working as a developer advocate. His daily work includes everything from writing blogs and tech demos to attending events and giving presentations on all things Vaadin and web related.",
