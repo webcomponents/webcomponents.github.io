@@ -653,6 +653,12 @@ module.exports = {
         gravatar: "6a69588f4ea38f9290095b767ff3a544",
         twitter: "taylorthesavage"
     },
+    tim_vanderlippe: {
+        name: "Tim van der Lippe",
+        bio: "Tim is a Web Technologies Google Developer Expert",
+        image: "https://avatars2.githubusercontent.com/u/5948271?v=3&s=80",
+        twitter: "TimvdLippe"
+    },
     tom_dale: {
         name: "Tom Dale",
         bio: "Tom helped create Ember.js, a JavaScript framework that brings sanity to the web. He also co-founded Tilde with Yehuda Katz, Leah Silber and Carl Lerche.",
