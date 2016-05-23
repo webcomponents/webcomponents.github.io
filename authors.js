@@ -653,9 +653,9 @@ module.exports = {
         gravatar: "6a69588f4ea38f9290095b767ff3a544",
         twitter: "taylorthesavage"
     },
-    tim_van_der_lippe: {
+    tim_vanderlippe: {
       name: "Tim van der Lippe",
-      bio: "sddd",
+      bio: "Tim is a Web Technologies Google Developer Expert",
       image: "https://avatars0.githubusercontent.com/u/5948271?v=3&s=80",
       twitter: "TimvdLippe"
     },
