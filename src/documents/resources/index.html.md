@@ -14,7 +14,7 @@ Web Components is a set of specs that introduce a lot of new stuff. So, before c
 * [Eric's article on how to create Custom Elements using VanillaJS](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/);
 * [Polymer's documentation](http://www.polymer-project.org/docs/polymer/polymer.html);
 * [X-Tag's documentation](http://x-tags.org/docs).
-* [SkateJS's documentation](http://github.com/skatejs/skatejs).
+* [SkateJS's documentation](https://github.com/skatejs/skatejs).
 
 These will give you an idea on how these different solutions work and what's better for you.
 
