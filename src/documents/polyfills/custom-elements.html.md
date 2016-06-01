@@ -7,7 +7,7 @@ layout: polyfills
 
 ### Why Custom Elements?
 
-[Custom Elements](http://w3c.github.io/webcomponents/spec/custom/) allow authors define their own custom HTML elements. Authors associate JavaScript code with custom tag names, and then use those custom tag names as they would any standard tag.
+[Custom Elements](http://w3c.github.io/webcomponents/spec/custom/) allow authors to define their own custom HTML elements. Authors associate JavaScript code with custom tag names, and then use those custom tag names as they would any standard tag.
 
 For example, after registering a special kind of button called `super-button`, use the super button just like this:
 
