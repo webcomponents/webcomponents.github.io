@@ -59,6 +59,28 @@ layout: single
 
 Please make sure to fill in the block with the `title`, `authors`, `date` and so on.
 
+* After the top template block, insert more video details:
+
+```
+Short description.
+
+<!-- Excerpt -->
+
+Rest of description.
+
+### Video
+
+<div class="iframe-wrap">
+    [embedded video]
+</div>
+
+### Slides
+
+[embedded slides]
+```
+
+[See an example.](https://raw.githubusercontent.com/webcomponents/webcomponents.github.io/site/src/documents/presentations/web-components-the-future-is-here.html.md)
+
 * For the `image` attribute, make sure to use the same name as the markdown filename. Image file dimension should be `620x240` and located under `src/files/img/stories` folder.
 
 * Add your details (name, avatar, twitter handle etc) to `authors.js`. This will be used by our templates to show your name and links to your profiles.
