@@ -1,8 +1,8 @@
 ---
 title: A Quick Introduction To Polymer
 authors: [mark_wheeler]
-date: 2015-05-26
-original_date: 2015-05-26
+date: 2016-06-8
+original_date: 2016-06-8
 image: a-quick-polymer-intro.png
 category: articles
 layout: single
@@ -15,15 +15,16 @@ A guide to Polymer and its build tools.
 
 <blockquote style="margin-top:60px;margin-bottom:30px;font-style:italic;color:grey;font-size:1.5em">I've a feeling we're not in Kansas anymore - Dorothy</blockquote>
 <br/><br/>
+
 # Web component recap
 
 Web components are a set of standards for creating reusable HTML elements.
 
 For example if you wanted to create an image carousel, you could make a new html element <code>&lt;image-carousel&gt;</code> put all the JS and CSS inside, and use this element anywhere you want.
 
-A key feature is the Shadow DOM, which encapsulates everything inside your element. So in the example above, CSS and JS cannot interfere from the outside preventing JS conflicts and CSS bleed.
+A key feature is the Shadow DOM, which encapsulates everything inside your element. So in the example above, CSS and JS won't interfere from the outside preventing JS conflicts and CSS bleed.
 
-# Browser support?
+## Browser support?
 
 The four areas of web components are:
 * [HTML imports](http://www.w3.org/TR/html-imports/)
@@ -57,14 +58,28 @@ There are a few wrappers around web components such as [x-tag](http://x-tag.read
 
 The aim of the Polymer project is not to create a bloated library, but instead make the smallest library possible, and make the browser do all the work.
 
-\#UseThePlatform is the name Polymer give to represent the want for the browser to do all the heavy lifting without libraries.
+[\#UseThePlatform](https://www.polymer-project.org/1.0/blog/2016-05-26-IO-2016-Recap.html) is the name Polymer give to represent the want for the browser to do all the heavy lifting without libraries.
 
-One of the advantages of using Polymer is that it has a built in data binding model (like [React](https://facebook.github.io/react/) or [Angular](http://angularjs.org/)) enabling complete applications to be made without any other libraries.
+One of the advantages of using Polymer is that it has a built in data binding model (like [Angular](https://angular.io)) enabling complete applications to be made without any other libraries.
 
-Polymer [supports evergreen browsers](https://www.polymer-project.org/1.0/docs/browsers) and when combined with webcomponents.js supports IE 11+.
+Polymer [supports all major evergreen browsers](https://www.polymer-project.org/1.0/docs/browsers) and when combined with webcomponents.js supports IE 11+.
 
-# A quick Polymer example
+# Getting started
+To get started with Polymer, we are going to make our own element called *my-element* (all custom elements need a name with a dash in it).
 
+    <dom-module id="my-element">
+      <template>
+      </template>
+      <script>
+        Polymer({
+          is: "my-element"
+        });
+      </script>
+    </dom-module>
+
+Save this in a file called `my-element.html`. We have declared the name of the element twice (once in the dom-module and once in the Polymer declaration). We can now load our element using `<my-element></my-element>`.
+
+Lets add a bit of styling and a string data binding:
 
     <dom-module id="my-element">
       <template>
@@ -76,28 +91,53 @@ Polymer [supports evergreen browsers](https://www.polymer-project.org/1.0/docs/b
         <div class="box">{{mybinding}}</div>
         </template>
         <script>
-        // element registration
-        Polymer({
-          is: "my-element",
-
-          properties: {
-            mybinding: {
-              type: String,
-              value: "My text here"
+          Polymer({
+            is: "my-element",
+            properties: {
+              mybinding: {
+                type: String,
+                value: "My text here"
+              }
             }
-          }
           });
         </script>
     </dom-module>
 
-The example above creates a new component <code>my-element</code> and it has one binding called <code>mybinding</code>. This can be changed programatically or with attribute binding:
+We have added a `<style>` block *inside* our element (these styles are not available outside our element) and added a properties block to the Polymer section. Each property allows us to bind data from the outside world to our element. The double-moustache syntax `{{}}` is replaced by Polymer with the realtime value of the property.
 
-    <my-element id="obj" mybinding="New text"></my-element>
+To modify the property you can use attributes:
 
-    this.$.obj.set('mybinding','Even newer text');
-    //this.$ is a Polymer representation of local DOM nodes
+    <my-element mybinding="Hello, World"></my-element>
 
-# PRPL pattern
+Or they can be changed programatically:
+
+    myobj.set('mybinding','Hello again!');
+    //myobj being a reference to your element in the DOM
+
+To put this all together:
+
+    <!doctype html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <script src="components/webcomponentsjs/webcomponents-lite.js"></script>
+        <link rel="import" href="components/polymer/polymer.html">
+        <link rel="import" href="my-element.html" />
+    </head>
+    <body>
+        <my-element mybinding="Hello, world"></my-element>
+    </body>
+    </html>
+
+Our final example above loads webcomponents-lite, Polymer and our new element into our page.
+
+The [Polymer documentation](https://www.polymer-project.org/1.0/docs/devguide/feature-overview) describes all the features in more detail, but the above example describes the basics of making a customizable element.
+
+# Polymer tips and tools
+
+
+
+## PRPL pattern
 
 PRPL (pronounced purple) is a set of concepts to enable the next generation of web applications:
 
@@ -106,37 +146,37 @@ PRPL (pronounced purple) is a set of concepts to enable the next generation of w
 * Pre-cache - store the elements for remaining views
 * Lazy-load - when a new view is called, load the elements
 
-This pattern relies on [HTTP 2](https://http2.github.io) for the push capability (when you request only one element or page, the server recommends other files to cache to prevent having the browser work this out at a later time). The pre-cache relies on [service workers](http://www.w3.org/TR/service-workers/) to pull down (but not instantiate) all the other elements required for the routes. These elements will then be instantiated at the point in time they are needed (and all the code for this is in the browser).
+This pattern relies on [HTTP 2](https://http2.github.io) for the push capability (when you request only one element or page, the server recommends other files to cache to prevent having the browser work this out at a later time). The pre-cache relies on [service workers](http://www.w3.org/TR/service-workers/) to pull down (but not upgraded) all the other elements required for the routes. These elements will then be upgraded at the point in time they are needed (and all the code for this is in the browser).
 
-# Speeding up with vulcanisation
+## Speeding up with vulcanization
 
-As most browsers doesn't natively support HTML imports out-of-the-box (and HTTP 2 is not widely run on severs) they need to be polyfilled. The problem is polyfills are slower than native implementations, and worse you can import an element, that imports dependent elements, and that itself imports elements.
+As most browsers doesn't natively support HTML imports out-of-the-box they need to be polyfilled. The problem is polyfills are slower than native implementations, and worse you can import an element, that imports dependent elements, and that itself imports elements.
 
-This dependency chain can be slow to import so a compiler ([vulcanise](https://github.com/Polymer/vulcanize)) was written to combine all dependencies into one file so only one HTML import is needed.
+This dependency chain can be slow to import so a compiler ([vulcanize](https://github.com/Polymer/vulcanize)) was written to combine all dependencies into one file so only one HTML import is needed.
 
-The PRPL pattern is the opposite of vulcanistion. This pattern only loads the minimum individual elements to show whats on screen, then lazily load the others.
+The PRPL pattern is the opposite of vulcanization. This pattern only loads the minimum individual elements to show whats on screen, then lazily load the others.
 
-Polymer's new [CLI](https://github.com/Polymer/polymer-cli) has as tooling for generating both the PRPL and vulcanised version of your project.
+Polymer's new [CLI](https://github.com/Polymer/polymer-cli) has as tooling for generating both the PRPL and vulcanized version of your project.
 
 ## Polybuild
 
-[Polybuild](https://github.com/PolymerLabs/polybuild) is a tool that lives on top of vulcanise and makes it super easy to vulcanise a file and split the output into two files: a HTML file for the [templates](http://www.html5rocks.com/en/tutorials/webcomponents/template/) and a JS file for the Polymer code.
+[Polybuild](https://github.com/PolymerLabs/polybuild) is a tool that lives on top of vulcanize and makes it super easy to vulcanize a file and split the output into two files: a HTML file for the [templates](http://www.html5rocks.com/en/tutorials/webcomponents/template/) and a JS file for the Polymer code.
 
-# Sanitising your components
+## Sanitising your components
 
-Polymer comes with a program called [Hydrolysis](https://github.com/Polymer/hydrolysis) that can be used to analyse elements. From this a tool called [polylint](https://github.com/PolymerLabs/polylint) was made that does a very basic sanity check of your elements (and follows the dependency chain) giving you some piece of mind in the build process.
+Polymer comes with a program called [Hydrolysis](https://github.com/Polymer/hydrolysis) that can be used to analyze elements. From this a tool called [polylint](https://github.com/PolymerLabs/polylint) was made that does a very basic sanity check of your elements (and follows the dependency chain) giving you some piece of mind in the build process.
 
 Polymer's [CLI](https://github.com/Polymer/polymer-cli) tool includes a linter to make the process easier.
 
-# Shady DOM
+## Shady DOM
 
-webcomponents.js comes in two flavours <em>standard</em> and <em>lite</em>. The <em>lite</em> version contains all the polyfills except the Shadow DOM polyfill. The reason for this is it is a heavy weight piece of code to copy the Shadow DOM!!
+webcomponents.js comes in two flavors <em>standard</em> and <em>lite</em>. The <em>lite</em> version contains all the polyfills except the Shadow DOM polyfill. The reason for this is it is a heavy weight piece of code to copy the Shadow DOM!!
 
 There is a noticeable increase in load time when using the standard version, so unless you explicitly need the Shadow DOM it is recommended for speed reasons you use the <em>lite</em> version.
 
 The [Shady DOM](https://www.polymer-project.org/1.0/blog/shadydom) provides the same encapsulation benefits as the Shadow DOM but without the massive polyfill overhead.
 
-# Polymer micro
+## Polymer micro
 
 If you don't want all the extra features of Polymer you can instead use [Polymer micro](https://www.polymer-project.org/1.0/docs/devguide/experimental#polymer-micro), which is just a plain wrapper around web components.
 
