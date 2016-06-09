@@ -1,8 +1,8 @@
 ---
 title: A Quick Introduction To Polymer
 authors: [mark_wheeler]
-date: 2016-06-8
-original_date: 2016-06-8
+date: 2016-06-08
+original_date: 2016-06-08
 image: a-quick-polymer-intro.png
 category: articles
 layout: single
@@ -20,9 +20,9 @@ A guide to Polymer and its build tools.
 
 Web components are a set of standards for creating reusable HTML elements.
 
-For example if you wanted to create an image carousel, you could make a new html element <code>&lt;image-carousel&gt;</code> put all the JS and CSS inside, and use this element anywhere you want.
+For example if you wanted to create an image carousel, you could make a new html element <code>&lt;image-carousel&gt;</code>, with all it's JavaScript and CSS inside the element itself. After that is done, you could use this element anywhere in your document.
 
-A key feature is the Shadow DOM, which encapsulates everything inside your element. So in the example above, CSS and JS won't interfere from the outside preventing JS conflicts and CSS bleed.
+A key feature of Web Components is the Shadow DOM, which encapsulates everything inside your element. So in the example above, CSS and JS won't interfere from other elements or global scripts, preventing JS conflicts and CSS bleed.
 
 ## Browser support?
 
@@ -34,7 +34,7 @@ The four areas of web components are:
 
 Browser support figures can be found here — [http://caniuse.com/#search=web%20components](http://caniuse.com/#search=web%20components).
 
-All major browsers have committed support for the v1.0 of the Shadow DOM specification, v1.0 of custom elements and HTML 5 templates.
+All the major browsers have committed support for the v1.0 of the Shadow DOM specification, v1.0 of custom elements and HTML 5 templates.
 
 * [Safari](https://webkit.org/blog/6017/introducing-safari-technology-preview/)
 * [Internet Explorer](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/shadowdom)
@@ -146,33 +146,33 @@ PRPL (pronounced purple) is a set of concepts to enable the next generation of w
 * Pre-cache - store the elements for remaining views
 * Lazy-load - when a new view is called, load the elements
 
-This pattern relies on [HTTP 2](https://http2.github.io) for the push capability (when you request only one element or page, the server recommends other files to cache to prevent having the browser work this out at a later time). The pre-cache relies on [service workers](http://www.w3.org/TR/service-workers/) to pull down (but not upgraded) all the other elements required for the routes. These elements will then be upgraded at the point in time they are needed (and all the code for this is in the browser).
+This pattern relies on [HTTP 2](https://http2.github.io) for the push capability (when you request only one element or page, the server recommends other files to cache to prevent having the browser work this out at a later time). The pre-cache relies on [service workers](http://www.w3.org/TR/service-workers/) to pull down (but not upgrade) all the other elements required for the routes. These elements will then be upgraded at the point in time they are needed (and all the code for this is in the browser cache).
 
 ## Speeding up with vulcanization
 
-As most browsers doesn't natively support HTML imports out-of-the-box they need to be polyfilled. The problem is polyfills are slower than native implementations, and worse you can import an element, that imports dependent elements, and that itself imports elements.
+Most browsers don't natively support HTML imports out-of-the-box so they will need to be polyfilled. The problem with polyfills are that they are slower than native implementations. Worse than that, HTML Imports allow you to import an element, and then, in turn, that imported element can now import more dependent elements, and so on and so forth.
 
-This dependency chain can be slow to import so a compiler ([vulcanize](https://github.com/Polymer/vulcanize)) was written to combine all dependencies into one file so only one HTML import is needed.
+This dependency chain can be slow to import so a compiler ([vulcanize](https://github.com/Polymer/vulcanize)) was written to combine all dependencies. Using a compiler like Vulcanize assembles your imports into one flat file so that only that one HTML import is needed.
 
-The PRPL pattern is the opposite of vulcanization. This pattern only loads the minimum individual elements to show whats on screen, then lazily load the others.
+The PRPL pattern is the opposite of vulcanization. This pattern only loads the minimum individual elements needed to show whats on screen, then lazily load the others.
 
-Polymer's new [CLI](https://github.com/Polymer/polymer-cli) has as tooling for generating both the PRPL and vulcanized version of your project.
+Polymer's new [CLI](https://github.com/Polymer/polymer-cli) is a tool that can be used for generating both PRPL and a vulcanized version of your project.
 
 ## Polybuild
 
-[Polybuild](https://github.com/PolymerLabs/polybuild) is a tool that lives on top of vulcanize and makes it super easy to vulcanize a file and split the output into two files: a HTML file for the [templates](http://www.html5rocks.com/en/tutorials/webcomponents/template/) and a JS file for the Polymer code.
+[Polybuild](https://github.com/PolymerLabs/polybuild) is a tool that lives on top of vulcanize and makes it super easy to vulcanize a file and split the output into two files: a HTML file for the [templates](http://www.html5rocks.com/en/tutorials/webcomponents/template/) and a JavaScript file for the Polymer code.
 
 ## Sanitising your components
 
-Polymer comes with a program called [Hydrolysis](https://github.com/Polymer/hydrolysis) that can be used to analyze elements. From this a tool called [polylint](https://github.com/PolymerLabs/polylint) was made that does a very basic sanity check of your elements (and follows the dependency chain) giving you some piece of mind in the build process.
+The Polymer project has an optional utility known as  [Hydrolysis](https://github.com/Polymer/hydrolysis) that can be used to analyze elements. Using Hydrolysis, a tool called  [polylint](https://github.com/PolymerLabs/polylint) was made that does a very basic sanity check of your elements (and follows the dependency chain) giving you some piece of mind in the build process.
 
 Polymer's [CLI](https://github.com/Polymer/polymer-cli) tool includes a linter to make the process easier.
 
 ## Shady DOM
 
-webcomponents.js comes in two flavors <em>standard</em> and <em>lite</em>. The <em>lite</em> version contains all the polyfills except the Shadow DOM polyfill. The reason for this is it is a heavy weight piece of code to copy the Shadow DOM!!
+webcomponents.js comes in two flavors <em>standard</em> and <em>lite</em>. The <em>lite</em> version contains all the polyfills except the Shadow DOM polyfill. The reason for this is that stubbing Shadow DOM is extremely inefficient and can impact performance of your application significantly!
 
-There is a noticeable increase in load time when using the standard version, so unless you explicitly need the Shadow DOM it is recommended for speed reasons you use the <em>lite</em> version.
+Specifically, there is a noticeable increase in load time when using the standard version of webcomponentsjs, so unless you explicitly need the Shadow DOM it is recommended you use the <em>lite</em> version.
 
 The [Shady DOM](https://www.polymer-project.org/1.0/blog/shadydom) provides the same encapsulation benefits as the Shadow DOM but without the massive polyfill overhead.
 
