@@ -162,7 +162,7 @@ $ vulcanize -o vulcanized.html index.html
 
 By executing this command, dependencies in `index.html` will be resolved and will generate an aggregated HTML file called `vulcanized.html`.
 
-Learn more about vulcanize [here](https://www.polymer-project.org/articles/concatenating-web-components.html).
+Learn more about vulcanize [here](https://www.polymer-project.org/1.0/docs/tools/optimize-for-production).
 
 Note: http2's server push abilities are considered to eliminate needs for concatenating and vulcanizing files in the future.
 
