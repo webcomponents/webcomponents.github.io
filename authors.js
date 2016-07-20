@@ -655,7 +655,7 @@ module.exports = {
     },
     tim_perry: {
         name: "Tim Perry",
-        bio: "Tim is a tech lead and the open-source champion at Softwire.",
+        bio: "Tim is a tech lead and the open-source champion at Softwire, and the creator of Server Components.",
         gravatar: "8a1aabc40d859fcb786eb4d28b95d299",
         twitter: "pimterry"
     },
