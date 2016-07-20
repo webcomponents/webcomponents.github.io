@@ -653,6 +653,12 @@ module.exports = {
         gravatar: "6a69588f4ea38f9290095b767ff3a544",
         twitter: "taylorthesavage"
     },
+    tim_perry: {
+        name: "Tim Perry",
+        bio: "Tim is a tech lead and the open-source champion at Softwire.",
+        gravatar: "8a1aabc40d859fcb786eb4d28b95d299",
+        twitter: "pimterry"
+    },
     tim_vanderlippe: {
       name: "Tim van der Lippe",
       bio: "Tim is a Web Technologies Google Developer Expert",
