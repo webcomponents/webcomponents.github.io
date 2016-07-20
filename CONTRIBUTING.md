@@ -33,7 +33,7 @@ If you are submitting a complete article for consideration, you don't need to in
 
 * Add your details (name, avatar, twitter handle etc) to `authors.js`. This will be used by our templates to show your name and links to your profiles.
 
-* Use `npm run-script watch` and `npm run-script generate` to preview the output of your article. Please double-check that all formatting is as expected.
+* Use `npm run-script watch` and `npm run-script build` to preview the output of your article. Please double-check that all formatting is as expected.
 
 * You can now follow the development steps below to submit a pull request for review :)
 
@@ -63,7 +63,7 @@ Please make sure to fill in the block with the `title`, `authors`, `date` and so
 
 * Add your details (name, avatar, twitter handle etc) to `authors.js`. This will be used by our templates to show your name and links to your profiles.
 
-* Use `npm run-script watch` and `npm run-script generate` to preview the output of your article. Please double-check that all formatting is as expected.
+* Use `npm run-script watch` and `npm run-script build` to preview the output of your article. Please double-check that all formatting is as expected.
 
 * You can now follow the development steps below to submit a pull request for review :)
 
