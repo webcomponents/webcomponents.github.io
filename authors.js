@@ -371,6 +371,12 @@ module.exports = {
       image: "https://avatars3.githubusercontent.com/u/1205739?v=3&s=80",
       twitter: "jcreenaune"
     },
+    jordan_last: {
+        name: "Jordan Last",
+        bio: "Jordan is a budding full-stack web platform developer",
+        image: "https://avatars0.githubusercontent.com/u/7000719?v=3&s=80",
+        twitter: "lastmjs"
+    },
     josh_crowther: {
         name: "Josh Crowther",
         bio: "Josh is a full-stack engineer currently working with Node.js based stacks. He's profficient in JavaScript particularly with the Angular.js framework.",
