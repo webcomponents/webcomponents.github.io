@@ -671,6 +671,12 @@ module.exports = {
         gravatar: "9bf3a766e037b9d5a4da0a6f9d0f4f68",
         twitter: "tomdale"
     },
+    tomalec: {
+        name: "Tomek Wytrębowicz",
+        bio: "Tomek is a front-end engineer at Starcounter AB, author of many Juicy-elements and PuppetJs features.",
+        gravatar: "https://avatars2.githubusercontent.com/u/17435?v=3&s=80",
+        twitter: "tomalecpl"
+    },
     tomomi_imura: {
         name: "Tomomi Imura",
         bio: "Tomomi is a Open Web advocate and front-end engineer, who loves everything mobile, and writes about HTML5, CSS, JS, UX, tech events, gadgets, etc.",
