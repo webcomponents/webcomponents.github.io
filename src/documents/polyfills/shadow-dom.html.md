@@ -85,17 +85,17 @@ differs from our polyfill implementation.
 
 ### Wrappers
 
-The polyfill is implemented using _wrappers_. A wrapper wraps the native DOM node in a wrapper node. The wrapper node looks and behaves identical to the native node (minus bugs and known limitations). For example:
+The polyfill is implemented using _wrappers_. A wrapper wraps the native DOM node in a wrapper node. The wrapper node looks and behaves identically to the native node (minus bugs and known limitations). For example:
 
     var div = document.createElement('div');
     div.innerHTML = '<b>Hello world</b>';
     assert(div.firstChild instanceof HTMLElement);
 
-But `div` is actually a wrapper of the element that the browser normally gives you. This wrapper just happen to have the same interface as the browser provided element.
+But `div` is actually a wrapper of the element that the browser normally gives you. This wrapper just happens to have the same interface as the browser provided element.
 
-It has an `innerHTML` setter that works just like the native `innerHTML` but it instead of working on the composed tree it works on the local DOM. When you change the logical DOM tree like this it might cause the composed tree to need to be re-rendered. This does not happen immediately, but it is scheduled to happen later as needed.
+It has an `innerHTML` setter that works just like the native `innerHTML` but instead of working on the composed tree it works on the local DOM. When you change the logical DOM tree like this it might cause the composed tree to need to be re-rendered. This does not happen immediately, but it is scheduled to happen later as needed.
 
-The wrapper node also have a `firstChild` getter which once again works on the logical DOM.
+The wrapper node also has a `firstChild` getter which once again works on the logical DOM.
 
 `instanceof` still works because we have replaced the global `HTMLElement` constructor with our custom one.
 
