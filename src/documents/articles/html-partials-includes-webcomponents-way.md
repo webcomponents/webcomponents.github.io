@@ -6,7 +6,7 @@ original_date: 2016-09-18
 link: http://starcounter.io/html-partialsincludes-webcomponents-way/
 category: articles
 layout: single
-tags: ['HTML Imports']
+tags: ['HTML Imports', 'templates']
 ---
 
-Most of the bigger web project are designed to be modular. We all know that Custom Elements spec provides some modularity on individual HTML Element level, but is that all Web Components can give? Definitely not! Thanks to all specs combined, you can build apps that are modular on higher level. You can build your app out of many fully featured HTML Documents that seamlessly interoperate together. You can replace all your framework-specific, server-side templating engines, advanced portal-like systems with just Web Platform.
+Most of the bigger web project are designed to be modular. We all know that Custom Elements spec provides some modularity on individual HTML Element level, but is that all Web Components can give?
