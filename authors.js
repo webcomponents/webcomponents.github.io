@@ -5,6 +5,12 @@ module.exports = {
         image: "https://avatars1.githubusercontent.com/u/662832?v=3&s=80",
         twitter: "js_dev"
     },
+    amal_hussein: {
+        name: "Amal Hussein",
+        bio: "Amal Hussein is a software developer in Boston, MA & a panelist on The Web Platform Podcast",
+        image: "https://avatars1.githubusercontent.com/u/6717823?v=3&s=80",
+        twitter: "nomadtechie"
+    },
     arron_eicholz: {
         name: "Arron Eicholz",
         bio: "Arron is a Program Manager at Microsoft and is currently focused on the Edge Browser",
@@ -251,6 +257,12 @@ module.exports = {
         gravatar: "e7948aac7c52b26470be80311873a398",
         twitter: "ebidel"
     },
+    eric_knudtson: {
+        name: "Eric Knudtson",
+        bio: "Eric is a software developer at GE Digital working on the Industrial Internet & Predix UI",
+        image: "https://avatars3.githubusercontent.com/u/13161?v=3&s=80",
+        twitter: "vikingux"
+    },
     erik_isaksen: {
         name: "Erik Isaksen",
         bio: "Erik is a Front End Developer, W3C HTML Invited Expert, Chrome HTML5 Google Developer Expert, and host of The Web Platform Podcast.",
@@ -425,6 +437,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/3871688?v=3&s=80",
         twitter: "karaforthewin"
     },
+    kent_c_dodds: {
+        name: "Kent C Dodds",
+        bio: "Kent is a software developer at Paypal & host of JavaScript Air",
+        image: "https://avatars3.githubusercontent.com/u/1500684?v=3&s=80",
+        twitter: "kentcdodds"
+    },
     kevin_gleason: {
         name: "Kevin Gleason",
         bio: "Kevin is an Embedded Systems and Internet of Things Intern at Pubnub",
@@ -538,6 +556,12 @@ module.exports = {
         bio: "Nick is a JavaScript Agent Engineer at New Relic",
         image: "https://avatars2.githubusercontent.com/u/357596?v=3&s=80",
         twitter: "nickniemeir"
+    },
+    pam_selle: {
+        name: "Pam Selle",
+        bio: "Pam is a software developer and panelist on JavaScript Air",
+        image: "https://avatars2.githubusercontent.com/u/204372?v=3&s=80", 
+        twitter: "pamasaur"
     },
     pascal_precht: {
         name: "Pascal Precht",
@@ -700,6 +724,12 @@ module.exports = {
       bio: "Trey is software developer at Atlassian & creator of Skate.js",
       image: "https://avatars0.githubusercontent.com/u/136556?v=3&s=80",
       twitter: "treshugart"
+    },
+    tushar_mathur: {
+        name: "Tushar Mathur",
+        bio: "Tushar is a software developer & creator of Reactive Web Components (RWC)",
+        image: "https://avatars2.githubusercontent.com/u/194482?v=3&s=80",
+        twitter: "tusharmath"
     },
     tyler_mcginnis: {
         name: "Tyler McGinnis",
