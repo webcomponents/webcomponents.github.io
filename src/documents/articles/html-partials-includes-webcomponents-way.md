@@ -9,4 +9,4 @@ layout: single
 tags: ['HTML Imports', 'templates']
 ---
 
-<p>Most of the bigger web project are designed to be modular. We all know that Custom Elements spec provides some modularity on individual HTML Element level, but is that all Web Components can give</p>
+<p>Most of the bigger web project are designed to be modular. We all know that Custom Elements spec provides some modularity on individual HTML Element level, but is that all Web Components can give?</p>
