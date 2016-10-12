@@ -1,4 +1,3 @@
-<!-- Remove link when beta is released -->
 ---
 title: On the Origin of Species: Web Components from jQuery to Polymer
 authors: [jason_strimpel]
