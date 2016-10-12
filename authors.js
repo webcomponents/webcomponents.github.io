@@ -335,6 +335,12 @@ module.exports = {
         gravatar: "255122f396049d1c7fb264cfa6ec584c",
         twitter: "jarommcdonald"
     },
+    jason_strimpel: {
+        name: "Jason Strimpel",
+        bio: "Jason is the co-author of Web Components from jQuery to Polymer",
+        image: "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/0b4/2e5/2a4c8c0.jpg",
+        twitter: "StrimpelJason"
+    },
     jeffrey_posnick: {
       name: "Jeffrey Posnick",
       bio: "Jeffrey a member of Google's Open Web Platform Developer Relations team",

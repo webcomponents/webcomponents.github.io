@@ -1236,6 +1236,7 @@ header, section {
 .card-author .author-avatar {
     border-radius: 50%;
     float: left;
+    max-width: 80px;
 }
 
 .card-author .author-name {
