@@ -1,3 +1,4 @@
+<!-- Remove link when beta is released -->
 ---
 title: On the Origin of Species: Web Components from jQuery to Polymer
 authors: [jason_strimpel]
@@ -6,6 +7,7 @@ original_date: 2015-05-29
 image: web-components-from-jquery-polymer.png
 category: articles
 layout: single
+link: http://webcomponents.org/articles/on-the-origin-of-species-web-components-from-jquery-to-polymer/
 tags: ['Custom Elements', 'Documentation', 'Best Practices', 'Interview']
 ---
 
