@@ -1,6 +1,7 @@
 <%- @partial('header') %>
 <div class="page-wrap">
 <%- @partial('menu') %>
+<%- @partial('notification') %>
 
 <div class="wrapper">
     <div class="card card-announcement card-announcement-assets">

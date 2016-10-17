@@ -1,7 +1,7 @@
 <%- @partial('header') %>
 <div class="page-wrap">
 <%- @partial('menu') %>
-
+<%- @partial('notification') %>
 <div id="resources" class="wrapper">
     <main class="layout-single" role="main">
         <div class="single-content" role="article">

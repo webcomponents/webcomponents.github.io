@@ -1,0 +1,9 @@
+<!-- notification section -->
+<% if @notification.visible is true: %>
+    <div class="notification_toolbar">
+        <p class="notification_toolbar__header">
+            Please help us make Web Components & PWA's better by completing 
+            <a target="_blank" href="<%= @notification.url %>"><%= @notification.text %></a>
+        </p>
+    </div>
+<% end %>

@@ -1,6 +1,7 @@
 <%- @partial('header') %>
 <div class="page-wrap">
 <%- @partial('menu') %>
+<%- @partial('notification') %>
 
 <div class="wrapper">
     <main class="layout-single" role="main" itemscope itemtype="http://schema.org/TechArticle">

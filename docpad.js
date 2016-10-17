@@ -16,6 +16,12 @@ module.exports = {
             image: "http://webcomponents.org/img/logo.png"
         },
 
+        notification: {
+            text: "this survey",
+            url: "https://bit.ly/web-survey-2016",
+            visible: true
+        },
+
         github: {
             user: "webcomponents",
             repo: "webcomponents.github.io"

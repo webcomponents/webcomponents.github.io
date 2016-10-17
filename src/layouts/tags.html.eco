@@ -1,6 +1,7 @@
 <%- @partial('header') %>
 <div class="page-wrap">
 <%- @partial('menu') %>
+<%- @partial('notification') %>
 
 <div class="wrapper">
     <h2 class="tag-title">Posts tagged with <span><%= @document.tag %></span></h2>

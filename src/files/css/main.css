@@ -1652,3 +1652,28 @@ header, section {
         margin: 0 20px 40px;
     }
 }
+
+/* Notifications */
+.notification_toolbar {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #E44D26;
+    text-align: center;
+    margin: -40px 0 40px 0;
+}
+
+.notification_toolbar a,
+.notification_toolbar a:link,
+.notification_toolbar a:visited, 
+.notification_toolbar a:active, 
+.notification_toolbar a:hover {
+    color: #434a54;
+}
+
+.notification_toolbar__header {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.4;
+}
