@@ -5,6 +5,12 @@ module.exports = {
         image: "https://avatars1.githubusercontent.com/u/662832?v=3&s=80",
         twitter: "js_dev"
     },
+    adam_onishi: {
+        name: "Adam Onishi",
+        bio: "Adam is a Web developer and designer focusing on accessibility, progressive enhancement, and high quality code",
+        image: "https://avatars2.githubusercontent.com/u/1240073?v=3&s=80",
+        twitter: "onishiweb"
+    },
     amal_hussein: {
         name: "Amal Hussein",
         bio: "Amal Hussein is a software developer in Boston, MA & a panelist on The Web Platform Podcast",
