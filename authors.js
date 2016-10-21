@@ -365,6 +365,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/195580?s=80",
         twitter: "ElPapaPollo"
     },
+    jeremy_keith: {
+        name: "Jeremy Keith",
+        bio: "Jeremy is a web developer living in Brighton, England",
+        image: "https://avatars2.githubusercontent.com/u/18826?v=3&s=80",
+        twitter: "adactio"
+    },
     joe_eames: {
         name: "Joe Eames",
         bio: "Joe is organizer of NG-Conf, front end developer, and panelist on JavaScript Jabber.",
