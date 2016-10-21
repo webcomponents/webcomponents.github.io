@@ -599,6 +599,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/2159051?s=80",
         twitter: "polymer"
     },
+    paul_bakaus: {
+        name: "Paul Bakaus",
+        bio: "Paul is a Software Engineer at Google",
+        image: "https://avatars3.githubusercontent.com/u/43004?v=3&s=80",
+        twitter: "pbakaus"
+    },
     paul_lewis: {
         name: "Paul Lewis",
         bio: "Paul works at Google on the Chrome Developer Relations team as an advocate. I help developers improve the performance of their sites and apps.",
