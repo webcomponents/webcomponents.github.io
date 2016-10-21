@@ -767,6 +767,12 @@ module.exports = {
         gravatar: "a7c860a23fc707909d7b78fcbb374367",
         twitter: "varunkumar"
     },
+    ward_bell: {
+        name: "Ward Bell",
+        bio: "Ward is a Software Engineer in the Emeryville, California area",
+        image: "https://avatars2.githubusercontent.com/u/129061?v=3&s=80",
+        twitter: "wardbell"
+    },
     william_jeffries: {
         name: "William Jeffries",
         bio: "William is a Web Developer & panelist on Polymer Podcast",
