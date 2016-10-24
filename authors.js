@@ -125,6 +125,12 @@ module.exports = {
         image: "https://avatars2.githubusercontent.com/u/1486348?v=3&s=80",
         twitter: "carlfranklin"
     },
+    carlos_taborda: {
+        name: "Carlos Taborda",
+        bio: "Carlos is host of Tech People at Work Podcast and Co-Author of ng-book 2",
+        image: "https://avatars1.githubusercontent.com/u/44930?v=3&s=80",
+        twitter: "cartab"
+    },
     carmen_popoviciu: {
         name: "Carmen Popoviciu",
         bio: "Carmen is a front-end engineer and the leading lady of the Dutch AngularJS User Group. She loves Angular and is passionate about its community. She hopes to one day make a difference for the web with the code she writes.",
