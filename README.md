@@ -1,10 +1,10 @@
-# [WebComponents.org](http://webcomponents.org)
+# [webcomponents.github.io](http://webcomponents.github.io/)
 
 [![Build Status](http://img.shields.io/travis/webcomponents/webcomponents.github.io/site.svg?style=flat)](https://travis-ci.org/webcomponents/webcomponents.github.io)
 [![Dependency Status](http://img.shields.io/david/webcomponents/webcomponents.github.io.svg?style=flat)](https://david-dm.org/webcomponents/webcomponents.github.io)
 [![DevDependencies Status](http://img.shields.io/david/dev/webcomponents/webcomponents.github.io.svg?style=flat)](https://david-dm.org/webcomponents/webcomponents.github.io#info=devDependencies)
 
-![WebComponents.org Screenshot](https://cloud.githubusercontent.com/assets/398893/3612459/c78f93a8-0dab-11e4-905f-1747a01e09e6.png)
+> Deprecated. Please see [webcomponents/webcomponents.org](https://github.com/webcomponents/webcomponents.org).
 
 > WebComponents.org is a place for web component authors to discuss and share best practices, patterns and learning resources.
 
