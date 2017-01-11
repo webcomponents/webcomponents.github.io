@@ -1,5 +1,9 @@
 (function (window, document, undefined) {
     'use strict';
+    
+    window.addEventListener('load', function(){
+        new Events();
+    });
 
     var button = document.querySelector('.menu-button'),
         nav = document.querySelector('.nav'),
