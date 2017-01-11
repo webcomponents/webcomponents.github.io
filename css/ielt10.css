@@ -1,0 +1,20 @@
+.column-first,
+.column-middle,
+.column-last {
+    float: left;
+    width: 313.333333333px;
+}
+
+/* --- Two columns --- */
+@media (max-width: 980px) {
+    .column-last {
+        clear: left;
+    }
+}
+
+/* --- One column --- */
+@media (max-width: 660px) {
+    .column-middle {
+        clear: left;
+    }
+}

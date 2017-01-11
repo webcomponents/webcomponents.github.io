@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[WebComponents.org]]></title>
+        <description><![CDATA[A place to discuss and evolve Web Component best-practices]]></description>
+        <link>https://webcomponents.github.io</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 11 Jan 2017 01:46:05 GMT</lastBuildDate>
+        <atom:link href="https://webcomponents.github.io/podcasts.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 11 Jan 2017 01:44:39 GMT</pubDate>
+        <item>
+            <title><![CDATA[111 Extensible Web Components]]></title>
+            <description><![CDATA[<p>Jeremy Keith, web guru &amp; co-founder of ClearLeft, talks with us about the potential pitfalls and hopes on Progressive Enhancement with Web Components.</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/111-extensible-web-components</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/111-extensible-web-components</guid>
+            <pubDate>Fri, 21 Oct 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[115 AiA Polymer and Web Components with Angular 2]]></title>
+            <description><![CDATA[<p>Rob Dodson talks with the Adventures in Angular Panel on Angular 2 integration with Web Components</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/115-aia-polymer-and-web-components-with-angular-2</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/115-aia-polymer-and-web-components-with-angular-2</guid>
+            <pubDate>Thu, 20 Oct 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building Component-based Systems with Josh Crowther from Family Search]]></title>
+            <description><![CDATA[<p>In this episode Carlos Taborda chats about the evolution of how web applications are built, and how Family Search is leveraging a component-based architecture with Web Components.</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/21-building-component-based-systems-with-josh-crowther</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/21-building-component-based-systems-with-josh-crowther</guid>
+            <pubDate>Thu, 20 Oct 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[110 The AMP Mobile Revolution]]></title>
+            <description><![CDATA[<p>Paul Bakaus, Google Engineer, has recently been leading the AMP Project which is an open source initiative to optimize content for mobile devices using the web.</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/110-the-amp-mobile-revolution</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/110-the-amp-mobile-revolution</guid>
+            <pubDate>Fri, 14 Oct 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[042 jsAir - Web Components with Rob Dodson, Tushar Mathur, and Monica Dinculescu]]></title>
+            <description><![CDATA[<p>There&#39;s been quite a bit of talk about the Web Components spec lately. As with anything new, there&#39;s been a lot of fear, uncertainty, and doubt (FUD) about Web Components. We&#39;re going to chat about some of their use cases, strengths, and weaknesses to give us all a better idea of this tech.</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/42-web-components-with-rob-dodson-tushar-mathur-and-monica-dinculescu</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/42-web-components-with-rob-dodson-tushar-mathur-and-monica-dinculescu</guid>
+            <pubDate>Thu, 29 Sep 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[99 Polymer Native]]></title>
+            <description><![CDATA[<p>Denis Radin, Web Component advocate, has started work on a project called Polymer Native to enable developers to create part-hybrid, part-native applications using Web Components.</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/99-polymer-native</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/99-polymer-native</guid>
+            <pubDate>Thu, 28 Jul 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[98 Server Side Web Components]]></title>
+            <description><![CDATA[<p>Software developer at Softwire, Tim Perry, has created a set of “Server Components”. These are simple, lightweight tools for “composable HTML rendering in Node.js, broadly following the Web Components browser specification, but on the server side”.</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/98-server-side-web-components</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/98-server-side-web-components</guid>
+            <pubDate>Tue, 19 Jul 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[97: Predix UI & Polymer]]></title>
+            <description><![CDATA[<p>Eric Knudtson from GE Digital walks us through their Predix UI Web Components library built on top of Google’s Polymer Project.</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/97-predix-ui-and-polymer</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/97-predix-ui-and-polymer</guid>
+            <pubDate>Tue, 12 Jul 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[82: Are Web Components Ready Now?]]></title>
+            <description><![CDATA[<p>This episode is a follow up on episode 59 &#39;Are Web Components Ready Yet?&#39;. Leon, Justin &amp; Erik chat about where we are in Web Component development today and what&#39;s happened over the past 6 months.</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/82-are-web-components-ready-now</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/82-are-web-components-ready-now</guid>
+            <pubDate>Mon, 02 May 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[79: Basic web components and best practices]]></title>
+            <description><![CDATA[<p>There is more than one set of custom elements out there. In this episode, we speak with Jan Miksovsky about basic web components, a comprehensive set of high-quality web components for common user interface patterns.</p>
+]]></description>
+            <link>https://webcomponents.github.io/podcasts/79-basic-web-components-and-best-practices</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/podcasts/79-basic-web-components-and-best-practices</guid>
+            <pubDate>Wed, 09 Mar 2016 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

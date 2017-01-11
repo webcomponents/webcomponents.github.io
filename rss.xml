@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[WebComponents.org]]></title>
+        <description><![CDATA[A place to discuss and evolve Web Component best-practices]]></description>
+        <link>https://webcomponents.github.io</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 11 Jan 2017 01:46:05 GMT</lastBuildDate>
+        <atom:link href="https://webcomponents.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 11 Jan 2017 01:44:39 GMT</pubDate>
+        <item>
+            <title><![CDATA[About]]></title>
+            <description><![CDATA[<div class="wrapper">
+    <main class="card-container layout-archive card-container-about" itemscope itemtype="http://schema.org/CollectionPage">
+        
+            
+        
+            
+                <section class="card card-1 card-about" itemscope itemtype="http://schema.org/Product">
+                    <h3 itemprop="name">What?</h3>
+
+                    <div class="description" itemprop="description">
+                        <p>WebComponents.org is the canonical resource for all material related to Web Components development. Web Components provide a new and standard way of building UI components. It’s a lot to absorb all at once and very different from most of the previous ways to work with UI on the web. WebComponents.org provides articles, presentations, podcasts, interviews, original content, resources, tools and much more to assist designers, developers, and other web professionals build components that are (or will be) ‘first class’ DOM objects in the browsers. Our content is totally free and we welcome contributions on to content and other resources such as polyfills & tools maintained by our Github organization.</p>
+                    </div>
+
+                </section>
+            
+        
+            
+                <section class="card card-2 card-about" itemscope itemtype="http://schema.org/Product">
+                    <h3 itemprop="name">Why?</h3>
+
+                    <div class="description" itemprop="description">
+                        <p>It’s a different web today. It’s a different way of thinking about UI components on a page. The Polymer, X-tag, and other libraries have stepped up to help abstract some of the complexities of the Web Component Specifications. Projects like Customelements.io & Component.Kitchen have helped us find components but much of the documentation, use cases, and content surrounding Web Components is scattered across the web. We aim to alleviate this random distribution and centralize Web Component content. This will enable us to share knowledge, code, and tooling much faster & in much greater depth across the Web Components ecosystem.</p>
+                    </div>
+
+                </section>
+            
+        
+
+    </main>
+
+    <section class="card card-community" role="region" itemscope itemtype="http://schema.org/ItemList">
+    <h3 itemprop="name">Who?</h3>
+    <p class="card-about-description">We are the pioneers and community-members of the Web Components ecosystem. The WebComponents.org team is dedicated to supporting all that is part of Web Components. Here is a complete list of the contributors to the project on Github.</p>
+    <ul class="layout-community profile-list">
+
+    </ul>
+</section>
+
+<script src="https://webcomponents.github.io/js/contrib.js"></script>
+</div>]]></description>
+            <link>https://webcomponents.github.io/about</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/about</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<div class="wrapper" itemscope itemtype="http://schema.org/CollectionPage">
+    <header class="header" role="banner">
+        <a class="logo" href="https://webcomponents.github.io" itemprop="url">
+            <img src="https://webcomponents.github.io/img/logo.svg" alt="WebComponents.org" width="246" height="158" itemprop="image">
+        </a>
+        <h1 class="title" itemprop="name">WebComponents.org</h1>
+        <h2 class="subtitle" itemprop="description">A place to discuss and evolve Web Component best-practices</h2>
+    </header>
+
+    <main class="card-container layout-home" role="main">
+        <div class="column-first">
+            <!-- Polyfills -->
+<section class="card card-story card-polyfills" role="region" itemscope itemtype="http://schema.org/WebPage">
+    <h3 itemprop="name">Polyfills</h3>
+    <div class="description" itemprop="description">
+      <p>The webcomponent.js polyfills enable Web Components in (evergreen) browsers that lack native support.</p>
+      <p class="card-package-install">
+      <strong>Install with <a href="http://bower.io">Bower</a></strong>
+      <code>bower install webcomponentsjs</code>
+      </p>
+      <p class="card-package-install">
+      <strong>Install with <a href="http://npmjs.org">npm</a></strong>
+      <code>npm install webcomponents.js</code>
+      </p>
+        <p>
+          <a href="https://github.com/webcomponents/webcomponentsjs/archive/v0.7.12.zip" class="card-download-button" onclick="_gaq.push(['_trackEvent', 'Downloads', 'webcomponents.js', 'v0.7.12']);">
+            Download webcomponents.js
+          </a>
+          <span class="filesize">0.7.12 (117KB minified, 34KB gzipped)</span>
+        </p>
+      </p>
+    </div>
+    <a class="card-main-btn" href="/polyfills/">Learn more about the polyfills</a>
+</section>
+
+            <!-- Browser Support -->
+<section class="card card-support" role="region">
+    <h3>Browser Support</h3>
+    <table class="status-table">
+        <tr>
+            <td></td>
+            
+                <td>Chrome</td>
+            
+                <td>Opera</td>
+            
+                <td>Firefox</td>
+            
+                <td>Safari</td>
+            
+                <td>IE/Edge</td>
+            
+        </tr>
+        <tr>
+            <td><img title="Templates" src="https://webcomponents.github.io/img/icon-status-templates.png" alt="Templates" width="32" height="32"></td>
+            
+                <td><a title="Stable" href="http://www.chromestatus.com/features/5207287069147136" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Stable" href="http://www.chromestatus.com/features/5207287069147136" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Stable" href="http://caniuse.com/#feat=template" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Stable" href="http://caniuse.com/#feat=template" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Boom! It's done" href="https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6261273-template-element" class="icon-status icon-status-green"></a></td>
+            
+        </tr>
+        <tr>
+            <td><img title="HTML Imports" src="https://webcomponents.github.io/img/icon-status-htmlimports.png" alt="HTML Imports" width="32" height="32"></td>
+            
+                <td><a title="Stable" href="http://www.chromestatus.com/features/5144752345317376" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Stable" href="http://dev.opera.com/blog/opera-23/" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="On Hold" href="https://hacks.mozilla.org/2014/12/mozilla-and-web-components/" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Not implemented yet"  class="icon-status icon-status-red"></a></td>
+            
+                <td><a title="Under consideration" href="http://status.modern.ie/htmlimports" class="icon-status icon-status-red"></a></td>
+            
+        </tr>
+        <tr>
+            <td><img title="Custom Elements" src="https://webcomponents.github.io/img/icon-status-customelements.png" alt="Custom Elements" width="32" height="32"></td>
+            
+                <td><a title="Stable" href="http://www.chromestatus.com/features/4642138092470272" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Stable" href="http://dev.opera.com/blog/opera-20/" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Flag" href="https://bugzilla.mozilla.org/show_bug.cgi?id=889230" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Nightly" href="https://bugs.webkit.org/show_bug.cgi?id=154907" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Development is likely for a future release" href="http://status.modern.ie/customelements" class="icon-status icon-status-red"></a></td>
+            
+        </tr>
+        <tr>
+            <td><img title="Shadow DOM" src="https://webcomponents.github.io/img/icon-status-shadowdom.png" alt="Shadow DOM" width="32" height="32"></td>
+            
+                <td><a title="Stable" href="http://www.chromestatus.com/features/5479141319114752" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Stable" href="http://dev.opera.com/blog/opera-22/" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Flag" href="https://bugzilla.mozilla.org/show_bug.cgi?id=806506" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Stable" href="https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_0.html" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Intend to begin development soon" href="http://status.modern.ie/shadowdom" class="icon-status icon-status-red"></a></td>
+            
+        </tr>
+    </table>
+</section>
+
+            <!-- Libraries -->
+<section class="card card-links card-libraries" role="region" itemscope itemtype="http://schema.org/ItemList">
+    <h3 itemprop="name">Libraries</h3>
+    <ul class="link-list">
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="http://www.polymer-project.org/" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Libraries', 'Polymer'], 'http://www.polymer-project.org/');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-polymer.png" alt="Polymer" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">Polymer</p>
+                    <p class="description" itemprop="description">Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.</p>
+                </a>
+            </li>
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="http://x-tags.org/" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Libraries', 'X-Tag'], 'http://x-tags.org/');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-xtags.png" alt="X-Tag" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">X-Tag</p>
+                    <p class="description" itemprop="description">X-Tag is a small JavaScript library, initially created by Mozilla &amp; now supported by Microsoft, that brings Web Components Custom Element capabilities to all modern browsers.</p>
+                </a>
+            </li>
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="http://bosonic.github.io/" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Libraries', 'Bosonic'], 'http://bosonic.github.io/');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-bosonic.png" alt="Bosonic" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">Bosonic</p>
+                    <p class="description" itemprop="description">Bosonic is a set of tools that enable you to build Web Components as the spec currently describes, and supporting not-so-modern browsers like IE9.</p>
+                </a>
+            </li>
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="https://github.com/skatejs/skatejs" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Libraries', 'SkateJS'], 'https://github.com/skatejs/skatejs');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-skatejs.png" alt="SkateJS" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">SkateJS</p>
+                    <p class="description" itemprop="description">SkateJS is a superset of the web component specs, with a very small footprint, that enables you to write performant web components using a functional rendering pipeline.</p>
+                </a>
+            </li>
+        
+    </ul>
+</section>
+
+        </div>
+        <div class="column-middle">
+            <!-- Discover -->
+<section class="card card-links card-discover" role="region" itemscope itemtype="http://schema.org/ItemList">
+    <h3 itemprop="name">Discover</h3>
+    <ul class="link-list">
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="http://customelements.io/" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Discover', 'CustomElements.io'], 'http://customelements.io/');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-customelementsio.png" alt="CustomElements.io" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">CustomElements.io</p>
+                    <p class="description" itemprop="description">A gallery to display Web Components created by the community.</p>
+                </a>
+            </li>
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="https://elements.polymer-project.org" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Discover', 'Polymer Catalog'], 'https://elements.polymer-project.org');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-catalog.png" alt="Polymer Catalog" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">Polymer Catalog</p>
+                    <p class="description" itemprop="description">The official product line catalog for Polymer Web Components.</p>
+                </a>
+            </li>
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="http://builtwithpolymer.org/" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Discover', 'Built with Polymer'], 'http://builtwithpolymer.org/');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-polymer.png" alt="Built with Polymer" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">Built with Polymer</p>
+                    <p class="description" itemprop="description">A curated collection of web apps and websites using Polymer.</p>
+                </a>
+            </li>
+        
+    </ul>
+</section>
+
+            <!-- Specs -->
+<section class="card card-links card-specs" role="region" itemscope itemtype="http://schema.org/ItemList">
+    <h3 itemprop="name">Specs</h3>
+    <ul class="link-list">
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="http://w3c.github.io/webcomponents/spec/custom/" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Specs', 'Custom Elements'], 'http://w3c.github.io/webcomponents/spec/custom/');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-customelements.png" alt="Custom Elements" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">Custom Elements</p>
+                    <p class="description" itemprop="description">This specification describes the method for enabling the author to define and use new types of DOM elements in a document.</p>
+                </a>
+            </li>
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="http://w3c.github.io/webcomponents/spec/imports/" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Specs', 'HTML Imports'], 'http://w3c.github.io/webcomponents/spec/imports/');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-htmlimports.png" alt="HTML Imports" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">HTML Imports</p>
+                    <p class="description" itemprop="description">HTML Imports are a way to include and reuse HTML documents in other HTML documents.</p>
+                </a>
+            </li>
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="https://html.spec.whatwg.org/multipage/scripting.html#the-template-element" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Specs', 'Templates'], 'https://html.spec.whatwg.org/multipage/scripting.html#the-template-element');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-templates.png" alt="Templates" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">Templates</p>
+                    <p class="description" itemprop="description">This specification describes a method for declaring inert DOM subtrees in HTML and manipulating them to instantiate document fragments with identical contents.</p>
+                </a>
+            </li>
+        
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" href="http://w3c.github.io/webcomponents/spec/shadow/" itemprop="url" onclick="_gaq.push(['_trackEvent', 'External links', 'Specs', 'Shadow DOM'], 'http://w3c.github.io/webcomponents/spec/shadow/');">
+                    <img class="icon" src="https://webcomponents.github.io/img/icon-shadowdom.png" alt="Shadow DOM" itemprop="image" width="54" height="54">
+                    <p class="title" itemprop="name">Shadow DOM</p>
+                    <p class="description" itemprop="description">This specification describes a method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM.</p>
+                </a>
+            </li>
+        
+    </ul>
+</section>
+
+        </div>
+        <div class="column-last">
+            <section class="card card-story card-articles" role="region" itemscope itemtype="http://schema.org/Article">
+    <h3>Articles</h3>
+    
+        
+        <a class="title" target="_blank" href="https://www.polymer-project.org/1.0/blog/2016-10-03-1.7-release.html" itemprop="url">
+            Please Welcome Polymer 1.7
+        </a>
+        <div class="description" itemprop="description">
+            <p>Polymer 1.7.0 provides forward compatibility features that let you build elements that run under both 1.0 and 2.0.</p>
+
+            
+
+            
+                <a class="read-more" href="https://www.polymer-project.org/1.0/blog/2016-10-03-1.7-release.html" target="_blank">Read More ></a>
+            
+        </div>
+    
+    <a class="card-main-btn" href="https://webcomponents.github.io/articles/">See all articles</a>
+</section>
+
+            <section class="card card-story card-presentations" role="region" itemscope itemtype="http://schema.org/Article">
+    <h3>Presentations</h3>
+    
+        
+            <a class="story-image"  href="https://webcomponents.github.io/presentations/accessibility-is-my-favorite-part-of-the-platform-at-google-io-2016">
+                <img src="https://webcomponents.github.io/img/stories/accessibility-is-my-favorite-part-of-the-platform-at-google-io-2016.jpg" alt="Accessibility is My Favorite Part of the Platform" itemprop="image">
+            </a>
+        
+        <a class="title"  href="https://webcomponents.github.io/presentations/accessibility-is-my-favorite-part-of-the-platform-at-google-io-2016" itemprop="url">
+            Accessibility is My Favorite Part of the Platform
+        </a>
+        <div class="description" itemprop="description">
+            <p>My favorite part of my job is when I get to work on accessibility. I see this as removing uncertainty and anxiety from people’s day, and helping them access the information they need. But working with accessibility can be frustrating, especially when you feel like you’re fighting the platform instead of working with it.</p>
+
+            
+                <a class="read-more" href="https://webcomponents.github.io/presentations/accessibility-is-my-favorite-part-of-the-platform-at-google-io-2016">Read More ></a>
+            
+
+            
+        </div>
+    
+    <a class="card-main-btn" href="https://webcomponents.github.io/presentations/">See all presentations</a>
+</section>
+
+        </div>
+    </main>
+</div>]]></description>
+            <link>https://webcomponents.github.io/</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What?]]></title>
+            <description><![CDATA[<p>WebComponents.org is the canonical resource for all material related to Web Components development. Web Components provide a new and standard way of building UI components. It’s a lot to absorb all at once and very different from most of the previous ways to work with UI on the web. WebComponents.org provides articles, presentations, podcasts, interviews, original content, resources, tools and much more to assist designers, developers, and other web professionals build components that are (or will be) ‘first class’ DOM objects in the browsers. Our content is totally free and we welcome contributions on to content and other resources such as polyfills & tools maintained by our Github organization.</p>]]></description>
+            <link>https://webcomponents.github.io/about/what</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/about/what</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Assets]]></title>
+            <description><![CDATA[
+    
+
+    
+    <section class="card card-asset" itemscope itemtype="http://schema.org/ItemList">
+        <h3 itemprop="name">Templates Logo</h3>
+
+        <figure class="story-image">
+            <img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/templates/templates_512x512.png" alt="Templates Logo" itemprop="image">
+        </figure>
+
+        <ul class="link-list">
+
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/templates/templates.svg" itemprop="url">SVG</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/templates/templates_512x512.png" itemprop="url">512x512</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/templates/templates_256x256.png" itemprop="url">256x256</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/templates/templates_128x128.png" itemprop="url">128x128</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/templates/templates_64x64.png" itemprop="url">64x64</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/templates/templates_48x48.png" itemprop="url">48x48</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/templates/templates_32x32.png" itemprop="url">32x32</a>
+            </li>
+
+        </ul>
+
+
+        <a class="card-main-btn" download href="https://github.com/webcomponents/webcomponents-icons/raw/master/templates/templates.zip" title="Templates Logo">Download All</a>
+    </section>
+    
+
+    
+    <section class="card card-asset" itemscope itemtype="http://schema.org/ItemList">
+        <h3 itemprop="name">Custom Elements Logo</h3>
+
+        <figure class="story-image">
+            <img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/custom-elements/custom-elements_512x512.png" alt="Custom Elements Logo" itemprop="image">
+        </figure>
+
+        <ul class="link-list">
+
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/custom-elements/custom-elements.svg" itemprop="url">SVG</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/custom-elements/custom-elements_512x512.png" itemprop="url">512x512</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/custom-elements/custom-elements_256x256.png" itemprop="url">256x256</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/custom-elements/custom-elements_128x128.png" itemprop="url">128x128</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/custom-elements/custom-elements_64x64.png" itemprop="url">64x64</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/custom-elements/custom-elements_48x48.png" itemprop="url">48x48</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/custom-elements/custom-elements_32x32.png" itemprop="url">32x32</a>
+            </li>
+
+        </ul>
+
+
+        <a class="card-main-btn" download href="https://github.com/webcomponents/webcomponents-icons/raw/master/custom-elements/custom-elements.zip" title="Custom Elements Logo">Download All</a>
+    </section>
+    
+
+    
+    <section class="card card-asset" itemscope itemtype="http://schema.org/ItemList">
+        <h3 itemprop="name">HTML Imports Logo</h3>
+
+        <figure class="story-image">
+            <img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/html-imports/html-imports_512x512.png" alt="HTML Imports Logo" itemprop="image">
+        </figure>
+
+        <ul class="link-list">
+
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/html-imports/html-imports.svg" itemprop="url">SVG</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/html-imports/html-imports_512x512.png" itemprop="url">512x512</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/html-imports/html-imports_256x256.png" itemprop="url">256x256</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/html-imports/html-imports_128x128.png" itemprop="url">128x128</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/html-imports/html-imports_64x64.png" itemprop="url">64x64</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/html-imports/html-imports_48x48.png" itemprop="url">48x48</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/html-imports/html-imports_32x32.png" itemprop="url">32x32</a>
+            </li>
+
+        </ul>
+
+
+        <a class="card-main-btn" download href="https://github.com/webcomponents/webcomponents-icons/raw/master/html-imports/html-imports.zip" title="HTML Imports Logo">Download All</a>
+    </section>
+    
+
+    
+    <section class="card card-asset" itemscope itemtype="http://schema.org/ItemList">
+        <h3 itemprop="name">WebComponents.org Logo</h3>
+
+        <figure class="story-image">
+            <img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_512x512.png" alt="WebComponents.org Logo" itemprop="image">
+        </figure>
+
+        <ul class="link-list">
+
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo.svg" itemprop="url">SVG</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_512x512.png" itemprop="url">512x512</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_256x256.png" itemprop="url">256x256</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_128x128.png" itemprop="url">128x128</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_64x64.png" itemprop="url">64x64</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_48x48.png" itemprop="url">48x48</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/logo/logo_32x32.png" itemprop="url">32x32</a>
+            </li>
+
+        </ul>
+
+
+        <a class="card-main-btn" download href="https://github.com/webcomponents/webcomponents-icons/raw/master/logo/logo.zip" title="WebComponents.org Logo">Download All</a>
+    </section>
+    
+
+    
+    <section class="card card-asset" itemscope itemtype="http://schema.org/ItemList">
+        <h3 itemprop="name">Shadow DOM Logo</h3>
+
+        <figure class="story-image">
+            <img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/shadow-dom/shadow-dom_512x512.png" alt="Shadow DOM Logo" itemprop="image">
+        </figure>
+
+        <ul class="link-list">
+
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/shadow-dom/shadow-dom.svg" itemprop="url">SVG</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/shadow-dom/shadow-dom_512x512.png" itemprop="url">512x512</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/shadow-dom/shadow-dom_256x256.png" itemprop="url">256x256</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/shadow-dom/shadow-dom_128x128.png" itemprop="url">128x128</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/shadow-dom/shadow-dom_64x64.png" itemprop="url">64x64</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/shadow-dom/shadow-dom_48x48.png" itemprop="url">48x48</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/shadow-dom/shadow-dom_32x32.png" itemprop="url">32x32</a>
+            </li>
+
+        </ul>
+
+
+        <a class="card-main-btn" download href="https://github.com/webcomponents/webcomponents-icons/raw/master/shadow-dom/shadow-dom.zip" title="Shadow DOM Logo">Download All</a>
+    </section>
+    
+
+    
+    <section class="card card-asset" itemscope itemtype="http://schema.org/ItemList">
+        <h3 itemprop="name">Web Components Logo</h3>
+
+        <figure class="story-image">
+            <img src="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/web-components/web-components_512x512.png" alt="Web Components Logo" itemprop="image">
+        </figure>
+
+        <ul class="link-list">
+
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/web-components/web-components.svg" itemprop="url">SVG</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/web-components/web-components_512x512.png" itemprop="url">512x512</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/web-components/web-components_256x256.png" itemprop="url">256x256</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/web-components/web-components_128x128.png" itemprop="url">128x128</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/web-components/web-components_64x64.png" itemprop="url">64x64</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/web-components/web-components_48x48.png" itemprop="url">48x48</a>
+            </li>
+
+            <li class="col" itemprop="itemListElement" itemscope itemtype="http://schema.org/ItemList">
+                <a target="_blank" download href="https://raw.githubusercontent.com/webcomponents/webcomponents-icons/master/web-components/web-components_32x32.png" itemprop="url">32x32</a>
+            </li>
+
+        </ul>
+
+
+        <a class="card-main-btn" download href="https://github.com/webcomponents/webcomponents-icons/raw/master/web-components/web-components.zip" title="Web Components Logo">Download All</a>
+    </section>
+    
+
+
+<script>
+var links = document.querySelectorAll('.story-image, .card-main-btn');
+
+for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function(e) {
+        _gaq.push([
+            '_trackEvent',
+            'External links',
+            'Assets',
+            links[i].title
+        ]);
+    });
+};
+</script>]]></description>
+            <link>https://webcomponents.github.io/assets</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/assets</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[HTML Imports Logo]]></title>
+            <link>https://webcomponents.github.io/assets/html-imports-logo</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/assets/html-imports-logo</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why?]]></title>
+            <description><![CDATA[<p>It’s a different web today. It’s a different way of thinking about UI components on a page. The Polymer, X-tag, and other libraries have stepped up to help abstract some of the complexities of the Web Component Specifications. Projects like Customelements.io & Component.Kitchen have helped us find components but much of the documentation, use cases, and content surrounding Web Components is scattered across the web. We aim to alleviate this random distribution and centralize Web Component content. This will enable us to share knowledge, code, and tooling much faster & in much greater depth across the Web Components ecosystem.</p>]]></description>
+            <link>https://webcomponents.github.io/about/why</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/about/why</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Templates Logo]]></title>
+            <link>https://webcomponents.github.io/assets/templates-logo</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/assets/templates-logo</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Custom Elements Logo]]></title>
+            <link>https://webcomponents.github.io/assets/custom-elements-logo</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/assets/custom-elements-logo</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Web Components Logo]]></title>
+            <link>https://webcomponents.github.io/assets/web-components-logo</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/assets/web-components-logo</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Shadow DOM Logo]]></title>
+            <link>https://webcomponents.github.io/assets/shadow-dom-logo</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/assets/shadow-dom-logo</guid>
+            <pubDate>Tue, 10 Jan 2017 04:27:14 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

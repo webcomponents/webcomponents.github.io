@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[WebComponents.org]]></title>
+        <description><![CDATA[A place to discuss and evolve Web Component best-practices]]></description>
+        <link>https://webcomponents.github.io</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 11 Jan 2017 01:46:05 GMT</lastBuildDate>
+        <atom:link href="https://webcomponents.github.io/articles.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 11 Jan 2017 01:44:39 GMT</pubDate>
+        <item>
+            <title><![CDATA[Please Welcome Polymer 1.7]]></title>
+            <description><![CDATA[<p>Polymer 1.7.0 provides forward compatibility features that let you build elements that run under both 1.0 and 2.0.</p>
+<!-- Excerpt -->]]></description>
+            <link>https://webcomponents.github.io/articles/please-welcome-polymer-1-7</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/please-welcome-polymer-1-7</guid>
+            <pubDate>Thu, 06 Oct 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[HTML partials / includes WebComponents-way]]></title>
+            <description><![CDATA[<p>Most of the bigger web project are designed to be modular. We all know that Custom Elements spec provides some modularity on individual HTML Element level, but is that all Web Components can give?</p>]]></description>
+            <link>https://webcomponents.github.io/articles/html-partials-includes-webcomponents-way</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/html-partials-includes-webcomponents-way</guid>
+            <pubDate>Sun, 18 Sep 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Polymer 2.0 Preview]]></title>
+            <description><![CDATA[<p>The primary goal of the Polymer 2.0 release is to take advantage of native, cross-browser support for Web Components.</p>
+<p>Polymer 1.x is built on top of the so-called &quot;v0&quot; Web Components specs, which are supported natively only in Google Chrome; using Polymer in other browsers has always required the use of polyfills.</p>
+<!-- Excerpt -->]]></description>
+            <link>https://webcomponents.github.io/articles/polymer-2-preview</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/polymer-2-preview</guid>
+            <pubDate>Fri, 09 Sep 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Extensible Web Components]]></title>
+            <description><![CDATA[<p>Using JavaScript with ShadowDOM, templates, and the other specs that together make up the web components ecosystem, you turn that inert span-like element into something all-singing and dancing. That’s great if the browser supports those technologies, and the JavaScript executes successfully. But if either of those conditions aren’t met, what you’re left with is basically a span.</p>
+<!-- Excerpt -->]]></description>
+            <link>https://webcomponents.github.io/articles/extensible-web-components</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/extensible-web-components</guid>
+            <pubDate>Wed, 03 Aug 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Custom elements v1: building reusable web components]]></title>
+            <description><![CDATA[<p>With Custom Elements v1, web developers can create new HTML tags, beef-up existing HTML tags, or extend the components other developers have authored. The API is the foundation of web components. It brings a web standards-based way to create reusable components using nothing more than vanilla JS/HTML/CSS. The result is less code, modular code, and more reuse in our apps.</p>
+]]></description>
+            <link>https://webcomponents.github.io/articles/custom-elements-v1</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/custom-elements-v1</guid>
+            <pubDate>Mon, 01 Aug 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Web Components and Progressive Enhancement]]></title>
+            <description><![CDATA[<p>Adam Onishi&#39;s thoughts on how Web Components will change the way we build websites and how Progressive Enhancement should be handled by them.</p>
+<!-- Excerpt -->]]></description>
+            <link>https://webcomponents.github.io/articles/web-components-and-progressive-enhancement</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/web-components-and-progressive-enhancement</guid>
+            <pubDate>Mon, 01 Aug 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Server Components]]></title>
+            <description><![CDATA[<p>The developer experience of web components, with the power and simplicity of server-side development.</p>
+<!-- Excerpt -->]]></description>
+            <link>https://webcomponents.github.io/articles/introducing-server-components</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/introducing-server-components</guid>
+            <pubDate>Wed, 20 Jul 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Server-side Web Components: How and Why?]]></title>
+            <description><![CDATA[<p>Currently Web Components greatest use cases have been in front end web development. What about the back end? It turns out that Web Components are not only useful for the browser but they are also useful for raw functionality. This article talks about the key benefits in having Server Side Web Components.</p>
+]]></description>
+            <link>https://webcomponents.github.io/articles/server-side-web-components-how-and-why</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/server-side-web-components-how-and-why</guid>
+            <pubDate>Wed, 13 Jul 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why web components are so important]]></title>
+            <description><![CDATA[<p>Over the past couple of years there has been up and down buzz around web components. It’s been said that they will change the way we build for the web — why is that, what makes web components so important?</p>
+
+<!-- Excerpt -->]]></description>
+            <link>https://webcomponents.github.io/articles/why-web-components-are-so-important</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/why-web-components-are-so-important</guid>
+            <pubDate>Tue, 28 Jun 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Web component challenges]]></title>
+            <description><![CDATA[<p>People still seem wary of making use of web components because they are new, some of the standards are still in flux and there is yet to be a solid set of best practices discovered. Because of this I thought it best to address some of the issues head on and offer some solutions.</p>
+<!-- Excerpt -->]]></description>
+            <link>https://webcomponents.github.io/articles/web-component-challenges</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/articles/web-component-challenges</guid>
+            <pubDate>Tue, 28 Jun 2016 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

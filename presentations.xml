@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[WebComponents.org]]></title>
+        <description><![CDATA[A place to discuss and evolve Web Component best-practices]]></description>
+        <link>https://webcomponents.github.io</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 11 Jan 2017 01:46:05 GMT</lastBuildDate>
+        <atom:link href="https://webcomponents.github.io/presentations.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 11 Jan 2017 01:44:39 GMT</pubDate>
+        <item>
+            <title><![CDATA[Accessibility is My Favorite Part of the Platform]]></title>
+            <description><![CDATA[<p>My favorite part of my job is when I get to work on accessibility. I see this as removing uncertainty and anxiety from people’s day, and helping them access the information they need. But working with accessibility can be frustrating, especially when you feel like you’re fighting the platform instead of working with it.</p>
+<!-- Excerpt -->
+<p>This session aims to clear up some of the confusion that makes getting started with accessibility tricky, while showing off new tools to make the process easier, and highlighting ways that we can work with and extend the platform so our apps are accessible to everyone.</p>
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+  <iframe src="//www.youtube.com/embed/2qjgxH384Nc?list=PLNYkxOF6rcIDnSm7bZRJC36Ca1DYXSQ70" itemprop="video"></iframe>
+</div>]]></description>
+            <link>https://webcomponents.github.io/presentations/accessibility-is-my-favorite-part-of-the-platform-at-google-io-2016</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/accessibility-is-my-favorite-part-of-the-platform-at-google-io-2016</guid>
+            <pubDate>Thu, 16 Jun 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building the Google I/O Web App: Launching a Progressive Web App on Google.com]]></title>
+            <description><![CDATA[<p>Learn how 20% engineers at Google used the same open source tools &amp; technologies you use to launch a Progressive Web App on Google.com. We cover how we built a real, scalable, offline-first web app powered by Polymer, web components, service workers, notifications, Google Sign-in, Firebase, new browser APIs, and more. If Google has an API for it, we used it!</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+  <iframe src="//www.youtube.com/embed/__KvYxcIIm8?list=PLNYkxOF6rcIDnSm7bZRJC36Ca1DYXSQ70" itemprop="video"></iframe>
+</div>]]></description>
+            <link>https://webcomponents.github.io/presentations/building-the-google-io-web-app-launching-a-progressive-web-app-on-Google-com-at-google-io-2016</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/building-the-google-io-web-app-launching-a-progressive-web-app-on-Google-com-at-google-io-2016</guid>
+            <pubDate>Thu, 16 Jun 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Practical lessons from a year of building web components]]></title>
+            <description><![CDATA[<p>Web components are the new shiny thing on the web, but what makes a good web component? How do you design a useful API that works for all of your users and all of their browsers? How do you make it render quickly and how do you teach people how to use it? After a year of working on the Polymer Elements, I&#39;ve made sure to make all the possible mistakes so that you don&#39;t have to. This talk is about the things I&#39;ve learned from that.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+  <iframe src="//www.youtube.com/embed/zfQoleQEa4w?list=PLNYkxOF6rcIDnSm7bZRJC36Ca1DYXSQ70" itemprop="video"></iframe>
+</div>]]></description>
+            <link>https://webcomponents.github.io/presentations/practical-lessons-from-a-year-of-building-web-components-at-google-io-2016</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/practical-lessons-from-a-year-of-building-web-components-at-google-io-2016</guid>
+            <pubDate>Thu, 16 Jun 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Progressive, Performant, Polymer: Pick Three]]></title>
+            <description><![CDATA[<p>A great webpage gives you the deeply-linked content you want, immediately, when you click a URL. A great app provides an immersive client-side experience. Building a web app that&#39;s great at both used to require a lot of effort and tooling. But a set of new technologies shipping in the modern web platform all fit together to bring this within reach for everyone. Learn how HTTP/2+Push, Custom Elements, HTML Imports, and Service Worker help you build sites that transition from lightweight entry points to full-fledged app experiences, all with great developer ergonomics.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+  <iframe src=" //www.youtube.com/embed/J4i0xJnQUzU?list=PLNYkxOF6rcIDnSm7bZRJC36Ca1DYXSQ70" itemprop="video"></iframe>
+</div>]]></description>
+            <link>https://webcomponents.github.io/presentations/progressive-performant-polymer-pick-three-at-google-io-2016</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/progressive-performant-polymer-pick-three-at-google-io-2016</guid>
+            <pubDate>Thu, 16 Jun 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Polymer and Progressive Web Apps: Building on the modern web]]></title>
+            <description><![CDATA[<p>The Polymer library, re-written from the ground up with its 1.0 release last year, helps you build composable, interoperable components to use in your web applications. We&#39;ll go over the latest features of the library, show how to use some powerful newly-released components, show how Polymer is used in practice, dive into the cutting-edge tools for shipping component-based applications, reveal a brand-new way to get started building Progressive Web Applications with Polymer, and a take sneak peek into the future of the project.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+  <iframe src="//www.youtube.com/embed/fFF2Yup2dMM?list=PLNYkxOF6rcIDnSm7bZRJC36Ca1DYXSQ70" itemprop="video"></iframe>
+</div>]]></description>
+            <link>https://webcomponents.github.io/presentations/polymer-and-progressive-web-apps-building-on-the-modern-web-at-google-io-2016</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/polymer-and-progressive-web-apps-building-on-the-modern-web-at-google-io-2016</guid>
+            <pubDate>Tue, 07 Jun 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Web Components – The Future is Here]]></title>
+            <description><![CDATA[<p>Web development has changed dramatically over the last few years. With the enormous amount of JavaScript libraries and the new HTML5 standard, today it is easier to create rich Internet applications (RIA). When building RIAs, you will probably want to reuse some of the web components you built. But how you can do that with the current state of HTML?</p>
+<!-- Excerpt -->
+<p>One of the new and emerging standards in HTML5 is Web Components. The Web Components standard enables you to create reusable web components that include both HTML and JavaScript. In this session, Gil will make you familiar with the Web Components standard and you will learn how to use it even today. He will also explore libraries such as Polymer and X-Tag.</p>
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//player.vimeo.com/video/163888602?byline=0&amp;portrait=0&amp;color=ff9933" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.slideshare.net/slideshow/embed_code/key/MqwIOo47bZY4WN" frameborder="0" marginwidth="0" allowfullscreen> </iframe>
+</div>]]></description>
+            <link>https://webcomponents.github.io/presentations/web-components-the-future-is-here</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/web-components-the-future-is-here</guid>
+            <pubDate>Wed, 20 Apr 2016 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Web Components in Firefox OS]]></title>
+            <description><![CDATA[<p>Wilson Pages presents how Web Components are used in Gaia.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//air.mozilla.org/london-web-components-meetup-wilson-page-web-components-in-firefox-os-20151026/video/" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<p><a href="//wilsonpage.github.io/presentations/web-components-in-production/">
+    <img src="../../img/stories/web-components-in-firefox-os-cover.png" alt="Presentation Cover">
+</a></p>
+]]></description>
+            <link>https://webcomponents.github.io/presentations/london-web-components-meetup-wilson-page-web-components-in-firefox-os</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/london-web-components-meetup-wilson-page-web-components-in-firefox-os</guid>
+            <pubDate>Wed, 28 Oct 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Polymer Summit]]></title>
+            <description><![CDATA[<p>The first ever <a href="https://www.polymer-project.org/summit">Polymer Summit</a> in Amsterdam. Tune in as the Polymer Team shares best practices and exciting announcements, and talks about the past, present, and future of the framework.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/videoseries?list=PLNYkxOF6rcICdISJclfQhj2S8QZGjXV8J" itemprop="video"></iframe>
+</div>]]></description>
+            <link>https://webcomponents.github.io/presentations/polymer-summit</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/polymer-summit</guid>
+            <pubDate>Tue, 15 Sep 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Components and Modules]]></title>
+            <description><![CDATA[<p>We’ve seen the future, and it’s looking modular. More people are using React or similar virtual DOM frameworks; are
+these approaches incompatible with web components? And for smaller organisations and single developers, will there be a
+market in components? What standard will drive that?</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/JQgBb9WeYHI" itemprop="video"></iframe>
+</div>]]></description>
+            <link>https://webcomponents.github.io/presentations/components-and-modules-panel-at-edgeconf</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/components-and-modules-panel-at-edgeconf</guid>
+            <pubDate>Sat, 27 Jun 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Componentize your app with Polymer Elements]]></title>
+            <description><![CDATA[<p>Building components that can stand the test of time is tough! Frameworks change, new fads emerge, and often we&#39;re left with an aging codebase that needs to be rewritten if we want to stay current. Polymer and Web Components aim to change this cycle by building on new platform primitives which will allow us to finally create interoperable components that work in an environment.</p>
+<!-- Excerpt -->
+<p>In this session we&#39;ll look at the current Web Component ecosystem, and I&#39;ll show you how to start to integrate these tools into your projects.</p>
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/7WgEuNZCCHk" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<script async class="speakerdeck-embed" data-id="209ae44fbf614a70bce49238a373e263" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>]]></description>
+            <link>https://webcomponents.github.io/presentations/componentize-your-app-with-polymer-elements</link>
+            <guid isPermaLink="true">https://webcomponents.github.io/presentations/componentize-your-app-with-polymer-elements</guid>
+            <pubDate>Tue, 23 Jun 2015 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
