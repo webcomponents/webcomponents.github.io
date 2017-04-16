@@ -33,7 +33,7 @@ we wrote were a pretty minimal impact to start testing the Custom Element APIs.
 If for some reason it didn't work out, we could easily roll back to our original
 relative time rewriting script.
 
-![GitHub.com's Custom Element](/img/stories/github-custom-element.jpg)
+![GitHub.com's Custom Element](https://raw.githubusercontent.com/webcomponents/webcomponents.github.io/684096086823290d12ccbff7c623c8c2d78d7ef6/src/files/img/stories/github-custom-element.jpg)
 
 ### The `<time>` element extensions you created are using only Custom Elements. What do you think about other specs such as HTML Imports, Templates, and Shadow DOM?
 
