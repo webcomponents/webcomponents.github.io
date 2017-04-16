@@ -802,5 +802,12 @@ module.exports = {
         bio: "Zeno is front-end engineer at Liferay, Inc. Besides that, he's a writer at Smashing Magazine, member at the Google Developer Experts program, host at Zone Of Front-Enders podcast and co-founder of BrazilJS Foundation.",
         gravatar: "e190023b66e2b8aa73a842b106920c93",
         twitter: "zenorocha"
+    },
+    richard_rijnberk: {
+        name: "Richard Rijnberk",
+        bio: "Richard is a front-end engineer, incidental blogger and avid reader and gadget enthusiast.",
+        gravatar: "71e29e772be8c9b713c0ca8a4907ae95",
+        gplus: "+RichardRijnberk",
+        twitter: "rrijnberk"
     }
 };
